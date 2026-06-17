@@ -1,0 +1,14 @@
+﻿{
+    "version":  "0.9.0",
+    "channel":  "Beta",
+    "notesUrl":  "https://github.com/yahright/InsightFlow/releases/tag/v0.9.0",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/InsightFlow/releases/download/v0.9.0/InsightFlow-0.9.0-win-x64-portable.zip",
+                          "sha256":  "d7d2af8e812f2cb13168a40fa638c7749c10d8c555bf011ab0167a3ff289f168",
+                          "size":  91116387
+                      }
+                  ]
+}
