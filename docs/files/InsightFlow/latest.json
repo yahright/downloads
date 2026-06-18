@@ -7,15 +7,15 @@
       "platform": "win-x64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.1/InsightFlow-0.9.3.1-win-x64-portable.zip",
-      "sha256": "26f101d838aba77fa9a3de51a8a56dea3fb02f32932e0c44d99a51830250d51f",
-      "size": 94244298
+      "sha256": "8aacf588c7e2b07339bf383c7eacd7fd8599929fc24e6a432352a68e884094ab",
+      "size": 94244526
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.1/InsightFlow-0.9.3.1-win-arm64-portable.zip",
-      "sha256": "2b04e1d2e391ac753f4afe69634ccf9aab74cc63939d9983d06768586afc5938",
-      "size": 90890882
+      "sha256": "518118f92653fa1887ab56263cf7986db745924ef28aebbb69f65a605aefbc01",
+      "size": 90891108
     }
   ]
 }
