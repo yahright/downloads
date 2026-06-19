@@ -1,0 +1,17 @@
+﻿{
+    "version":  "0.1.0-dev",
+    "channel":  "Beta",
+    "tag":  "logexplorer-v0.1.0-dev",
+    "releaseDateUtc":  "2026-06-19T00:02:09Z",
+    "notesUrl":  "",
+    "downloads":  [
+                      {
+                          "product":  "LogExplorer",
+                          "platform":  "x64",
+                          "kind":  "cli-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.0-dev/LogExplorer-0.1.0-dev-x64.zip",
+                          "sha256":  "b905ea7e86bae1e7810041803697211aa2225e89affe28a6222582552988733b",
+                          "size":  1100378
+                      }
+                  ]
+}
