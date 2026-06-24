@@ -1,25 +1,25 @@
 ﻿{
-    "version":  "0.1.8",
+    "version":  "0.1.9",
     "channel":  "Beta",
-    "tag":  "sgrep-v0.1.8",
-    "releaseDateUtc":  "2026-06-24T00:49:45Z",
+    "tag":  "sgrep-v0.1.9",
+    "releaseDateUtc":  "2026-06-24T02:30:22Z",
     "notesUrl":  "",
     "downloads":  [
                       {
                           "product":  "Sg",
                           "platform":  "x64",
                           "kind":  "cli-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.1.8/Sg-0.1.8-x64.zip",
-                          "sha256":  "deb9e8e3f13a3fd2060373581b345b9e6e647d063854f5641db31df78c35cf7c",
-                          "size":  7836617
+                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.1.9/Sg-0.1.9-x64.zip",
+                          "sha256":  "1df1a83f352d6607ec80b45e37f4bbda3cc0d977ab15e5d7b56cdb73ad403c59",
+                          "size":  7840579
                       },
                       {
                           "product":  "SgrepGUI",
                           "platform":  "x64",
                           "kind":  "gui-portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.1.8/SgrepGUI-0.1.8-x64-portable.zip",
-                          "sha256":  "352e9b9aced4b72a80882c8c77e4b58b4ea1595ee3b80f5cad722ae94fea9154",
-                          "size":  1862358
+                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.1.9/SgrepGUI-0.1.9-x64-portable.zip",
+                          "sha256":  "4aabe225e59cace894fbad27635c664435c21d4f841c154c53b15c0d20c7823e",
+                          "size":  1866342
                       }
                   ]
 }
