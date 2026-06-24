@@ -1,21 +1,21 @@
 {
-  "version": "0.9.3.5",
+  "version": "0.9.3.11",
   "channel": "Beta",
   "notesUrl": "",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.5/InsightFlow-0.9.3.5-osx-arm64-app.zip",
-      "sha256": "6a989343b6875eb7f41ca883be0d0f4c9721a4c4d6be58283c9444ad473d484f",
-      "size": 57282979
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.11/InsightFlow-0.9.3.11-osx-arm64-app.zip",
+      "sha256": "d0209d547d7e6ce6f424f9698d0c649f7dd7ef3909b006c35fbb836171f3343f",
+      "size": 57372308
     },
     {
       "platform": "osx-x64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.5/InsightFlow-0.9.3.5-osx-x64-app.zip",
-      "sha256": "0810d31f2d4b6f9ae0a3d2b31fcaf346ed8490e6f442bd871ca7cc1d8088b556",
-      "size": 59309625
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.11/InsightFlow-0.9.3.11-osx-x64-app.zip",
+      "sha256": "8e30187bb75d90cce710274bd10c8058de1f8e982b5e0e7bc11b7443e39ff9da",
+      "size": 59399156
     }
   ]
 }
