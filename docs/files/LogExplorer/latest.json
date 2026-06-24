@@ -1,25 +1,25 @@
 ﻿{
-    "version":  "0.1.5",
+    "version":  "0.1.6",
     "channel":  "Beta",
-    "tag":  "logexplorer-v0.1.5",
-    "releaseDateUtc":  "2026-06-23T08:18:01Z",
+    "tag":  "logexplorer-v0.1.6",
+    "releaseDateUtc":  "2026-06-24T02:44:12Z",
     "notesUrl":  "",
     "downloads":  [
                       {
                           "product":  "LogExplorer",
                           "platform":  "x64",
                           "kind":  "cli-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.5/LogExplorer-0.1.5-x64.zip",
-                          "sha256":  "54e38fd8c9ede4f21d2f5febf4dfab7ec6b19df7c970422601a5411e05b4b90b",
-                          "size":  1099530
+                          "url":  "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.6/LogExplorer-0.1.6-x64.zip",
+                          "sha256":  "e2de4dea2feaad0600db6e836d793428516d84d830c4ae1966919a9fb9f3f594",
+                          "size":  1101719
                       },
                       {
                           "product":  "LogExplorer",
                           "platform":  "x64",
                           "kind":  "gui-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.5/LogExplorer-GUI-0.1.5-x64.zip",
-                          "sha256":  "dc218a2e1f41527b830c43a4b94f27ca4eddf13089e3ef1be3ce76224d365927",
-                          "size":  3357297
+                          "url":  "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.6/LogExplorer-GUI-0.1.6-x64.zip",
+                          "sha256":  "8e6023bca254393166328f7d47a55f8d640e41ae91b1773dfdf1ec24666f4399",
+                          "size":  3360492
                       }
                   ]
 }
