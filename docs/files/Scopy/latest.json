@@ -7,15 +7,15 @@
       "platform": "win-x64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.1/scopy-gui-0.1.1-win-x64-portable.zip",
-      "sha256": "3f9a7d68d89969c2b6253238118a4351f120dc5f8167d4800168d6ec341c643e",
-      "size": 45698340
+      "sha256": "7e8bf9ecbbda4abe895e400197779afd8353055312ee2635394fa7f0c2381ff8",
+      "size": 45772132
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.1/scopy-gui-0.1.1-win-arm64-portable.zip",
-      "sha256": "aa73228a5fe5ed713cf705a88126c03e688d029fe2452cd97d996a5dd74ae472",
-      "size": 43839769
+      "sha256": "97955716286929932c00d9f640ef36a7cc6762bcac5650c1829e6e35f4615931",
+      "size": 43913445
     },
     {
       "platform": "osx-arm64",
