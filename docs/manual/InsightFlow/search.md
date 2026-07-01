@@ -4,8 +4,7 @@
 
 ## メニューから開く
 
-InsightFlow には File/Edit/View のような固定メニューバーはありません。代わりに次のいずれかで開けます。
-
+- メニューバーの **Search → Recursive Search**
 - フォルダを右クリック → **Search Here**
 - `Ctrl+P` でコマンドパレットを開き、「**Recursive Search**」と入力して実行
 

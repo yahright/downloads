@@ -4,6 +4,7 @@
 
 ## メニューから開く
 
+- メニューバーの **Tools → Disk Usage**
 - フォルダを右クリック → **Disk Usage**
 - `Ctrl+P` でコマンドパレットを開き、「**Disk Usage Raw Table**」と入力して実行
 

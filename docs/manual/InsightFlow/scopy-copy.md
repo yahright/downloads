@@ -4,7 +4,7 @@ InsightFlow はコピー・削除のバックエンドとして SCOPY（ネイ�
 
 ## 設定方法
 
-1. **設定 → Background Jobs** タブを開きます。
+1. メニューバーの **Tools → Settings** で設定を開き、**Background Jobs** タブを選びます。
 2. **Copy engine** を `Scopy` に変更します。
 3. 「SCOPY 高速コピー設定...」ボタンから、既定のコピーモードなどを調整できます。
 
