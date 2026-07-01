@@ -1,21 +1,21 @@
 {
-  "version": "0.9.3.16",
+  "version": "0.9.3.17",
   "channel": "Beta",
   "notesUrl": "",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.16/InsightFlow-0.9.3.16-win-x64-portable.zip",
-      "sha256": "0869874eadbc7de529c3db2f10fc01672cd2406046ff1a05e092a23e646a459c",
-      "size": 94371388
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.17/InsightFlow-0.9.3.17-win-x64-portable.zip",
+      "sha256": "65ab92cf5099336c37f199e9256619bb7ecc49a4270c245d7bc5669bb0df55c3",
+      "size": 94378936
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.16/InsightFlow-0.9.3.16-win-arm64-portable.zip",
-      "sha256": "86f6a72e67146fac3ee68cb5b10baec9361efcea8904f9bb9c323a8990200dd6",
-      "size": 91017966
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.17/InsightFlow-0.9.3.17-win-arm64-portable.zip",
+      "sha256": "34672d86fd809819f2930ce11f390a1124b810d9587d17c672311619c7b18af4",
+      "size": 91025524
     }
   ]
 }
