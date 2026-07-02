@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.18",
+  "version": "0.9.3.19",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Show what changed inline in Check for Updates\n- Fix SCOPY Speed mode being ~2x slower than the standalone CLI\n- Document web manual location (lives in downloads repo, published via Pages)\n- Add online manual help command\n- Bump InsightFlow version to 0.9.3.18",
+  "notes": "- Fix pane parent selection and page navigation",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.18/InsightFlow-0.9.3.18-win-x64-portable.zip",
-      "sha256": "7f39ea313ebc37fde84c983543d3cb8f159779aa7fc51703c40ef199f7026ad2",
-      "size": 94379775
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.19/InsightFlow-0.9.3.19-win-x64-portable.zip",
+      "sha256": "188b0493dadc7123d44cb409b9110c6aa1d4f90cd0155888e0ac5ecaf62841a6",
+      "size": 94380473
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.18/InsightFlow-0.9.3.18-win-arm64-portable.zip",
-      "sha256": "a22ea93162c360ad4b6121cf5d66358f4dfc51b13e4e04a6817bc176ff2bf9d5",
-      "size": 91026360
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.19/InsightFlow-0.9.3.19-win-arm64-portable.zip",
+      "sha256": "a6ab78b28e7e221eb1fd1e20966f0421f5ad679e1ead4efc5323ece34b3627be",
+      "size": 91027053
     }
   ]
 }
