@@ -6,6 +6,7 @@ InsightFlow の使い方をまとめたマニュアルです（試験公開中�
 
 - [はじめに（インストール・起動）](getting-started.md)
 - [操作の基本（デュアルペイン・タブ・メニューバー）](navigation.md)
+- [デフォルトキーバインド一覧（キーから機能を探す）](default-keybindings.md)
 
 ## 基本操作
 
@@ -39,6 +40,7 @@ InsightFlow の使い方をまとめたマニュアルです（試験公開中�
 ## カスタマイズ・リファレンス
 
 - [右クリックメニューのカスタマイズ](context-menus.md)
+- [デフォルトキーバインド一覧](default-keybindings.md)
 - [キーボードショートカット](keyboard-shortcuts.md)
 - [設定](settings.md)
 
