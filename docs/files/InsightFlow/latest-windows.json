@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.19",
+  "version": "0.9.3.20",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix pane parent selection and page navigation",
+  "notes": "- Move page navigation by viewport size",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.19/InsightFlow-0.9.3.19-win-x64-portable.zip",
-      "sha256": "188b0493dadc7123d44cb409b9110c6aa1d4f90cd0155888e0ac5ecaf62841a6",
-      "size": 94380473
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.20/InsightFlow-0.9.3.20-win-x64-portable.zip",
+      "sha256": "d480f8a77637cd42f967ac4820e9915b6ce6948c23072248ba692a91c824e97e",
+      "size": 94380571
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.19/InsightFlow-0.9.3.19-win-arm64-portable.zip",
-      "sha256": "a6ab78b28e7e221eb1fd1e20966f0421f5ad679e1ead4efc5323ece34b3627be",
-      "size": 91027053
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.20/InsightFlow-0.9.3.20-win-arm64-portable.zip",
+      "sha256": "88496942cdfac9d9607f9785bfcc138c0ebaa8eed3a1dd50e2d9956090550f69",
+      "size": 91027155
     }
   ]
 }
