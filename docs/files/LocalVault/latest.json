@@ -1,12 +1,12 @@
 {
   "name": "Local Vault Browser Extension",
-  "version": "0.1.0",
-  "tag": "local-vault-v0.1.0",
-  "publishedAt": "2026-07-02T11:38:53.5395971Z",
+  "version": "0.2.0",
+  "tag": "local-vault-v0.2.0",
+  "publishedAt": "2026-07-03T00:03:29.1606672Z",
   "asset": {
-    "fileName": "LocalVault-0.1.0-extension.zip",
-    "url": "https://github.com/yahright/downloads/releases/download/local-vault-v0.1.0/LocalVault-0.1.0-extension.zip",
-    "sha256": "ca8c21f80e6e7617a4da420dc794e7255abf9e03eb98af390303bdfb9253cdf6",
+    "fileName": "LocalVault-0.2.0-extension.zip",
+    "url": "https://github.com/yahright/downloads/releases/download/local-vault-v0.2.0/LocalVault-0.2.0-extension.zip",
+    "sha256": "eb4ae11b3d5e68fa64abce2ed35b209535a0bda83f3081e37b006c9ba959e278",
     "kind": "chrome-edge-mv3-extension-zip"
   },
   "install": "Extract the ZIP and load the extension folder as an unpacked extension in Chrome or Edge."
