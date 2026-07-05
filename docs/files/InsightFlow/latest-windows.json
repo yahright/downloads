@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.21",
+  "version": "0.9.3.23",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- PerFstep\n- Cache glob and drive type lookups\n- Restore streaming directory publish\n- Use FileSystemInfo for physical provider enumeration\n- Keep display ignore clone after normalization\n- Confirm location resolver background execution\n- Confirm deferred access denied folder probing\n- Confirm asynchronous drive capacity refresh\n- Refresh bookmark existence asynchronously\n- Reuse directory existence probe result",
+  "notes": "- Include untracked files in progressive git open\n- Improve side-by-side diffs and git output handling",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.21/InsightFlow-0.9.3.21-win-x64-portable.zip",
-      "sha256": "6f8afceeb2218fbb295fdda07751ea9bc2d22cd333f3a0643cdfa55c291dbe77",
-      "size": 94384441
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.23/InsightFlow-0.9.3.23-win-x64-portable.zip",
+      "sha256": "3d98917ac82cbd4501dc58101ea74db064f4538cde61585e5782c93f5913182c",
+      "size": 94385371
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.21/InsightFlow-0.9.3.21-win-arm64-portable.zip",
-      "sha256": "54470bc4353e0c42b99e90086a99784426da969040daad492a11706149582eab",
-      "size": 91031030
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.23/InsightFlow-0.9.3.23-win-arm64-portable.zip",
+      "sha256": "8aaaa90a2c0778f3dc4e700221bc0562630fdcbf90b5e064727cb1f61ed95a19",
+      "size": 91031954
     }
   ]
 }
