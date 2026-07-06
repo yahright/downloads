@@ -1,14 +1,14 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "channel": "Beta",
   "notesUrl": "",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.4/scopy-gui-0.1.4-win-x64-portable.zip",
-      "sha256": "a052915a93f0fe9c53a4b600d6f4e7aa7abe7f45f9c10fee0862708252545a5d",
-      "size": 44438658
+      "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.5/scopy-gui-0.1.5-win-x64-portable.zip",
+      "sha256": "af466bd992e05ab41ba08305a3f41b760e66b6649d46a6a611b022861743f15f",
+      "size": 44450738
     },
     {
       "platform": "win-arm64",
