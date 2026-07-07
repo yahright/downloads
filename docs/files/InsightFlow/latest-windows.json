@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.23",
+  "version": "0.9.3.24",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Include untracked files in progressive git open\n- Improve side-by-side diffs and git output handling",
+  "notes": "- Fix search matching and preview suppression\n- Add favorite actions to context menu defaults\n- Add path stock commands and badge\n- Preserve copy metadata and mark accelerated jobs",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.23/InsightFlow-0.9.3.23-win-x64-portable.zip",
-      "sha256": "3d98917ac82cbd4501dc58101ea74db064f4538cde61585e5782c93f5913182c",
-      "size": 94385371
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.24/InsightFlow-0.9.3.24-win-x64-portable.zip",
+      "sha256": "88302a5f84b2f31add9c7d762b53a61345cc3f6ec886bae0e9701bd2a3fd0cf9",
+      "size": 94026588
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.23/InsightFlow-0.9.3.23-win-arm64-portable.zip",
-      "sha256": "8aaaa90a2c0778f3dc4e700221bc0562630fdcbf90b5e064727cb1f61ed95a19",
-      "size": 91031954
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.24/InsightFlow-0.9.3.24-win-arm64-portable.zip",
+      "sha256": "fde24878b32b3e65ff8d328e7eb72493ccc4321f2f6bb6c2db8479c430c844a2",
+      "size": 90673178
     }
   ]
 }
