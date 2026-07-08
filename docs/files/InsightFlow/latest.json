@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.24",
+  "version": "0.9.3.25",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix search matching and preview suppression\n- Add favorite actions to context menu defaults\n- Add path stock commands and badge\n- Preserve copy metadata and mark accelerated jobs",
+  "notes": "- Stabilize jobs dialog progress refresh\n- Preserve ZIP extract timestamps\n- Make virtual list metadata columns responsive\n- Move container extraction into file operation jobs",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.24/InsightFlow-0.9.3.24-win-x64-portable.zip",
-      "sha256": "88302a5f84b2f31add9c7d762b53a61345cc3f6ec886bae0e9701bd2a3fd0cf9",
-      "size": 94026588
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.25/InsightFlow-0.9.3.25-win-x64-portable.zip",
+      "sha256": "c28b5a780636379f116b15c286d155085c4c6e463df5721fa2f002615b3d223c",
+      "size": 94394402
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.24/InsightFlow-0.9.3.24-win-arm64-portable.zip",
-      "sha256": "fde24878b32b3e65ff8d328e7eb72493ccc4321f2f6bb6c2db8479c430c844a2",
-      "size": 90673178
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.25/InsightFlow-0.9.3.25-win-arm64-portable.zip",
+      "sha256": "854d02e496fcd63005f2fd864408f77ae1ff91153618bc49418ad3e33b629257",
+      "size": 91040983
     }
   ]
 }
