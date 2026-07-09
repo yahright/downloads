@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.25",
+  "version": "0.9.3.26",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Stabilize jobs dialog progress refresh\n- Preserve ZIP extract timestamps\n- Make virtual list metadata columns responsive\n- Move container extraction into file operation jobs",
+  "notes": "- docs\n- Merge branch 'master' of https://github.com/yahright/InsightFlow\n- Fix list metadata column ghosting",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.25/InsightFlow-0.9.3.25-win-x64-portable.zip",
-      "sha256": "c28b5a780636379f116b15c286d155085c4c6e463df5721fa2f002615b3d223c",
-      "size": 94394402
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.26/InsightFlow-0.9.3.26-win-x64-portable.zip",
+      "sha256": "38cef57007e6badf8a51c75e80d3dee57c93135fe1d7f9fc6d844f87d5164a28",
+      "size": 94400769
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.25/InsightFlow-0.9.3.25-win-arm64-portable.zip",
-      "sha256": "854d02e496fcd63005f2fd864408f77ae1ff91153618bc49418ad3e33b629257",
-      "size": 91040983
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.26/InsightFlow-0.9.3.26-win-arm64-portable.zip",
+      "sha256": "a0e843578f621aadf83697462801e6c2aeedc08f44646425b3c3938682ba3c60",
+      "size": 91047346
     }
   ]
 }
