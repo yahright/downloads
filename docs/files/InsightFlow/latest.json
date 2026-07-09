@@ -2,7 +2,7 @@
   "version": "0.9.3.26",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- docs\n- Merge branch 'master' of https://github.com/yahright/InsightFlow\n- Fix list metadata column ghosting",
+  "notes": "- Fix list metadata column ghosting",
   "downloads": [
     {
       "platform": "win-x64",
