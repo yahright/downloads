@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.26",
+  "version": "0.9.3.27",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix list metadata column ghosting",
+  "notes": "- Expand dialogs for About and update check\n- Fix updater restart verification and rollback\n- Show updater failure message from PackageHelper\n- Show copy engine badges in jobs dialog\n- Accept Enter in copy confirmation dialog",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.26/InsightFlow-0.9.3.26-win-x64-portable.zip",
-      "sha256": "38cef57007e6badf8a51c75e80d3dee57c93135fe1d7f9fc6d844f87d5164a28",
-      "size": 94400769
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.27/InsightFlow-0.9.3.27-win-x64-portable.zip",
+      "sha256": "73ae714ef9233f510618ef19ced9cbb8180c36d6bbcbc88f4d8f2225032b315c",
+      "size": 94403547
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.26/InsightFlow-0.9.3.26-win-arm64-portable.zip",
-      "sha256": "a0e843578f621aadf83697462801e6c2aeedc08f44646425b3c3938682ba3c60",
-      "size": 91047346
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.27/InsightFlow-0.9.3.27-win-arm64-portable.zip",
+      "sha256": "9f329bfe7305e554954657ec7ac5ab06718d5f79351dfbc5a39203103bdd67a0",
+      "size": 91050134
     }
   ]
 }
