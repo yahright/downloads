@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.28",
+  "version": "0.9.3.29",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- note update\n- Add Duplicate Finder M1 design and implementation instructions\n- feat(duplicates): add duplicate scan engine\n- feat(duplicates): export duplicate results to virtual list\n- feat(duplicates): add duplicate finder dialog\n- feat(duplicates): add recycle delete workflow\n- Merge commit '5ca58c1cfaa1070d883767a20b93975c4cc69409'\n- fix(navigation): honor backspace during favorite load\n- fix(copy): confirm operation dialog with enter",
+  "notes": "- feat(folder-sync): run comparisons as resumable jobs",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.28/InsightFlow-0.9.3.28-win-x64-portable.zip",
-      "sha256": "23d9bac2e878e4fa31cdcff47ba2f5b9e758514a8391ce44c3612579c2d896e6",
-      "size": 94464562
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.29/InsightFlow-0.9.3.29-win-x64-portable.zip",
+      "sha256": "fd8c6028feee49eb009f9f9f6c05286bbf8bd30a4b7a2e7cde65d20a49af647e",
+      "size": 94467347
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.28/InsightFlow-0.9.3.28-win-arm64-portable.zip",
-      "sha256": "b967d9c3ea378069f32e35fd787fdd71c23e8bb313a7d0e39c70b1d126c0a200",
-      "size": 91111136
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.29/InsightFlow-0.9.3.29-win-arm64-portable.zip",
+      "sha256": "752cd54301df0fcf7465419563da757565676addef1ba2e7e0827d7f63e672f6",
+      "size": 91113935
     }
   ]
 }
