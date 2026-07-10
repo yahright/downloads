@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.29",
+  "version": "0.9.3.30",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(folder-sync): run comparisons as resumable jobs",
+  "notes": "- Fix published Windows manifest source\n- fix(file-ops): confirm all operations with enter\n- fix(navigation): prioritize parent navigation over watcher refresh\n- feat(updates): apply portable updates from offline zip",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.29/InsightFlow-0.9.3.29-win-x64-portable.zip",
-      "sha256": "fd8c6028feee49eb009f9f9f6c05286bbf8bd30a4b7a2e7cde65d20a49af647e",
-      "size": 94467347
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.30/InsightFlow-0.9.3.30-win-x64-portable.zip",
+      "sha256": "b36e5a71183a96b73829b9114a6ce1b6080ff96a76f7e02ad7c2d1748f83c2e5",
+      "size": 94470515
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.29/InsightFlow-0.9.3.29-win-arm64-portable.zip",
-      "sha256": "752cd54301df0fcf7465419563da757565676addef1ba2e7e0827d7f63e672f6",
-      "size": 91113935
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.30/InsightFlow-0.9.3.30-win-arm64-portable.zip",
+      "sha256": "130a4c423f3723e4e1e82dde66302f59d8cdc6dba0ba896ff98f63409beb2228",
+      "size": 91117089
     }
   ]
 }
