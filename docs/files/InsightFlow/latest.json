@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.27",
+  "version": "0.9.3.28",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Expand dialogs for About and update check\n- Fix updater restart verification and rollback\n- Show updater failure message from PackageHelper\n- Show copy engine badges in jobs dialog\n- Accept Enter in copy confirmation dialog",
+  "notes": "- note update\n- Add Duplicate Finder M1 design and implementation instructions\n- feat(duplicates): add duplicate scan engine\n- feat(duplicates): export duplicate results to virtual list\n- feat(duplicates): add duplicate finder dialog\n- feat(duplicates): add recycle delete workflow\n- Merge commit '5ca58c1cfaa1070d883767a20b93975c4cc69409'\n- fix(navigation): honor backspace during favorite load\n- fix(copy): confirm operation dialog with enter",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.27/InsightFlow-0.9.3.27-win-x64-portable.zip",
-      "sha256": "73ae714ef9233f510618ef19ced9cbb8180c36d6bbcbc88f4d8f2225032b315c",
-      "size": 94403547
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.28/InsightFlow-0.9.3.28-win-x64-portable.zip",
+      "sha256": "23d9bac2e878e4fa31cdcff47ba2f5b9e758514a8391ce44c3612579c2d896e6",
+      "size": 94464562
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.27/InsightFlow-0.9.3.27-win-arm64-portable.zip",
-      "sha256": "9f329bfe7305e554954657ec7ac5ab06718d5f79351dfbc5a39203103bdd67a0",
-      "size": 91050134
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.28/InsightFlow-0.9.3.28-win-arm64-portable.zip",
+      "sha256": "b967d9c3ea378069f32e35fd787fdd71c23e8bb313a7d0e39c70b1d126c0a200",
+      "size": 91111136
     }
   ]
 }
