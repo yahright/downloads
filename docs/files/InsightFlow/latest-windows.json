@@ -1,22 +1,15 @@
 {
-  "version": "0.9.3.33",
+  "version": "0.9.3.34",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix focus after Location Launcher navigation\n- TEST\n- ファイルシステム監視のエラーメッセージをフォーマットするメソッドを追加し、エラーメッセージの表示を改善。PaneViewにおけるリストボックスの残像コンテナを管理するための機能を追加。",
+  "notes": "- Fix pane list reconciliation without source resets\n- Fix pane ghosting at the layout and focus source",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.33/InsightFlow-0.9.3.33-win-x64-portable.zip",
-      "sha256": "1b233eac49a5a384659266f8ead500bb266c8932b8668a40c16064f798304115",
-      "size": 94471031
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.33/InsightFlow-0.9.3.33-win-arm64-portable.zip",
-      "sha256": "14fe8b6a951ce87b2001545b5604f2e378781ac0e4bac9e01690aad3ec617b19",
-      "size": 91117610
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.34/InsightFlow-0.9.3.34-win-x64-portable.zip",
+      "sha256": "f057dddc1f0e7a9160eb7a6eb265c662ccd6450bf627eb32a6670e2acd34580e",
+      "size": 94420644
     }
   ]
 }
