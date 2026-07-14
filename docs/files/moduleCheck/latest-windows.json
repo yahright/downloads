@@ -1,15 +1,15 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Removed the pefile dependency; PE32/PE32+ imports and NB10/RSDS PDB references are now parsed with the Python standard library.",
+  "notes": "Added a simple one-to-one workflow: specify module A/B and each PDB directly, without an install directory or symbol server.",
   "downloads": [
     {
       "platform": "windows",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.1/moduleCheck-0.1.1-windows-portable.zip",
-      "sha256": "b9543e5ba68729757ecfcce77d1587209609b709af94cd57b3d3d8cecbe8e278",
-      "size": 18471
+      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.2/moduleCheck-0.1.2-windows-portable.zip",
+      "sha256": "5fe16a10e0cfcde35af88e15d9b54de5d9787c46fbc7e8d4f89de76c105c7273",
+      "size": 19168
     }
   ]
 }
