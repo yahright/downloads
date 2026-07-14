@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Initial release: checks PDB UDT layouts for ABI mismatches before swapping VC6 modules.",
+  "notes": "Removed the pefile dependency; PE32/PE32+ imports and NB10/RSDS PDB references are now parsed with the Python standard library.",
   "downloads": [
     {
       "platform": "windows",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.0/moduleCheck-0.1.0-windows-portable.zip",
-      "sha256": "d7425dce511f80403d1839177c427b310f789436649644feb51f837c87c7656b",
-      "size": 17538
+      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.1/moduleCheck-0.1.1-windows-portable.zip",
+      "sha256": "b9543e5ba68729757ecfcce77d1587209609b709af94cd57b3d3d8cecbe8e278",
+      "size": 18471
     }
   ]
 }
