@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "channel": "Beta",
+  "notesUrl": "",
+  "notes": "Initial release: checks PDB UDT layouts for ABI mismatches before swapping VC6 modules.",
+  "downloads": [
+    {
+      "platform": "windows",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.0/moduleCheck-0.1.0-windows-portable.zip",
+      "sha256": "d7425dce511f80403d1839177c427b310f789436649644feb51f837c87c7656b",
+      "size": 17538
+    }
+  ]
+}
