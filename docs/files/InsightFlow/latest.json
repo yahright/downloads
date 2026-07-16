@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.35",
+  "version": "0.9.3.36",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix self-contained macOS update helper\n- Merge commit '2b050d98a6ac6aad792de3845c9209bc5f8c3f6e'\n- fix(navigation): handle trailing separator when going up\n- fix(archives): decode legacy Japanese ZIP names\n- Task\n- Merge commit 'fd9c7528d12cf9b056dc9ffa7cc86331d171db7f'\n- Avoid key reverse lookups for visible-index selection\n- feat(preview): add pinned (multi-instance, frozen) preview windows\n- Fix published version ledger conflict markers",
+  "notes": "- Optimize background job snapshots\n- Update SFIS submodule",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.35/InsightFlow-0.9.3.35-win-x64-portable.zip",
-      "sha256": "58f7e793dd3739e003f7de707b1dc13566e41ada7f82a9a00baac86d47dac2bc",
-      "size": 94473337
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.36/InsightFlow-0.9.3.36-win-x64-portable.zip",
+      "sha256": "8c579b9719dbd408871e607e90ac629570bf7ce5ac47be7bb9b8383dbd97e68e",
+      "size": 94475550
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.35/InsightFlow-0.9.3.35-win-arm64-portable.zip",
-      "sha256": "e3e514086818e5afff330233084d8d5c1e4b282d883843581ad4539f0997ff97",
-      "size": 91119925
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.36/InsightFlow-0.9.3.36-win-arm64-portable.zip",
+      "sha256": "4277a17d51225a48f926f5c1a9ec0c07947f7b850a3b986f23913f1e99892107",
+      "size": 91122133
     }
   ]
 }
