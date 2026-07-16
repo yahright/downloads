@@ -1,25 +1,34 @@
 ﻿{
-    "version":  "0.1.9",
+    "version":  "0.2.0",
     "channel":  "Beta",
-    "tag":  "sgrep-v0.1.9",
-    "releaseDateUtc":  "2026-06-24T02:30:22Z",
+    "tag":  "sgrep-v0.2.0",
+    "releaseDateUtc":  "2026-07-16T04:15:55Z",
     "notesUrl":  "",
     "downloads":  [
                       {
                           "product":  "Sg",
                           "platform":  "x64",
                           "kind":  "cli-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.1.9/Sg-0.1.9-x64.zip",
-                          "sha256":  "1df1a83f352d6607ec80b45e37f4bbda3cc0d977ab15e5d7b56cdb73ad403c59",
-                          "size":  7840579
+                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.2.0/Sg-0.2.0-x64.zip",
+                          "sha256":  "2dbe8d1e16456436b2848cf8520caed1241e01052de2912746d820d436681b99",
+                          "size":  8110940
                       },
                       {
                           "product":  "SgrepGUI",
                           "platform":  "x64",
                           "kind":  "gui-portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.1.9/SgrepGUI-0.1.9-x64-portable.zip",
-                          "sha256":  "4aabe225e59cace894fbad27635c664435c21d4f841c154c53b15c0d20c7823e",
-                          "size":  1866342
+                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.2.0/SgrepGUI-0.2.0-x64-portable.zip",
+                          "sha256":  "061a67e668055b5c7d99bd46cba853899e94baa6b264e99c4bca86a571703a8c",
+                          "size":  2162933
+                      },
+                      {
+                          "product":  "SgrepVSIX",
+                          "platform":  "x64",
+                          "kind":  "vsix-zip",
+                          "vsixVersion":  "1.0.20260716.1",
+                          "url":  "https://github.com/yahright/downloads/releases/download/sgrep-v0.2.0/SgrepVSIX-0.2.0-x64.zip",
+                          "sha256":  "2e2ebb965671f3f888f349334a3c975ec917aaf804cb494c9eec4d2d7e3d0ba9",
+                          "size":  1633525
                       }
                   ]
 }
