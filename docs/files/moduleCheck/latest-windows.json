@@ -1,15 +1,15 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Added automatic PDB resolution from multiple configured symbol stores. Compare two modules without specifying their PDB paths.",
+  "notes": "Added normalized single-module UDT dumps for external diff workflows. Two-module comparison can bypass symbol-store resolution with explicit --pdb-a and --pdb-b paths.",
   "downloads": [
     {
       "platform": "windows",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.3/moduleCheck-0.1.3-windows-portable.zip",
-      "sha256": "2df349973d1466994b624387a2866830ca2888227c15ce17b9469e446de74d50",
-      "size": 22526
+      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.4/moduleCheck-0.1.4-windows-portable.zip",
+      "sha256": "5ca50d77e748dfb16f776fe2b6970b8df6eaf536a8dd876d732f4caca52969f8",
+      "size": 23774
     }
   ]
 }
