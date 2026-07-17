@@ -1,15 +1,15 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Added normalized single-module UDT dumps for external diff workflows. Two-module comparison can bypass symbol-store resolution with explicit --pdb-a and --pdb-b paths.",
+  "notes": "Added --find-pdb to locate or fetch the PDB matching a module's NB10/RSDS identity without requiring cvdump.exe.",
   "downloads": [
     {
       "platform": "windows",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.4/moduleCheck-0.1.4-windows-portable.zip",
-      "sha256": "5ca50d77e748dfb16f776fe2b6970b8df6eaf536a8dd876d732f4caca52969f8",
-      "size": 23774
+      "url": "https://github.com/yahright/downloads/releases/download/modulecheck-v0.1.5/moduleCheck-0.1.5-windows-portable.zip",
+      "sha256": "56d569d379dd664e5d060d39993eb4cb69166a22c604797a569399c2bfc5bfb1",
+      "size": 24365
     }
   ]
 }
