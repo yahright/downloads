@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.36",
+  "version": "0.9.3.37",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Optimize background job snapshots\n- Update SFIS submodule",
+  "notes": "- Fix recursive search fallback diagnostics\n- fix(macos): ship a runnable self-contained PackageHelper for updates\n- Fix macOS trash handling\n- Avoid UI-thread I/O for network navigation\n- Fix mirrored pane vertical alignment\n- Document hybrid GPU rendering workaround",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.36/InsightFlow-0.9.3.36-win-x64-portable.zip",
-      "sha256": "8c579b9719dbd408871e607e90ac629570bf7ce5ac47be7bb9b8383dbd97e68e",
-      "size": 94475550
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.37/InsightFlow-0.9.3.37-win-x64-portable.zip",
+      "sha256": "109de32ea920e1a1b747be813305899c91d48f22b56c03d04ddbafc1a0631f6e",
+      "size": 94479108
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.36/InsightFlow-0.9.3.36-win-arm64-portable.zip",
-      "sha256": "4277a17d51225a48f926f5c1a9ec0c07947f7b850a3b986f23913f1e99892107",
-      "size": 91122133
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.37/InsightFlow-0.9.3.37-win-arm64-portable.zip",
+      "sha256": "e8633cb595512826367768b98068ec66b1cba5cf6a5769af09bf8985c5b74ba0",
+      "size": 91125697
     }
   ]
 }
