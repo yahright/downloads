@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.38",
+  "version": "0.9.3.39",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Recover missing location launcher paths\n- Add 3-state IME control (unchanged/off/on) for Favorite text inputs, with macOS support",
+  "notes": "- Optimize DiskUsage tree construction\n- Enable cancellation for running DiskUsage scans\n- 指示書\n- Stop idle macOS redraw loop\n- Fix macOS release signing for update helper",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.38/InsightFlow-0.9.3.38-win-x64-portable.zip",
-      "sha256": "50e282452f2069c1b78213978013be9ab0cd118eb83e96827379e1062bab845d",
-      "size": 94483246
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.39/InsightFlow-0.9.3.39-win-x64-portable.zip",
+      "sha256": "753f37df4cce73e603d3fc116f3bb216ccb5be19988fada8aa6bd23ca17d8787",
+      "size": 94488094
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.38/InsightFlow-0.9.3.38-win-arm64-portable.zip",
-      "sha256": "8fd675d31fde88e8464a2c360022f73883afb41b30e0debe35bb4a3865bb86b2",
-      "size": 91129824
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.39/InsightFlow-0.9.3.39-win-arm64-portable.zip",
+      "sha256": "df6ab5fc74a8b209b982b93ebf0fb227b7d72098a5e28f30ebff59f82c38d278",
+      "size": 91134686
     }
   ]
 }
