@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.5.0",
-  "build": 7,
+  "version": "1.5.1",
+  "build": 8,
   "releasedAt": "2026-07-22",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.5.0",
-  "notes": "因果編集、プロジェクト間ドラッグ移動、マップ削除",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.5.1",
+  "notes": "Windowsアプリ内更新helperの終了処理を修正",
   "minSupported": "1.0.0",
   "artifacts": [
     {
       "platform": "windows-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.5.0/Stask-1.5.0-windows-x64.zip",
-      "sha256": "25b9ec64839ab25169b0fe3c72181344a0439cdd628669bcf6e0d1fd5c5237c3",
-      "size": 15212871
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.5.1/Stask-1.5.1-windows-x64.zip",
+      "sha256": "65588926e089b84bb873a7d846cab201fffdeb4fa4a067883e00b90a5a614ce1",
+      "size": 15213548
     }
   ]
 }
