@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.37",
+  "version": "0.9.3.38",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix recursive search fallback diagnostics\n- fix(macos): ship a runnable self-contained PackageHelper for updates\n- Fix macOS trash handling\n- Avoid UI-thread I/O for network navigation\n- Fix mirrored pane vertical alignment\n- Document hybrid GPU rendering workaround",
+  "notes": "- Recover missing location launcher paths\n- Add 3-state IME control (unchanged/off/on) for Favorite text inputs, with macOS support",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.37/InsightFlow-0.9.3.37-win-x64-portable.zip",
-      "sha256": "109de32ea920e1a1b747be813305899c91d48f22b56c03d04ddbafc1a0631f6e",
-      "size": 94479108
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.38/InsightFlow-0.9.3.38-win-x64-portable.zip",
+      "sha256": "50e282452f2069c1b78213978013be9ab0cd118eb83e96827379e1062bab845d",
+      "size": 94483246
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.37/InsightFlow-0.9.3.37-win-arm64-portable.zip",
-      "sha256": "e8633cb595512826367768b98068ec66b1cba5cf6a5769af09bf8985c5b74ba0",
-      "size": 91125697
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.38/InsightFlow-0.9.3.38-win-arm64-portable.zip",
+      "sha256": "8fd675d31fde88e8464a2c360022f73883afb41b30e0debe35bb4a3865bb86b2",
+      "size": 91129824
     }
   ]
 }
