@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.7.0",
-  "build": 10,
+  "version": "1.8.0",
+  "build": 11,
   "releasedAt": "2026-07-23",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.7.0",
-  "notes": "因果関係の直接ドラッグ接続とサイドバーのリサイズに対応。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.8.0",
+  "notes": "因果関係の接続表示・AND操作・ハンドル識別を改善。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
       "platform": "windows-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.7.0/Stask-1.7.0-windows-x64.zip",
-      "sha256": "2c378b0be8a40dab3d7084ec9db132d9ced351db2a3d3877918fc765658dd32e",
-      "size": 15248152
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.8.0/Stask-1.8.0-windows-x64.zip",
+      "sha256": "1c8dfaae3bb29e3b68538b990e1713afe0121da53fff7221880a37b05de2bf76",
+      "size": 15250666
     }
   ]
 }
