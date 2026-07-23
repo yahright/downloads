@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.39",
+  "version": "0.9.3.40",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Optimize DiskUsage tree construction\n- Enable cancellation for running DiskUsage scans\n- 指示書\n- Stop idle macOS redraw loop\n- Fix macOS release signing for update helper",
+  "notes": "- Fix copy crash when settings drive is full\n- Add filtered folder copy review\n- Add copy defaults and Git ignore support for 0.9.3.40",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.39/InsightFlow-0.9.3.39-win-x64-portable.zip",
-      "sha256": "753f37df4cce73e603d3fc116f3bb216ccb5be19988fada8aa6bd23ca17d8787",
-      "size": 94488094
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.40/InsightFlow-0.9.3.40-win-x64-portable.zip",
+      "sha256": "283350937e8922ab145fae20d740ebd6c81092c7c0968c65f226f080abe8ef53",
+      "size": 94501021
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.39/InsightFlow-0.9.3.39-win-arm64-portable.zip",
-      "sha256": "df6ab5fc74a8b209b982b93ebf0fb227b7d72098a5e28f30ebff59f82c38d278",
-      "size": 91134686
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.40/InsightFlow-0.9.3.40-win-arm64-portable.zip",
+      "sha256": "dbf51a4e8e8aed058851a63e13afe6270b7d4398e8631055fc6753b463743302",
+      "size": 91147608
     }
   ]
 }
