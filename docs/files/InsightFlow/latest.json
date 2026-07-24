@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.40",
+  "version": "0.9.3.41",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix copy crash when settings drive is full\n- Add filtered folder copy review\n- Add copy defaults and Git ignore support for 0.9.3.40",
+  "notes": "- Harden portable update handoff and recovery\n- Fix Cmd shortcuts in fuzzy select dialog",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.40/InsightFlow-0.9.3.40-win-x64-portable.zip",
-      "sha256": "283350937e8922ab145fae20d740ebd6c81092c7c0968c65f226f080abe8ef53",
-      "size": 94501021
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.41/InsightFlow-0.9.3.41-win-x64-portable.zip",
+      "sha256": "45df462e0e6b4bb297f5a008d45a415f3e28a3fbff92575aa6746d35ba9b024f",
+      "size": 94518091
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.40/InsightFlow-0.9.3.40-win-arm64-portable.zip",
-      "sha256": "dbf51a4e8e8aed058851a63e13afe6270b7d4398e8631055fc6753b463743302",
-      "size": 91147608
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.41/InsightFlow-0.9.3.41-win-arm64-portable.zip",
+      "sha256": "6e6c7d7fd3338fd75476613c0602f569122cdb797aaed38a90750f72fe32a2fb",
+      "size": 91164676
     }
   ]
 }
