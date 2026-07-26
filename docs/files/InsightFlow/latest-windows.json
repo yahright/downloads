@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.41",
+  "version": "0.9.3.42",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Harden portable update handoff and recovery\n- Fix Cmd shortcuts in fuzzy select dialog",
+  "notes": "- Avoid preview path lookup when preview is disabled\n- Guard focus debug data construction\n- Avoid disabled key debug payload allocation\n- Cache AI debug environment setting at startup\n- Improve disk cleanup deletion controls",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.41/InsightFlow-0.9.3.41-win-x64-portable.zip",
-      "sha256": "45df462e0e6b4bb297f5a008d45a415f3e28a3fbff92575aa6746d35ba9b024f",
-      "size": 94518091
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-win-x64-portable.zip",
+      "sha256": "d02275cc67468f489a2e89b8347514a08777d5ce5a85f4b52e66a6943ea3c241",
+      "size": 94518920
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.41/InsightFlow-0.9.3.41-win-arm64-portable.zip",
-      "sha256": "6e6c7d7fd3338fd75476613c0602f569122cdb797aaed38a90750f72fe32a2fb",
-      "size": 91164676
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-win-arm64-portable.zip",
+      "sha256": "a43a4bdcf214696958fa98d4275dd06dce764e9b219f22e24f52da68b1a4e362",
+      "size": 91165503
     }
   ]
 }
