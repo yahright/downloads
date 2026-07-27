@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.38",
+  "version": "0.9.3.42",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.9.3.38",
-  "notes": "- Recover missing location launcher paths\n- Add 3-state IME control (unchanged/off/on) for Favorite text inputs, with macOS support\n- Stop periodic macOS idle redraw/flicker and reduce idle CPU usage\n- Bundle a self-contained macOS update helper; older affected builds may require a one-time DMG reinstall",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.9.3.42",
+  "notes": "- Avoid preview path lookup when preview is disabled\n- Guard focus debug data construction\n- Avoid disabled key debug payload allocation\n- Cache AI debug environment setting at startup\n- Improve disk cleanup deletion controls",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.38/InsightFlow-0.9.3.38-osx-arm64-app.zip",
-      "sha256": "40700121cd422a7c9fc496b1ae4ea2af8fae8d39a6813d98c30c9755c0df3616",
-      "size": 88949730
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-osx-arm64-app.zip",
+      "sha256": "e78d491a5ca02274dcfd1da3e8a33e767b18212aa9857bc5c1b7b6362324df0d",
+      "size": 88998071
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.38/InsightFlow-0.9.3.38-osx-arm64.dmg",
-      "sha256": "3e3ab3cd8a2d43bd093f29a583232c8346f69b4ddfcd25f81fb04306a4633b23",
-      "size": 96854140
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-osx-arm64.dmg",
+      "sha256": "4ed356aa12b6389fca20d5e127c5ea69b3279fcd71e2f0960334e24245a1327f",
+      "size": 96872030
     }
   ]
 }
