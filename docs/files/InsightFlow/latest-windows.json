@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.42",
+  "version": "0.9.3.43",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Avoid preview path lookup when preview is disabled\n- Guard focus debug data construction\n- Avoid disabled key debug payload allocation\n- Cache AI debug environment setting at startup\n- Improve disk cleanup deletion controls",
+  "notes": "- Add WizTree-style disk usage tree map window\n- perf(diskusage): add scan milestone benchmark harness\n- feat(diskusage): complete scan speed milestones",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-win-x64-portable.zip",
-      "sha256": "d02275cc67468f489a2e89b8347514a08777d5ce5a85f4b52e66a6943ea3c241",
-      "size": 94518920
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.43/InsightFlow-0.9.3.43-win-x64-portable.zip",
+      "sha256": "1417d7ddfb472b134dfa850de7cde7a9df8f934fb5f1734d5a26ea1c88e3bd9a",
+      "size": 94553492
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-win-arm64-portable.zip",
-      "sha256": "a43a4bdcf214696958fa98d4275dd06dce764e9b219f22e24f52da68b1a4e362",
-      "size": 91165503
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.43/InsightFlow-0.9.3.43-win-arm64-portable.zip",
+      "sha256": "69e5868473072dd49413a4dcade78ca1dd1c85674e2975f7472801389355920d",
+      "size": 91200074
     }
   ]
 }
