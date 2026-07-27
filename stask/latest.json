@@ -1,18 +1,37 @@
 {
   "schema": 1,
-  "version": "1.11.0",
-  "build": 14,
-  "releasedAt": "2026-07-27",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.11.0",
-  "notes": "LAN同期のHTTP 500復旧とホスト名接続を改善",
+  "version": "1.12.0",
+  "build": 15,
+  "releasedAt": "2026-07-28",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.12.0",
+  "notes": "単一起動、表示密度、レスポンシブUI、UTF-8同期、ショートカット信頼性を改善。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
       "platform": "windows-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.11.0/Stask-1.11.0-windows-x64.zip",
-      "sha256": "7435b2349c948f7d0f3f3f80d022ea67d176428855bad9af9f4d2d845f85d634",
-      "size": 15280649
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.12.0/Stask-1.12.0-windows-x64.zip",
+      "sha256": "ee29ae7fc16765dafd0df2bc7590486b408f776945a40c84b059be2379974745",
+      "size": 15330719
     }
-  ]
+  ],
+  "appcat": {
+    "id": "stask",
+    "name": "Stask",
+    "type": "gui",
+    "description": "ローカルファーストのデスクトップタスク管理",
+    "profiles": [
+      "win-dev"
+    ],
+    "targets": {
+      "windows": {
+        "strip_components": 1,
+        "entry": "Stask.exe",
+        "version_kind": "pe",
+        "version_field": "FileVersion"
+      }
+    }
+  }
 }
