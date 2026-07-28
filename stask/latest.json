@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.14.1",
-  "build": 18,
-  "releasedAt": "2026-07-28",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.14.1",
-  "notes": "Androidのアプリ内更新でインストーラを確実に開けるよう修正",
+  "version": "1.15.0",
+  "build": 19,
+  "releasedAt": "2026-07-29",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.15.0",
+  "notes": "計画から振り返りまでの実行支援とGitHub Issues連携を追加",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,18 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.14.1/Stask-1.14.1-windows-x64.zip",
-      "sha256": "c1dd8d673367f5a38ef0d9d46f289c5c841a5a8e1f58cea7ca215ef34895ca49",
-      "size": 15789450
-    },
-    {
-      "platform": "android-arm64",
-      "kind": "apk",
-      "os": "android",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.14.1/Stask-1.14.1-android-arm64.apk",
-      "sha256": "b03e037c5cd9c6ac707a8e67e2ec2a5ff90be59998dcfaaafd014b5bc566c8e2",
-      "size": 25969079
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.15.0/Stask-1.15.0-windows-x64.zip",
+      "sha256": "9e1596ddf3deb2683bfde12ebbcee7b12f698c8c152ad2cdd4ef82ec79feb18c",
+      "size": 15964111
     }
   ],
   "appcat": {
