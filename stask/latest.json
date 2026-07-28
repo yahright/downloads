@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.13.0",
-  "build": 16,
+  "version": "1.14.0",
+  "build": 17,
   "releasedAt": "2026-07-28",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.13.0",
-  "notes": "タスク通知、四象限、今すぐ記録、スマートフォン向けマップ編集を追加",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.14.0",
+  "notes": "Android版のGitHub配布とアプリ内更新に対応し、今すぐ記録と常駐動作を改善",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,18 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.13.0/Stask-1.13.0-windows-x64.zip",
-      "sha256": "281373371f4979a5e574e4904de7193cf06fd2019fd65fbaf77ecba7e7599cbf",
-      "size": 15787549
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.14.0/Stask-1.14.0-windows-x64.zip",
+      "sha256": "dc1ff4d13d0f1a40e85e4af2192f051edc8bb8e419b4671586b46be19b53bf7a",
+      "size": 15789337
+    },
+    {
+      "platform": "android-arm64",
+      "kind": "apk",
+      "os": "android",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.14.0/Stask-1.14.0-android-arm64.apk",
+      "sha256": "0c4e256cb1eea1e0ab04daa5453aa34a5c9cdf42247e871158f32454065c6073",
+      "size": 25969079
     }
   ],
   "appcat": {
