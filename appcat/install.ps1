@@ -1,3 +1,4 @@
+& {
 $ErrorActionPreference = "Stop"
 
 if (-not $IsWindows -and $PSVersionTable.PSEdition -eq "Core") {
@@ -109,4 +110,5 @@ finally {
     if (Test-Path -LiteralPath $temporaryDir) {
         Remove-Item -LiteralPath $temporaryDir -Recurse -Force
     }
+}
 }
