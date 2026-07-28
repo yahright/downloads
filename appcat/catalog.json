@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "generated_at": "2026-07-28T00:00:00Z",
+  "packages": [
+    {
+      "id": "stask",
+      "name": "Stask",
+      "type": "gui",
+      "description": "ローカルファーストのデスクトップタスク管理",
+      "latest": "1.13.0",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/stask-v1.13.0/Stask-1.13.0-windows-x64.zip",
+          "sha256": "281373371f4979a5e574e4904de7193cf06fd2019fd65fbaf77ecba7e7599cbf",
+          "size": 15787549,
+          "strip_components": 1,
+          "entry": "Stask.exe",
+          "version_kind": "pe",
+          "version_field": "FileVersion"
+        }
+      ]
+    },
+    {
+      "id": "cardstudio",
+      "name": "CardStudio",
+      "type": "gui",
+      "description": "カード作成デスクトップアプリ",
+      "latest": "1.0.0",
+      "artifacts": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/cardstudio-v1.0.0/CardStudio-1.0.0-macos-arm64.zip",
+          "sha256": "b022656b0d5f493420ba9dfc7f8e6f5d11297917e1b3d658ff86481bc44213fd",
+          "size": 85406177,
+          "strip_components": 0,
+          "entry": "CardStudio.app",
+          "version_kind": "plist",
+          "version_field": "CFBundleShortVersionString"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/cardstudio-v1.0.0/CardStudio-1.0.0-windows-x64.zip",
+          "sha256": "6d39a464a3d594d6dbacf44d813c5c79839ad20437080602df7abdd98e7cdc46",
+          "size": 72886168,
+          "strip_components": 0,
+          "entry": "CardStudio.exe",
+          "version_kind": "pe",
+          "version_field": "FileVersion"
+        }
+      ]
+    },
+    {
+      "id": "bodyreminder",
+      "name": "BodyReminder",
+      "type": "gui",
+      "description": "体調記録リマインダ",
+      "latest": "0.1.6",
+      "artifacts": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/bodyreminder-v0.1.6/BodyReminder-0.1.6-macos-arm64-app.zip",
+          "sha256": "5ede30fbe4fcbe4ec4bb4a1a23a5569e2200ca85e6699a237dc85b81aec1554a",
+          "size": 20857295,
+          "strip_components": 0,
+          "entry": "BodyReminder.app",
+          "version_kind": "plist",
+          "version_field": "CFBundleShortVersionString"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/bodyreminder-v0.1.6/BodyReminder-0.1.6-win-x64-portable.zip",
+          "sha256": "a9ce0e3af7ce5f5169602d3eb9439657131bfbbb3bffb36798a39fb24b7f4a41",
+          "size": 17525050,
+          "strip_components": 1,
+          "entry": "BodyReminder.exe",
+          "version_kind": "pe",
+          "version_field": "FileVersion"
+        }
+      ]
+    },
+    {
+      "id": "insightflow",
+      "name": "InsightFlow",
+      "type": "gui",
+      "description": "Avalonia 製デスクトップアプリ",
+      "latest": "0.9.3.43",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.43/InsightFlow-0.9.3.43-win-x64-portable.zip",
+          "sha256": "1417d7ddfb472b134dfa850de7cde7a9df8f934fb5f1734d5a26ea1c88e3bd9a",
+          "size": 94553492,
+          "strip_components": 0,
+          "entry": "InsightFlow.exe",
+          "version_kind": "pe",
+          "version_field": "FileVersion"
+        }
+      ]
+    }
+  ],
+  "profiles": {
+    "mac-dev": [
+      "cardstudio",
+      "bodyreminder"
+    ],
+    "win-dev": [
+      "stask",
+      "cardstudio",
+      "bodyreminder",
+      "insightflow"
+    ]
+  }
+}
