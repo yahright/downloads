@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-28T00:00:00Z",
+  "generated_at": "2026-07-28T22:38:46Z",
   "packages": [
     {
       "id": "stask",
       "name": "Stask",
       "type": "gui",
       "description": "ローカルファーストのデスクトップタスク管理",
-      "latest": "1.13.0",
+      "latest": "1.14.1",
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "zip",
-          "url": "https://github.com/yahright/downloads/releases/download/stask-v1.13.0/Stask-1.13.0-windows-x64.zip",
-          "sha256": "281373371f4979a5e574e4904de7193cf06fd2019fd65fbaf77ecba7e7599cbf",
-          "size": 15787549,
+          "url": "https://github.com/yahright/downloads/releases/download/stask-v1.14.1/Stask-1.14.1-windows-x64.zip",
+          "sha256": "c1dd8d673367f5a38ef0d9d46f289c5c841a5a8e1f58cea7ca215ef34895ca49",
+          "size": 15789450,
           "strip_components": 1,
           "entry": "Stask.exe",
           "version_kind": "pe",
@@ -109,18 +109,280 @@
           "version_field": "FileVersion"
         }
       ]
+    },
+    {
+      "id": "remflow",
+      "name": "RemFlow",
+      "type": "gui",
+      "description": "複数端末の開発フローを可視化・操作するデスクトップクライアント",
+      "latest": "0.1.0",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/remflow-v0.1.0/RemFlow-0.1.0-windows-x64.zip",
+          "sha256": "62b930fd31e930332a7e9c7970336985a3ccd4f4982ee3ab702d9acf0a9f8660",
+          "size": 46388812,
+          "strip_components": 1,
+          "entry": "RemFlow.exe",
+          "version_kind": "pe",
+          "version_field": "FileVersion"
+        }
+      ]
+    },
+    {
+      "id": "quicknav-vs",
+      "name": "QuickNav for Visual Studio",
+      "type": "gui",
+      "description": "Visual Studio用ナビゲーション拡張（ダウンロード専用）",
+      "latest": "1.0.20260717.1242",
+      "download_only": true,
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://yahright.github.io/downloads/files/all/QuickNav-Release-x64-v1.0.20260717.1242.zip",
+          "sha256": "e2ee3af1ec2073247a293aeace13645d5facc63f94e20e692f199b424c941e66",
+          "size": 2491772,
+          "strip_components": 0,
+          "entry": "QuickNav.vsix"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "kind": "zip",
+          "url": "https://yahright.github.io/downloads/files/all/QuickNav-Release-arm64-v1.0.20260717.1242.zip",
+          "sha256": "c53ac7cb426a408aa988133752bedfa4a8ce20d171a1b155fa570681f0b4d707",
+          "size": 2492406,
+          "strip_components": 0,
+          "entry": "QuickNav.vsix"
+        }
+      ]
+    },
+    {
+      "id": "quicknav-vscode",
+      "name": "QuickNav for VS Code",
+      "type": "gui",
+      "description": "Visual Studio Code用ファイルナビゲーション拡張（ダウンロード専用）",
+      "latest": "0.2.0",
+      "download_only": true,
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "vsix",
+          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
+          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
+          "size": 499201,
+          "strip_components": 0,
+          "entry": "quicknav-vscode-0.2.0.vsix"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "kind": "vsix",
+          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
+          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
+          "size": 499201,
+          "strip_components": 0,
+          "entry": "quicknav-vscode-0.2.0.vsix"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "kind": "vsix",
+          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
+          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
+          "size": 499201,
+          "strip_components": 0,
+          "entry": "quicknav-vscode-0.2.0.vsix"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "kind": "vsix",
+          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
+          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
+          "size": 499201,
+          "strip_components": 0,
+          "entry": "quicknav-vscode-0.2.0.vsix"
+        }
+      ]
+    },
+    {
+      "id": "sgrep",
+      "name": "Sgrep CLI",
+      "type": "cli",
+      "description": "高速な正規表現検索CLI",
+      "latest": "0.2.0",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.2.0/Sg-0.2.0-x64.zip",
+          "sha256": "2dbe8d1e16456436b2848cf8520caed1241e01052de2912746d820d436681b99",
+          "size": 8110940,
+          "strip_components": 1,
+          "entry": "sg.exe",
+          "version_kind": "cli",
+          "version_field": "--version"
+        }
+      ]
+    },
+    {
+      "id": "sgrep-gui",
+      "name": "Sgrep GUI",
+      "type": "gui",
+      "description": "SgrepのWindowsデスクトップUI",
+      "latest": "0.2.0",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.2.0/SgrepGUI-0.2.0-x64-portable.zip",
+          "sha256": "061a67e668055b5c7d99bd46cba853899e94baa6b264e99c4bca86a571703a8c",
+          "size": 2162933,
+          "strip_components": 1,
+          "entry": "SgrepGUI.exe"
+        }
+      ]
+    },
+    {
+      "id": "sgrep-vs",
+      "name": "Sgrep for Visual Studio",
+      "type": "gui",
+      "description": "Visual Studio用Sgrep拡張（ダウンロード専用）",
+      "latest": "1.0.20260716.1",
+      "download_only": true,
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.2.0/SgrepVSIX-0.2.0-x64.zip",
+          "sha256": "2e2ebb965671f3f888f349334a3c975ec917aaf804cb494c9eec4d2d7e3d0ba9",
+          "size": 1633525,
+          "strip_components": 1,
+          "entry": "SgrepVSIX.vsix"
+        }
+      ]
+    },
+    {
+      "id": "sgrep-vscode",
+      "name": "Sgrep for VS Code",
+      "type": "gui",
+      "description": "Visual Studio Code用Sgrep拡張（ダウンロード専用）",
+      "latest": "0.0.17",
+      "download_only": true,
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "vsix",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.17/sgrep-vscode-0.0.17.vsix",
+          "sha256": "a03fc4c7da4d138505e13edd32eefe0a1f875f5c6de00bb5b21d644c55531559",
+          "size": 2707596,
+          "strip_components": 0,
+          "entry": "sgrep-vscode-0.0.17.vsix"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "kind": "vsix",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.17/sgrep-vscode-0.0.17.vsix",
+          "sha256": "a03fc4c7da4d138505e13edd32eefe0a1f875f5c6de00bb5b21d644c55531559",
+          "size": 2707596,
+          "strip_components": 0,
+          "entry": "sgrep-vscode-0.0.17.vsix"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "kind": "vsix",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.17/sgrep-vscode-0.0.17.vsix",
+          "sha256": "a03fc4c7da4d138505e13edd32eefe0a1f875f5c6de00bb5b21d644c55531559",
+          "size": 2707596,
+          "strip_components": 0,
+          "entry": "sgrep-vscode-0.0.17.vsix"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "kind": "vsix",
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.17/sgrep-vscode-0.0.17.vsix",
+          "sha256": "a03fc4c7da4d138505e13edd32eefe0a1f875f5c6de00bb5b21d644c55531559",
+          "size": 2707596,
+          "strip_components": 0,
+          "entry": "sgrep-vscode-0.0.17.vsix"
+        }
+      ]
+    },
+    {
+      "id": "scopy",
+      "name": "SCOPY CLI",
+      "type": "cli",
+      "description": "高速・再開可能なファイルコピーCLI（ベンチツール同梱）",
+      "latest": "0.1.12",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.12/scopy-bench-kit-0.1.12-win-x64.zip",
+          "sha256": "533a5033f84e03c35652743ed935cbd5b6ab47c3a696db539be7ebc530d2eb1a",
+          "size": 539468,
+          "strip_components": 0,
+          "entry": "scopy.exe",
+          "version_kind": "cli",
+          "version_field": "--version"
+        }
+      ]
+    },
+    {
+      "id": "scopy-gui",
+      "name": "SCOPY GUI",
+      "type": "gui",
+      "description": "SCOPYのデスクトップUI",
+      "latest": "0.1.12",
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "zip",
+          "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.12/scopy-gui-0.1.12-win-x64-portable.zip",
+          "sha256": "2b9ca312099034b445116061a2805e0a69d089597e7f55606e716e8719e350fc",
+          "size": 45976275,
+          "strip_components": 1,
+          "entry": "Scopy.Gui.exe"
+        }
+      ]
     }
   ],
   "profiles": {
     "mac-dev": [
       "cardstudio",
-      "bodyreminder"
+      "bodyreminder",
+      "quicknav-vscode",
+      "sgrep-vscode"
     ],
     "win-dev": [
       "stask",
       "cardstudio",
       "bodyreminder",
-      "insightflow"
+      "insightflow",
+      "remflow",
+      "quicknav-vs",
+      "quicknav-vscode",
+      "sgrep",
+      "sgrep-gui",
+      "sgrep-vs",
+      "sgrep-vscode",
+      "scopy",
+      "scopy-gui"
     ]
   }
 }
