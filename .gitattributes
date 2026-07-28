@@ -1,0 +1,4 @@
+appcat/install.sh text eol=lf
+appcat/install.ps1 text eol=crlf
+appcat/*.json text eol=lf
+appcat/*.txt text eol=lf
