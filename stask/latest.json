@@ -15,6 +15,15 @@
       "url": "https://github.com/yahright/downloads/releases/download/stask-v1.15.0/Stask-1.15.0-windows-x64.zip",
       "sha256": "9e1596ddf3deb2683bfde12ebbcee7b12f698c8c152ad2cdd4ef82ec79feb18c",
       "size": 15964111
+    },
+    {
+      "platform": "android-arm64",
+      "kind": "apk",
+      "os": "android",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.15.0/Stask-1.15.0-android-arm64.apk",
+      "sha256": "7e7268c9502766059bed82e41fcbb49d0d7e6cd17ee4c1f837c1dcf92f0c4b58",
+      "size": 26363707
     }
   ],
   "appcat": {
