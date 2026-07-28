@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.12.0",
-  "build": 15,
+  "version": "1.13.0",
+  "build": 16,
   "releasedAt": "2026-07-28",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.12.0",
-  "notes": "単一起動、表示密度、レスポンシブUI、UTF-8同期、ショートカット信頼性を改善。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.13.0",
+  "notes": "タスク通知、四象限、今すぐ記録、スマートフォン向けマップ編集を追加",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.12.0/Stask-1.12.0-windows-x64.zip",
-      "sha256": "ee29ae7fc16765dafd0df2bc7590486b408f776945a40c84b059be2379974745",
-      "size": 15330719
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.13.0/Stask-1.13.0-windows-x64.zip",
+      "sha256": "281373371f4979a5e574e4904de7193cf06fd2019fd65fbaf77ecba7e7599cbf",
+      "size": 15787549
     }
   ],
   "appcat": {
