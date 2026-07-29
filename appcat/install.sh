@@ -27,6 +27,7 @@ case "$version" in
 esac
 
 archive_name="appcat-$version-darwin-$arch.zip"
+app_archive_name="AppCat-$version-macos-$arch.zip"
 release_base="${APPCAT_RELEASE_BASE:-https://github.com/yahright/downloads/releases/download/appcat-v$version}"
 release_base="${release_base%/}"
 temporary_dir="$(mktemp -d "${TMPDIR:-/tmp}/appcat-install.XXXXXX")"
@@ -62,6 +63,46 @@ cp "$expanded/appcat" "$target.new"
 chmod 755 "$target.new"
 mv -f "$target.new" "$target"
 
+if [ "${APPCAT_SKIP_APP:-0}" != "1" ]; then
+  app_archive_path="$temporary_dir/$app_archive_name"
+  app_checksum_path="$app_archive_path.sha256"
+  curl -fL "$release_base/$app_archive_name" -o "$app_archive_path"
+  curl -fsSL "$release_base/$app_archive_name.sha256" -o "$app_checksum_path"
+
+  app_expected="$(awk 'NR == 1 { print tolower($1) }' "$app_checksum_path")"
+  app_actual="$(shasum -a 256 "$app_archive_path" | awk '{ print tolower($1) }')"
+  if [ "$app_actual" != "$app_expected" ]; then
+    echo "error: app sha256 mismatch: expected=$app_expected actual=$app_actual" >&2
+    exit 1
+  fi
+
+  app_expanded="$temporary_dir/app-expanded"
+  mkdir -p "$app_expanded"
+  ditto -x -k "$app_archive_path" "$app_expanded"
+  if [ ! -x "$app_expanded/AppCat.app/Contents/MacOS/AppCat" ]; then
+    echo "error: AppCat.app launcher was not found in the archive" >&2
+    exit 1
+  fi
+
+  app_install_dir="${APPCAT_APP_DIR:-$HOME/Applications}"
+  mkdir -p "$app_install_dir"
+  target_app="$app_install_dir/AppCat.app"
+  new_app="$app_install_dir/.AppCat.app.new"
+  old_app="$app_install_dir/.AppCat.app.old"
+  rm -rf "$new_app" "$old_app"
+  ditto "$app_expanded/AppCat.app" "$new_app"
+  if [ -e "$target_app" ]; then
+    mv "$target_app" "$old_app"
+  fi
+  if ! mv "$new_app" "$target_app"; then
+    if [ -e "$old_app" ]; then
+      mv "$old_app" "$target_app"
+    fi
+    exit 1
+  fi
+  rm -rf "$old_app"
+fi
+
 if [ "${APPCAT_SKIP_PATH:-0}" != "1" ]; then
   case "${SHELL:-}" in
     */bash) rc_path="$HOME/.bash_profile" ;;
@@ -81,6 +122,9 @@ fi
 
 "$target" --version
 echo "AppCat installed: $target"
+if [ "${APPCAT_SKIP_APP:-0}" != "1" ]; then
+  echo "Finder app installed: $target_app"
+fi
 if [ "${APPCAT_SKIP_PATH:-0}" != "1" ]; then
-  echo "Open a new terminal and run: appcat ui"
+  echo "Open AppCat from Finder, or open a new terminal and run: appcat ui"
 fi
