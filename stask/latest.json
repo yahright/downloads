@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.16.1",
-  "build": 21,
-  "releasedAt": "2026-07-29",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.16.1",
-  "notes": "起動中の×操作でも閉じるボタンのトレイ設定を守るよう修正",
+  "version": "1.17.0",
+  "build": 22,
+  "releasedAt": "2026-07-30",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.17.0",
+  "notes": "ゴール・今日の計画と用途別ノートを追加",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.16.1/Stask-1.16.1-windows-x64.zip",
-      "sha256": "6f36ba0c56919f2642615b0e8b3c107535ad70e3aa21e60d5450c8b15320ab9b",
-      "size": 15997644
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.17.0/Stask-1.17.0-windows-x64.zip",
+      "sha256": "1cad42d23ff46f27aed9c3664e6f3b02e591e86de2b63b5f17773372164b1298",
+      "size": 16141366
     }
   ],
   "appcat": {
