@@ -1,53 +1,53 @@
 {
   "schema": 1,
-  "version": "0.1.2",
-  "released_at": "2026-07-29T12:40:22Z",
-  "release_tag": "appcat-v0.1.2",
-  "source_commit": "f00811878ecb41feaa03a1f848ef5b6e0417d83c",
+  "version": "0.1.3",
+  "released_at": "2026-07-29T13:06:01Z",
+  "release_tag": "appcat-v0.1.3",
+  "source_commit": "a3082c6b04269bb69aed9d0c5fd86ab8a32005c5",
   "artifacts": [
     {
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.2/appcat-0.1.2-windows-amd64.zip",
-      "sha256": "38fa261e992724d166a44d59acd118edb5b8454b5adda524bd86f935161842e8",
-      "size": 3403098
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.3/appcat-0.1.3-windows-amd64.zip",
+      "sha256": "95a65ef9289504a0dd1c2b44c54c50c191b55e7b0b0a0356d865b271f918a667",
+      "size": 3416408
     },
     {
       "os": "windows",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.2/appcat-0.1.2-windows-arm64.zip",
-      "sha256": "2daa6221edfd615a732758e9b81fbc78e38ae1642e772b0f57e7c8edd4569d48",
-      "size": 3023938
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.3/appcat-0.1.3-windows-arm64.zip",
+      "sha256": "d05e16296a298107863caefb40797e3c44c14e40e38b1b4a021e379997d977a9",
+      "size": 3036439
     },
     {
       "os": "darwin",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.2/appcat-0.1.2-darwin-amd64.zip",
-      "sha256": "217e0c3e35c4eca6d7dda3003436fb4e20d9019aaf7bf218fd52d67cf1a62846",
-      "size": 3362624
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.3/appcat-0.1.3-darwin-amd64.zip",
+      "sha256": "1fc2330963d87c59a1321fa25b90c3a170084ddcade5daa9e1fd50a2e2425a2b",
+      "size": 3376339
     },
     {
       "os": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.2/appcat-0.1.2-darwin-arm64.zip",
-      "sha256": "b675b5836e1ea40d2e50416c3d2ea0ad96213a84cc63bd11b1508a6270e453d2",
-      "size": 3083454
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.3/appcat-0.1.3-darwin-arm64.zip",
+      "sha256": "da46395f65b6e7e3bd1294e0de3053367c541cd18fc520e3bbe1a5ff1b820853",
+      "size": 3093971
     }
   ],
   "apps": [
     {
       "os": "darwin",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.2/AppCat-0.1.2-macos-amd64.zip",
-      "sha256": "47184268407759fc436d147012a23271fadd7c2cecdb5289d1331af9ffcce890",
-      "size": 6315154
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.3/AppCat-0.1.3-macos-amd64.zip",
+      "sha256": "60e3492ab8e1809a3e23e4c464b79f135d7624bf639018a358ebc3a4e08e8955",
+      "size": 6328885
     },
     {
       "os": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.2/AppCat-0.1.2-macos-arm64.zip",
-      "sha256": "c80cbf3962d5a697937a4886393d3966f42b328742b9ae54c3df75515a4e4f0a",
-      "size": 5854426
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.3/AppCat-0.1.3-macos-arm64.zip",
+      "sha256": "8311481e66b528324f86476106a11492caf67ceb758b14508934eb7cb6908ca9",
+      "size": 5864737
     }
   ]
 }
