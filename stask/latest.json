@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.16.0",
-  "build": 20,
+  "version": "1.16.1",
+  "build": 21,
   "releasedAt": "2026-07-29",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.16.0",
-  "notes": "開始・終了時刻を残す実行ログと日次サマリ編集を追加",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.16.1",
+  "notes": "起動中の×操作でも閉じるボタンのトレイ設定を守るよう修正",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.16.0/Stask-1.16.0-windows-x64.zip",
-      "sha256": "3f0c510bb7310e88a79d963ccf40db334fe290cd450ffd7d92673d06007feb1b",
-      "size": 15998243
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.16.1/Stask-1.16.1-windows-x64.zip",
+      "sha256": "6f36ba0c56919f2642615b0e8b3c107535ad70e3aa21e60d5450c8b15320ab9b",
+      "size": 15997644
     }
   ],
   "appcat": {
