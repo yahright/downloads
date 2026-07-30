@@ -15,6 +15,15 @@
       "url": "https://github.com/yahright/downloads/releases/download/stask-v1.18.0/Stask-1.18.0-windows-x64.zip",
       "sha256": "041f00f2b7c727b2c0763dbc16a05c9bb2d4556d9ac6ec48d154901973dc7e01",
       "size": 16199177
+    },
+    {
+      "platform": "macos-arm64",
+      "kind": "dmg",
+      "os": "darwin",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.18.0/Stask-1.18.0-macos-arm64.dmg",
+      "sha256": "f0d20db5cdd8cf05c8212e215897bd5dc7b2547ba56ce125b323397aeae218f0",
+      "size": 27519272
     }
   ],
   "appcat": {
@@ -23,9 +32,16 @@
     "type": "gui",
     "description": "ローカルファーストのデスクトップタスク管理",
     "profiles": [
-      "win-dev"
+      "win-dev",
+      "mac-dev"
     ],
     "targets": {
+      "darwin": {
+        "strip_components": 0,
+        "entry": "Stask.app",
+        "version_kind": "plist",
+        "version_field": "CFBundleShortVersionString"
+      },
       "windows": {
         "strip_components": 1,
         "entry": "Stask.exe",
