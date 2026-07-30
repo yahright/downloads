@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.17.0",
-  "build": 22,
+  "version": "1.18.0",
+  "build": 23,
   "releasedAt": "2026-07-30",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.17.0",
-  "notes": "ゴール・今日の計画と用途別ノートを追加",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.18.0",
+  "notes": "ウィッシュリストとノート常駐表示を追加しました。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.17.0/Stask-1.17.0-windows-x64.zip",
-      "sha256": "1cad42d23ff46f27aed9c3664e6f3b02e591e86de2b63b5f17773372164b1298",
-      "size": 16141366
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.18.0/Stask-1.18.0-windows-x64.zip",
+      "sha256": "041f00f2b7c727b2c0763dbc16a05c9bb2d4556d9ac6ec48d154901973dc7e01",
+      "size": 16199177
     }
   ],
   "appcat": {
