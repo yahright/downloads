@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "version": "1.19.0",
-  "build": 24,
-  "releasedAt": "2026-08-02",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.19.0",
-  "notes": "Stask 1.19.0 macOS",
+  "version": "1.20.0",
+  "build": 25,
+  "releasedAt": "2026-08-03",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.20.0",
+  "notes": "チェックリスト、ノート、Someday、ATTマップ操作改善を含む Stask 1.20.0",
   "minSupported": "1.0.0",
   "artifacts": [
     {
-      "platform": "macos-arm64",
-      "kind": "dmg",
-      "os": "darwin",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.19.0/Stask-1.19.0-macos-arm64.dmg",
-      "sha256": "e9eda5e0f4b60a55c27a47e8fe237236852fa3c42216c7fbb23712c5cccabfd2",
-      "size": 28552815
+      "platform": "windows-x64",
+      "kind": "portable-zip",
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.20.0/Stask-1.20.0-windows-x64.zip",
+      "sha256": "035c69a74a810eb489f6802136af9e7f5386fa74ca1048078e06557295a1bd5a",
+      "size": 16829156
     }
   ],
   "appcat": {
@@ -27,11 +27,11 @@
       "mac-dev"
     ],
     "targets": {
-      "darwin": {
-        "strip_components": 0,
-        "entry": "Stask.app",
-        "version_kind": "plist",
-        "version_field": "CFBundleShortVersionString"
+      "windows": {
+        "strip_components": 1,
+        "entry": "Stask.exe",
+        "version_kind": "pe",
+        "version_field": "FileVersion"
       }
     }
   }
