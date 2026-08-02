@@ -1,22 +1,15 @@
 {
-  "version": "0.9.3.43",
+  "version": "0.9.3.44",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Add WizTree-style disk usage tree map window\n- perf(diskusage): add scan milestone benchmark harness\n- feat(diskusage): complete scan speed milestones",
+  "notes": "- feat(rename): add clear basename action",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.43/InsightFlow-0.9.3.43-win-x64-portable.zip",
-      "sha256": "1417d7ddfb472b134dfa850de7cde7a9df8f934fb5f1734d5a26ea1c88e3bd9a",
-      "size": 94553492
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.43/InsightFlow-0.9.3.43-win-arm64-portable.zip",
-      "sha256": "69e5868473072dd49413a4dcade78ca1dd1c85674e2975f7472801389355920d",
-      "size": 91200074
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.44/InsightFlow-0.9.3.44-win-x64-portable.zip",
+      "sha256": "470e59ec7ea4ad1186de88d3868bd7fbb7823722e695d4f6c4336c6b7557b160",
+      "size": 94502132
     }
   ]
 }
