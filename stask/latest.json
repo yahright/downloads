@@ -1,47 +1,20 @@
 {
   "schema": 1,
-  "version": "1.20.0",
-  "build": 25,
-  "releasedAt": "2026-08-03",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.20.0",
-  "notes": "チェックリスト、ノート、Someday、ATT操作改善とAndroidアプリ内更新を含む Stask 1.20.0",
+  "version": "1.21.0",
+  "build": 26,
+  "releasedAt": "2026-08-04",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.21.0",
+  "notes": "対立関係の編集とAndroid更新を含む Stask 1.21.0",
   "minSupported": "1.0.0",
   "artifacts": [
-    {
-      "platform": "windows-x64",
-      "kind": "portable-zip",
-      "os": "windows",
-      "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.20.0/Stask-1.20.0-windows-x64.zip",
-      "sha256": "035c69a74a810eb489f6802136af9e7f5386fa74ca1048078e06557295a1bd5a",
-      "size": 16829156
-    },
     {
       "platform": "android-arm64",
       "kind": "apk",
       "os": "android",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.20.0/Stask-1.20.0-android-arm64.apk",
-      "sha256": "c99ac0f877b5e36ae3b31173d447b322800ab392e029afaa613e85f85f51159b",
-      "size": 27954723
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.21.0/Stask-1.21.0-android-arm64.apk",
+      "sha256": "d0b1c2d0f16348d6f37a0d99f4051089aff77a98040a28c566ca385315214cfc",
+      "size": 30396185
     }
-  ],
-  "appcat": {
-    "id": "stask",
-    "name": "Stask",
-    "type": "gui",
-    "description": "ローカルファーストのデスクトップタスク管理",
-    "profiles": [
-      "win-dev",
-      "mac-dev"
-    ],
-    "targets": {
-      "windows": {
-        "strip_components": 1,
-        "entry": "Stask.exe",
-        "version_kind": "pe",
-        "version_field": "FileVersion"
-      }
-    }
-  }
+  ]
 }
