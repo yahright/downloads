@@ -1,15 +1,15 @@
 {
-  "version": "0.9.3.44",
+  "version": "0.9.3.45",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(rename): add clear basename action",
+  "notes": "- fix(updates): close app visibly before restart\n- fix(preview): preserve preview across rename",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.44/InsightFlow-0.9.3.44-win-x64-portable.zip",
-      "sha256": "470e59ec7ea4ad1186de88d3868bd7fbb7823722e695d4f6c4336c6b7557b160",
-      "size": 94502132
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.45/InsightFlow-0.9.3.45-win-x64-portable.zip",
+      "sha256": "bc490d6b9c6078342fe5fa89cd71c4b9c290a67812a1dd6fc7890e4f37aa2a04",
+      "size": 94555927
     }
   ]
 }
