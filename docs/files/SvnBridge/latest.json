@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "tag": "svnbridge-v1.0.0",
+  "releaseDateUtc": "2026-08-04T07:25:23Z",
+  "downloads": [
+    {
+      "product": "SvnBridge",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/svnbridge-v1.0.0/SvnBridge-1.0.0-windows-portable.zip",
+      "sha256": "1e98926923ee3d33b718d7eeccd671154f042b81ad4f1d7aa2f37e8029d325d6",
+      "size": 14093
+    },
+    {
+      "product": "SvnBridge for Visual Studio",
+      "kind": "vsix",
+      "url": "https://github.com/yahright/downloads/releases/download/svnbridge-v1.0.0/SvnBridge-1.0.0-visualstudio.vsix",
+      "sha256": "9700ac9fbf5cb3426c6d7aa149a6f71ec648e6bce9573c535afd6f0582760b5b",
+      "size": 9007
+    }
+  ]
+}
