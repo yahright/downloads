@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.22.0",
-  "build": 27,
-  "releasedAt": "2026-08-05",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.22.0",
-  "notes": "マップのスナップと整列ツールを追加。macOS版を公証済みで提供します。",
+  "version": "1.22.1",
+  "build": 28,
+  "releasedAt": "2026-08-06",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.22.1",
+  "notes": "繰り返しタスクの持ち越しと通知を改善しました。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,18 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.22.0/Stask-1.22.0-windows-x64.zip",
-      "sha256": "4530d0dfe79ee56e87fb5e222087a8a974ff7947deb2292c29d198e35651c8c8",
-      "size": 16836950
-    },
-    {
-      "platform": "macos-arm64",
-      "kind": "dmg",
-      "os": "darwin",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.22.0/Stask-1.22.0-macos-arm64.dmg",
-      "sha256": "539437b7fbb959e2adb5c9d308b608f2bbaa5381962de8a37f2a1b1cc8e57d6b",
-      "size": 28699602
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.22.1/Stask-1.22.1-windows-x64.zip",
+      "sha256": "0e10f805b8e9f26fdc23cf1213fef53352b5f5cf72a91d3471303facc891b10a",
+      "size": 16859720
     }
   ],
   "appcat": {
@@ -36,12 +27,6 @@
       "mac-dev"
     ],
     "targets": {
-      "darwin": {
-        "strip_components": 0,
-        "entry": "Stask.app",
-        "version_kind": "plist",
-        "version_field": "CFBundleShortVersionString"
-      },
       "windows": {
         "strip_components": 1,
         "entry": "Stask.exe",
