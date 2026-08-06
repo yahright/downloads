@@ -1,0 +1,25 @@
+{
+  "version": "0.3.0",
+  "channel": "Beta",
+  "tag": "sga-v0.3.0",
+  "releaseDateUtc": "2026-08-06T02:50:15Z",
+  "notesUrl": "",
+  "downloads": [
+    {
+      "product": "SGA",
+      "platform": "x64",
+      "kind": "cli-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sga-v0.3.0/SGA-0.3.0-x64.zip",
+      "sha256": "f50596af67e14314f3befe3679aa57b872bb8a7fd1ba450ada9d66132237d448",
+      "size": 5215228
+    },
+    {
+      "product": "SGA",
+      "platform": "ARM64",
+      "kind": "cli-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sga-v0.3.0/SGA-0.3.0-ARM64.zip",
+      "sha256": "57da47fb326e0b48ad1aae4672de0be95e9897230032c9eb5fceef7b19b3aff5",
+      "size": 5203910
+    }
+  ]
+}
