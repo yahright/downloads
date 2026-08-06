@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.22.1",
-  "build": 28,
-  "releasedAt": "2026-08-06",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.22.1",
-  "notes": "繰り返しタスクの持ち越しと通知を改善しました。",
+  "version": "1.23.0",
+  "build": 29,
+  "releasedAt": "2026-08-07",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.23.0",
+  "notes": "マップの箱ラベルとグループ表示を追加しました。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.22.1/Stask-1.22.1-windows-x64.zip",
-      "sha256": "0e10f805b8e9f26fdc23cf1213fef53352b5f5cf72a91d3471303facc891b10a",
-      "size": 16859720
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.23.0/Stask-1.23.0-windows-x64.zip",
+      "sha256": "bcbac456ae5c517abb076748f5cf2e42eb5ea9e34b7eef35c2c20a5e479430c3",
+      "size": 16892986
     }
   ],
   "appcat": {
