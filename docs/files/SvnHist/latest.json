@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "channel": "Stable",
+  "tag": "svnhistsearch-v1.0.0",
+  "releaseDateUtc": "2026-08-07T03:17:27Z",
+  "notesUrl": "https://github.com/yahright/SvnHistSearch/releases/tag/v1.0.0",
+  "downloads": [
+    {
+      "product": "SvnHistSearch",
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/svnhistsearch-v1.0.0/SvnHistSearch-1.0.0-win-x64.zip",
+      "sha256": "9df6b13d9ed2ef01073ce1361868b56189b045611fb5084485953824ab445e35",
+      "size": 3225893
+    }
+  ]
+}
