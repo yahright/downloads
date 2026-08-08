@@ -4,7 +4,7 @@
   "build": 29,
   "releasedAt": "2026-08-08",
   "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.23.0",
-  "notes": "CRTの箱ラベル・グループ・グループ視点を収録。macOS版を公証済みで提供します。",
+  "notes": "Stask 1.23.0: Windows x64・macOS Apple Silicon・Android arm64 を配布",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -24,6 +24,15 @@
       "url": "https://github.com/yahright/downloads/releases/download/stask-v1.23.0/Stask-1.23.0-macos-arm64.dmg",
       "sha256": "c4cb3d93774a783888843e65a83b27a7b5941c4ad866ae71e49b7c2e6f4ccbb9",
       "size": 28789837
+    },
+    {
+      "platform": "android-arm64",
+      "kind": "apk",
+      "os": "android",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.23.0/Stask-1.23.0-android-arm64.apk",
+      "sha256": "2a4e55fd2df9783d8507ae6b8bfdf4f3fcfd87c5cd346bbe29bd5f1a43682e43",
+      "size": 30462249
     }
   ],
   "appcat": {
