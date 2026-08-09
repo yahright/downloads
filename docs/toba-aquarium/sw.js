@@ -2,7 +2,7 @@
    - アプリシェル（HTML/アイコン/manifest）を precache → オフライン起動
    - データは index.html に埋め込み済みなので、シェルのキャッシュで完結する。
    バージョンを上げると古いシェルキャッシュは activate 時に破棄される。 */
-const VERSION = "v7";
+const VERSION = "v8";
 const SHELL = "toba-shell-" + VERSION;
 
 const SHELL_ASSETS = [

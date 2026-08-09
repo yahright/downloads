@@ -110,8 +110,8 @@ ul.lim li{padding:8px 4px;border-bottom:1px dashed var(--border);font-size:14px}
 ul.lim li:last-child{border:none}
 #camBtn{display:block;width:100%;padding:16px;font-size:17px;font-weight:700;background:var(--bg-badge);color:#fff;border:none;border-radius:12px;margin:12px 0 8px;cursor:pointer}
 .aiSub{width:100%;padding:10px;font-size:13.5px;background:var(--bg-panel);border:1px solid var(--border3);color:var(--gb-text);border-radius:10px;margin:0 0 12px;cursor:pointer}
-#apiKey,#aiModel,#aiHint{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--border3);background:var(--bg-sub);color:var(--text-strong);font-size:14px;margin:2px 0 4px}
-#aiHint{margin-top:12px}
+#apiKey,#aiModel,#aiHint,#aiZone{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--border3);background:var(--bg-sub);color:var(--text-strong);font-size:14px;margin:2px 0 4px}
+#aiZone{margin-top:12px}
 #aiHint::placeholder{color:var(--muted2)}
 .aiObs{font-size:12.5px;background:var(--bg-sub);border:1px solid var(--border2);border-radius:8px;padding:8px 10px;margin:0 0 10px;color:var(--muted)}
 #aiPreview{max-width:100%;border-radius:12px;margin:0 0 10px;display:none}
@@ -276,7 +276,8 @@ ul.lim li:last-child{border:none}
 <option value=claude-opus-5>Opus 5（最高精度 約20円/回）</option>
 </select>
 </details>
-<input id=aiHint placeholder="💡 ヒント（任意）: 水槽名・ゾーン・大きさなど" autocomplete=off>
+<select id=aiZone onchange="aiSet('anthZone',this.value)"><option value="">📍 現在地を選ぶ（任意・精度UP）</option></select>
+<input id=aiHint placeholder="💡 ヒント（任意）: 水槽名・大きさなど" autocomplete=off>
 <button id=camBtn onclick="document.getElementById('camIn').click()">📷 撮影して判定</button>
 <button class=aiSub onclick="document.getElementById('galIn').click()">🖼 写真を選んで判定</button>
 <input id=camIn type=file accept="image/*" capture=environment style="display:none" onchange="identify(this)">
@@ -387,6 +388,32 @@ function initAI(){
  document.getElementById('apiKey').value=k;
  var m=aiGet('anthModel');
  if(m)document.getElementById('aiModel').value=m;
+ var sel=document.getElementById('aiZone'),zs=document.querySelectorAll('details.zone');
+ for(var i=0;i<zs.length;i++){
+  var id=zs[i].querySelector('.zid'),nm=zs[i].querySelector('.zname');
+  if(!id||!nm)continue;
+  var o=document.createElement('option');
+  o.value=id.textContent;
+  o.textContent='📍 '+id.textContent+' '+nm.textContent;
+  sel.appendChild(o);
+ }
+ var z=aiGet('anthZone');
+ if(z)sel.value=z;
+}
+function zoneContext(z){
+ var zs=document.querySelectorAll('details.zone');
+ for(var i=0;i<zs.length;i++){
+  var id=zs[i].querySelector('.zid');
+  if(!id||id.textContent!==z)continue;
+  var nm=zs[i].querySelector('.zname'),desc=zs[i].querySelector('.desc');
+  var names=[],bs=zs[i].querySelectorAll('ul.must li b');
+  for(var j=0;j<bs.length;j++){names.push(bs[j].childNodes[0].textContent);}
+  return 'ユーザーの現在地: ゾーン'+z+'「'+(nm?nm.textContent:'')+'」。'
+   +(desc?'ゾーン概要: '+desc.textContent+' ':'')
+   +(names.length?'このゾーンの代表的な展示: '+names.join('、')+'。':'')
+   +'このゾーンの展示テーマに合う種を強く優先すること（ただし全種のゾーン対応表は無いため、特徴が明確に他の種を示す場合はゾーン外の種も候補にしてよい）。';
+ }
+ return '';
 }
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function resizeImage(file){
@@ -431,6 +458,7 @@ async function identify(input){
  if(key.indexOf('sk-ant')!==0){st.textContent='⚠️ APIキーの形式が正しくないようです（sk-ant- で始まるキーを入力してください）';return;}
  var model=document.getElementById('aiModel').value;
  var hint=(document.getElementById('aiHint').value||'').trim();
+ var zc=zoneContext(document.getElementById('aiZone').value);
  res.innerHTML='';
  try{
   var dataUrl=await resizeImage(file);
@@ -446,7 +474,7 @@ async function identify(input){
    ],
    messages:[{role:'user',content:[
     {type:'image',source:{type:'base64',media_type:'image/jpeg',data:dataUrl.split(',')[1]}},
-    {type:'text',text:'この写真の生き物を同定してください。'+(hint?'\nヒント: '+hint:'')}
+    {type:'text',text:'この写真の生き物を同定してください。'+(zc?'\n'+zc:'')+(hint?'\nヒント: '+hint:'')}
    ]}],
    output_config:{format:{type:'json_schema',schema:AI_SCHEMA}}
   };
