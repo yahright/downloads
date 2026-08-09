@@ -110,7 +110,10 @@ ul.lim li{padding:8px 4px;border-bottom:1px dashed var(--border);font-size:14px}
 ul.lim li:last-child{border:none}
 #camBtn{display:block;width:100%;padding:16px;font-size:17px;font-weight:700;background:var(--bg-badge);color:#fff;border:none;border-radius:12px;margin:12px 0 8px;cursor:pointer}
 .aiSub{width:100%;padding:10px;font-size:13.5px;background:var(--bg-panel);border:1px solid var(--border3);color:var(--gb-text);border-radius:10px;margin:0 0 12px;cursor:pointer}
-#apiKey,#aiModel{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--border3);background:var(--bg-sub);color:var(--text-strong);font-size:14px;margin:2px 0 4px}
+#apiKey,#aiModel,#aiHint{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--border3);background:var(--bg-sub);color:var(--text-strong);font-size:14px;margin:2px 0 4px}
+#aiHint{margin-top:12px}
+#aiHint::placeholder{color:var(--muted2)}
+.aiObs{font-size:12.5px;background:var(--bg-sub);border:1px solid var(--border2);border-radius:8px;padding:8px 10px;margin:0 0 10px;color:var(--muted)}
 #aiPreview{max-width:100%;border-radius:12px;margin:0 0 10px;display:none}
 #aiStatus{font-size:13.5px;color:var(--muted);margin:6px 0 10px}
 .cand{background:var(--bg-panel);border:1px solid var(--border);border-radius:12px;padding:12px 14px;margin:0 0 10px}
@@ -273,6 +276,7 @@ ul.lim li:last-child{border:none}
 <option value=claude-opus-5>Opus 5（最高精度 約20円/回）</option>
 </select>
 </details>
+<input id=aiHint placeholder="💡 ヒント（任意）: 水槽名・ゾーン・大きさなど" autocomplete=off>
 <button id=camBtn onclick="document.getElementById('camIn').click()">📷 撮影して判定</button>
 <button class=aiSub onclick="document.getElementById('galIn').click()">🖼 写真を選んで判定</button>
 <input id=camIn type=file accept="image/*" capture=environment style="display:none" onchange="identify(this)">
@@ -401,8 +405,9 @@ function resizeImage(file){
  });
 }
 var AI_SCHEMA={
- type:'object',additionalProperties:false,required:['candidates','note'],
+ type:'object',additionalProperties:false,required:['observed_features','candidates','note'],
  properties:{
+  observed_features:{type:'string',description:'写真から観察できる形態的特徴（体型・ヒレの形と位置・色彩パターン・模様・口や眼の特徴・推定サイズ）を先に記述する'},
   candidates:{type:'array',items:{
    type:'object',additionalProperties:false,
    required:['name','sci','in_list','confidence','reason'],
@@ -411,7 +416,7 @@ var AI_SCHEMA={
     sci:{type:'string',description:'学名'},
     in_list:{type:'boolean',description:'飼育リスト内の種ならtrue'},
     confidence:{type:'string',enum:['高','中','低']},
-    reason:{type:'string',description:'同定根拠（1文で簡潔に）'}
+    reason:{type:'string',description:'同定根拠。リスト内の類似種と比べたときの識別点を含めること'}
    }}},
   note:{type:'string',description:'補足（リスト外の可能性、識別ポイントなど）。無ければ空文字'}
  }
@@ -425,6 +430,7 @@ async function identify(input){
  if(!key){st.textContent='⚙️ 設定を開いてAPIキーを入力してください';return;}
  if(key.indexOf('sk-ant')!==0){st.textContent='⚠️ APIキーの形式が正しくないようです（sk-ant- で始まるキーを入力してください）';return;}
  var model=document.getElementById('aiModel').value;
+ var hint=(document.getElementById('aiHint').value||'').trim();
  res.innerHTML='';
  try{
   var dataUrl=await resizeImage(file);
@@ -435,15 +441,16 @@ async function identify(input){
    model:model,
    max_tokens:8000,
    system:[
-    {type:'text',text:'あなたは鳥羽水族館の生きもの同定アシスタント。ユーザーが館内で撮影した写真の生き物を同定する。次に示す館の飼育種リスト（2025年度・全1,327種）の中から最も可能性の高い候補を最大3件、確信度付きで挙げること。リスト内に該当が見つからない場合は in_list を false にして一般的な名前で答え、note で説明する。水槽のガラス・照明・背景で色や大きさの印象が変わることを考慮する。'},
+    {type:'text',text:'あなたは魚類分類学に詳しい鳥羽水族館の生きもの同定アシスタント。ユーザーが館内で撮影した写真の生き物を同定する。\n\n## 同定手順（必ずこの順で）\n1. まず observed_features に、写真から読み取れる形態的特徴を先入観なしで記述する: 体型（側扁/紡錘形/延長形など）、背ビレ・尻ビレ・尾ビレの形状と位置、棘条の有無、色彩パターンと模様（横帯/縦帯/斑点/網目）、口の位置と形、眼の特徴、推定サイズ。\n2. その特徴に合致する候補を、次の飼育種リスト（2025年度・全1,327種）から複数拾い出す。\n3. 紛らわしい類似種同士（例: アイゴ科とカワハギ科、ニザダイ科との混同など科をまたぐ誤同定に注意）を識別形質で比較し、最も整合する候補を最大3件、確信度付きで挙げる。reason には「なぜ類似種ではなくこれか」の識別点を書く。\n\nリスト内に該当が見つからない場合は in_list を false にして一般的な名前で答え、note で説明する。水槽のガラス・照明・背景で色や大きさの印象が変わることを考慮する。ユーザーからヒント（水槽名・ゾーン・サイズ等）があれば候補の絞り込みに強く反映する。'},
     {type:'text',text:'## 飼育種リスト\n'+buildSpeciesList(),cache_control:{type:'ephemeral'}}
    ],
    messages:[{role:'user',content:[
     {type:'image',source:{type:'base64',media_type:'image/jpeg',data:dataUrl.split(',')[1]}},
-    {type:'text',text:'この写真の生き物を同定してください。'}
+    {type:'text',text:'この写真の生き物を同定してください。'+(hint?'\nヒント: '+hint:'')}
    ]}],
    output_config:{format:{type:'json_schema',schema:AI_SCHEMA}}
   };
+  if(model==='claude-haiku-4-5'){body.thinking={type:'enabled',budget_tokens:3000};}
   var r=await fetch('https://api.anthropic.com/v1/messages',{
    method:'POST',
    headers:{'content-type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
@@ -460,6 +467,7 @@ async function identify(input){
 }
 function renderAI(d,usage){
  var h='',cs=d.candidates||[];
+ if(d.observed_features)h+='<div class=aiObs>👁 '+esc(d.observed_features)+'</div>';
  if(!cs.length)h='<p class=hint>候補が見つかりませんでした。角度や距離を変えて撮り直してみてください。</p>';
  for(var i=0;i<cs.length;i++){
   var c=cs[i],cls=c.confidence==='高'?'ch':(c.confidence==='中'?'cm':'cl');
