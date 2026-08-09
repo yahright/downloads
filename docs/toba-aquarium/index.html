@@ -9,71 +9,110 @@
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>鳥羽水族館 生きものリスト</title>
+<script>try{var _t=localStorage.getItem('theme');if(_t==='light'||_t==='dark')document.documentElement.dataset.theme=_t;}catch(e){}</script>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;background:#0b1a26;color:#e8f1f6;line-height:1.7;-webkit-text-size-adjust:100%}
-header{padding:22px 16px 16px;background:linear-gradient(160deg,#0d4f6e,#0b1a26);border-bottom:1px solid #1d3c4f}
-h1{margin:0 0 4px;font-size:20px;letter-spacing:.02em}
-.sub1{font-size:12px;color:#8fb6c9;margin:0}
-.tabs{display:flex;position:sticky;top:0;z-index:10;background:#0b1a26;border-bottom:1px solid #1d3c4f}
-.tabs button{flex:1;padding:13px 8px;background:none;border:none;color:#8fb6c9;font-size:14px;font-weight:700;border-bottom:2px solid transparent}
-.tabs button.on{color:#5ed3f3;border-bottom-color:#5ed3f3}
+:root{
+ --bg:#0b1a26; --bg-panel:#11283a; --bg-sub:#0d2130; --bg-info:#0e3a4f;
+ --bg-chip:#17384c; --bg-tag:#12374a; --bg-badge:#1b6f96;
+ --text:#eef5f9; --text-strong:#ffffff;
+ --muted:#a9cde0; --muted2:#8fb3c6; --desc:#b7d3e2; --info-text:#cdeaf7;
+ --accent:#5ed3f3; --accent2:#7fd4ff; --link:#5ed3f3;
+ --gb-text:#c6e2f0; --chip-text:#d6ecf7; --tag-text:#b3dcef;
+ --border:#24475c; --border2:#1c3a4c; --border3:#2c5a74;
+ --warn-bg:#4a2a18; --warn-border:#8a5426; --warn-text:#ffe0bd;
+ --grad1:#0d4f6e; --grad2:#0b1a26;
+}
+:root[data-theme=light]{
+ --bg:#f2f7fa; --bg-panel:#ffffff; --bg-sub:#eaf2f7; --bg-info:#dcedf7;
+ --bg-chip:#e3eef5; --bg-tag:#dcebf4; --bg-badge:#0e6591;
+ --text:#122a38; --text-strong:#0a1e2a;
+ --muted:#48687c; --muted2:#54748a; --desc:#3d5d70; --info-text:#134a68;
+ --accent:#0a7ea4; --accent2:#0369a1; --link:#0a6e9e;
+ --gb-text:#2a536b; --chip-text:#1d4a63; --tag-text:#155a80;
+ --border:#b9cedd; --border2:#d7e4ed; --border3:#a5c4d6;
+ --warn-bg:#fdeeda; --warn-border:#e0b97f; --warn-text:#6e4109;
+ --grad1:#0d5c80; --grad2:#0e3a52;
+}
+@media (prefers-color-scheme:light){
+ :root:not([data-theme=dark]){
+  --bg:#f2f7fa; --bg-panel:#ffffff; --bg-sub:#eaf2f7; --bg-info:#dcedf7;
+  --bg-chip:#e3eef5; --bg-tag:#dcebf4; --bg-badge:#0e6591;
+  --text:#122a38; --text-strong:#0a1e2a;
+  --muted:#48687c; --muted2:#54748a; --desc:#3d5d70; --info-text:#134a68;
+  --accent:#0a7ea4; --accent2:#0369a1; --link:#0a6e9e;
+  --gb-text:#2a536b; --chip-text:#1d4a63; --tag-text:#155a80;
+  --border:#b9cedd; --border2:#d7e4ed; --border3:#a5c4d6;
+  --warn-bg:#fdeeda; --warn-border:#e0b97f; --warn-text:#6e4109;
+  --grad1:#0d5c80; --grad2:#0e3a52;
+ }
+}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-text-size-adjust:100%}
+header{padding:22px 16px 16px;background:linear-gradient(160deg,var(--grad1),var(--grad2));border-bottom:1px solid var(--border);position:relative}
+h1{margin:0 0 4px;font-size:20px;letter-spacing:.02em;color:#fff}
+.sub1{font-size:12px;color:#bfdcea;margin:0}
+#themeBtn{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:14px;padding:4px 10px;font-size:11.5px;font-weight:700}
+.tabs{display:flex;position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--border)}
+.tabs button{flex:1;padding:13px 8px;background:none;border:none;color:var(--muted);font-size:14px;font-weight:700;border-bottom:2px solid transparent}
+.tabs button.on{color:var(--accent);border-bottom-color:var(--accent)}
 main{padding:12px 12px 60px;max-width:760px;margin:0 auto}
-.zone{background:#11283a;border:1px solid #1d3c4f;border-radius:12px;margin:0 0 10px;overflow:hidden}
+.zone{background:var(--bg-panel);border:1px solid var(--border);border-radius:12px;margin:0 0 10px;overflow:hidden}
 .zone>summary{list-style:none;cursor:pointer;padding:13px 14px;display:flex;align-items:center;gap:9px;font-weight:700}
 .zone>summary::-webkit-details-marker{display:none}
-.zid{background:#1b6f96;color:#fff;width:24px;height:24px;border-radius:6px;display:grid;place-items:center;font-size:12px;flex:none}
+.zid{background:var(--bg-badge);color:#fff;width:24px;height:24px;border-radius:6px;display:grid;place-items:center;font-size:12px;flex:none}
 .zemoji{font-size:17px}
 .zname{font-size:15px}
 .zbody{padding:0 14px 14px}
-.desc{font-size:13px;color:#a9c8d8;margin:0 0 10px}
-.timenote{font-size:12.5px;background:#0e3a4f;border-radius:8px;padding:7px 10px;margin:0 0 10px;color:#bfe6f5}
-.warn{font-size:12.5px;background:#4a2a18;border:1px solid #7a4a26;border-radius:8px;padding:7px 10px;margin:0 0 10px;color:#ffd9b0}
+.desc{font-size:13.5px;color:var(--desc);margin:0 0 10px}
+.timenote{font-size:13px;background:var(--bg-info);border-radius:8px;padding:7px 10px;margin:0 0 10px;color:var(--info-text)}
+.warn{font-size:13px;background:var(--warn-bg);border:1px solid var(--warn-border);border-radius:8px;padding:7px 10px;margin:0 0 10px;color:var(--warn-text)}
 ul.must{list-style:none;padding:0;margin:0 0 10px}
-ul.must li{padding:7px 0;border-bottom:1px dashed #1d3c4f;font-size:14.5px}
+ul.must li{padding:7px 0;border-bottom:1px dashed var(--border);font-size:14.5px}
 ul.must li:last-child{border:none}
-ul.must b{color:#fff}
-.note{display:block;font-size:12px;color:#8fb6c9;font-weight:400}
-details.sub{background:#0d2130;border:1px solid #1d3c4f;border-radius:9px;padding:8px 11px;margin-bottom:8px}
-details.sub summary{font-size:13px;color:#7fd4f0;cursor:pointer;font-weight:700}
+ul.must b{color:var(--text-strong)}
+.note{display:block;font-size:12.5px;color:var(--muted);font-weight:400}
+details.sub{background:var(--bg-sub);border:1px solid var(--border);border-radius:9px;padding:8px 11px;margin-bottom:8px}
+details.sub summary{font-size:13px;color:var(--accent);cursor:pointer;font-weight:700}
 .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
-.chip{background:#17384c;border:1px solid #23566f;border-radius:14px;padding:3px 9px;font-size:12.5px;color:#d6ecf7}
+.chip{background:var(--bg-chip);border:1px solid var(--border3);border-radius:14px;padding:3px 9px;font-size:12.5px;color:var(--chip-text)}
 .toggleWrap{margin:0 0 10px}
-.tgbtn{background:#11283a;border:1px solid #23566f;color:#7fd4f0;border-radius:14px;padding:6px 14px;font-size:12.5px;font-weight:700}
-.hint{font-size:12px;color:#8fb6c9;margin:6px 0 0}
-.hint a{color:#5ed3f3}
-#search{width:100%;padding:11px 13px;border-radius:10px;border:1px solid #23566f;background:#0d2130;color:#fff;font-size:16px;margin-bottom:9px}
+.tgbtn{background:var(--bg-panel);border:1px solid var(--border3);color:var(--accent);border-radius:14px;padding:6px 14px;font-size:12.5px;font-weight:700}
+.hint{font-size:12.5px;color:var(--muted);margin:6px 0 0}
+.hint a{color:var(--link)}
+#search{width:100%;padding:11px 13px;border-radius:10px;border:1px solid var(--border3);background:var(--bg-sub);color:var(--text-strong);font-size:16px;margin-bottom:9px}
+#search::placeholder{color:var(--muted2)}
 .gbs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:11px}
-.gb{background:#11283a;border:1px solid #23566f;color:#b8d8e8;border-radius:14px;padding:5px 10px;font-size:12.5px}
-.gb.on{background:#1b6f96;color:#fff;border-color:#1b6f96}
-#count{font-size:12px;color:#8fb6c9;margin:0 0 8px}
+.gb{background:var(--bg-panel);border:1px solid var(--border3);color:var(--gb-text);border-radius:14px;padding:5px 10px;font-size:12.5px}
+.gb.on{background:var(--bg-badge);color:#fff;border-color:var(--bg-badge)}
+#count{font-size:12.5px;color:var(--muted);margin:0 0 8px}
 #list{list-style:none;padding:0;margin:0}
-#list li{padding:8px 4px;border-bottom:1px solid #16303f;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+#list li{padding:8px 4px;border-bottom:1px solid var(--border2);display:flex;justify-content:space-between;gap:10px;align-items:baseline}
 .ja{font-size:14.5px}
-.sci{font-size:11px;color:#6f97ab;font-style:italic;text-align:right;flex:none;max-width:48%}
+.sci{font-size:11.5px;color:var(--muted2);font-style:italic;text-align:right;flex:none;max-width:48%}
 .hidden{display:none}
 #list li.hidden{display:none}
 #p1.hidden,#p2.hidden{display:none}
-footer{padding:20px 16px 40px;font-size:11.5px;color:#6f97ab;text-align:center;line-height:1.8}
-footer a{color:#5ed3f3}
-.dict{margin-left:6px;text-decoration:none;font-size:13px;opacity:.75}
+footer{padding:20px 16px 40px;font-size:12px;color:var(--muted2);text-align:center;line-height:1.8}
+footer a{color:var(--link)}
+.dict{margin-left:6px;text-decoration:none;font-size:13px;opacity:.9}
 .dict:active{opacity:1}
-.evdate{font-size:13px;background:#0e3a4f;border-radius:8px;padding:8px 10px;margin:0 0 12px;color:#bfe6f5}
-.evh{font-size:13px;color:#8fb6c9;margin:18px 0 6px;font-weight:700}
+.evdate{font-size:13px;background:var(--bg-info);border-radius:8px;padding:8px 10px;margin:0 0 12px;color:var(--info-text)}
+.evh{font-size:13px;color:var(--muted);margin:18px 0 6px;font-weight:700}
 ul.ev{list-style:none;padding:0;margin:0}
-ul.ev li{display:flex;gap:10px;padding:9px 6px;border-bottom:1px solid #16303f;align-items:baseline}
-.evt{font-variant-numeric:tabular-nums;font-weight:700;color:#7fd4ff;min-width:50px}
-.evz{font-size:11px;background:#12374a;border-radius:6px;padding:2px 7px;color:#9fd0e4;white-space:nowrap}
-.evn{font-size:12px;color:#8fb6c9;display:block}
-ul.ev li.past{opacity:.45}
-ul.ev li.next{background:#0e3a4f;border-radius:8px}
+ul.ev li{display:flex;gap:10px;padding:9px 6px;border-bottom:1px solid var(--border2);align-items:baseline}
+.evt{font-variant-numeric:tabular-nums;font-weight:700;color:var(--accent2);min-width:50px}
+.evz{font-size:11.5px;background:var(--bg-tag);border-radius:6px;padding:2px 7px;color:var(--tag-text);white-space:nowrap;cursor:pointer}
+.evn{font-size:12.5px;color:var(--muted);display:block}
+ul.ev li.past{opacity:.55}
+ul.ev li.next{background:var(--bg-info);border-radius:8px}
 ul.lim{list-style:none;padding:0;margin:0}
-ul.lim li{padding:8px 4px;border-bottom:1px dashed #1d3c4f;font-size:14px}
+ul.lim li{padding:8px 4px;border-bottom:1px dashed var(--border);font-size:14px}
 ul.lim li:last-child{border:none}
 </style></head><body>
 <header>
 <h1>🐟 鳥羽水族館 生きものリスト</h1>
 <p class=sub1>飼育種類数 日本一・全1,327種（2025年飼育取扱種／公式年報 第22号より）</p>
+<button id=themeBtn onclick="cycleTheme()">🌓 自動</button>
 </header>
 <div class=tabs>
 <button id=t1 class=on onclick="tab(1)">ゾーン別</button>
@@ -269,5 +308,22 @@ function dictUrl(n){return 'https://ja.wikipedia.org/w/index.php?search='+encode
  var ms=document.querySelectorAll('ul.must li b');
  for(var i=0;i<ms.length;i++){add(ms[i],ms[i].textContent);}
 })();
+function themePref(){try{var t=localStorage.getItem('theme');return t==='light'||t==='dark'?t:null;}catch(e){return null;}}
+function applyTheme(){
+ var t=themePref();
+ if(t){document.documentElement.dataset.theme=t;}else{document.documentElement.removeAttribute('data-theme');}
+ var b=document.getElementById('themeBtn');
+ if(b)b.textContent=t==='light'?'☀️ ライト':(t==='dark'?'🌙 ダーク':'🌓 自動');
+ var light=t==='light'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches);
+ var m=document.querySelector('meta[name=theme-color]');
+ if(m)m.setAttribute('content',light?'#f2f7fa':'#0b1a26');
+}
+function cycleTheme(){
+ var t=themePref(), next=t===null?'light':(t==='light'?'dark':null);
+ try{if(next){localStorage.setItem('theme',next);}else{localStorage.removeItem('theme');}}catch(e){}
+ applyTheme();
+}
+if(window.matchMedia){matchMedia('(prefers-color-scheme: light)').addEventListener('change',applyTheme);}
+applyTheme();
 if('serviceWorker' in navigator&&location.protocol!=='file:'){navigator.serviceWorker.register('sw.js');}
 </script></body></html>
