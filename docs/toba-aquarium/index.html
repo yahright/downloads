@@ -265,7 +265,7 @@ ul.lim li:last-child{border:none}
 <details class=sub>
 <summary>⚙️ 設定（APIキー・モデル）</summary>
 <p class=hint style="margin:8px 0 4px">Anthropic APIキー（この端末のブラウザ内のみに保存）</p>
-<input id=apiKey type=password placeholder="sk-ant-api03-..." autocomplete=off oninput="aiSet('anthKey',this.value.trim())">
+<input id=apiKey type=password placeholder="sk-ant-api03-..." autocomplete=off oninput="this.value=cleanKey(this.value);aiSet('anthKey',this.value)">
 <p class=hint style="margin:8px 0 4px">判定モデル</p>
 <select id=aiModel onchange="aiSet('anthModel',this.value)">
 <option value=claude-haiku-4-5>Haiku 4.5（速い・安い 約4円/回）</option>
@@ -374,10 +374,13 @@ function buildSpeciesList(){
  SPECIES_LIST=out.join('\n');
  return SPECIES_LIST;
 }
+function cleanKey(s){return String(s||'').replace(/[^\x21-\x7e]/g,'');}
 function aiSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
 function aiGet(k){try{return localStorage.getItem(k)||'';}catch(e){return '';}}
 function initAI(){
- document.getElementById('apiKey').value=aiGet('anthKey');
+ var k=cleanKey(aiGet('anthKey'));
+ aiSet('anthKey',k);
+ document.getElementById('apiKey').value=k;
  var m=aiGet('anthModel');
  if(m)document.getElementById('aiModel').value=m;
 }
@@ -417,9 +420,10 @@ async function identify(input){
  var file=input.files&&input.files[0];
  input.value='';
  if(!file)return;
- var key=(document.getElementById('apiKey').value||'').trim();
+ var key=cleanKey(document.getElementById('apiKey').value);
  var st=document.getElementById('aiStatus'),res=document.getElementById('aiResult');
  if(!key){st.textContent='⚙️ 設定を開いてAPIキーを入力してください';return;}
+ if(key.indexOf('sk-ant')!==0){st.textContent='⚠️ APIキーの形式が正しくないようです（sk-ant- で始まるキーを入力してください）';return;}
  var model=document.getElementById('aiModel').value;
  res.innerHTML='';
  try{
