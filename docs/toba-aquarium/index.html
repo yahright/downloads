@@ -108,6 +108,20 @@ ul.ev li.next{background:var(--bg-info);border-radius:8px}
 ul.lim{list-style:none;padding:0;margin:0}
 ul.lim li{padding:8px 4px;border-bottom:1px dashed var(--border);font-size:14px}
 ul.lim li:last-child{border:none}
+#camBtn{display:block;width:100%;padding:16px;font-size:17px;font-weight:700;background:var(--bg-badge);color:#fff;border:none;border-radius:12px;margin:12px 0 8px;cursor:pointer}
+.aiSub{width:100%;padding:10px;font-size:13.5px;background:var(--bg-panel);border:1px solid var(--border3);color:var(--gb-text);border-radius:10px;margin:0 0 12px;cursor:pointer}
+#apiKey,#aiModel{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--border3);background:var(--bg-sub);color:var(--text-strong);font-size:14px;margin:2px 0 4px}
+#aiPreview{max-width:100%;border-radius:12px;margin:0 0 10px;display:none}
+#aiStatus{font-size:13.5px;color:var(--muted);margin:6px 0 10px}
+.cand{background:var(--bg-panel);border:1px solid var(--border);border-radius:12px;padding:12px 14px;margin:0 0 10px}
+.candHead{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:16px}
+.conf{font-size:11px;border-radius:6px;padding:2px 8px;white-space:nowrap;flex:none}
+.conf.ch{background:#177245;color:#e7f9ef}
+.conf.cm{background:#8a6d1a;color:#fdf3d5}
+.conf.cl{background:#7a3b3b;color:#fde3e3}
+.candSci{font-size:12px;color:var(--muted2);font-style:italic}
+.candWhy{font-size:13px;color:var(--muted);margin:4px 0 9px}
+.candBtn{background:var(--bg-chip);border:1px solid var(--border3);color:var(--chip-text);border-radius:10px;padding:6px 10px;font-size:12.5px;text-decoration:none;display:inline-block;cursor:pointer;margin-right:4px}
 </style></head><body>
 <header>
 <h1>🐟 鳥羽水族館 生きものリスト</h1>
@@ -118,6 +132,7 @@ ul.lim li:last-child{border:none}
 <button id=t1 class=on onclick="tab(1)">ゾーン別</button>
 <button id=t2 onclick="tab(2)">全種（1,327）</button>
 <button id=t3 onclick="tab(3)">イベント</button>
+<button id=t4 onclick="tab(4)">📷判定</button>
 </div>
 <main>
 <div id=p1>
@@ -246,6 +261,27 @@ ul.lim li:last-child{border:none}
 </ul>
 <p class=hint style="margin-top:10px">最新情報：<a href="https://aquarium.co.jp/show/">公式 ショー・お食事タイム</a>／<a href="https://aquarium.co.jp/event/">公式 イベント</a>（2026年8月10日時点の情報）</p>
 </div>
+<div id=p4 class=hidden>
+<details class=sub>
+<summary>⚙️ 設定（APIキー・モデル）</summary>
+<p class=hint style="margin:8px 0 4px">Anthropic APIキー（この端末のブラウザ内のみに保存）</p>
+<input id=apiKey type=password placeholder="sk-ant-api03-..." autocomplete=off oninput="aiSet('anthKey',this.value.trim())">
+<p class=hint style="margin:8px 0 4px">判定モデル</p>
+<select id=aiModel onchange="aiSet('anthModel',this.value)">
+<option value=claude-haiku-4-5>Haiku 4.5（速い・安い 約4円/回）</option>
+<option value=claude-sonnet-5>Sonnet 5（バランス 約10円/回）</option>
+<option value=claude-opus-5>Opus 5（最高精度 約20円/回）</option>
+</select>
+</details>
+<button id=camBtn onclick="document.getElementById('camIn').click()">📷 撮影して判定</button>
+<button class=aiSub onclick="document.getElementById('galIn').click()">🖼 写真を選んで判定</button>
+<input id=camIn type=file accept="image/*" capture=environment style="display:none" onchange="identify(this)">
+<input id=galIn type=file accept="image/*" style="display:none" onchange="identify(this)">
+<img id=aiPreview alt="撮影した写真">
+<p id=aiStatus></p>
+<div id=aiResult></div>
+<p class=hint>写真は縮小してAnthropic APIへ直接送信されます（中間サーバなし）。判定は鳥羽水族館の飼育リスト全1,327種に絞り込んで行うため、一般的な図鑑アプリより館内では精度が出やすい構成です。</p>
+</div>
 </main>
 <footer>
 出典：<a href="https://aquarium.co.jp/tobacms/wp-content/uploads/22-2026.pdf">鳥羽水族館年報 第22号（2026）飼育動物一覧表</a>／
@@ -256,7 +292,7 @@ ul.lim li:last-child{border:none}
 <script>
 var G='';
 function tab(n){
- for(var i=1;i<=3;i++){
+ for(var i=1;i<=4;i++){
   document.getElementById('p'+i).classList.toggle('hidden',n!=i);
   document.getElementById('t'+i).classList.toggle('on',n==i);
  }
@@ -325,6 +361,122 @@ function cycleTheme(){
 }
 if(window.matchMedia){matchMedia('(prefers-color-scheme: light)').addEventListener('change',applyTheme);}
 applyTheme();
+// ===== AI判定（カメラ同定） =====
+var SPECIES_LIST='';
+function buildSpeciesList(){
+ if(SPECIES_LIST)return SPECIES_LIST;
+ var out=[],g='',items=document.querySelectorAll('#list li');
+ for(var i=0;i<items.length;i++){
+  var li=items[i];
+  if(li.dataset.g!==g){g=li.dataset.g;out.push('\n【'+g+'】');}
+  out.push(li.dataset.n);
+ }
+ SPECIES_LIST=out.join('\n');
+ return SPECIES_LIST;
+}
+function aiSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function aiGet(k){try{return localStorage.getItem(k)||'';}catch(e){return '';}}
+function initAI(){
+ document.getElementById('apiKey').value=aiGet('anthKey');
+ var m=aiGet('anthModel');
+ if(m)document.getElementById('aiModel').value=m;
+}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function resizeImage(file){
+ return new Promise(function(res,rej){
+  var img=new Image();
+  img.onload=function(){
+   var max=1024,w=img.width,h=img.height;
+   if(Math.max(w,h)>max){var r=max/Math.max(w,h);w=Math.round(w*r);h=Math.round(h*r);}
+   var c=document.createElement('canvas');c.width=w;c.height=h;
+   c.getContext('2d').drawImage(img,0,0,w,h);
+   URL.revokeObjectURL(img.src);
+   res(c.toDataURL('image/jpeg',0.8));
+  };
+  img.onerror=function(){rej(new Error('画像を読み込めませんでした'));};
+  img.src=URL.createObjectURL(file);
+ });
+}
+var AI_SCHEMA={
+ type:'object',additionalProperties:false,required:['candidates','note'],
+ properties:{
+  candidates:{type:'array',items:{
+   type:'object',additionalProperties:false,
+   required:['name','sci','in_list','confidence','reason'],
+   properties:{
+    name:{type:'string',description:'和名。飼育リスト内ならリスト記載どおりの表記'},
+    sci:{type:'string',description:'学名'},
+    in_list:{type:'boolean',description:'飼育リスト内の種ならtrue'},
+    confidence:{type:'string',enum:['高','中','低']},
+    reason:{type:'string',description:'同定根拠（1文で簡潔に）'}
+   }}},
+  note:{type:'string',description:'補足（リスト外の可能性、識別ポイントなど）。無ければ空文字'}
+ }
+};
+async function identify(input){
+ var file=input.files&&input.files[0];
+ input.value='';
+ if(!file)return;
+ var key=(document.getElementById('apiKey').value||'').trim();
+ var st=document.getElementById('aiStatus'),res=document.getElementById('aiResult');
+ if(!key){st.textContent='⚙️ 設定を開いてAPIキーを入力してください';return;}
+ var model=document.getElementById('aiModel').value;
+ res.innerHTML='';
+ try{
+  var dataUrl=await resizeImage(file);
+  var pv=document.getElementById('aiPreview');
+  pv.src=dataUrl;pv.style.display='block';
+  st.textContent='🔍 判定中…（'+model+'）';
+  var body={
+   model:model,
+   max_tokens:8000,
+   system:[
+    {type:'text',text:'あなたは鳥羽水族館の生きもの同定アシスタント。ユーザーが館内で撮影した写真の生き物を同定する。次に示す館の飼育種リスト（2025年度・全1,327種）の中から最も可能性の高い候補を最大3件、確信度付きで挙げること。リスト内に該当が見つからない場合は in_list を false にして一般的な名前で答え、note で説明する。水槽のガラス・照明・背景で色や大きさの印象が変わることを考慮する。'},
+    {type:'text',text:'## 飼育種リスト\n'+buildSpeciesList(),cache_control:{type:'ephemeral'}}
+   ],
+   messages:[{role:'user',content:[
+    {type:'image',source:{type:'base64',media_type:'image/jpeg',data:dataUrl.split(',')[1]}},
+    {type:'text',text:'この写真の生き物を同定してください。'}
+   ]}],
+   output_config:{format:{type:'json_schema',schema:AI_SCHEMA}}
+  };
+  var r=await fetch('https://api.anthropic.com/v1/messages',{
+   method:'POST',
+   headers:{'content-type':'application/json','x-api-key':key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+   body:JSON.stringify(body)
+  });
+  var j=await r.json();
+  if(!r.ok)throw new Error((j.error&&j.error.message)||('HTTP '+r.status));
+  if(j.stop_reason==='refusal'){st.textContent='判定できませんでした（応答が拒否されました）';return;}
+  var text='';
+  for(var i=0;i<j.content.length;i++){if(j.content[i].type==='text'){text=j.content[i].text;break;}}
+  renderAI(JSON.parse(text),j.usage);
+  st.textContent='';
+ }catch(e){st.textContent='⚠️ エラー: '+e.message;}
+}
+function renderAI(d,usage){
+ var h='',cs=d.candidates||[];
+ if(!cs.length)h='<p class=hint>候補が見つかりませんでした。角度や距離を変えて撮り直してみてください。</p>';
+ for(var i=0;i<cs.length;i++){
+  var c=cs[i],cls=c.confidence==='高'?'ch':(c.confidence==='中'?'cm':'cl');
+  h+='<div class=cand>'
+   +'<div class=candHead><b>'+esc(c.name)+'</b><span class="conf '+cls+'">確信度 '+esc(c.confidence)+'</span></div>'
+   +'<div class=candSci>'+esc(c.sci)+'</div>'
+   +'<div class=candWhy>'+esc(c.reason)+'</div>'
+   +'<div>'
+   +(c.in_list?'<button class=candBtn data-goto="'+esc(c.name)+'">📚 リストで見る</button>':'<span class="conf cl" style="margin-right:6px">リスト外の可能性</span>')
+   +'<a class=candBtn href="'+dictUrl(c.name)+'" target=_blank rel=noopener>📖 Wikipedia</a>'
+   +'</div></div>';
+ }
+ if(d.note)h+='<p class=hint>'+esc(d.note)+'</p>';
+ if(usage)h+='<p class=hint style="opacity:.7">tokens: in '+usage.input_tokens+' / out '+usage.output_tokens+(usage.cache_read_input_tokens?' / cache読み '+usage.cache_read_input_tokens:'')+'</p>';
+ document.getElementById('aiResult').innerHTML=h;
+}
+document.getElementById('aiResult').addEventListener('click',function(e){
+ var b=e.target.closest('[data-goto]');
+ if(b){tab(2);var s=document.getElementById('search');s.value=b.dataset.goto;filt();}
+});
+initAI();
 if('serviceWorker' in navigator&&location.protocol!=='file:'){
  navigator.serviceWorker.register('sw.js');
  // 新しいSWが有効になったら一度だけ自動リロード（更新を即反映）
