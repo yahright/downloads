@@ -1,9 +1,14 @@
 {
-  "version": "0.9.3.46",
+  "version": "0.9.3.47",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(updates): show multi-version release notes in Check for Updates\n- feat(search): implement persistent filter functionality in search results view\n- Merge remote-tracking branch 'origin/feature/update-notes-history'",
+  "notes": "- Fix parent row external actions",
   "notesHistory": [
+    {
+      "version": "0.9.3.47",
+      "notes": "- Fix parent row external actions",
+      "publishedAtUtc": "2026-08-13T04:41:57Z"
+    },
     {
       "version": "0.9.3.46",
       "notes": "- feat(updates): show multi-version release notes in Check for Updates\n- feat(search): implement persistent filter functionality in search results view\n- Merge remote-tracking branch 'origin/feature/update-notes-history'",
@@ -19,16 +24,16 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.46/InsightFlow-0.9.3.46-win-x64-portable.zip",
-      "sha256": "de822dd9e5be8367a12b4f26047f8e2373cfa4c733e83dcf4172288210d3edd1",
-      "size": 94560311
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.47/InsightFlow-0.9.3.47-win-x64-portable.zip",
+      "sha256": "bcecad4cfdb97e29b48a45188595812e25b1c058c967d0da2a0dd17a1ef421e6",
+      "size": 94558098
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.46/InsightFlow-0.9.3.46-win-arm64-portable.zip",
-      "sha256": "51d8c338e98fe9e7dcf627b31477f57d7da8965b3f7a65e809b5b17f83bd1281",
-      "size": 91206894
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.47/InsightFlow-0.9.3.47-win-arm64-portable.zip",
+      "sha256": "2883737506b3c36d824f6cfee0b209f75b8f5e54cfda5f0c6fecadfe0064e552",
+      "size": 91204690
     }
   ]
 }
