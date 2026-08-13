@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.24.0",
-  "build": 30,
+  "version": "1.25.0",
+  "build": 31,
   "releasedAt": "2026-08-13",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.24.0",
-  "notes": "Stask 1.24.0 macOS release: focus goal display and branch map layout fixes.",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.25.0",
+  "notes": "Stask 1.25.0: macOS arm64 and Android arm64 release.",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,18 @@
       "kind": "dmg",
       "os": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.24.0/Stask-1.24.0-macos-arm64.dmg",
-      "sha256": "1856fd9d388ff318340984f4fb8d9640450da54781b5380cd78038cb9ddff09b",
-      "size": 28832059
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.25.0/Stask-1.25.0-macos-arm64.dmg",
+      "sha256": "d76fd535e2b8430483ad224c9d28eef450ee242c9f0b5890f582d0b7adddea7b",
+      "size": 29831999
+    },
+    {
+      "platform": "android-arm64",
+      "kind": "apk",
+      "os": "android",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.25.0/Stask-1.25.0-android-arm64.apk",
+      "sha256": "8735fab33123a630e6e1b756c10b3111423ced0043155b3c4921d46fdfc5ee5f",
+      "size": 30702449
     }
   ],
   "appcat": {
