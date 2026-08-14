@@ -1,22 +1,22 @@
 {
-  "version": "0.9.3.42",
+  "version": "0.9.3.48",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.9.3.42",
-  "notes": "- Avoid preview path lookup when preview is disabled\n- Guard focus debug data construction\n- Avoid disabled key debug payload allocation\n- Cache AI debug environment setting at startup\n- Improve disk cleanup deletion controls",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.9.3.48",
+  "notes": "- Improve duplicate finder selection UX\n- Add filtering and folder-aware selection actions to Duplicate Finder\n- Add Copy path and external folder selection actions to duplicate results",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-osx-arm64-app.zip",
-      "sha256": "e78d491a5ca02274dcfd1da3e8a33e767b18212aa9857bc5c1b7b6362324df0d",
-      "size": 88998071
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.48/InsightFlow-0.9.3.48-osx-arm64-app.zip",
+      "sha256": "688182cdb9a61d5ba41f9674a9f8a4ecf742ddf6b30a288977a65fcf97e6fe47",
+      "size": 89051924
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.42/InsightFlow-0.9.3.42-osx-arm64.dmg",
-      "sha256": "4ed356aa12b6389fca20d5e127c5ea69b3279fcd71e2f0960334e24245a1327f",
-      "size": 96872030
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.48/InsightFlow-0.9.3.48-osx-arm64.dmg",
+      "sha256": "6216f853b6868cdb1d8dbe2fe865851931ab7c87a50f58dd4c5465b51dbdb32c",
+      "size": 96924730
     }
   ]
 }
