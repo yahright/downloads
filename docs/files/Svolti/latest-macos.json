@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "channel": "Beta",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/svolti-v0.1.0",
+  "notes": "- Initial public macOS release\n- Local music library search, playback, and playlists\n- FLAC, WAV, AIFF, MP3, M4A, Ogg, Opus, WavPack, APE, and CUE support",
+  "downloads": [
+    {
+      "platform": "osx-arm64",
+      "kind": "app-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/svolti-v0.1.0/Svolti-0.1.0-macos-arm64-app.zip",
+      "sha256": "2728c1a0dedda745e14bfa95464c8db5bd151f6800fb3e1cf8358514b03a5e9b",
+      "size": 39879954
+    },
+    {
+      "platform": "osx-arm64",
+      "kind": "dmg",
+      "url": "https://github.com/yahright/downloads/releases/download/svolti-v0.1.0/Svolti-0.1.0-macos-arm64.dmg",
+      "sha256": "76a066f14ddd4b4cae0b350f12f18715b4e1b22e321bcf7ae9f9096b9a6df8e9",
+      "size": 43773696
+    }
+  ]
+}
