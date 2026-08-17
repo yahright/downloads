@@ -1,29 +1,20 @@
 {
   "schema": 1,
-  "version": "1.25.0",
-  "build": 31,
-  "releasedAt": "2026-08-13",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.25.0",
-  "notes": "Stask 1.25.0: macOS arm64 and Android arm64 release.",
+  "version": "1.26.0",
+  "build": 32,
+  "releasedAt": "2026-08-17",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.26.0",
+  "notes": "タスク複数選択とTOCマップ編集を強化したWindows x64向け更新です。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
-      "platform": "macos-arm64",
-      "kind": "dmg",
-      "os": "darwin",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.25.0/Stask-1.25.0-macos-arm64.dmg",
-      "sha256": "d76fd535e2b8430483ad224c9d28eef450ee242c9f0b5890f582d0b7adddea7b",
-      "size": 29831999
-    },
-    {
-      "platform": "android-arm64",
-      "kind": "apk",
-      "os": "android",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.25.0/Stask-1.25.0-android-arm64.apk",
-      "sha256": "8735fab33123a630e6e1b756c10b3111423ced0043155b3c4921d46fdfc5ee5f",
-      "size": 30702449
+      "platform": "windows-x64",
+      "kind": "portable-zip",
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.26.0/Stask-1.26.0-windows-x64.zip",
+      "sha256": "6af18c10f19ee18d66d5539c9a80a6d28f574cf772d94d29e5ecca733c7dba86",
+      "size": 17058484
     }
   ],
   "appcat": {
@@ -36,11 +27,11 @@
       "mac-dev"
     ],
     "targets": {
-      "darwin": {
-        "strip_components": 0,
-        "entry": "Stask.app",
-        "version_kind": "plist",
-        "version_field": "CFBundleShortVersionString"
+      "windows": {
+        "strip_components": 1,
+        "entry": "Stask.exe",
+        "version_kind": "pe",
+        "version_field": "FileVersion"
       }
     }
   }
