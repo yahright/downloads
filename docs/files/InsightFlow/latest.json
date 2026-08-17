@@ -1,9 +1,14 @@
 {
-  "version": "0.9.3.47",
+  "version": "0.9.3.49",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix parent row external actions",
+  "notes": "- feat(dialogs): generate date-based names in the create folder/file dialogs",
   "notesHistory": [
+    {
+      "version": "0.9.3.49",
+      "notes": "- feat(dialogs): generate date-based names in the create folder/file dialogs",
+      "publishedAtUtc": "2026-08-17T03:16:43Z"
+    },
     {
       "version": "0.9.3.47",
       "notes": "- Fix parent row external actions",
@@ -24,16 +29,16 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.47/InsightFlow-0.9.3.47-win-x64-portable.zip",
-      "sha256": "bcecad4cfdb97e29b48a45188595812e25b1c058c967d0da2a0dd17a1ef421e6",
-      "size": 94558098
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.49/InsightFlow-0.9.3.49-win-x64-portable.zip",
+      "sha256": "4bfb06771c95e7bd315523b91787dc6f19ef1fe0e65aac8cecec2f2fde71a9a4",
+      "size": 94566550
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.47/InsightFlow-0.9.3.47-win-arm64-portable.zip",
-      "sha256": "2883737506b3c36d824f6cfee0b209f75b8f5e54cfda5f0c6fecadfe0064e552",
-      "size": 91204690
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.49/InsightFlow-0.9.3.49-win-arm64-portable.zip",
+      "sha256": "41294efde07af2c1a730c5f36ad1b18c918bf5202fd3c633104a3b77dd0a23c7",
+      "size": 91213133
     }
   ]
 }
