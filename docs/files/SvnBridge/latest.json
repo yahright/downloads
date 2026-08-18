@@ -1,27 +1,27 @@
 {
   "version": "1.1.0",
   "tag": "svnbridge-v1.1.0",
-  "releaseDateUtc": "2026-08-05T20:36:41Z",
+  "releaseDateUtc": "2026-08-18T22:53:52Z",
   "downloads": [
     {
       "product": "SvnBridge",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/svnbridge-v1.1.0/SvnBridge-1.1.0-windows-portable.zip",
-      "sha256": "b889a72f58866cebebe1b487d3acf46141cdc1e984e104948959451af7331456",
+      "sha256": "f9a8833670e45d5889416c4d3e3bf1dc06518680ac7846970a10e7069c851e18",
       "size": 14101
     },
     {
       "product": "SvnBridge for Visual Studio",
       "kind": "vsix",
       "url": "https://github.com/yahright/downloads/releases/download/svnbridge-v1.1.0/SvnBridge-1.1.0-visualstudio.vsix",
-      "sha256": "8ccc13c7d671d4040e27dca977cb2794c8167a93f5f20d027ad03aedde161c82",
-      "size": 9699
+      "sha256": "bc370b0ea6e256d88317839a6890801fea2d24aea74d50f0ea44b500cd865881",
+      "size": 9700
     },
     {
       "product": "SvnBridge for VSCode",
       "kind": "vscode-vsix",
       "url": "https://github.com/yahright/downloads/releases/download/svnbridge-v1.1.0/SvnBridge-1.1.0-vscode.vsix",
-      "sha256": "61655bdf73680481d0d1074a660c12944ff105aeb3c3598fdd7db6632f02de7b",
+      "sha256": "9cc4cd769baa02ed61bea4a62b9c9f67331096df4e8f32090a4674530834232d",
       "size": 4413
     }
   ]
