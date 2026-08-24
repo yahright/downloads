@@ -1,9 +1,14 @@
 {
-  "version": "0.9.3.49",
+  "version": "0.10.0",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(dialogs): generate date-based names in the create folder/file dialogs",
+  "notes": "- feat(update): explain automatic restart before install\n- ex\n- feat(context-menu): group path/name copying under a Copy Path submenu\n- docs: add documentation for survey filers structure\n- 指示書\n- 指示書\n- feat(ui): complete phase 0 and U1 foundation\n- feat(ui): centralize dialog styling and keyboard behavior\n- feat(ui): polish product-facing dialogs and settings\n- feat(ui): add shared Fluent icon system\n- feat(ui): tokenize view colors for light and dark themes\n- feat(ui): redesign application states and feature screens\n- feat(checksum): add background compute and verification\n- feat(navigation): add relative pane lock\n- feat(pane): calculate folder sizes on demand\n- feat(pane): add recursive flat view\n- feat(workspace): add named tab workspaces\n- feat(preview): complete macOS Quick Look workflow\n- feat(file-ops): add conservative operation undo journal\n- feat(virtual-folders): add dynamic smart folders\n- feat(metadata): add opt-in media columns\n- feat(archives): add atomic ZIP updates\n- feat(pdf): add background text search and selection\n- docs(sftp): define VFS and security boundaries\n- feat(sftp): add opt-in remote file operations\n- docs(testing): refresh automation coverage",
   "notesHistory": [
+    {
+      "version": "0.10.0",
+      "notes": "- feat(update): explain automatic restart before install\n- ex\n- feat(context-menu): group path/name copying under a Copy Path submenu\n- docs: add documentation for survey filers structure\n- 指示書\n- 指示書\n- feat(ui): complete phase 0 and U1 foundation\n- feat(ui): centralize dialog styling and keyboard behavior\n- feat(ui): polish product-facing dialogs and settings\n- feat(ui): add shared Fluent icon system\n- feat(ui): tokenize view colors for light and dark themes\n- feat(ui): redesign application states and feature screens\n- feat(checksum): add background compute and verification\n- feat(navigation): add relative pane lock\n- feat(pane): calculate folder sizes on demand\n- feat(pane): add recursive flat view\n- feat(workspace): add named tab workspaces\n- feat(preview): complete macOS Quick Look workflow\n- feat(file-ops): add conservative operation undo journal\n- feat(virtual-folders): add dynamic smart folders\n- feat(metadata): add opt-in media columns\n- feat(archives): add atomic ZIP updates\n- feat(pdf): add background text search and selection\n- docs(sftp): define VFS and security boundaries\n- feat(sftp): add opt-in remote file operations\n- docs(testing): refresh automation coverage",
+      "publishedAtUtc": "2026-08-24T15:11:24Z"
+    },
     {
       "version": "0.9.3.49",
       "notes": "- feat(dialogs): generate date-based names in the create folder/file dialogs",
@@ -29,16 +34,16 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.49/InsightFlow-0.9.3.49-win-x64-portable.zip",
-      "sha256": "4bfb06771c95e7bd315523b91787dc6f19ef1fe0e65aac8cecec2f2fde71a9a4",
-      "size": 94566550
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.0/InsightFlow-0.10.0-win-x64-portable.zip",
+      "sha256": "421e1878140652e76aab77957e9184aa13ed86e0a759fa2654c1a435ace04dc8",
+      "size": 98161548
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.9.3.49/InsightFlow-0.9.3.49-win-arm64-portable.zip",
-      "sha256": "41294efde07af2c1a730c5f36ad1b18c918bf5202fd3c633104a3b77dd0a23c7",
-      "size": 91213133
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.0/InsightFlow-0.10.0-win-arm64-portable.zip",
+      "sha256": "46a2c77dd1c8e3b33e883ed2ff1b71bd3772aa1fec8b5ca3cdf56e861803e677",
+      "size": 94808144
     }
   ]
 }
