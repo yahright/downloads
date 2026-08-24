@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.26.0",
-  "build": 32,
-  "releasedAt": "2026-08-17",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.26.0",
-  "notes": "タスク複数選択とTOCマップ編集を強化したWindows x64向け更新です。",
+  "version": "1.27.0",
+  "build": 33,
+  "releasedAt": "2026-08-25",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.27.0",
+  "notes": "デスクトップUIを全面的に高密度化したWindows x64向け更新です。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.26.0/Stask-1.26.0-windows-x64.zip",
-      "sha256": "6af18c10f19ee18d66d5539c9a80a6d28f574cf772d94d29e5ecca733c7dba86",
-      "size": 17058484
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.27.0/Stask-1.27.0-windows-x64.zip",
+      "sha256": "3f2b02ee58142fe77d941c5ccf07f31129c52cbd68288ee86f2b5d9c1438988e",
+      "size": 17062933
     }
   ],
   "appcat": {
