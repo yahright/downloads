@@ -1,9 +1,14 @@
 {
-  "version": "0.10.1",
+  "version": "0.10.2",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix pane hover and restore startup options",
+  "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
   "notesHistory": [
+    {
+      "version": "0.10.2",
+      "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
+      "publishedAtUtc": "2026-08-25T06:03:37Z"
+    },
     {
       "version": "0.10.1",
       "notes": "- Fix pane hover and restore startup options",
@@ -39,16 +44,16 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.1/InsightFlow-0.10.1-win-x64-portable.zip",
-      "sha256": "aae6e7799f2cb06d28bb912787ba6e74a99cd6ce299b5a52935ba5212b29ef1d",
-      "size": 98161729
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-win-x64-portable.zip",
+      "sha256": "1c0312d020640f06c43c2194db396b7170dfdff7d2e56d09a93f8f11706732ed",
+      "size": 98163965
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.1/InsightFlow-0.10.1-win-arm64-portable.zip",
-      "sha256": "1939a56b031e36377d95f19d87b9868a888154803c202e5e57168234d63ad09b",
-      "size": 94808311
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-win-arm64-portable.zip",
+      "sha256": "6a1ba471070ace38f7a374e381bef7a73f4e88ce00679e7b5f5e2ec815c961bb",
+      "size": 94810558
     }
   ]
 }
