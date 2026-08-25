@@ -1,22 +1,22 @@
 {
-  "version": "0.10.2",
+  "version": "0.10.3",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.2",
-  "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.3",
+  "notes": "- Fix Space so it marks rows again on macOS\n- Open pinned preview windows with Ctrl+Shift+F3 (they never follow the cursor)\n- Add an optional file attributes column\n- Remove the active pane selection fill",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-osx-arm64-app.zip",
-      "sha256": "6626956af94d1c7e85877db1a3298f5a9c2a1b4eb531a0852ba2e8ed3429146d",
-      "size": 92707398
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.3/InsightFlow-0.10.3-osx-arm64-app.zip",
+      "sha256": "81de3e8794d2d12ebc417cbf694be16a649ee1e43f4942a302920210c72e6877",
+      "size": 92708464
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-osx-arm64.dmg",
-      "sha256": "0deb98b5f01bc9e61c7ebafce9b7fde2823c37a06a7d4f0f0af505e8aa966d09",
-      "size": 100885864
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.3/InsightFlow-0.10.3-osx-arm64.dmg",
+      "sha256": "f55efb63c154c77509f94287f5d020874baa7887c3d112be6c69b329f629c233",
+      "size": 100865050
     }
   ]
 }
