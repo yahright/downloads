@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "version": "1.28.0",
-  "build": 34,
-  "releasedAt": "2026-08-25",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.28.0",
-  "notes": "Stask 1.28.0: macOS Apple Silicon signed and notarized release.",
-  "minSupported": "1.0.0",
+  "version": "1.29.0",
+  "build": 35,
+  "releasedAt": "2026-08-26",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.29.0",
+  "notes": "macOSアプリ内更新の作り直し、レーン機能を追加",
+  "minSupported": "1.29.0",
   "artifacts": [
     {
       "platform": "macos-arm64",
       "kind": "dmg",
       "os": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.28.0/Stask-1.28.0-macos-arm64.dmg",
-      "sha256": "cfd19a9bd43f5a9fa4997a2fc3d620349ba31173b10cd08b8e1492d24fb367e9",
-      "size": 29934288
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-macos-arm64.dmg",
+      "sha256": "e6b0d3df6fda680352a1df040ef9991846f6ab213c6da205d80eaadfb55f2d8c",
+      "size": 30011965
     }
   ],
   "appcat": {
