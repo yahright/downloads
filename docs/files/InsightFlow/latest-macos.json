@@ -1,22 +1,22 @@
 {
-  "version": "0.10.0",
+  "version": "0.10.2",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.0",
-  "notes": "- Refresh shared UI foundation, dialogs, icons, colors, and application states\n- Add checksum verification, pane navigation lock, folder sizes, flat view, and named workspaces\n- Complete macOS Quick Look workflow and add PDF text search\n- Add conservative file-operation undo, smart folders, opt-in media columns, and atomic ZIP updates\n- Add opt-in SFTP remote file operations with password, private-key, and ssh-agent authentication",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.2",
+  "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.0/InsightFlow-0.10.0-osx-arm64-app.zip",
-      "sha256": "ae03aadc6cd480acc0c732c92f0f8464c2737e243b7bd972e1cb7d9a51e9f3b2",
-      "size": 92703352
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-osx-arm64-app.zip",
+      "sha256": "6626956af94d1c7e85877db1a3298f5a9c2a1b4eb531a0852ba2e8ed3429146d",
+      "size": 92707398
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.0/InsightFlow-0.10.0-osx-arm64.dmg",
-      "sha256": "b27b27d12e5e2a6b91483d5566e7f387cf2b2a12ca62528bf04b3ea6f6cd5715",
-      "size": 100891974
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-osx-arm64.dmg",
+      "sha256": "0deb98b5f01bc9e61c7ebafce9b7fde2823c37a06a7d4f0f0af505e8aa966d09",
+      "size": 100885864
     }
   ]
 }
