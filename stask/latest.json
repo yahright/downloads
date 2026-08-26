@@ -4,9 +4,18 @@
   "build": 35,
   "releasedAt": "2026-08-26",
   "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.29.0",
-  "notes": "macOSアプリ内更新の作り直し、レーン機能を追加",
+  "notes": "macOSアプリ内更新の作り直し、レーン機能、Windows x64版を追加",
   "minSupported": "1.29.0",
   "artifacts": [
+    {
+      "platform": "windows-x64",
+      "kind": "portable-zip",
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-windows-x64.zip",
+      "sha256": "fdafbee5a60e9716b898158d93472b0efd60e7a84568ed229b9113792a24ddde",
+      "size": 17071371
+    },
     {
       "platform": "macos-arm64",
       "kind": "dmg",
@@ -32,6 +41,12 @@
         "entry": "Stask.app",
         "version_kind": "plist",
         "version_field": "CFBundleShortVersionString"
+      },
+      "windows": {
+        "strip_components": 1,
+        "entry": "Stask.exe",
+        "version_kind": "pe",
+        "version_field": "FileVersion"
       }
     }
   }
