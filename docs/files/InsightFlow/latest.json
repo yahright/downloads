@@ -1,9 +1,14 @@
 {
-  "version": "0.10.2",
+  "version": "0.10.3",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
+  "notes": "- feat(git): enhance Git ignore functionality with new rules and commands\n- feat(rendering): detect slow GPU environments and suggest software rendering",
   "notesHistory": [
+    {
+      "version": "0.10.3",
+      "notes": "- feat(git): enhance Git ignore functionality with new rules and commands\n- feat(rendering): detect slow GPU environments and suggest software rendering",
+      "publishedAtUtc": "2026-08-26T07:45:12Z"
+    },
     {
       "version": "0.10.2",
       "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
@@ -44,16 +49,16 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-win-x64-portable.zip",
-      "sha256": "1c0312d020640f06c43c2194db396b7170dfdff7d2e56d09a93f8f11706732ed",
-      "size": 98163965
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.3/InsightFlow-0.10.3-win-x64-portable.zip",
+      "sha256": "322df385a2bb87023097671776c26c5e785f63230029f367e24d6f4bb538b8a7",
+      "size": 98171083
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.2/InsightFlow-0.10.2-win-arm64-portable.zip",
-      "sha256": "6a1ba471070ace38f7a374e381bef7a73f4e88ce00679e7b5f5e2ec815c961bb",
-      "size": 94810558
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.3/InsightFlow-0.10.3-win-arm64-portable.zip",
+      "sha256": "55305a74add86f0c1be28bd545fba58df5c8c51510480c00b16a22f9f4b9107b",
+      "size": 94817665
     }
   ]
 }
