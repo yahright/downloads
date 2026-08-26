@@ -2,9 +2,9 @@
   "schema": 1,
   "version": "1.29.0",
   "build": 35,
-  "releasedAt": "2026-08-26",
+  "releasedAt": "2026-08-27",
   "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.29.0",
-  "notes": "macOSアプリ内更新の作り直し、レーン機能、Windows x64版を追加",
+  "notes": "macOSアプリ内更新の作り直し、レーン機能、Android・Windows x64版を追加",
   "minSupported": "1.29.0",
   "artifacts": [
     {
@@ -24,6 +24,15 @@
       "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-macos-arm64.dmg",
       "sha256": "e6b0d3df6fda680352a1df040ef9991846f6ab213c6da205d80eaadfb55f2d8c",
       "size": 30011965
+    },
+    {
+      "platform": "android-arm64",
+      "kind": "apk",
+      "os": "android",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-android-arm64.apk",
+      "sha256": "cd1564c62416a0d244ea867a8a575a32a663d4f57a522729c834c8ba9bce5e68",
+      "size": 30770392
     }
   ],
   "appcat": {
