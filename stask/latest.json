@@ -1,38 +1,20 @@
 {
   "schema": 1,
-  "version": "1.29.0",
-  "build": 35,
-  "releasedAt": "2026-08-27",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.29.0",
-  "notes": "macOSアプリ内更新の作り直し、レーン機能、Android・Windows x64版を追加",
+  "version": "1.30.0",
+  "build": 36,
+  "releasedAt": "2026-08-29",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.30.0",
+  "notes": "Stask 1.30.0: macOS desktop shell and browser-style tabs.",
   "minSupported": "1.29.0",
   "artifacts": [
-    {
-      "platform": "windows-x64",
-      "kind": "portable-zip",
-      "os": "windows",
-      "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-windows-x64.zip",
-      "sha256": "fdafbee5a60e9716b898158d93472b0efd60e7a84568ed229b9113792a24ddde",
-      "size": 17071371
-    },
     {
       "platform": "macos-arm64",
       "kind": "dmg",
       "os": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-macos-arm64.dmg",
-      "sha256": "e6b0d3df6fda680352a1df040ef9991846f6ab213c6da205d80eaadfb55f2d8c",
-      "size": 30011965
-    },
-    {
-      "platform": "android-arm64",
-      "kind": "apk",
-      "os": "android",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.29.0/Stask-1.29.0-android-arm64.apk",
-      "sha256": "cd1564c62416a0d244ea867a8a575a32a663d4f57a522729c834c8ba9bce5e68",
-      "size": 30770392
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.30.0/Stask-1.30.0-macos-arm64.dmg",
+      "sha256": "7daea08361e6068c8f5b440ebf4356e42d4491e42923d1eaaeb58bb2ad39763a",
+      "size": 30052839
     }
   ],
   "appcat": {
@@ -50,12 +32,6 @@
         "entry": "Stask.app",
         "version_kind": "plist",
         "version_field": "CFBundleShortVersionString"
-      },
-      "windows": {
-        "strip_components": 1,
-        "entry": "Stask.exe",
-        "version_kind": "pe",
-        "version_field": "FileVersion"
       }
     }
   }
