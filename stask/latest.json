@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "version": "1.30.0",
-  "build": 36,
-  "releasedAt": "2026-08-29",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.30.0",
-  "notes": "Stask 1.30.0: macOS desktop shell and browser-style tabs.",
+  "version": "1.31.0",
+  "build": 37,
+  "releasedAt": "2026-08-31",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.31.0",
+  "notes": "同期競合の3方向マージ、削除墓標、取り込み前の復元を追加",
   "minSupported": "1.29.0",
   "artifacts": [
     {
-      "platform": "macos-arm64",
-      "kind": "dmg",
-      "os": "darwin",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.30.0/Stask-1.30.0-macos-arm64.dmg",
-      "sha256": "7daea08361e6068c8f5b440ebf4356e42d4491e42923d1eaaeb58bb2ad39763a",
-      "size": 30052839
+      "platform": "windows-x64",
+      "kind": "portable-zip",
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.31.0/Stask-1.31.0-windows-x64.zip",
+      "sha256": "6c732458fafe4738b4654f670c4bfff3cd9d8ea17739a011692558871cbbbe28",
+      "size": 17114207
     }
   ],
   "appcat": {
@@ -27,11 +27,11 @@
       "mac-dev"
     ],
     "targets": {
-      "darwin": {
-        "strip_components": 0,
-        "entry": "Stask.app",
-        "version_kind": "plist",
-        "version_field": "CFBundleShortVersionString"
+      "windows": {
+        "strip_components": 1,
+        "entry": "Stask.exe",
+        "version_kind": "pe",
+        "version_field": "FileVersion"
       }
     }
   }
