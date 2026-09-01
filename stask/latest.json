@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.31.0",
-  "build": 37,
-  "releasedAt": "2026-08-31",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.31.0",
-  "notes": "Stask 1.31.0: three-way sync merge and signed macOS release.",
+  "version": "1.32.0",
+  "build": 38,
+  "releasedAt": "2026-09-01",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.32.0",
+  "notes": "Stask 1.32.0: project overview and independent sidebar header actions.",
   "minSupported": "1.29.0",
   "artifacts": [
     {
@@ -12,18 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.31.0/Stask-1.31.0-windows-x64.zip",
-      "sha256": "6c732458fafe4738b4654f670c4bfff3cd9d8ea17739a011692558871cbbbe28",
-      "size": 17114207
-    },
-    {
-      "platform": "macos-arm64",
-      "kind": "dmg",
-      "os": "darwin",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.31.0/Stask-1.31.0-macos-arm64.dmg",
-      "sha256": "047ee2ee069e9d8de0ada47cfd6426ebbe0cabcbfea028a2835b6f93c70e5120",
-      "size": 30090014
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.32.0/Stask-1.32.0-windows-x64.zip",
+      "sha256": "0fea2ae0aa072427ddd46bac2c9241949c50ea94bac02ecb17deb494cee3b8d0",
+      "size": 17140539
     }
   ],
   "appcat": {
@@ -36,12 +27,6 @@
       "mac-dev"
     ],
     "targets": {
-      "darwin": {
-        "strip_components": 0,
-        "entry": "Stask.app",
-        "version_kind": "plist",
-        "version_field": "CFBundleShortVersionString"
-      },
       "windows": {
         "strip_components": 1,
         "entry": "Stask.exe",
