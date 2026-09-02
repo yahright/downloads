@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.32.0",
-  "build": 38,
-  "releasedAt": "2026-09-01",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.32.0",
-  "notes": "Stask 1.32.0: project overview and independent sidebar header actions.",
+  "version": "1.33.0",
+  "build": 39,
+  "releasedAt": "2026-09-02",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.33.0",
+  "notes": "Windows x64向け Stask 1.33.0",
   "minSupported": "1.29.0",
   "artifacts": [
     {
@@ -12,9 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.32.0/Stask-1.32.0-windows-x64.zip",
-      "sha256": "0fea2ae0aa072427ddd46bac2c9241949c50ea94bac02ecb17deb494cee3b8d0",
-      "size": 17140539
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.33.0/Stask-1.33.0-windows-x64.zip",
+      "sha256": "9a2045923094a98e8e0bd9758af4668cbc7662b88e3b447c54bb697f16fc433d",
+      "size": 17140538
     }
   ],
   "appcat": {
