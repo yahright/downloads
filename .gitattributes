@@ -2,3 +2,7 @@ appcat/install.sh text eol=lf
 appcat/install.ps1 text eol=crlf
 appcat/*.json text eol=lf
 appcat/*.txt text eol=lf
+
+# Keep historical release binaries out of GitHub-generated source archives.
+/docs/files export-ignore
+/docs/files/** export-ignore
