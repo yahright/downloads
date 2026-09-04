@@ -1,9 +1,14 @@
 {
-  "version": "0.10.3",
+  "version": "0.10.5",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(git): enhance Git ignore functionality with new rules and commands\n- feat(rendering): detect slow GPU environments and suggest software rendering",
+  "notes": "- Fix batch rename partial apply\n- Flatten Location Launcher, add Virtual Folders entry, make Git diff splittable and pop-out\n- docs(roadmap): audit gap-features plan against 0.10.3 and add remaining-work roadmap\n- docs(roadmap): add 0.10.4 implementation instructions for R0 + R1\n- fix(context-menu): add v9/v10 system preset migrations (Undo, Smart Folder)\n- docs(roadmap): mark R0-1 complete\n- fix(fuzzy-select): use ASCII Up/Down in dialog help text\n- docs(preview): fix mac-quick-look.md shortcut wording\n- fix(pane): schedule metadata column load after enumeration completes\n- fix(dialogs): wire Enter to a default action in 6 dialogs\n- feat(logging): add global unhandled-exception crash reporting\n- feat(keys): R1-1 default key bindings for 11 reachability commands\n- feat(workspaces): R1-2 workspace menu items, settings UI, and rename\n- feat(smart-folders): R1-3 save dialog and evaluation progress indicator\n- feat(navlock): R1-4 move navigation-lock indicator into PaneInfoArea\n- feat(checksum): R1-5 multi-algorithm checksum computation\n- fix(smart-folders): honor UseRegex and Recursive in FileSearch evaluation\n- diag(mac): log IME input-source switches and active-pane change stacks\n- feat(smart-folders): add saved query v2 rule model\n- docs(smart-folders): mark SF-1 implemented\n- feat(smart-folders): evaluate stacked conditions\n- docs(smart-folders): mark SF-2 implemented\n- feat(smart-folders): add stacked condition editor\n- docs(smart-folders): mark SF-3 implemented\n- feat(smart-folders): integrate location launcher\n- fix(smart-folders): include root in launcher summary\n- docs(smart-folders): mark SF-4 implemented\n- feat(smart-folders): add creation and editing entry points\n- docs(smart-folders): mark SF-5 implemented\n- docs(smart-folders): complete phase A guidance\n- fix(smart-folders): clarify launcher add action",
   "notesHistory": [
+    {
+      "version": "0.10.5",
+      "notes": "- Fix batch rename partial apply\n- Flatten Location Launcher, add Virtual Folders entry, make Git diff splittable and pop-out\n- docs(roadmap): audit gap-features plan against 0.10.3 and add remaining-work roadmap\n- docs(roadmap): add 0.10.4 implementation instructions for R0 + R1\n- fix(context-menu): add v9/v10 system preset migrations (Undo, Smart Folder)\n- docs(roadmap): mark R0-1 complete\n- fix(fuzzy-select): use ASCII Up/Down in dialog help text\n- docs(preview): fix mac-quick-look.md shortcut wording\n- fix(pane): schedule metadata column load after enumeration completes\n- fix(dialogs): wire Enter to a default action in 6 dialogs\n- feat(logging): add global unhandled-exception crash reporting\n- feat(keys): R1-1 default key bindings for 11 reachability commands\n- feat(workspaces): R1-2 workspace menu items, settings UI, and rename\n- feat(smart-folders): R1-3 save dialog and evaluation progress indicator\n- feat(navlock): R1-4 move navigation-lock indicator into PaneInfoArea\n- feat(checksum): R1-5 multi-algorithm checksum computation\n- fix(smart-folders): honor UseRegex and Recursive in FileSearch evaluation\n- diag(mac): log IME input-source switches and active-pane change stacks\n- feat(smart-folders): add saved query v2 rule model\n- docs(smart-folders): mark SF-1 implemented\n- feat(smart-folders): evaluate stacked conditions\n- docs(smart-folders): mark SF-2 implemented\n- feat(smart-folders): add stacked condition editor\n- docs(smart-folders): mark SF-3 implemented\n- feat(smart-folders): integrate location launcher\n- fix(smart-folders): include root in launcher summary\n- docs(smart-folders): mark SF-4 implemented\n- feat(smart-folders): add creation and editing entry points\n- docs(smart-folders): mark SF-5 implemented\n- docs(smart-folders): complete phase A guidance\n- fix(smart-folders): clarify launcher add action",
+      "publishedAtUtc": "2026-09-04T03:09:28Z"
+    },
     {
       "version": "0.10.3",
       "notes": "- feat(git): enhance Git ignore functionality with new rules and commands\n- feat(rendering): detect slow GPU environments and suggest software rendering",
@@ -49,16 +54,9 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.3/InsightFlow-0.10.3-win-x64-portable.zip",
-      "sha256": "322df385a2bb87023097671776c26c5e785f63230029f367e24d6f4bb538b8a7",
-      "size": 98171083
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.3/InsightFlow-0.10.3-win-arm64-portable.zip",
-      "sha256": "55305a74add86f0c1be28bd545fba58df5c8c51510480c00b16a22f9f4b9107b",
-      "size": 94817665
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.5/InsightFlow-0.10.5-win-x64-portable.zip",
+      "sha256": "8eb7b520ef9f6c3e666d695b8fba2168d530695728873da55165ff1adb5cae9e",
+      "size": 98210810
     }
   ]
 }
