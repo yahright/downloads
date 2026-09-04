@@ -2,9 +2,9 @@
   "schema": 1,
   "version": "1.34.0",
   "build": 40,
-  "releasedAt": "2026-09-04",
+  "releasedAt": "2026-09-05",
   "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.34.0",
-  "notes": "今日の言葉、四象限のドラッグ操作、プロジェクト間のタスク移動を改善しました（Windowsのみ、macOSは追って追加予定）",
+  "notes": "Stask 1.34.0: macOS Apple Silicon と Windows x64 を公開しました。",
   "minSupported": "1.29.0",
   "artifacts": [
     {
@@ -15,6 +15,15 @@
       "url": "https://github.com/yahright/downloads/releases/download/stask-v1.34.0/Stask-1.34.0-windows-x64.zip",
       "sha256": "e6b21ba5c9cd203ba4f23d4db8578c6ef161f243d59b39f842535e0800d09597",
       "size": 17162263
+    },
+    {
+      "platform": "macos-arm64",
+      "kind": "dmg",
+      "os": "darwin",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.34.0/Stask-1.34.0-macos-arm64.dmg",
+      "sha256": "a343dbc1773ec93f6c3d85fd0dc714a8736b499e9ce6f2fcde70fa5ada86d7c0",
+      "size": 30171118
     }
   ],
   "appcat": {
@@ -27,6 +36,12 @@
       "mac-dev"
     ],
     "targets": {
+      "darwin": {
+        "strip_components": 0,
+        "entry": "Stask.app",
+        "version_kind": "plist",
+        "version_field": "CFBundleShortVersionString"
+      },
       "windows": {
         "strip_components": 1,
         "entry": "Stask.exe",
