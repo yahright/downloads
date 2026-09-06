@@ -1,22 +1,22 @@
 {
-  "version": "0.10.5",
+  "version": "0.10.6",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.5",
-  "notes": "- Fix batch rename partial apply\n- Flatten Location Launcher, add Virtual Folders entry, make Git diff splittable and pop-out\n- docs(roadmap): audit gap-features plan against 0.10.3 and add remaining-work roadmap\n- docs(roadmap): add 0.10.4 implementation instructions for R0 + R1\n- fix(context-menu): add v9/v10 system preset migrations (Undo, Smart Folder)\n- docs(roadmap): mark R0-1 complete\n- fix(fuzzy-select): use ASCII Up/Down in dialog help text\n- docs(preview): fix mac-quick-look.md shortcut wording\n- fix(pane): schedule metadata column load after enumeration completes\n- fix(dialogs): wire Enter to a default action in 6 dialogs\n- feat(logging): add global unhandled-exception crash reporting\n- feat(keys): R1-1 default key bindings for 11 reachability commands\n- feat(workspaces): R1-2 workspace menu items, settings UI, and rename\n- feat(smart-folders): R1-3 save dialog and evaluation progress indicator\n- feat(navlock): R1-4 move navigation-lock indicator into PaneInfoArea\n- feat(checksum): R1-5 multi-algorithm checksum computation\n- fix(smart-folders): honor UseRegex and Recursive in FileSearch evaluation\n- diag(mac): log IME input-source switches and active-pane change stacks\n- feat(smart-folders): add saved query v2 rule model\n- docs(smart-folders): mark SF-1 implemented\n- feat(smart-folders): evaluate stacked conditions\n- docs(smart-folders): mark SF-2 implemented\n- feat(smart-folders): add stacked condition editor\n- docs(smart-folders): mark SF-3 implemented\n- feat(smart-folders): integrate location launcher\n- fix(smart-folders): include root in launcher summary\n- docs(smart-folders): mark SF-4 implemented\n- feat(smart-folders): add creation and editing entry points\n- docs(smart-folders): mark SF-5 implemented\n- docs(smart-folders): complete phase A guidance\n- fix(smart-folders): clarify launcher add action",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.6",
+  "notes": "- Bundle the SCOPY native runtime for a fresh-install copy path\n- Fix two test-suite deadlocks and a localized dialog SizeToContent crash\n- Stop successful copies from being styled as errors\n- Include the latest controller automation and localization work",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.5/InsightFlow-0.10.5-osx-arm64-app.zip",
-      "sha256": "ea3047aa73ba75ea5449858cac9276d76f93fec01d1b84697dd551ba9ef14587",
-      "size": 92769842
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.6/InsightFlow-0.10.6-osx-arm64-app.zip",
+      "sha256": "ac6ce74169980a720d209cbc8b228b89719e8ecd2f3259045296fdbb9f293094",
+      "size": 93282997
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.5/InsightFlow-0.10.5-osx-arm64.dmg",
-      "sha256": "caf2dd8d9bf113681ff8e91d5424461d8838cc25b63bdbebbe845e1e36a51b4c",
-      "size": 100965369
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.6/InsightFlow-0.10.6-osx-arm64.dmg",
+      "sha256": "7d8d7bf809c30c9cefa2805de3a3e516ff14b1fb7dacca3bf1386ad0c6889df2",
+      "size": 101495185
     }
   ]
 }
