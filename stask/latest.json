@@ -1,29 +1,20 @@
 {
   "schema": 1,
-  "version": "1.35.0",
-  "build": 41,
-  "releasedAt": "2026-09-05",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.35.0",
-  "notes": "Stask 1.35.0: AI連携（ローカル API）、CLI、MCPを追加しました。",
-  "minSupported": "1.29.0",
+  "version": "1.36.0",
+  "build": 42,
+  "releasedAt": "2026-09-06",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.36.0",
+  "notes": "タスク一覧のグループ表示・グループへのドラッグ変更・優先度クイック変更・設定画面を改善しました。",
+  "minSupported": "1.0.0",
   "artifacts": [
-    {
-      "platform": "windows-x64",
-      "kind": "portable-zip",
-      "os": "windows",
-      "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.35.0/Stask-1.35.0-windows-x64.zip",
-      "sha256": "1ec9d0758f40d17223a4c60eabaa1069cba72cec5dd7c56b1f7c2d4fac3a5b7f",
-      "size": 20153708
-    },
     {
       "platform": "macos-arm64",
       "kind": "dmg",
       "os": "darwin",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.35.0/Stask-1.35.0-macos-arm64.dmg",
-      "sha256": "d9aea3bd10684aeb7f22d5a2ced7df752249328232e8327f717b4bdef5e1e632",
-      "size": 33397339
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.36.0/Stask-1.36.0-macos-arm64.dmg",
+      "sha256": "1a7cdbc30f8bdc6b569d5d60a488031df33c13a89453ad82ccdb0b865d429dcb",
+      "size": 33452462
     }
   ],
   "appcat": {
@@ -41,12 +32,6 @@
         "entry": "Stask.app",
         "version_kind": "plist",
         "version_field": "CFBundleShortVersionString"
-      },
-      "windows": {
-        "strip_components": 1,
-        "entry": "Stask.exe",
-        "version_kind": "pe",
-        "version_field": "FileVersion"
       }
     }
   }
