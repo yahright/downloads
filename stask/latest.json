@@ -2,7 +2,7 @@
   "schema": 1,
   "version": "1.36.0",
   "build": 42,
-  "releasedAt": "2026-09-06",
+  "releasedAt": "2026-09-07",
   "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.36.0",
   "notes": "タスク一覧のグループ表示・グループへのドラッグ変更・優先度クイック変更・設定画面を改善しました。",
   "minSupported": "1.0.0",
@@ -15,6 +15,15 @@
       "url": "https://github.com/yahright/downloads/releases/download/stask-v1.36.0/Stask-1.36.0-macos-arm64.dmg",
       "sha256": "1a7cdbc30f8bdc6b569d5d60a488031df33c13a89453ad82ccdb0b865d429dcb",
       "size": 33452462
+    },
+    {
+      "platform": "windows-x64",
+      "kind": "portable-zip",
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.36.0/Stask-1.36.0-windows-x64.zip",
+      "sha256": "ae6c6e08ccd62547390e8b51ea88a0d1db48f76d42c63f4febdf435802c20476",
+      "size": 19946324
     }
   ],
   "appcat": {
@@ -27,6 +36,12 @@
       "mac-dev"
     ],
     "targets": {
+      "windows": {
+        "strip_components": 1,
+        "entry": "Stask.exe",
+        "version_kind": "pe",
+        "version_field": "FileVersion"
+      },
       "darwin": {
         "strip_components": 0,
         "entry": "Stask.app",
