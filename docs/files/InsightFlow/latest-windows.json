@@ -7,7 +7,7 @@
     {
       "version": "0.10.7",
       "notes": "- Fix published macOS InsightFlow 0.10.6 ledger\n- fix(update): separate confirmation buttons and localize apply\n- release: bump InsightFlow to 0.10.7",
-      "publishedAtUtc": "2026-09-06T21:14:20Z"
+      "publishedAtUtc": "2026-09-06T21:15:14Z"
     },
     {
       "version": "0.10.5",
@@ -60,14 +60,14 @@
       "platform": "win-x64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.7/InsightFlow-0.10.7-win-x64-portable.zip",
-      "sha256": "22c85a128d7d5f025ba5740666e99bd5ffd8b6f82789385fc1eed2c5ef19b978",
+      "sha256": "ff15ce9e9e15f98e1c36e03484a65380595c71e1d8d83f7cf43fe36052f9d767",
       "size": 98523243
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.7/InsightFlow-0.10.7-win-arm64-portable.zip",
-      "sha256": "b17fd7dfec4eb39a991940ee84e1808cb382ba2bf9b5e7213102e3c0e555906b",
+      "sha256": "47ca9fc02ca793fe5a23acda27ff37e2c953668bc1bd6b9b625aa3aa861f5cb6",
       "size": 95169832
     }
   ]
