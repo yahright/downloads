@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.36.0",
-  "build": 42,
-  "releasedAt": "2026-09-07",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.36.0",
-  "notes": "タスク一覧のグループ表示・グループへのドラッグ変更・優先度クイック変更・設定画面を改善し、Android版を1.36.0へ更新しました。",
+  "version": "1.37.0",
+  "build": 43,
+  "releasedAt": "2026-09-10",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/stask-v1.37.0",
+  "notes": "Windows x64版の配布物を修正し、実行ファイルのバージョン検証を追加しました。",
   "minSupported": "1.0.0",
   "artifacts": [
     {
@@ -12,27 +12,9 @@
       "kind": "portable-zip",
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.36.0/Stask-1.36.0-windows-x64.zip",
-      "sha256": "ae6c6e08ccd62547390e8b51ea88a0d1db48f76d42c63f4febdf435802c20476",
-      "size": 19946324
-    },
-    {
-      "platform": "macos-arm64",
-      "kind": "dmg",
-      "os": "darwin",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.36.0/Stask-1.36.0-macos-arm64.dmg",
-      "sha256": "1a7cdbc30f8bdc6b569d5d60a488031df33c13a89453ad82ccdb0b865d429dcb",
-      "size": 33452462
-    },
-    {
-      "platform": "android-arm64",
-      "kind": "apk",
-      "os": "android",
-      "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.36.0/Stask-1.36.0-android-arm64.apk",
-      "sha256": "f8e73dd5db66402afbc0bf09c4399ef9c7ddd210d74e113107326f0ec481f98b",
-      "size": 30967268
+      "url": "https://github.com/yahright/downloads/releases/download/stask-v1.37.0/Stask-1.37.0-windows-x64.zip",
+      "sha256": "7d1947b74993e7ffabe2f4004dd1c0dbd808a93cd9dcf9d7437a7eaca103e1f1",
+      "size": 20170437
     }
   ],
   "appcat": {
@@ -45,12 +27,6 @@
       "mac-dev"
     ],
     "targets": {
-      "darwin": {
-        "strip_components": 0,
-        "entry": "Stask.app",
-        "version_kind": "plist",
-        "version_field": "CFBundleShortVersionString"
-      },
       "windows": {
         "strip_components": 1,
         "entry": "Stask.exe",
