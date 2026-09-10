@@ -1,21 +1,21 @@
 {
-  "version": "0.1.12",
+  "version": "0.1.13",
   "channel": "Beta",
   "notesUrl": "",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.12/scopy-gui-0.1.12-win-x64-portable.zip",
-      "sha256": "2b9ca312099034b445116061a2805e0a69d089597e7f55606e716e8719e350fc",
-      "size": 45976275
+      "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.13/scopy-gui-0.1.13-win-x64-portable.zip",
+      "sha256": "c989f7004e978888e8507086dd69d52c9dfb66fcc8a2875bb040fe8c4f5fe53f",
+      "size": 45922998
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.1/scopy-gui-0.1.1-win-arm64-portable.zip",
-      "sha256": "97955716286929932c00d9f640ef36a7cc6762bcac5650c1829e6e35f4615931",
-      "size": 43913445
+      "url": "https://github.com/yahright/downloads/releases/download/scopy-v0.1.13/scopy-gui-0.1.13-win-arm64-portable.zip",
+      "sha256": "0e5ccc3b82ebc5a06f7ffb3f4c4c82225c3feb30d39d691a0da69ac2ebc1fa9d",
+      "size": 44056911
     },
     {
       "platform": "osx-arm64",
