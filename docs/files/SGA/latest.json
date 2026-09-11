@@ -1,25 +1,25 @@
 {
-    "version":  "0.4.0",
+    "version":  "0.5.0",
     "channel":  "Beta",
-    "tag":  "sga-v0.4.0",
-    "releaseDateUtc":  "2026-09-11T01:34:40Z",
+    "tag":  "sga-v0.5.0",
+    "releaseDateUtc":  "2026-09-11T02:58:28Z",
     "notesUrl":  "",
     "downloads":  [
                       {
                           "product":  "SGA",
                           "platform":  "x64",
                           "kind":  "cli-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/sga-v0.4.0/SGA-0.4.0-x64.zip",
-                          "sha256":  "02c94350f3eb5022589e90b986a750b9e847c3387420dadfa1757078a41f942b",
-                          "size":  5109569
+                          "url":  "https://github.com/yahright/downloads/releases/download/sga-v0.5.0/SGA-0.5.0-x64.zip",
+                          "sha256":  "8a6e70c8f2a81b24e94833bbaac45a57c0133960b11eb4cc4961bf4fcd85e5ac",
+                          "size":  5116318
                       },
                       {
                           "product":  "SGA",
                           "platform":  "ARM64",
                           "kind":  "cli-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/sga-v0.4.0/SGA-0.4.0-ARM64.zip",
-                          "sha256":  "99c4dd0f8beb8c9ac2ebfae305a0a56d7ef05aa59e5bf24bd646ad801f0e74e7",
-                          "size":  5062789
+                          "url":  "https://github.com/yahright/downloads/releases/download/sga-v0.5.0/SGA-0.5.0-ARM64.zip",
+                          "sha256":  "f1f9ecc32eebf96750023624d07a46659095eaa02583a519414afa34f151c9e0",
+                          "size":  5070118
                       }
                   ]
 }
