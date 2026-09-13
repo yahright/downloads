@@ -1,0 +1,35 @@
+{
+  "channel": "Beta",
+  "tag": "gemini-helper-v0.12.0",
+  "releaseDateUtc": "2026-09-13T21:06:59Z",
+  "notesUrl": "",
+  "downloads": [
+    {
+      "product": "GeminiHelper",
+      "component": "chrome",
+      "kind": "chrome-zip",
+      "version": "0.12.0",
+      "url": "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/gemini-helper-0.12.0.zip",
+      "sha256": "d329e4a951f860c0101aef7e9a4adeecc1c33d87ed63c254669a24f706b82f07",
+      "size": 47902
+    },
+    {
+      "product": "GeminiHelper",
+      "component": "vscode",
+      "kind": "vscode-vsix",
+      "version": "0.13.0",
+      "url": "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/gemini-helper-vscode-0.13.0.vsix",
+      "sha256": "8d61eeddfb2ba8a68f9b13e9dffcb38ffd9b37bd91c18bba16cb2d4bf62ee296",
+      "size": 57803
+    },
+    {
+      "product": "GeminiHelper",
+      "component": "vs2022",
+      "kind": "vs-vsix",
+      "version": "0.10.0",
+      "url": "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/GeminiHelperVSIX-0.10.0.vsix",
+      "sha256": "335d1059010b7270d736f99751a02e1eed18a7180a311866601b1983c21806e2",
+      "size": 108878
+    }
+  ]
+}
