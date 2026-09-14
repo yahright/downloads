@@ -1,9 +1,14 @@
 {
-  "version": "0.10.8",
+  "version": "0.10.9",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(scopy): add detection and runtime self-test\n- コピー開始前の分析を廃止しSCOPYの複数ルートコピーと競合確認に対応\n- Correct streaming copy investigation record timestamp\n- docs: investigate Git staging memory growth",
+  "notes": "- Reduce Git staging memory with virtualized large lists and bounded diffs\n- Test marked copy targets independently of cursor selection\n- feat(dialog): add keyboard shortcuts for TextInputDialog and enable templates in rename\n- docs: investigate Windows update startup lock and reboot recovery\n- docs: correct investigation record timestamp\n- Fix silent startup during updates and bound parent shutdown wait\n- Merge branch 'feat/dialog-shortcuts'\n- Merge commit 'd2a137ae13024178035d53ed4c9fb89e1d31362c'\n- Refresh Git log after fetch and pull",
   "notesHistory": [
+    {
+      "version": "0.10.9",
+      "notes": "- Reduce Git staging memory with virtualized large lists and bounded diffs\n- Test marked copy targets independently of cursor selection\n- feat(dialog): add keyboard shortcuts for TextInputDialog and enable templates in rename\n- docs: investigate Windows update startup lock and reboot recovery\n- docs: correct investigation record timestamp\n- Fix silent startup during updates and bound parent shutdown wait\n- Merge branch 'feat/dialog-shortcuts'\n- Merge commit 'd2a137ae13024178035d53ed4c9fb89e1d31362c'\n- Refresh Git log after fetch and pull",
+      "publishedAtUtc": "2026-09-14T23:35:58Z"
+    },
     {
       "version": "0.10.8",
       "notes": "- feat(scopy): add detection and runtime self-test\n- コピー開始前の分析を廃止しSCOPYの複数ルートコピーと競合確認に対応\n- Correct streaming copy investigation record timestamp\n- docs: investigate Git staging memory growth",
@@ -48,27 +53,22 @@
       "version": "0.9.3.47",
       "notes": "- Fix parent row external actions",
       "publishedAtUtc": "2026-08-13T04:41:57Z"
-    },
-    {
-      "version": "0.9.3.46",
-      "notes": "- feat(updates): show multi-version release notes in Check for Updates\n- feat(search): implement persistent filter functionality in search results view\n- Merge remote-tracking branch 'origin/feature/update-notes-history'",
-      "publishedAtUtc": "2026-08-07T03:07:42Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.8/InsightFlow-0.10.8-win-x64-portable.zip",
-      "sha256": "3b5899b65ac5ca414c462b84da1ad4df915ccccd805bfbae9b8bbca0adde7103",
-      "size": 98594942
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.9/InsightFlow-0.10.9-win-x64-portable.zip",
+      "sha256": "509cc64f8b9158c88fd0c8777e6625d2f5696d47e89be6efc098027d7943577d",
+      "size": 98601985
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.8/InsightFlow-0.10.8-win-arm64-portable.zip",
-      "sha256": "f6ef8ae144cf41fdd9dda33db60872a33c32e0c6f9f548c05f791231c9fa2862",
-      "size": 95241537
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.9/InsightFlow-0.10.9-win-arm64-portable.zip",
+      "sha256": "fac1b21026bcfbef730f7660b09eac16e5d9b41a0cf1ef2302a700218fc85a60",
+      "size": 95248575
     }
   ]
 }
