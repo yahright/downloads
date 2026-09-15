@@ -1,9 +1,14 @@
 {
-  "version": "0.10.9",
+  "version": "0.10.10",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Reduce Git staging memory with virtualized large lists and bounded diffs\n- Test marked copy targets independently of cursor selection\n- feat(dialog): add keyboard shortcuts for TextInputDialog and enable templates in rename\n- docs: investigate Windows update startup lock and reboot recovery\n- docs: correct investigation record timestamp\n- Fix silent startup during updates and bound parent shutdown wait\n- Merge branch 'feat/dialog-shortcuts'\n- Merge commit 'd2a137ae13024178035d53ed4c9fb89e1d31362c'\n- Refresh Git log after fetch and pull",
+  "notes": "- Refresh Git log after fetch and pull\n- fix(git): disable log hover and sanitize output\n- fix(log): quiet startup settings messages\n- fix(update): localize update dialog messages and document old-version routes\n- Show startup updates as a passive status bar notification\n- Merge branch 'codex/git-memory'\n- fix(dialog): prevent rename layout overflow",
   "notesHistory": [
+    {
+      "version": "0.10.10",
+      "notes": "- Refresh Git log after fetch and pull\n- fix(git): disable log hover and sanitize output\n- fix(log): quiet startup settings messages\n- fix(update): localize update dialog messages and document old-version routes\n- Show startup updates as a passive status bar notification\n- Merge branch 'codex/git-memory'\n- fix(dialog): prevent rename layout overflow",
+      "publishedAtUtc": "2026-09-15T22:51:58Z"
+    },
     {
       "version": "0.10.9",
       "notes": "- Reduce Git staging memory with virtualized large lists and bounded diffs\n- Test marked copy targets independently of cursor selection\n- feat(dialog): add keyboard shortcuts for TextInputDialog and enable templates in rename\n- docs: investigate Windows update startup lock and reboot recovery\n- docs: correct investigation record timestamp\n- Fix silent startup during updates and bound parent shutdown wait\n- Merge branch 'feat/dialog-shortcuts'\n- Merge commit 'd2a137ae13024178035d53ed4c9fb89e1d31362c'\n- Refresh Git log after fetch and pull",
@@ -48,27 +53,22 @@
       "version": "0.9.3.49",
       "notes": "- feat(dialogs): generate date-based names in the create folder/file dialogs",
       "publishedAtUtc": "2026-08-17T03:16:43Z"
-    },
-    {
-      "version": "0.9.3.47",
-      "notes": "- Fix parent row external actions",
-      "publishedAtUtc": "2026-08-13T04:41:57Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.9/InsightFlow-0.10.9-win-x64-portable.zip",
-      "sha256": "509cc64f8b9158c88fd0c8777e6625d2f5696d47e89be6efc098027d7943577d",
-      "size": 98601985
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.10/InsightFlow-0.10.10-win-x64-portable.zip",
+      "sha256": "57ecc5c4bff87261eba0a9e0877b247bbc9bd411f71258525136d01aab7656f2",
+      "size": 98606209
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.9/InsightFlow-0.10.9-win-arm64-portable.zip",
-      "sha256": "fac1b21026bcfbef730f7660b09eac16e5d9b41a0cf1ef2302a700218fc85a60",
-      "size": 95248575
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.10/InsightFlow-0.10.10-win-arm64-portable.zip",
+      "sha256": "fff0bb285b5624cb5ff18a700a718849f4932d0f7bd8f656c3c2cbdc20c98f89",
+      "size": 95252807
     }
   ]
 }
