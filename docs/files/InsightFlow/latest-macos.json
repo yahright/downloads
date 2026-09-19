@@ -1,22 +1,22 @@
 {
-  "version": "0.10.6",
+  "version": "0.10.11",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.6",
-  "notes": "- Bundle the SCOPY native runtime for a fresh-install copy path\n- Fix two test-suite deadlocks and a localized dialog SizeToContent crash\n- Stop successful copies from being styled as errors\n- Include the latest controller automation and localization work",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.11",
+  "notes": "- docs: propose InsightFlow MCP feature expansion\n- feat(rename): add case-insensitive batch rules\n- feat(rename): default batch rules to ignore case\n- fix(ui): return to panes with Escape and respect close guards\n- fix(updater): stop on incomplete recovery and preserve backups\n- fix(logging): reveal file operation failures\n- feat(rename): open batch rename for folder contents, recursion, or a preset in one command\n- Bump InsightFlow version to 0.10.11",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.6/InsightFlow-0.10.6-osx-arm64-app.zip",
-      "sha256": "ac6ce74169980a720d209cbc8b228b89719e8ecd2f3259045296fdbb9f293094",
-      "size": 93282997
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.11/InsightFlow-0.10.11-osx-arm64-app.zip",
+      "sha256": "95589b72983849ad79b381cd40fece3e1c5b7525bf30198e08f83a255df020a9",
+      "size": 93332348
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.6/InsightFlow-0.10.6-osx-arm64.dmg",
-      "sha256": "7d8d7bf809c30c9cefa2805de3a3e516ff14b1fb7dacca3bf1386ad0c6889df2",
-      "size": 101495185
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.11/InsightFlow-0.10.11-osx-arm64.dmg",
+      "sha256": "78464fc4d9c3e60a34b8bdce944a610efaea662aa1bc603c4abd6cbcef688958",
+      "size": 101522884
     }
   ]
 }
