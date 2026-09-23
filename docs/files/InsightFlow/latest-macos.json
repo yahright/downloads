@@ -1,22 +1,22 @@
 {
-  "version": "0.10.12",
+  "version": "0.10.13",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.12",
-  "notes": "- fix: cache macOS file type icons safely",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.13",
+  "notes": "- fix: preserve the folder glyph on macOS; PDF and other file types continue to use macOS type icons.",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.12/InsightFlow-0.10.12-osx-arm64-app.zip",
-      "sha256": "0119e07cdbf8413a2ec1d4c7f4c30cce8b712ebc26709cd8668d2f9c29900ab3",
-      "size": 93334484
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.13/InsightFlow-0.10.13-osx-arm64-app.zip",
+      "sha256": "cf3b2bb9f80399a0da0089ebd13d3637bd9ce4d526f4464539faf497628d089c",
+      "size": 93335350
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.12/InsightFlow-0.10.12-osx-arm64.dmg",
-      "sha256": "180022fc30bd8960be57d426c13b22e0b53cc6894ec921bfdecb28221573bc0c",
-      "size": 101526440
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.13/InsightFlow-0.10.13-osx-arm64.dmg",
+      "sha256": "d395decdf363ba226d71ebea7746d26056b9b7bf953f25d7fe7333590bcfa1d0",
+      "size": 101532789
     }
   ]
 }
