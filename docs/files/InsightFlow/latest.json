@@ -1,9 +1,14 @@
 {
-  "version": "0.10.11",
+  "version": "0.10.14",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- docs: propose InsightFlow MCP feature expansion\n- feat(rename): add case-insensitive batch rules\n- feat(rename): default batch rules to ignore case\n- fix(ui): return to panes with Escape and respect close guards\n- fix(updater): stop on incomplete recovery and preserve backups\n- fix(logging): reveal file operation failures\n- feat(rename): open batch rename for folder contents, recursion, or a preset in one command\n- Bump InsightFlow version to 0.10.11",
+  "notes": "- fix(rename): keep large batch rename responsive\n- fix(pane): reduce mark and scroll latency\n- release: bump InsightFlow to 0.10.14",
   "notesHistory": [
+    {
+      "version": "0.10.14",
+      "notes": "- fix(rename): keep large batch rename responsive\n- fix(pane): reduce mark and scroll latency\n- release: bump InsightFlow to 0.10.14",
+      "publishedAtUtc": "2026-09-24T22:31:47Z"
+    },
     {
       "version": "0.10.11",
       "notes": "- docs: propose InsightFlow MCP feature expansion\n- feat(rename): add case-insensitive batch rules\n- feat(rename): default batch rules to ignore case\n- fix(ui): return to panes with Escape and respect close guards\n- fix(updater): stop on incomplete recovery and preserve backups\n- fix(logging): reveal file operation failures\n- feat(rename): open batch rename for folder contents, recursion, or a preset in one command\n- Bump InsightFlow version to 0.10.11",
@@ -48,27 +53,22 @@
       "version": "0.10.1",
       "notes": "- Fix pane hover and restore startup options",
       "publishedAtUtc": "2026-08-25T01:09:28Z"
-    },
-    {
-      "version": "0.10.0",
-      "notes": "- feat(update): explain automatic restart before install\n- ex\n- feat(context-menu): group path/name copying under a Copy Path submenu\n- docs: add documentation for survey filers structure\n- 指示書\n- 指示書\n- feat(ui): complete phase 0 and U1 foundation\n- feat(ui): centralize dialog styling and keyboard behavior\n- feat(ui): polish product-facing dialogs and settings\n- feat(ui): add shared Fluent icon system\n- feat(ui): tokenize view colors for light and dark themes\n- feat(ui): redesign application states and feature screens\n- feat(checksum): add background compute and verification\n- feat(navigation): add relative pane lock\n- feat(pane): calculate folder sizes on demand\n- feat(pane): add recursive flat view\n- feat(workspace): add named tab workspaces\n- feat(preview): complete macOS Quick Look workflow\n- feat(file-ops): add conservative operation undo journal\n- feat(virtual-folders): add dynamic smart folders\n- feat(metadata): add opt-in media columns\n- feat(archives): add atomic ZIP updates\n- feat(pdf): add background text search and selection\n- docs(sftp): define VFS and security boundaries\n- feat(sftp): add opt-in remote file operations\n- docs(testing): refresh automation coverage",
-      "publishedAtUtc": "2026-08-24T15:11:24Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.11/InsightFlow-0.10.11-win-x64-portable.zip",
-      "sha256": "89105a9deb0b43de704dfa8afdbd580aa49a2fdd88d3e8aae68380951322d12c",
-      "size": 98610880
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.14/InsightFlow-0.10.14-win-x64-portable.zip",
+      "sha256": "f72ba21840ccde8f917d12e0559f1cc23898b96573387b8dc6f2f632080103f6",
+      "size": 98615951
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.11/InsightFlow-0.10.11-win-arm64-portable.zip",
-      "sha256": "e1967c380e294d3f0979ebfbd097a967b3f6fbe92caaf6961f0cdde23f539f7e",
-      "size": 95257453
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.14/InsightFlow-0.10.14-win-arm64-portable.zip",
+      "sha256": "b9250c930cf6774c4ed8a94b3c0714ecb8736ad0659d2dd5fecdd3b43bfbbc42",
+      "size": 95262538
     }
   ]
 }
