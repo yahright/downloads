@@ -1,9 +1,14 @@
 {
-  "version": "0.10.14",
+  "version": "0.10.15",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- fix(rename): keep large batch rename responsive\n- fix(pane): reduce mark and scroll latency\n- release: bump InsightFlow to 0.10.14",
+  "notes": "Improved pane selection scrolling so moving the selection within the visible area avoids unnecessary scroll requests.",
   "notesHistory": [
+    {
+      "version": "0.10.15",
+      "notes": "Improved pane selection scrolling so moving the selection within the visible area avoids unnecessary scroll requests.",
+      "publishedAtUtc": "2026-09-25T01:17:42Z"
+    },
     {
       "version": "0.10.14",
       "notes": "- fix(rename): keep large batch rename responsive\n- fix(pane): reduce mark and scroll latency\n- release: bump InsightFlow to 0.10.14",
@@ -48,27 +53,22 @@
       "version": "0.10.2",
       "notes": "- Fix selection color on zebra rows\n- Stabilize fuzzy select dialog layout\n- Show actual copy engine usage\n- Fix location launcher keyboard shortcuts",
       "publishedAtUtc": "2026-08-25T06:03:37Z"
-    },
-    {
-      "version": "0.10.1",
-      "notes": "- Fix pane hover and restore startup options",
-      "publishedAtUtc": "2026-08-25T01:09:28Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.14/InsightFlow-0.10.14-win-x64-portable.zip",
-      "sha256": "f72ba21840ccde8f917d12e0559f1cc23898b96573387b8dc6f2f632080103f6",
-      "size": 98615951
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.15/InsightFlow-0.10.15-win-x64-portable.zip",
+      "sha256": "417fc16f666bd5b55de604bd18fdededc01db8e11fcd80737692bcc7270f4573",
+      "size": 98615897
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.14/InsightFlow-0.10.14-win-arm64-portable.zip",
-      "sha256": "b9250c930cf6774c4ed8a94b3c0714ecb8736ad0659d2dd5fecdd3b43bfbbc42",
-      "size": 95262538
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.15/InsightFlow-0.10.15-win-arm64-portable.zip",
+      "sha256": "363be04baed4bc37771fac90d2c0575c3854e0406b3e101a39d9d8522ea8e5be",
+      "size": 95262488
     }
   ]
 }
