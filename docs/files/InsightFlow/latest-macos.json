@@ -1,22 +1,22 @@
 {
-  "version": "0.10.13",
+  "version": "0.10.17",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.13",
-  "notes": "- fix: preserve the folder glyph on macOS; PDF and other file types continue to use macOS type icons.",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.17",
+  "notes": "- fix: improve responsiveness when navigating large file lists.\n- fix: support mark-all commands in recursive search results and make selection and marked states clearer.\n- fix: use the Native copy engine when search results with the same name are copied from different folders.",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.13/InsightFlow-0.10.13-osx-arm64-app.zip",
-      "sha256": "cf3b2bb9f80399a0da0089ebd13d3637bd9ce4d526f4464539faf497628d089c",
-      "size": 93335350
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.17/InsightFlow-0.10.17-osx-arm64-app.zip",
+      "sha256": "86d5dabfd9a985667314823c184fa4def20f6c863effb0f2a9369db7c305df59",
+      "size": 93345287
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.13/InsightFlow-0.10.13-osx-arm64.dmg",
-      "sha256": "d395decdf363ba226d71ebea7746d26056b9b7bf953f25d7fe7333590bcfa1d0",
-      "size": 101532789
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.17/InsightFlow-0.10.17-osx-arm64.dmg",
+      "sha256": "aabb3381e1efedaa6b92692e0f0f95681945c9b95b2ee46f910e95de52933d61",
+      "size": 101542697
     }
   ]
 }
