@@ -1,9 +1,14 @@
 {
-  "version": "0.10.18",
+  "version": "0.10.19",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- release(InsightFlow): sync macOS 0.10.17 ledger\n- fix: quiet Git hover effects and expose streaming copy activity\n- feat(jobs): redesign Jobs dialog around selection actions and progress details\n- fix(jobs): readable status pill and engine badge text in light theme",
+  "notes": "- release(InsightFlow): sync macOS 0.10.18 ledger\n- 更新バッジをVS Code風の塗りつぶしボタンにし、ラベルを「更新」に変更\n- Clarify streaming SCOPY progress without changing copy execution",
   "notesHistory": [
+    {
+      "version": "0.10.19",
+      "notes": "- release(InsightFlow): sync macOS 0.10.18 ledger\n- 更新バッジをVS Code風の塗りつぶしボタンにし、ラベルを「更新」に変更\n- Clarify streaming SCOPY progress without changing copy execution",
+      "publishedAtUtc": "2026-09-29T22:39:34Z"
+    },
     {
       "version": "0.10.18",
       "notes": "- release(InsightFlow): sync macOS 0.10.17 ledger\n- fix: quiet Git hover effects and expose streaming copy activity\n- feat(jobs): redesign Jobs dialog around selection actions and progress details\n- fix(jobs): readable status pill and engine badge text in light theme",
@@ -48,27 +53,22 @@
       "version": "0.10.7",
       "notes": "- Fix published macOS InsightFlow 0.10.6 ledger\n- fix(update): separate confirmation buttons and localize apply\n- release: bump InsightFlow to 0.10.7",
       "publishedAtUtc": "2026-09-06T21:15:14Z"
-    },
-    {
-      "version": "0.10.5",
-      "notes": "- Fix batch rename partial apply\n- Flatten Location Launcher, add Virtual Folders entry, make Git diff splittable and pop-out\n- docs(roadmap): audit gap-features plan against 0.10.3 and add remaining-work roadmap\n- docs(roadmap): add 0.10.4 implementation instructions for R0 + R1\n- fix(context-menu): add v9/v10 system preset migrations (Undo, Smart Folder)\n- docs(roadmap): mark R0-1 complete\n- fix(fuzzy-select): use ASCII Up/Down in dialog help text\n- docs(preview): fix mac-quick-look.md shortcut wording\n- fix(pane): schedule metadata column load after enumeration completes\n- fix(dialogs): wire Enter to a default action in 6 dialogs\n- feat(logging): add global unhandled-exception crash reporting\n- feat(keys): R1-1 default key bindings for 11 reachability commands\n- feat(workspaces): R1-2 workspace menu items, settings UI, and rename\n- feat(smart-folders): R1-3 save dialog and evaluation progress indicator\n- feat(navlock): R1-4 move navigation-lock indicator into PaneInfoArea\n- feat(checksum): R1-5 multi-algorithm checksum computation\n- fix(smart-folders): honor UseRegex and Recursive in FileSearch evaluation\n- diag(mac): log IME input-source switches and active-pane change stacks\n- feat(smart-folders): add saved query v2 rule model\n- docs(smart-folders): mark SF-1 implemented\n- feat(smart-folders): evaluate stacked conditions\n- docs(smart-folders): mark SF-2 implemented\n- feat(smart-folders): add stacked condition editor\n- docs(smart-folders): mark SF-3 implemented\n- feat(smart-folders): integrate location launcher\n- fix(smart-folders): include root in launcher summary\n- docs(smart-folders): mark SF-4 implemented\n- feat(smart-folders): add creation and editing entry points\n- docs(smart-folders): mark SF-5 implemented\n- docs(smart-folders): complete phase A guidance\n- fix(smart-folders): clarify launcher add action",
-      "publishedAtUtc": "2026-09-04T03:09:28Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.18/InsightFlow-0.10.18-win-x64-portable.zip",
-      "sha256": "306f1be4aacd5ed57c0205ea110a9cb56e50f0e6e47dd0562c3b33e13504c042",
-      "size": 98636510
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.19/InsightFlow-0.10.19-win-x64-portable.zip",
+      "sha256": "e55808f6db2d245dc7427c8db73178ccd58127c3459900d66ff635c33985afcd",
+      "size": 98638897
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.18/InsightFlow-0.10.18-win-arm64-portable.zip",
-      "sha256": "4b2ddf2c01f1759aef75451d9f642330a40b3768138d97278a278c7899216937",
-      "size": 95283105
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.19/InsightFlow-0.10.19-win-arm64-portable.zip",
+      "sha256": "c3f724d58ac2ceaf20e8305a17653db4ea7b9b6f8ab796188c1d5207420b7d4b",
+      "size": 95285487
     }
   ]
 }
