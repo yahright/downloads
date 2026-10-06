@@ -1,9 +1,14 @@
 {
-  "version": "0.10.20",
+  "version": "0.10.21",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Remember archive extraction conflict choices and fix dialog keyboard focus\n- Isolate SCOPY runtime from older shell extension CRTs\n- Stop automatic reads from downloading cloud-only files",
+  "notes": "- docs: record SCOPY incomplete folder copy investigation\n- fix: reconcile SCOPY copies before reporting completion\n- Fix SCOPY copy completion reconciliation\n- Ask about archive extraction conflicts only when files collide",
   "notesHistory": [
+    {
+      "version": "0.10.21",
+      "notes": "- docs: record SCOPY incomplete folder copy investigation\n- fix: reconcile SCOPY copies before reporting completion\n- Fix SCOPY copy completion reconciliation\n- Ask about archive extraction conflicts only when files collide",
+      "publishedAtUtc": "2026-10-06T00:20:56Z"
+    },
     {
       "version": "0.10.20",
       "notes": "- Remember archive extraction conflict choices and fix dialog keyboard focus\n- Isolate SCOPY runtime from older shell extension CRTs\n- Stop automatic reads from downloading cloud-only files",
@@ -48,32 +53,22 @@
       "version": "0.10.9",
       "notes": "- Reduce Git staging memory with virtualized large lists and bounded diffs\n- Test marked copy targets independently of cursor selection\n- feat(dialog): add keyboard shortcuts for TextInputDialog and enable templates in rename\n- docs: investigate Windows update startup lock and reboot recovery\n- docs: correct investigation record timestamp\n- Fix silent startup during updates and bound parent shutdown wait\n- Merge branch 'feat/dialog-shortcuts'\n- Merge commit 'd2a137ae13024178035d53ed4c9fb89e1d31362c'\n- Refresh Git log after fetch and pull",
       "publishedAtUtc": "2026-09-14T23:35:58Z"
-    },
-    {
-      "version": "0.10.8",
-      "notes": "- feat(scopy): add detection and runtime self-test\n- コピー開始前の分析を廃止しSCOPYの複数ルートコピーと競合確認に対応\n- Correct streaming copy investigation record timestamp\n- docs: investigate Git staging memory growth",
-      "publishedAtUtc": "2026-09-10T22:38:46Z"
-    },
-    {
-      "version": "0.10.7",
-      "notes": "- Fix published macOS InsightFlow 0.10.6 ledger\n- fix(update): separate confirmation buttons and localize apply\n- release: bump InsightFlow to 0.10.7",
-      "publishedAtUtc": "2026-09-06T21:15:14Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.20/InsightFlow-0.10.20-win-x64-portable.zip",
-      "sha256": "85b103ef4ed5fd0f742e13ad8644bc8b4a55a42c2c5ed225eb3a405bd0bbed7f",
-      "size": 98898344
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.21/InsightFlow-0.10.21-win-x64-portable.zip",
+      "sha256": "aa48bfe198680e91a79bdf8d593317de00cd62b6b6fa38d4951432f12a1f68dd",
+      "size": 98904269
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.20/InsightFlow-0.10.20-win-arm64-portable.zip",
-      "sha256": "7d78c47e9cde732945367aefb102d33e08792b64255f80a349ecdb00ea12f6d8",
-      "size": 95544917
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.21/InsightFlow-0.10.21-win-arm64-portable.zip",
+      "sha256": "f7ed9ecad3e4e3ad9307c0e662a77e2102f600a8956a30cf11ea6b56fd20f530",
+      "size": 95550859
     }
   ]
 }
