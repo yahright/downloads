@@ -1,7 +1,7 @@
 ﻿{
     "channel":  "Beta",
     "tag":  "gemini-helper-v0.12.0",
-    "releaseDateUtc":  "2026-10-05T23:07:52Z",
+    "releaseDateUtc":  "2026-10-07T06:20:01Z",
     "notesUrl":  "",
     "downloads":  [
                       {
@@ -17,19 +17,19 @@
                           "product":  "GeminiHelper",
                           "component":  "vscode",
                           "kind":  "vscode-vsix",
-                          "version":  "0.14.0",
-                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/gemini-helper-vscode-0.14.0.vsix",
-                          "sha256":  "b546fd98292ea2bc6201bbf581d7b6a304d69c2fdad70ef93ebc6a8b6239217b",
-                          "size":  60468
+                          "version":  "0.15.0",
+                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/gemini-helper-vscode-0.15.0.vsix",
+                          "sha256":  "d622ebd9ce4b2160433f24546e595b451e37ae7905025a55461d81145b7f5f9f",
+                          "size":  61474
                       },
                       {
                           "product":  "GeminiHelper",
                           "component":  "vs2022",
                           "kind":  "vs-vsix",
-                          "version":  "0.11.0",
-                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/GeminiHelperVSIX-0.11.0.vsix",
-                          "sha256":  "5e6f5e99e568dbdb8aab30572c8a14875053c002ff6ca373005acdca5f3f6359",
-                          "size":  116901
+                          "version":  "0.12.0",
+                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.12.0/GeminiHelperVSIX-0.12.0.vsix",
+                          "sha256":  "557be2f396c9e30253dba694db684af2929196a0aea7c581546c8b300d561c62",
+                          "size":  117840
                       }
                   ]
 }
