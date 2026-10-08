@@ -1,0 +1,24 @@
+{
+  "product": "oredit",
+  "version": "0.1.1",
+  "platform": "windows",
+  "channel": "beta",
+  "source_sha": "05eb3679d23fdb38e66464c3f8666ef2a8b0424b",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.1",
+  "published_at": "2026-10-08T23:07:16.658086+00:00",
+  "assets": [
+    {
+      "architecture": "x64",
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.1/oredit-0.1.1-windows-x64.zip",
+      "sha256": "06044c28dafafccb7b3a9d538be7b325cc43272f9bfde54a9aeb8afcf140f32b",
+      "bytes": 1620244
+    },
+    {
+      "architecture": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.1/oredit-0.1.1-windows-arm64.zip",
+      "sha256": "500065193228e5065b7b854d03d46d86196a87ebe527921e940ec77fbd008c96",
+      "bytes": 1439102
+    }
+  ],
+  "notes": "oredit 0.1.1 Windows beta\n\n- fix(win): use default settings on first launch and validate packaged GUI\n- test(release): verify packaged GUI startup and clean close on both CPUs\n- fix(build): accept ARM64 Windows synchronization contract and prepare 0.1.1\n\nWindows 10/11 x64 and ARM64, static MSVC runtime, five bundled license notices. Native editing/search/replace/macros/tabs/split/IME geometry/M9 tests pass on Windows ARM. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+}
