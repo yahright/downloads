@@ -1,17 +1,17 @@
 ﻿{
     "channel":  "Beta",
-    "tag":  "gemini-helper-v0.13.0",
-    "releaseDateUtc":  "2026-10-08T00:07:57Z",
+    "tag":  "gemini-helper-v0.13.1",
+    "releaseDateUtc":  "2026-10-08T00:26:40Z",
     "notesUrl":  "",
     "downloads":  [
                       {
                           "product":  "GeminiHelper",
                           "component":  "chrome",
                           "kind":  "chrome-zip",
-                          "version":  "0.13.0",
-                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.0/gemini-helper-0.13.0.zip",
-                          "sha256":  "f2c4a869e1acba1f07cc9cc8c22ce71dd38b661002f48d8558e82c292f613bdd",
-                          "size":  51359
+                          "version":  "0.13.1",
+                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.1/gemini-helper-0.13.1.zip",
+                          "sha256":  "bb11bf5d3189ed761152354287a81a24e5e0fb508f6181fca84201fd99efad62",
+                          "size":  53484
                       },
                       {
                           "product":  "GeminiHelper",
@@ -26,10 +26,10 @@
                           "product":  "GeminiHelper",
                           "component":  "vs2022",
                           "kind":  "vs-vsix",
-                          "version":  "0.13.1",
-                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.0/GeminiHelperVSIX-0.13.1.vsix",
-                          "sha256":  "aad609050ee093b1e1fa9f2a511b86685b4c086f647521aebfe41d213d0ed4c9",
-                          "size":  125276
+                          "version":  "0.13.2",
+                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.1/GeminiHelperVSIX-0.13.2.vsix",
+                          "sha256":  "6ea61f477b1b4c1d841236390fb22d7ea15312d208782d1d0322aea3775cf50d",
+                          "size":  126917
                       }
                   ]
 }
