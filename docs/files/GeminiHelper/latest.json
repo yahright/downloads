@@ -1,7 +1,7 @@
 ﻿{
     "channel":  "Beta",
     "tag":  "gemini-helper-v0.13.0",
-    "releaseDateUtc":  "2026-10-07T23:46:29Z",
+    "releaseDateUtc":  "2026-10-08T00:07:57Z",
     "notesUrl":  "",
     "downloads":  [
                       {
@@ -26,10 +26,10 @@
                           "product":  "GeminiHelper",
                           "component":  "vs2022",
                           "kind":  "vs-vsix",
-                          "version":  "0.13.0",
-                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.0/GeminiHelperVSIX-0.13.0.vsix",
-                          "sha256":  "0024b5ae67e1a3cd1ace3db0e1a756a793e2d2d4d8c93f8dfa61c1f3646a8a5d",
-                          "size":  125310
+                          "version":  "0.13.1",
+                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.0/GeminiHelperVSIX-0.13.1.vsix",
+                          "sha256":  "aad609050ee093b1e1fa9f2a511b86685b4c086f647521aebfe41d213d0ed4c9",
+                          "size":  125276
                       }
                   ]
 }
