@@ -1,17 +1,17 @@
 ﻿{
     "channel":  "Beta",
-    "tag":  "gemini-helper-v0.13.2",
-    "releaseDateUtc":  "2026-10-08T01:15:02Z",
+    "tag":  "gemini-helper-v0.13.3",
+    "releaseDateUtc":  "2026-10-08T01:50:37Z",
     "notesUrl":  "",
     "downloads":  [
                       {
                           "product":  "GeminiHelper",
                           "component":  "chrome",
                           "kind":  "chrome-zip",
-                          "version":  "0.13.2",
-                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.2/gemini-helper-0.13.2.zip",
-                          "sha256":  "198e2852eced6c5f8e49fa9c4d1dc922a4da6a261146cf739139426783023799",
-                          "size":  57778
+                          "version":  "0.13.3",
+                          "url":  "https://github.com/yahright/downloads/releases/download/gemini-helper-v0.13.3/gemini-helper-0.13.3.zip",
+                          "sha256":  "60fd02db39333e04dbfea640753d3ea074557808dec71804ebc58afd87eca889",
+                          "size":  61489
                       },
                       {
                           "product":  "GeminiHelper",
