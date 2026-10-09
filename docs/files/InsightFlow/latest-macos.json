@@ -1,22 +1,22 @@
 {
-  "version": "0.10.23",
+  "version": "0.10.24",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.23",
-  "notes": "- fix(mac): choose .app bundles for the text editor setting and launch them via open -a.\n- fix: reconcile SCOPY copies before reporting completion.\n- fix: clarify streaming SCOPY progress without changing copy execution.\n- fix: stop automatic reads from downloading cloud-only files.\n- feat: ask about archive extraction conflicts only when files collide.\n- fix: keep per-file mark summaries constant time.\n- feat: update badge as a filled button labeled \"更新\".",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.24",
+  "notes": "- fix(git): Esc closes the Git window right after it opens.\n- feat(git): SourceTree-style Git window for daily branch work (sidebar, history, file status, merge/rebase/pull/push, hunk staging).",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.23/InsightFlow-0.10.23-osx-arm64-app.zip",
-      "sha256": "7bf92290b02fd4880911e463f239b1da3cb5d32908e670b4b62347f436bd1009",
-      "size": 93380201
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.24/InsightFlow-0.10.24-osx-arm64-app.zip",
+      "sha256": "9b2ff4bbb317fac634e3700e79cc0e0f7231e17bc43fc0320a64d14dcba8d014",
+      "size": 93480473
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.23/InsightFlow-0.10.23-osx-arm64.dmg",
-      "sha256": "a9afa028ad69246e334513bf7e44250645827178e56acd3a03135b679b31ea74",
-      "size": 101575108
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.24/InsightFlow-0.10.24-osx-arm64.dmg",
+      "sha256": "a7b299f94aadaaab0d5f001867b1c0ffeefb5378df5c96b99ec999274fb5146f",
+      "size": 101735167
     }
   ]
 }
