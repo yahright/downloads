@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "447dc2bae91a2c05e96ee8589c61066f4fab7d81",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.2",
-  "published_at": "2026-10-09T03:20:21.109530+00:00",
+  "source_sha": "3d1a97e019057cdf1fea9751f30bc5cf56b59e65",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.3",
+  "published_at": "2026-10-12T21:22:56.325959+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.2/oredit-0.1.2-windows-x64.zip",
-      "sha256": "ceba9b8a1ec4f3f307092c105762b19ee49ec118227d1e33a7b81fe5e919e7e7",
-      "bytes": 1620391
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.3/oredit-0.1.3-windows-x64.zip",
+      "sha256": "337d377ea4a384558efcf760cf085083f1d840211c4122b462b76cbf770276ba",
+      "bytes": 2221079
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.2/oredit-0.1.2-windows-arm64.zip",
-      "sha256": "4333808c9496e780b373e4c863f9f7ceba04949342f9c499e8ace4911488cf1a",
-      "bytes": 1439421
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.3/oredit-0.1.3-windows-arm64.zip",
+      "sha256": "6314acfa7afb96e7848a36d0f87a7ac364009772e04bfa8221d803ad220e2b20",
+      "bytes": 1976118
     }
   ],
-  "notes": "oredit 0.1.2 Windows beta\n\n- fix(installer): protect only the running installation target\n- fix(win): preserve preceding rows on Enter and prepare 0.1.2\n\nWindows 10/11 x64 and ARM64, static MSVC runtime, five bundled license notices. Native editing/search/replace/macros/tabs/split/IME geometry/M9 tests pass on Windows ARM. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.3 Windows beta\n\n- chore(release): prepare Windows 0.1.3 and verify public manifest\n- test(app): verify registered external macros and single Undo\n- fix(win): retain external diagnostics and normalize output line endings\n- feat(app): add bounded external command execution and output\n- feat(script): expand Sakura and EmEditor macro compatibility\n- fix(bench): avoid Windows small macro in data benchmark\n- feat(app): add bounded CSV, log and hex tools\n- 追加\n- fix(win): cancel print jobs from preview Escape and close actions\n- style(app): format print and codec integration changes\n- fix(win): match print preview rendering to page layout metrics\n- feat(app): add bounded print preview and four optional text encodings\n- fix(view): scroll one display row when moving down past viewport bottom\n- fix(search): cancel superseded scans and guard find-field composition\n- feat(search): connect incremental search to native find panels\n- feat(search): add bounded debounced incremental search worker\n- fix(win): align toolbar with active tab status bar\n- fix(settings): preserve pane and inherited state during folder updates\n- perf(settings): parse folder overrides off the UI thread\n- feat(settings): add EditorConfig folder preferences and native UI customization\n- fix(cmd): preserve textual order of empty snippet fields\n- fix(cmd): retain snippet final markers before replaced fields\n- feat(editor): add snippets numbering and multiple selection editing\n- fix(cmd): preserve display command tags when adding settings\n- fix(view): reserve room for hanging punctuation at large font sizes\n- feat(view): add wrap policies and configurable scrolling\n- feat(editor): add detailed appearance settings and palette editing\n- fix(win): retain session view state when recovering unsaved documents\n- test(win): check restored pane scroll and unsaved bookmarks\n- test(win): provide required histories in restart fixture\n- fix(win): invalidate layout on DPI changes and verify process restart\n- test(win): run native command checks before teardown and cover DPI changes\n- feat(editor): complete remaining priority 1-5 features\n- feat(editor): implement settings, daily tools, sessions, outline and diff\n- feat(view): expand multi-click selection and navigate matching words\n- fix(core): wake idle Markdown worker for pinned output retirement\n- fix(build): support Markdown MSVC builds and Windows validation\n- Commit\n- perf(core): skip leaf processing during Markdown ownership partitioning\n- fix(markdown): compact and compress disk records and slim resident pages\n- fix(markdown): keep disposal on worker and preserve empty live carets\n- feat(markdown): page large documents through bounded disk storage\n- feat(markdown): implement live source editing and formatting\n- fix(app): retain retry outcomes and Markdown ledger lifetime\n- fix(view): align Markdown viewport starts to UTF-8 boundaries\n- feat(app): add budgeted native Markdown reading and split modes\n- feat(core): add bounded Markdown parsing and source projection foundations\n- fix(app): accumulate pixel deltas for Mac trackpad scrolling\n- fix(app): open files delivered by LaunchServices before launch finishes\n- feat(app): open files at LINE:COL from command-line arguments\n\nWindows 10/11 x64 and arm64, static MSVC runtime, six bundled license notices. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
