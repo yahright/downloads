@@ -1,17 +1,17 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "channel": "Beta",
-  "tag": "sgrepx-v0.2.0",
-  "releaseDateUtc": "2026-10-13T00:23:10Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrepx-v0.2.0",
+  "tag": "sgrepx-v0.2.1",
+  "releaseDateUtc": "2026-10-13T02:23:44Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrepx-v0.2.1",
   "downloads": [
     {
       "product": "SgrepX",
       "platform": "x64",
       "kind": "gui-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.2.0/SgrepX-0.2.0-x64.zip",
-      "sha256": "79ede3229fa066c6600cf45dc3acd7c4e16a8803d85cb0d0a58c7b9f62008f54",
-      "size": 20820082
+      "url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.2.1/SgrepX-0.2.1-x64.zip",
+      "sha256": "c0c8059f2c60a6b119373185d42db011470956593b31e4cac6afb96b616da903",
+      "size": 20838458
     }
   ]
 }
