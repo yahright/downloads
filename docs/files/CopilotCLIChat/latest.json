@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "channel": "Beta",
+  "tag": "copilot-cli-chat-v0.2.0",
+  "releaseDateUtc": "2026-10-13T23:18:35Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/copilot-cli-chat-v0.2.0",
+  "notes": "Copilot CLI Chat 0.2.0 (beta)\n\n- Implement M1 Copilot CLI chat extension for VS Code\n- Implement M1.5 independent working roots and reasoning effort controls\n- Implement Visual Studio ACP chat and IDE tools with settings and remembered permissions\n\nPackages: VS Code Windows x64 / ARM64 / macOS Apple Silicon, and Visual Studio 2022 17.8+ (x64 / ARM64).\n\nInstall VS Code packages with Extensions > Install from VSIX; choose the extension host's OS/CPU. The bundled SDK needs host Node ^20.19 or >=22.12. For Visual Studio, close VS and run the VSIX installer; install and authenticate the external Copilot CLI first. A GitHub account with Copilot access is required.\n\nBeta validation: automated VS Code and VS Core tests, package manifests and runtime isolation. Full manual acceptance and runtime checks on macOS / Windows x64 / company VS environments remain pending. ACP is public preview. No automatic updater or Marketplace publication is included.",
+  "downloads": [
+    {
+      "product": "Copilot CLI Chat",
+      "component": "vscode",
+      "platform": "win32-x64",
+      "kind": "vscode-vsix",
+      "version": "0.2.0",
+      "url": "https://github.com/yahright/downloads/releases/download/copilot-cli-chat-v0.2.0/copilot-cli-chat-win32-x64-0.2.0.vsix",
+      "sha256": "0a7063c0a7c31cc243486a63339779d4b428063e6b5b63481bcaabc4601851cf",
+      "size": 53557151
+    },
+    {
+      "product": "Copilot CLI Chat",
+      "component": "vscode",
+      "platform": "win32-arm64",
+      "kind": "vscode-vsix",
+      "version": "0.2.0",
+      "url": "https://github.com/yahright/downloads/releases/download/copilot-cli-chat-v0.2.0/copilot-cli-chat-win32-arm64-0.2.0.vsix",
+      "sha256": "4b86a7e88dbe8f63b929451bf6a8a17583e0d8fac7e94bf6b9592e44222d47f6",
+      "size": 58384969
+    },
+    {
+      "product": "Copilot CLI Chat",
+      "component": "vscode",
+      "platform": "darwin-arm64",
+      "kind": "vscode-vsix",
+      "version": "0.2.0",
+      "url": "https://github.com/yahright/downloads/releases/download/copilot-cli-chat-v0.2.0/copilot-cli-chat-darwin-arm64-0.2.0.vsix",
+      "sha256": "4be9282e9e394fbf58c31de50d5548d4d20ba4a6e170c9596427d848cfccc720",
+      "size": 54388103
+    },
+    {
+      "product": "Copilot CLI Chat",
+      "component": "vs2022",
+      "platform": "win32-x64-arm64",
+      "kind": "vs-vsix",
+      "version": "0.2.0",
+      "url": "https://github.com/yahright/downloads/releases/download/copilot-cli-chat-v0.2.0/CopilotChatVSIX-0.2.0.vsix",
+      "sha256": "4e6989461e868c68cbb769238da8ad6dbced04dde87190666fc0f98c77ca17d9",
+      "size": 110579
+    }
+  ]
+}
