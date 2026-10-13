@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "2fbe98a6768d3aba1f75ba6b737a0f42d995d4b0",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.4",
-  "published_at": "2026-10-13T02:14:53.680547+00:00",
+  "source_sha": "9f591b25c24fad1262ce136d19f1712233090e00",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.5",
+  "published_at": "2026-10-13T07:11:30.649995+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.4/oredit-0.1.4-windows-x64.zip",
-      "sha256": "6cbb3d2eddbb163ae57ba42ae19489e9b9fbe7cf6f0ad6fda3e4a0a453499679",
-      "bytes": 2253622
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.5/oredit-0.1.5-windows-x64.zip",
+      "sha256": "2f67bcabac5f519d94643c817e6decf307090d76f20e0d0e26f06c6c17ab2054",
+      "bytes": 2440349
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.4/oredit-0.1.4-windows-arm64.zip",
-      "sha256": "426a2e13ed55f1b4d36875a46f4fadf5b283c7ae0820ead714b4960288e5ce45",
-      "bytes": 1998547
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.5/oredit-0.1.5-windows-arm64.zip",
+      "sha256": "2ccf047f9921c4ad2754dafafaba78c88bfcc716fe07f32c63e44da8ba37f94e",
+      "bytes": 2158791
     }
   ],
-  "notes": "oredit 0.1.4 Windows beta\n\n- feat(app): add manual updates and improve Markdown and data viewers\n\nWindows 10/11 x64 and arm64, static MSVC runtime, six bundled license notices. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.5 Windows beta\n\n- feat(app): complete B1-B3 binary editing search recovery and analysis\n- fix(view): stop Markdown selection clicks from scrolling\n- feat(core): add persistent raw byte documents and atomic save\n\nWindows 10/11 x64 and arm64, static MSVC runtime, six bundled license notices. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
