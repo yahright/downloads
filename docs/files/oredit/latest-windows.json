@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "ae80d8afa75ebd015e094e1ae61013b9bba11b5f",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.7",
-  "published_at": "2026-10-14T01:48:06.268103+00:00",
+  "source_sha": "c399f73040baf0ac07091edeb16930ad3d7f9420",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.8",
+  "published_at": "2026-10-14T10:48:47.088515+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.7/oredit-0.1.7-windows-x64.zip",
-      "sha256": "f81e3ddd1c9a3974714033205721310b2e0c2a6fa6d1a84e9955b01e056ecae3",
-      "bytes": 2598760
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.8/oredit-0.1.8-windows-x64.zip",
+      "sha256": "d2016e682f5708542ea7af78053e482a9c268adbca93fe5b53047fcb0673b782",
+      "bytes": 3146875
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.7/oredit-0.1.7-windows-arm64.zip",
-      "sha256": "8d6752d8467eba633ac9c7db55715a7a3d2f2b86637a09e4348c8aae76666f3b",
-      "bytes": 2299279
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.8/oredit-0.1.8-windows-arm64.zip",
+      "sha256": "2cd63675d32aa646f3b8dd26af5f98d36c39768f4285d7452955c28435619994",
+      "bytes": 2808269
     }
   ],
-  "notes": "oredit 0.1.7 Windows beta\n\n- chore: prepare Windows 0.1.7 highlight fix release\n- fix(view): consume physical EOL before reusing viewport syntax state\n- chore: remove unused CI workflow\n\nWindows 10/11 x64 and arm64, static MSVC runtime, six bundled license notices. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.8 Windows beta\n\n- fix(app): retain explicit UTF8 NUL matches and focus completed Grep results\n- feat(app): integrate bounded Sgrep worker and editable result tabs\n- fix(core): open shared files with immutable snapshots and notify external changes\n- fix(view): honor Markdown wheel quantity and refine native reading styles\n- feat(editor): add self C++ structure parsing and left outline sidebar\n- feat(core): add isolated C++ Tree-sitter trial and benchmark evidence\n\nIncludes the C/C++ outline sidebar, Markdown wheel/style improvements, shared file opening and external-change reload, and initial Sgrep result-document integration. Folder Grep uses RE2, limits results to 2000 matching lines and reports lines over 64 KiB as unsearched. On non-cloning NTFS, dense 1 GiB private snapshots take about 2.5 seconds; the 200 ms open target is not met. The bundled worker stays idle until a search, and the existing nine-file update ZIP remains compatible.\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
