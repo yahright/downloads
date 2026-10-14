@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "4c0b4017faa17c4d6620befff3879bbbe700a833",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.6",
-  "published_at": "2026-10-14T00:11:52.259630+00:00",
+  "source_sha": "ae80d8afa75ebd015e094e1ae61013b9bba11b5f",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.7",
+  "published_at": "2026-10-14T01:48:06.268103+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.6/oredit-0.1.6-windows-x64.zip",
-      "sha256": "24dfca17310b5f674ee9750525d2d7fe7de2518f32504fcf53aca75582e88043",
-      "bytes": 2598343
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.7/oredit-0.1.7-windows-x64.zip",
+      "sha256": "f81e3ddd1c9a3974714033205721310b2e0c2a6fa6d1a84e9955b01e056ecae3",
+      "bytes": 2598760
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.6/oredit-0.1.6-windows-arm64.zip",
-      "sha256": "19fd51af67c42d6f08843d612b10f78d069d4ac488c1cb9e3783eaac38833f5b",
-      "bytes": 2298663
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.7/oredit-0.1.7-windows-arm64.zip",
+      "sha256": "8d6752d8467eba633ac9c7db55715a7a3d2f2b86637a09e4348c8aae76666f3b",
+      "bytes": 2299279
     }
   ],
-  "notes": "oredit 0.1.6 Windows beta\n\n- fix(app): scope Git filters to staged files and normalize session paths\n- fix(app): make customization guard portable across Mac architectures\n- fix(view): keep Down movement incremental in a single-row pane\n- feat(app): extend lightweight Git project roots browser and named sessions\n- fix(app): preserve EditorConfig basename spaces and synchronize native Undo tests\n- feat(core): add bounded CSV structure joins and nine-codec log tail\n- fix(app): normalize Windows EditorConfig paths and fixture tool lookup\n- feat(app): bridge bounded macro host APIs and logical multiple selections\n- fix(core): validate programmatic lexical states before reading delimiters\n- fix(app): preserve numeric values in preference controls\n- test(app): select configuration for Windows EditorConfig core tests\n- test(app): preserve Unicode paths in Windows EditorConfig probe\n- fix(app): restore Mac Hot Exit bookmarks and split view state\n- feat(core): lazily highlight embedded languages and bounded literal profiles\n- test(app): avoid clean filters during fixture index removal\n- fix(app): align bounded EditorConfig behavior with official core fixtures\n- feat(core): extend bounded language indentation outlines and literal scanning\n- test(app): isolate Git fixture commit from intentionally failing filters\n- fix(core): discard completed prepared edits when cancelled\n- feat(app): customize standard menus with native drag editors\n- fix(app): prevent lazy Git fetch during project inspection\n- fix(app): bound Git diff inputs and normalize project paths\n- feat(app): add bounded project browsing and read-only Git integration\n- test(win): invoke language selection through tools_action\n- feat(core): expand lazy lightweight highlighting to 25 languages\n- fix(app): use explicit binary offset types on macOS\n\nWindows 10/11 x64 and arm64, static MSVC runtime, six bundled license notices. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.7 Windows beta\n\n- chore: prepare Windows 0.1.7 highlight fix release\n- fix(view): consume physical EOL before reusing viewport syntax state\n- chore: remove unused CI workflow\n\nWindows 10/11 x64 and arm64, static MSVC runtime, six bundled license notices. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
