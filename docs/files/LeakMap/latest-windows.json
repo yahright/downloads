@@ -1,23 +1,23 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "channel": "Beta",
-  "sourceCommit": "f5ad384b122e15b7ff450bac7b9d77e8d0925591",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.2.0",
-  "notes": "初回ベータ。scan・ignore・mask/unmask・履歴検査。Windows版は未署名です。",
+  "sourceCommit": "3926c7e4c162350a911087693928ab35b1050274",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.3.0",
+  "notes": "- Add macOS build command and remove GitHub Actions CI\n- Add local web UI for scan, ignore, mask and unmask\n- Add macOS launcher for the LeakMap web UI\n- Open folder picker in front on macOS\n- Automate Windows beta publishing and verify packaged Web UI\n\nWindows版は未署名Betaです。ZIPを新しいフォルダに展開し、leakmap.exe ui で画面を開けます。",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.2.0/LeakMap-0.2.0-win-x64-portable.zip",
-      "sha256": "0bf82fa65b72eef10336a3be1520f4e992825e75e3904a298e7f7638fc7bd7ea",
-      "size": 15561872
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.0/LeakMap-0.3.0-win-x64-portable.zip",
+      "sha256": "dba563239bd9c8c58ac1cff37e62073e8c58fd05f82d87d2e0c3a10ce9d3a557",
+      "size": 16094101
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.2.0/LeakMap-0.2.0-win-arm64-portable.zip",
-      "sha256": "6d6f5602333a9a760ac589f81d411e477198ed426616b8f36e71bbbbeae6bfcf",
-      "size": 14254358
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.0/LeakMap-0.3.0-win-arm64-portable.zip",
+      "sha256": "d0aceb2ce2d6545e0557f6914c8d7e709c7913bc4a8cc181fc778e1ac9ed686b",
+      "size": 14757679
     }
   ]
 }
