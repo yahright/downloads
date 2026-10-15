@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "channel": "Beta",
+  "sourceCommit": "f5ad384b122e15b7ff450bac7b9d77e8d0925591",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.2.0",
+  "notes": "初回ベータ。scan・ignore・mask/unmask・履歴検査。Windows版は未署名です。",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.2.0/LeakMap-0.2.0-win-x64-portable.zip",
+      "sha256": "0bf82fa65b72eef10336a3be1520f4e992825e75e3904a298e7f7638fc7bd7ea",
+      "size": 15561872
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.2.0/LeakMap-0.2.0-win-arm64-portable.zip",
+      "sha256": "6d6f5602333a9a760ac589f81d411e477198ed426616b8f36e71bbbbeae6bfcf",
+      "size": 14254358
+    }
+  ]
+}
