@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "6c23c3f6ff986e351e49e1d44f1ab88e925bc034",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.10",
-  "published_at": "2026-10-15T03:51:14.973848+00:00",
+  "source_sha": "1f512050aa114bd5408a0e12b40dfc240f03a19c",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.11",
+  "published_at": "2026-10-15T23:39:19.390326+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.10/oredit-0.1.10-windows-x64.zip",
-      "sha256": "2eec4ebcb54aaed9dbf6651e8437914bc75b0083d14868213f01f84bd8a3dcae",
-      "bytes": 3162290
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.11/oredit-0.1.11-windows-x64.zip",
+      "sha256": "1f2439cee69d948ca70c3afffbbdda56bd82a6a7ce9b804fe57919bc8a87575c",
+      "bytes": 3275031
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.10/oredit-0.1.10-windows-arm64.zip",
-      "sha256": "65db1e083a058d457bc4d121de13e3e7ffe86b1b7418e95826007b141e91a189",
-      "bytes": 2823369
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.11/oredit-0.1.11-windows-arm64.zip",
+      "sha256": "d3c40930d72f393c61262ce16d5f47e4147d37ffdf12e24b51b1166d35654700",
+      "bytes": 2917480
     }
   ],
-  "notes": "oredit 0.1.10 Windows beta\n\n- feat(search): adopt Sakura search and replace modes\n\n検索・置換をサクラ型の操作へ変更しました。\n- 通常検索は入力後にEnterで実行します。F3は最後に確定した条件で次を検索します。\n- Ctrl+Fで検索、Ctrl+Hで置換。フォルダGrepはSgrep専用画面で、条件と履歴を独立して保持します。\n- 1件置換した後は次の一致へ進みます。空の置換語による削除、全置換の1回Undoにも対応します。\n- インクリメンタル検索は検索メニューの独立した前方・後方・正規表現コマンドから開始します。Enterで確定、Escで開始位置へ戻ります。\n- 折返し、選択範囲内検索、検索開始位置への復帰、履歴と条件の保存に対応します。\n\n表示付近の一致強調は最大1MiB・2048箇所。1MiBを超える文書の正規表現は選択した一致だけを強調します。検索範囲そのものの制限ではありません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.11 Windows beta\n\n- feat(app): Sakura-style editor context menu with right-click caret, grey states and path copy\n- fix(view): route edges that leave or enter a subgraph around its nodes\n- test(app): separate Mac Mermaid native self-test (--self-test-mermaid)\n- test(app): Mac native self-test covers Mermaid Read, R1 scroll, R4 zoom and PNG export\n- fix(core): parse Mermaid stroke-width without double from_chars (macOS target)\n- feat(app): Mac Mermaid R2-R4 painting and input (unverified)\n- feat(view,app): fit, cap and zoom Mermaid diagrams in place (R2-R4, Windows)\n- feat(view,app): pixel scrolling for Markdown Read views (Mermaid R1)\n- feat(app): Mermaid zoom window, image export and Live preview\n- feat(app): draw Mermaid flowcharts in Markdown Read and Live\n- feat(core,view): Mermaid flowchart parser and platform-neutral diagram picture\n- feat(view): Mermaid MM0 groundwork and layered layout prototype\n- fix(app): compact Windows Grep dialog layout\n- fix(app): compact Windows search dialog layout\n\nMarkdownのMermaid図、右クリックメニューを追加しました。\n- Markdownの```mermaid（flowchart/graph）を閲覧・ライブ編集で図として表示します。対応外の図は理由を1行出してコード表示に戻します。設定の[markdown] mermaidで無効にできます。\n- 図の途中でもピクセル単位でスクロールします。横に長い図は幅に合わせて縮小（50%未満は「縮小 NN%」）、縦に長い図は画面の7割までの枠に収めます（「▼ 続きあり」）。\n- 閲覧ではCtrl+ホイールでその図だけ拡大縮小、ドラッグで移動、右上のボタン、ダブルクリックの拡大窓（画像コピー・PNG保存）を使えます。素のホイールは文書をスクロールします。\n- 編集領域の右クリックでサクラ風のメニューを開きます。選択の外をクリックするとキャレットが移動し、使えない項目は灰色です。URL上では「リンクを開く」、図の上では「図を拡大表示」も出ます。「パス名をコピー」「ファイル名をコピー」を追加しました。\n- 検索・置換・Grepダイアログを小さくしました。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
