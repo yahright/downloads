@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "727d7526e2a4afa61b8543dfb9d8f7c54619374a",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.9",
-  "published_at": "2026-10-14T21:50:12.042053+00:00",
+  "source_sha": "6c23c3f6ff986e351e49e1d44f1ab88e925bc034",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.10",
+  "published_at": "2026-10-15T03:51:14.973848+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.9/oredit-0.1.9-windows-x64.zip",
-      "sha256": "5ca471e8184135753e75116f0b533f1305941511dd43be7b49de65490bf9a1e0",
-      "bytes": 3150373
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.10/oredit-0.1.10-windows-x64.zip",
+      "sha256": "2eec4ebcb54aaed9dbf6651e8437914bc75b0083d14868213f01f84bd8a3dcae",
+      "bytes": 3162290
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.9/oredit-0.1.9-windows-arm64.zip",
-      "sha256": "1eb1c89b55a6027b0f1073ba5e60204f759fb988e924b1002ac7f3961a248513",
-      "bytes": 2813045
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.10/oredit-0.1.10-windows-arm64.zip",
+      "sha256": "65db1e083a058d457bc4d121de13e3e7ffe86b1b7418e95826007b141e91a189",
+      "bytes": 2823369
     }
   ],
-  "notes": "oredit 0.1.9 Windows beta\n\n- fix(app): keep the Windows custom menu before Help after placements\n- feat(app): build both standard menus from one shared table\n- fix(app): match POSIX Sgrep handle permissions to source identity\n- fix(app): initialize macOS ivars in methods and expose native test state\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.10 Windows beta\n\n- feat(search): adopt Sakura search and replace modes\n\n検索・置換をサクラ型の操作へ変更しました。\n- 通常検索は入力後にEnterで実行します。F3は最後に確定した条件で次を検索します。\n- Ctrl+Fで検索、Ctrl+Hで置換。フォルダGrepはSgrep専用画面で、条件と履歴を独立して保持します。\n- 1件置換した後は次の一致へ進みます。空の置換語による削除、全置換の1回Undoにも対応します。\n- インクリメンタル検索は検索メニューの独立した前方・後方・正規表現コマンドから開始します。Enterで確定、Escで開始位置へ戻ります。\n- 折返し、選択範囲内検索、検索開始位置への復帰、履歴と条件の保存に対応します。\n\n表示付近の一致強調は最大1MiB・2048箇所。1MiBを超える文書の正規表現は選択した一致だけを強調します。検索範囲そのものの制限ではありません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
