@@ -1,59 +1,59 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "channel": "Beta",
-  "tag": "sgrep-v0.6.0",
-  "releaseDateUtc": "2026-10-15T07:39:53Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-v0.6.0",
+  "tag": "sgrep-v0.7.0",
+  "releaseDateUtc": "2026-10-16T01:39:30Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-v0.7.0",
   "downloads": [
     {
       "product": "Sg",
-      "platform": "ARM64",
+      "platform": "x64",
       "kind": "cli-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.6.0/Sg-0.6.0-ARM64.zip",
-      "sha256": "aa3ec1b5f3ce1c8f736f036e3830651779c09e25430e10dca435ea1e7c7afda0",
-      "size": 1803668
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/Sg-0.7.0-x64.zip",
+      "sha256": "1a445bddab62afdbbe2afab9a47d6648f56813f04f1cb4fda66e46ac33dc0b91",
+      "size": 1581845
+    },
+    {
+      "product": "SgrepGUI",
+      "platform": "x64",
+      "kind": "gui-portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepGUI-0.7.0-x64-portable.zip",
+      "sha256": "7979c3ad313cf455b914441cfd2e0989507cd374da7ac4a6d7123e1b605e4930",
+      "size": 2489073
+    },
+    {
+      "product": "SgrepVSIX",
+      "platform": "x64",
+      "kind": "vsix-zip",
+      "vsixVersion": "1.0.20261016.1",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepVSIX-0.7.0-x64.zip",
+      "sha256": "d93f3a3c7a1d09b3915e0b173e5b9b864ddbead2ee51141a01274027a885af1c",
+      "size": 2967170
     },
     {
       "product": "Sg",
-      "platform": "x64",
+      "platform": "ARM64",
       "kind": "cli-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.6.0/Sg-0.6.0-x64.zip",
-      "sha256": "981040bec4f1ff598ac2054c604c68b537233eb5d4a6449c9d615d1ff58582d1",
-      "size": 1537503
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/Sg-0.7.0-ARM64.zip",
+      "sha256": "4a504c9a670e7c0fb3831f741294122212cdc67829c7fb014b0f0035aeb9f66c",
+      "size": 1862103
     },
     {
       "product": "SgrepGUI",
       "platform": "ARM64",
       "kind": "gui-portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.6.0/SgrepGUI-0.6.0-ARM64-portable.zip",
-      "sha256": "06c31142dafb10ea678fba93ffbad59542f44f39281e7b158e8ecb97ffd36f40",
-      "size": 2682318
-    },
-    {
-      "product": "SgrepGUI",
-      "platform": "x64",
-      "kind": "gui-portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.6.0/SgrepGUI-0.6.0-x64-portable.zip",
-      "sha256": "66d83ed87458e193f2e9a3ae0ab49e66c378e82db975aca9565ba443c8adeb51",
-      "size": 2415348
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepGUI-0.7.0-ARM64-portable.zip",
+      "sha256": "e1a521d40f2e5ff5c08998d987f838fca01fd7be6c7c16b790e1c65205b8e2dd",
+      "size": 2771167
     },
     {
       "product": "SgrepVSIX",
       "platform": "ARM64",
       "kind": "vsix-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.6.0/SgrepVSIX-0.6.0-ARM64.zip",
-      "sha256": "282fba87d0ff5c7b95bbe8e37ce9473ba10698b666b15240c8b2d2f7ed7c0f0c",
-      "size": 2965682,
-      "vsixVersion": "1.0.20261015.3"
-    },
-    {
-      "product": "SgrepVSIX",
-      "platform": "x64",
-      "kind": "vsix-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.6.0/SgrepVSIX-0.6.0-x64.zip",
-      "sha256": "7dee0d8fa238fad5736a2c9f020627eec8f9d31179b2a747f4d5120f717306d9",
-      "size": 2965689,
-      "vsixVersion": "1.0.20261015.3"
+      "vsixVersion": "1.0.20261016.1",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepVSIX-0.7.0-ARM64.zip",
+      "sha256": "fec56961cbecd7c64a0da6dca349cfaccc46b29797e643998561c4e22f56d4ad",
+      "size": 2967185
     }
   ]
 }
