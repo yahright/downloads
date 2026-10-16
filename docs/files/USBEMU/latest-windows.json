@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0-beta.1",
+  "channel": "Beta",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/usbemu-v0.2.0-beta.1",
+  "notes": "USBデバイスの接続・取り外しを再現する、Windows向けUSBEMUの初回ベータ版です。\n\n- USBストレージ、複数LUN／カードリーダー、メディア交換、固定／リムーバブル、書込禁止、遅延・I/Oエラー注入\n- フォルダーを公開するMTP／PTP端末、未知VID／PIDデバイス\n- ブラウザーGUI、CLI（JSON）、MCP、YAML／JSONシナリオ\n- Windows x64／ARM64のportable ZIP。両方をMACMINIWINのWindows上でビルドし、ZIP展開後のCLI・daemon・USB/IP動作を検証しました。x64の実行確認はARM64上のエミュレーションです。\n\n使い方: アーキテクチャに合うZIPを新しいフォルダーへ展開し、`Start-USBEMU.cmd`を実行します。終了前にGUIで安全な取り外しを行い、`Stop-USBEMU.cmd`で停止します。`README-WINDOWS.txt`と`docs/usage.md`を同梱しています。各ZIPのSHA256ファイルも公開しています。\n\nWindowsのUSB接続には[usbip-win2 0.9.8.1](https://github.com/vadimgrn/usbip-win2/releases/tag/v.0.9.8.1)の別途導入が必要です。ドライバーは同梱・自動導入しません。\n\n既知の制限: 未署名ベータです。同時公開はUSBデバイス1つ（最大16 LUN）。MTPは単一ストレージ・最大10000オブジェクトで、4 GiB超拡張、移動／名前変更などは未対応。CD-ROMは未実装です。他ハイパーバイザーとWindows x64実機は未実測です。\n\n旧usbip-win2 0.9.7.8での試験中にWindows停止を観測しました。原因ドライバーは未断定です。上流のBSOD修正を含む0.9.8.1への更新後、接続・転送・書込中抜去を再検証しました。長時間の安定性試験は残っています。試験専用のイメージ・フォルダーを使用してください。\n",
+  "sourceCommit": "44bbe8a35e454d774697ad2c4f22c2dd9bb2c894",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.2.0-beta.1/USBEMU-0.2.0-beta.1-win-x64-portable.zip",
+      "sha256": "556b3b41a2fa5306ee3643daa594c9fc53f46eb44123f3e1d5ebf73582f9f592",
+      "size": 7122366
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.2.0-beta.1/USBEMU-0.2.0-beta.1-win-arm64-portable.zip",
+      "sha256": "6cb5030de37ec2878df6acd79f09b2630af943a9c0bd2f5ebedde0f756c25206",
+      "size": 6329724
+    }
+  ],
+  "notesHistory": [
+    {
+      "version": "0.2.0-beta.1",
+      "notes": "USBデバイスの接続・取り外しを再現する、Windows向けUSBEMUの初回ベータ版です。\n\n- USBストレージ、複数LUN／カードリーダー、メディア交換、固定／リムーバブル、書込禁止、遅延・I/Oエラー注入\n- フォルダーを公開するMTP／PTP端末、未知VID／PIDデバイス\n- ブラウザーGUI、CLI（JSON）、MCP、YAML／JSONシナリオ\n- Windows x64／ARM64のportable ZIP。両方をMACMINIWINのWindows上でビルドし、ZIP展開後のCLI・daemon・USB/IP動作を検証しました。x64の実行確認はARM64上のエミュレーションです。\n\n使い方: アーキテクチャに合うZIPを新しいフォルダーへ展開し、`Start-USBEMU.cmd`を実行します。終了前にGUIで安全な取り外しを行い、`Stop-USBEMU.cmd`で停止します。`README-WINDOWS.txt`と`docs/usage.md`を同梱しています。各ZIPのSHA256ファイルも公開しています。\n\nWindowsのUSB接続には[usbip-win2 0.9.8.1](https://github.com/vadimgrn/usbip-win2/releases/tag/v.0.9.8.1)の別途導入が必要です。ドライバーは同梱・自動導入しません。\n\n既知の制限: 未署名ベータです。同時公開はUSBデバイス1つ（最大16 LUN）。MTPは単一ストレージ・最大10000オブジェクトで、4 GiB超拡張、移動／名前変更などは未対応。CD-ROMは未実装です。他ハイパーバイザーとWindows x64実機は未実測です。\n\n旧usbip-win2 0.9.7.8での試験中にWindows停止を観測しました。原因ドライバーは未断定です。上流のBSOD修正を含む0.9.8.1への更新後、接続・転送・書込中抜去を再検証しました。長時間の安定性試験は残っています。試験専用のイメージ・フォルダーを使用してください。\n",
+      "publishedAtUtc": "2026-10-16T08:00:13Z"
+    }
+  ]
+}
