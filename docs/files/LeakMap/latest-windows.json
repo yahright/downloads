@@ -1,23 +1,23 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "channel": "Beta",
-  "sourceCommit": "3926c7e4c162350a911087693928ab35b1050274",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.3.0",
-  "notes": "- Add macOS build command and remove GitHub Actions CI\n- Add local web UI for scan, ignore, mask and unmask\n- Add macOS launcher for the LeakMap web UI\n- Open folder picker in front on macOS\n- Automate Windows beta publishing and verify packaged Web UI\n\nWindows版は未署名Betaです。ZIPを新しいフォルダに展開し、leakmap.exe ui で画面を開けます。",
+  "sourceCommit": "10334fd43c5cefecdc8bc7b119b42661bebba984",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.3.1",
+  "notes": "- Web UI: 行からの除外メニュー、除外リストのタブ、選択子の拡張\n- Improve findings UI with file groups, filters, and bulk ignores\n- Complete UI workflow with redacted context, settings, progress and OS integration\n- Fix Windows HTTP rejection resets and retain notes across release candidates\n\nWindows版は未署名Betaです。ZIPを新しいフォルダに展開し、leakmap.exe ui で画面を開けます。",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.0/LeakMap-0.3.0-win-x64-portable.zip",
-      "sha256": "dba563239bd9c8c58ac1cff37e62073e8c58fd05f82d87d2e0c3a10ce9d3a557",
-      "size": 16094101
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.1/LeakMap-0.3.1-win-x64-portable.zip",
+      "sha256": "22ac667adf27e2e7d5261ec74f4948b46bca3ad73d1185ea5bf2e993d035c100",
+      "size": 16126711
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.0/LeakMap-0.3.0-win-arm64-portable.zip",
-      "sha256": "d0aceb2ce2d6545e0557f6914c8d7e709c7913bc4a8cc181fc778e1ac9ed686b",
-      "size": 14757679
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.1/LeakMap-0.3.1-win-arm64-portable.zip",
+      "sha256": "46613181b686db9292e8ae72eb98e8407cddf5e121dd310a314f9cc583d6e41f",
+      "size": 14790965
     }
   ]
 }
