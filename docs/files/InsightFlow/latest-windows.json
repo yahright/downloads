@@ -1,9 +1,14 @@
 {
-  "version": "0.10.22",
+  "version": "0.10.25",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Keep per-file mark summaries constant time\n- Merge pull request #313 from yahright/codex/constant-time-marking",
+  "notes": "- docs(ai-chat): propose right-docked AI chat panel over ACP\n- docs(ai-chat): record decisions on API key route, auto-approval, own ACP client, Gemini\n- docs(ai-chat): decide default key and text path extraction, add Phase A instructions\n- feat(ai-chat): add ACP core (NDJSON transport, client, agent process, launcher)\n- docs(ai-chat): record A-1 commit in progress table\n- feat(ai-chat): add AI chat settings model, agent presets and launcher overload\n- docs(ai-chat): record A-2 commit\n- feat(ai-chat): add ToggleAiChatPanel command, default key, menu and localization\n- docs(ai-chat): record A-3 commit\n- feat(ai-chat): add context chips, ContextBuilder, manifest writer/store and collector\n- feat(ai-chat): add ResultExtractor for paths in agent answers\n- docs(ai-chat): record A-5 and A-6 commits\n- feat(ai-chat): add AiChatPanelViewModel with permission policies, transcript and tests\n- feat(ai-chat): wire panel VM into MainWindowViewModel (visibility, width, shutdown, mark-in-pane)\n- feat(ai-chat): add AI chat panel view, MainWindow dock column and headless tests\n- docs(ai-chat): record A-4 commits\n- feat(ai-chat): add AI Chat tab to the settings dialog\n- feat(ai-chat): add JSON-RPC log, AI_CHAT debug checkpoints, manual page and Phase A status\n- docs(ai-chat): record A-7 and A-8 commits\n- fix(ai-chat): apply queued session updates before handling the prompt response\n- docs(ai-chat): define what context is passed (both panes, state block, manifest path in text)\n- docs(ai-chat): narrow passed context to active pane, marks and cursor item\n- feat(ai-chat): send an InsightFlow state block with the manifest path and re-collect context at send time\n- docs(ai-chat): record A-9 commit\n- feat(ai-chat): scoped permission approvals (session kind, session all, remembered kinds)\n- docs(ai-chat): record A-10 commit\n- feat(ai-chat): enable shortcut in the panel, settings tab layout fix and save-flow tests\n- docs(ai-chat): record A-11 commit\n- feat(ai-chat): add Google Antigravity preset and sign-in flow on authentication errors\n- docs(ai-chat): record A-12 commit\n- feat(ai-chat): quieter transcript, narrow-width layout, configured agents only and connection test in settings\n- docs(ai-chat): record A-13 commit\n- feat(ai-chat): clickable paths in agent answers that reveal in the active or other pane\n- docs(ai-chat): record A-14 commit\n- docs(ai-chat): spec and instructions for exposing InsightFlow features to the AI (Phase C)\n- Add Spray+C++ port plan\n- feat(ai-chat-mcp): C-1 plumbing and read tools for exposing InsightFlow to the AI\n- docs(ai-chat-mcp): record C-1 commit and measured size\n- feat(ai-chat-mcp): C-2 UI operation tools for the AI\n- feat(ai-chat-mcp): ship a partially trimmed Controller (+23 MB instead of +78 MB)\n- feat(ai-chat-mcp): C-3 file operations as plan, confirm, job (Files level only)\n- docs(ai-chat-mcp): record C-3 commit\n- feat(ai-chat-mcp): C-4 expose duplicates and checksums, lock down AI settings, document levels\n- docs(ai-chat-mcp): record C-4 commit\n- docs(ai-chat-mcp): C-5 manual section, real-device acceptance, Windows packaging checks\n- docs(ai-chat-mcp): record C-5 commit\n- fix: avoid filesystem probes and blocking UI diagnostic logging",
   "notesHistory": [
+    {
+      "version": "0.10.25",
+      "notes": "- docs(ai-chat): propose right-docked AI chat panel over ACP\n- docs(ai-chat): record decisions on API key route, auto-approval, own ACP client, Gemini\n- docs(ai-chat): decide default key and text path extraction, add Phase A instructions\n- feat(ai-chat): add ACP core (NDJSON transport, client, agent process, launcher)\n- docs(ai-chat): record A-1 commit in progress table\n- feat(ai-chat): add AI chat settings model, agent presets and launcher overload\n- docs(ai-chat): record A-2 commit\n- feat(ai-chat): add ToggleAiChatPanel command, default key, menu and localization\n- docs(ai-chat): record A-3 commit\n- feat(ai-chat): add context chips, ContextBuilder, manifest writer/store and collector\n- feat(ai-chat): add ResultExtractor for paths in agent answers\n- docs(ai-chat): record A-5 and A-6 commits\n- feat(ai-chat): add AiChatPanelViewModel with permission policies, transcript and tests\n- feat(ai-chat): wire panel VM into MainWindowViewModel (visibility, width, shutdown, mark-in-pane)\n- feat(ai-chat): add AI chat panel view, MainWindow dock column and headless tests\n- docs(ai-chat): record A-4 commits\n- feat(ai-chat): add AI Chat tab to the settings dialog\n- feat(ai-chat): add JSON-RPC log, AI_CHAT debug checkpoints, manual page and Phase A status\n- docs(ai-chat): record A-7 and A-8 commits\n- fix(ai-chat): apply queued session updates before handling the prompt response\n- docs(ai-chat): define what context is passed (both panes, state block, manifest path in text)\n- docs(ai-chat): narrow passed context to active pane, marks and cursor item\n- feat(ai-chat): send an InsightFlow state block with the manifest path and re-collect context at send time\n- docs(ai-chat): record A-9 commit\n- feat(ai-chat): scoped permission approvals (session kind, session all, remembered kinds)\n- docs(ai-chat): record A-10 commit\n- feat(ai-chat): enable shortcut in the panel, settings tab layout fix and save-flow tests\n- docs(ai-chat): record A-11 commit\n- feat(ai-chat): add Google Antigravity preset and sign-in flow on authentication errors\n- docs(ai-chat): record A-12 commit\n- feat(ai-chat): quieter transcript, narrow-width layout, configured agents only and connection test in settings\n- docs(ai-chat): record A-13 commit\n- feat(ai-chat): clickable paths in agent answers that reveal in the active or other pane\n- docs(ai-chat): record A-14 commit\n- docs(ai-chat): spec and instructions for exposing InsightFlow features to the AI (Phase C)\n- Add Spray+C++ port plan\n- feat(ai-chat-mcp): C-1 plumbing and read tools for exposing InsightFlow to the AI\n- docs(ai-chat-mcp): record C-1 commit and measured size\n- feat(ai-chat-mcp): C-2 UI operation tools for the AI\n- feat(ai-chat-mcp): ship a partially trimmed Controller (+23 MB instead of +78 MB)\n- feat(ai-chat-mcp): C-3 file operations as plan, confirm, job (Files level only)\n- docs(ai-chat-mcp): record C-3 commit\n- feat(ai-chat-mcp): C-4 expose duplicates and checksums, lock down AI settings, document levels\n- docs(ai-chat-mcp): record C-4 commit\n- docs(ai-chat-mcp): C-5 manual section, real-device acceptance, Windows packaging checks\n- docs(ai-chat-mcp): record C-5 commit\n- fix: avoid filesystem probes and blocking UI diagnostic logging",
+      "publishedAtUtc": "2026-10-17T02:40:08Z"
+    },
     {
       "version": "0.10.22",
       "notes": "- Keep per-file mark summaries constant time\n- Merge pull request #313 from yahright/codex/constant-time-marking",
@@ -48,27 +53,22 @@
       "version": "0.10.11",
       "notes": "- docs: propose InsightFlow MCP feature expansion\n- feat(rename): add case-insensitive batch rules\n- feat(rename): default batch rules to ignore case\n- fix(ui): return to panes with Escape and respect close guards\n- fix(updater): stop on incomplete recovery and preserve backups\n- fix(logging): reveal file operation failures\n- feat(rename): open batch rename for folder contents, recursion, or a preset in one command\n- Bump InsightFlow version to 0.10.11",
       "publishedAtUtc": "2026-09-17T22:16:46Z"
-    },
-    {
-      "version": "0.10.10",
-      "notes": "- Refresh Git log after fetch and pull\n- fix(git): disable log hover and sanitize output\n- fix(log): quiet startup settings messages\n- fix(update): localize update dialog messages and document old-version routes\n- Show startup updates as a passive status bar notification\n- Merge branch 'codex/git-memory'\n- fix(dialog): prevent rename layout overflow",
-      "publishedAtUtc": "2026-09-15T22:51:58Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.22/InsightFlow-0.10.22-win-x64-portable.zip",
-      "sha256": "a84c41f78b9dcc113e31a2a871beddf7e29e75af0ceb1f17870b34ce27a3893a",
-      "size": 98904272
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.25/InsightFlow-0.10.25-win-x64-portable.zip",
+      "sha256": "95519c18ccfc4d028de51ef636ae75076148b51bc801ed4bcaf29e740f46fd7d",
+      "size": 109976113
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.22/InsightFlow-0.10.22-win-arm64-portable.zip",
-      "sha256": "7dd67c48e03343679312b4569936073d911f39779701a16c0d45cb4063566369",
-      "size": 95550863
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.25/InsightFlow-0.10.25-win-arm64-portable.zip",
+      "sha256": "d69b9ce1e1f71a27914cb13f5be5bd51ad07d83f8a26f2c7093c44cc0bd5e9d4",
+      "size": 106323565
     }
   ]
 }
