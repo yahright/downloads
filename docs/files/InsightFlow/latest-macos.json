@@ -1,22 +1,22 @@
 {
-  "version": "0.10.24",
+  "version": "0.10.26",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.24",
-  "notes": "- fix(git): Esc closes the Git window right after it opens.\n- feat(git): SourceTree-style Git window for daily branch work (sidebar, history, file status, merge/rebase/pull/push, hunk staging).",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.26",
+  "notes": "- feat(help): route the help bundle menu command\n- fix(help): import bundle exporter collection types\n- fix(git): refresh history display after remote updates\n- feat(help): export AI-readable help bundles\n- feat(help): add settings and topic navigation\n- feat(help): add read-only MCP help tools\n- feat(help): bundle localized topics and search\n- feat(help): generate settings index\n- fix: avoid filesystem probes and blocking UI diagnostic logging\n- feat(ai-chat-mcp): C-4 expose duplicates and checksums, lock down AI settings, document levels\n- feat(ai-chat-mcp): C-3 file operations as plan, confirm, job (Files level only)\n- feat(ai-chat-mcp): ship a partially trimmed Controller (+23 MB instead of +78 MB)\n- feat(ai-chat-mcp): C-2 UI operation tools for the AI\n- feat(ai-chat-mcp): C-1 plumbing and read tools for exposing InsightFlow to the AI\n- feat(ai-chat): clickable paths in agent answers that reveal in the active or other pane\n- feat(ai-chat): quieter transcript, narrow-width layout, configured agents only and connection test in settings\n- feat(ai-chat): add Google Antigravity preset and sign-in flow on authentication errors\n- feat(ai-chat): enable shortcut in the panel, settings tab layout fix and save-flow tests\n- feat(ai-chat): scoped permission approvals (session kind, session all, remembered kinds)\n- feat(ai-chat): send an InsightFlow state block with the manifest path and re-collect context at send time\n- fix(ai-chat): apply queued session updates before handling the prompt response\n- feat(ai-chat): add JSON-RPC log, AI_CHAT debug checkpoints, manual page and Phase A status\n- feat(ai-chat): add AI Chat tab to the settings dialog\n- feat(ai-chat): add AI chat panel view, MainWindow dock column and headless tests\n- feat(ai-chat): wire panel VM into MainWindowViewModel (visibility, width, shutdown, mark-in-pane)\n- feat(ai-chat): add AiChatPanelViewModel with permission policies, transcript and tests\n- feat(ai-chat): add ResultExtractor for paths in agent answers\n- feat(ai-chat): add context chips, ContextBuilder, manifest writer/store and collector\n- feat(ai-chat): add ToggleAiChatPanel command, default key, menu and localization\n- feat(ai-chat): add AI chat settings model, agent presets and launcher overload\n- feat(ai-chat): add ACP core (NDJSON transport, client, agent process, launcher)",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.24/InsightFlow-0.10.24-osx-arm64-app.zip",
-      "sha256": "9b2ff4bbb317fac634e3700e79cc0e0f7231e17bc43fc0320a64d14dcba8d014",
-      "size": 93480473
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.26/InsightFlow-0.10.26-osx-arm64-app.zip",
+      "sha256": "d0389eefcaa286ea42985105bddb8d399da155a00557ba86ad34c2e829a4aa23",
+      "size": 103267665
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.24/InsightFlow-0.10.24-osx-arm64.dmg",
-      "sha256": "a7b299f94aadaaab0d5f001867b1c0ffeefb5378df5c96b99ec999274fb5146f",
-      "size": 101735167
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.26/InsightFlow-0.10.26-osx-arm64.dmg",
+      "sha256": "99d6c0a4ae03824595f97b878ae4eb73a912e989109e5e16f749e684eb265127",
+      "size": 112241235
     }
   ]
 }
