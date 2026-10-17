@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "channel": "Beta",
+  "notesUrl": "",
+  "notes": "- Standalone portable SFIS Search (bin\\sfis-search.exe): Everything-style instant file search that needs no service; data lives in bin\\data\n- Tools dialogs (Status / Volumes / Mounts / Options), persistent settings, column sort arrows\n- sfis.exe --data-dir and graceful shutdown; much faster startup (network drives are no longer probed)\n- GetFolderSize include_hidden option (sfisctl folder --no-hidden); recursive self-test fix; macOS FSEvents dispatch queue",
+  "notesHistory": [
+    {
+      "version": "0.2.0",
+      "notes": "- Standalone portable SFIS Search (bin\\sfis-search.exe): Everything-style instant file search that needs no service; data lives in bin\\data\n- Tools dialogs (Status / Volumes / Mounts / Options), persistent settings, column sort arrows\n- sfis.exe --data-dir and graceful shutdown; much faster startup (network drives are no longer probed)\n- GetFolderSize include_hidden option (sfisctl folder --no-hidden); recursive self-test fix; macOS FSEvents dispatch queue",
+      "publishedAtUtc": "2026-10-17T23:40:25Z"
+    }
+  ],
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sfis-v0.2.0/SFIS-0.2.0-win-x64.zip",
+      "sha256": "03002d1f4991f7ced8c50b53530c339d06b35e92543d58fa43274ac2ce6351bb",
+      "size": 44800849
+    }
+  ]
+}
