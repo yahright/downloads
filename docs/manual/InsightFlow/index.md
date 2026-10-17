@@ -44,6 +44,11 @@ InsightFlow の使い方をまとめたマニュアルです（試験公開中�
 - [キーボードショートカット](keyboard-shortcuts.md)
 - [設定](settings.md)
 
+## AI に読ませるヘルプ
+
+- [AI 用ヘルプ（日本語）](../../files/InsightFlow/help/InsightFlow-Help-0.10.26.ja.md)
+- [AI Help (English)](../../files/InsightFlow/help/InsightFlow-Help-0.10.26.en.md)
+
 ---
 
 このページはお試し公開です。内容は今後変わることがあります。
