@@ -1,23 +1,23 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "channel": "Beta",
-  "sourceCommit": "10334fd43c5cefecdc8bc7b119b42661bebba984",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.3.1",
-  "notes": "- Web UI: 行からの除外メニュー、除外リストのタブ、選択子の拡張\n- Improve findings UI with file groups, filters, and bulk ignores\n- Complete UI workflow with redacted context, settings, progress and OS integration\n- Fix Windows HTTP rejection resets and retain notes across release candidates\n\nWindows版は未署名Betaです。ZIPを新しいフォルダに展開し、leakmap.exe ui で画面を開けます。",
+  "sourceCommit": "8e841870e8f4ab72ad303f7d2d57aaf13eeeaaee",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/leakmap-v0.3.2",
+  "notes": "- Web UI: 検査前の「検査しないファイル」設定、前回結果の復元、検査の高速化\n- 暗号化・難読化・ライセンス検証ロジックの検出（LOGIC）を追加\n- Add Windows build batch script\n- Use macOS text editor association\n- Fix Windows build architecture detection\n- Use Windows Common Item Dialog for folder selection\n- Web UI: show context without masking, explain why each finding was detected, add file-level exclude\n- Web UI: folder filter, AND/NOT display filter with debounce, larger file paths\n\nWindows版は未署名Betaです。ZIPを新しいフォルダに展開し、leakmap.exe ui で画面を開けます。",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.1/LeakMap-0.3.1-win-x64-portable.zip",
-      "sha256": "22ac667adf27e2e7d5261ec74f4948b46bca3ad73d1185ea5bf2e993d035c100",
-      "size": 16126711
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.2/LeakMap-0.3.2-win-x64-portable.zip",
+      "sha256": "50a4418312587abab68cee868088beaa97ae728e4f6fedf43244ef8d79edc573",
+      "size": 16149241
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.1/LeakMap-0.3.1-win-arm64-portable.zip",
-      "sha256": "46613181b686db9292e8ae72eb98e8407cddf5e121dd310a314f9cc583d6e41f",
-      "size": 14790965
+      "url": "https://github.com/yahright/downloads/releases/download/leakmap-v0.3.2/LeakMap-0.3.2-win-arm64-portable.zip",
+      "sha256": "68d7e6a67c30f247a4246224a5860f41debcfa8694887d07979c41b53194b754",
+      "size": 14812834
     }
   ]
 }
