@@ -1,9 +1,14 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Standalone portable SFIS Search (bin\\sfis-search.exe): Everything-style instant file search that needs no service; data lives in bin\\data\n- Tools dialogs (Status / Volumes / Mounts / Options), persistent settings, column sort arrows\n- sfis.exe --data-dir and graceful shutdown; much faster startup (network drives are no longer probed)\n- GetFolderSize include_hidden option (sfisctl folder --no-hidden); recursive self-test fix; macOS FSEvents dispatch queue",
+  "notes": "- 検索とMonitorのGUIをすべてSprayへ統合しました。Avalonia版とそのランタイムを配布から削除しました。\r\n- Toolsから状態、索引対象、索引ポリシー、ボリューム、マウント・保存設定、イベントを確認できます。\r\n- マウント追加はパス入力・フォルダ選択、backend・policy指定、ミリ秒単位の更新間隔に対応しました。詳細画面に世代・件数予算・スキップ・更新エラーを表示します。\r\n- イベントの購読・解除・クリア・コピー・詳細表示、再接続・全更新を利用できます。\r\n- C++クライアントの複数マウント応答の読み取りを修正しました。サービス、sfisctl、C# SDKは引き続き利用できます。\r\n- ZIPのEXEはsfis-search.exe、sfis.exe、sfisctl.exeの3本です。GUIに.NETランタイムは不要です。\r\n\r\n起動方法: ZIPを新しい空のフォルダに展開し、bin/sfis-search.exeを起動してください。通常の検索にサービス登録は不要です。データはbin/dataに保存されます。\r\n\r\nWindows x64向けの未署名Betaです。NTFSボリューム全体を索引する場合は管理者として起動してください。\r\n",
   "notesHistory": [
+    {
+      "version": "0.3.0",
+      "notes": "- 検索とMonitorのGUIをすべてSprayへ統合しました。Avalonia版とそのランタイムを配布から削除しました。\r\n- Toolsから状態、索引対象、索引ポリシー、ボリューム、マウント・保存設定、イベントを確認できます。\r\n- マウント追加はパス入力・フォルダ選択、backend・policy指定、ミリ秒単位の更新間隔に対応しました。詳細画面に世代・件数予算・スキップ・更新エラーを表示します。\r\n- イベントの購読・解除・クリア・コピー・詳細表示、再接続・全更新を利用できます。\r\n- C++クライアントの複数マウント応答の読み取りを修正しました。サービス、sfisctl、C# SDKは引き続き利用できます。\r\n- ZIPのEXEはsfis-search.exe、sfis.exe、sfisctl.exeの3本です。GUIに.NETランタイムは不要です。\r\n\r\n起動方法: ZIPを新しい空のフォルダに展開し、bin/sfis-search.exeを起動してください。通常の検索にサービス登録は不要です。データはbin/dataに保存されます。\r\n\r\nWindows x64向けの未署名Betaです。NTFSボリューム全体を索引する場合は管理者として起動してください。\r\n",
+      "publishedAtUtc": "2026-10-18T04:49:15Z"
+    },
     {
       "version": "0.2.0",
       "notes": "- Standalone portable SFIS Search (bin\\sfis-search.exe): Everything-style instant file search that needs no service; data lives in bin\\data\n- Tools dialogs (Status / Volumes / Mounts / Options), persistent settings, column sort arrows\n- sfis.exe --data-dir and graceful shutdown; much faster startup (network drives are no longer probed)\n- GetFolderSize include_hidden option (sfisctl folder --no-hidden); recursive self-test fix; macOS FSEvents dispatch queue",
@@ -14,9 +19,9 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sfis-v0.2.0/SFIS-0.2.0-win-x64.zip",
-      "sha256": "03002d1f4991f7ced8c50b53530c339d06b35e92543d58fa43274ac2ce6351bb",
-      "size": 44800849
+      "url": "https://github.com/yahright/downloads/releases/download/sfis-v0.3.0/SFIS-0.3.0-win-x64.zip",
+      "sha256": "7a4def4d0ce073a6367952dae5a6d7903b68b1ef7e36e2d175e12b2b0159380b",
+      "size": 22453622
     }
   ]
 }
