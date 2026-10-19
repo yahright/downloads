@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "1f512050aa114bd5408a0e12b40dfc240f03a19c",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.11",
-  "published_at": "2026-10-15T23:39:19.390326+00:00",
+  "source_sha": "a35bc974c3c8b097ff344c80d09b9c8847d26685",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.12",
+  "published_at": "2026-10-19T00:43:23.699668+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.11/oredit-0.1.11-windows-x64.zip",
-      "sha256": "1f2439cee69d948ca70c3afffbbdda56bd82a6a7ce9b804fe57919bc8a87575c",
-      "bytes": 3275031
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.12/oredit-0.1.12-windows-x64.zip",
+      "sha256": "db1c785299937b0c2566e21811bd5253ed97c2918c835cef83d7bb774f2ea60f",
+      "bytes": 3318304
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.11/oredit-0.1.11-windows-arm64.zip",
-      "sha256": "d3c40930d72f393c61262ce16d5f47e4147d37ffdf12e24b51b1166d35654700",
-      "bytes": 2917480
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.12/oredit-0.1.12-windows-arm64.zip",
+      "sha256": "c98a29f0ad1c06516a23a7fa47e84242a50b314e4f742090fdd7bdbc5b3d741c",
+      "bytes": 2955693
     }
   ],
-  "notes": "oredit 0.1.11 Windows beta\n\n- feat(app): Sakura-style editor context menu with right-click caret, grey states and path copy\n- fix(view): route edges that leave or enter a subgraph around its nodes\n- test(app): separate Mac Mermaid native self-test (--self-test-mermaid)\n- test(app): Mac native self-test covers Mermaid Read, R1 scroll, R4 zoom and PNG export\n- fix(core): parse Mermaid stroke-width without double from_chars (macOS target)\n- feat(app): Mac Mermaid R2-R4 painting and input (unverified)\n- feat(view,app): fit, cap and zoom Mermaid diagrams in place (R2-R4, Windows)\n- feat(view,app): pixel scrolling for Markdown Read views (Mermaid R1)\n- feat(app): Mermaid zoom window, image export and Live preview\n- feat(app): draw Mermaid flowcharts in Markdown Read and Live\n- feat(core,view): Mermaid flowchart parser and platform-neutral diagram picture\n- feat(view): Mermaid MM0 groundwork and layered layout prototype\n- fix(app): compact Windows Grep dialog layout\n- fix(app): compact Windows search dialog layout\n\nMarkdownのMermaid図、右クリックメニューを追加しました。\n- Markdownの```mermaid（flowchart/graph）を閲覧・ライブ編集で図として表示します。対応外の図は理由を1行出してコード表示に戻します。設定の[markdown] mermaidで無効にできます。\n- 図の途中でもピクセル単位でスクロールします。横に長い図は幅に合わせて縮小（50%未満は「縮小 NN%」）、縦に長い図は画面の7割までの枠に収めます（「▼ 続きあり」）。\n- 閲覧ではCtrl+ホイールでその図だけ拡大縮小、ドラッグで移動、右上のボタン、ダブルクリックの拡大窓（画像コピー・PNG保存）を使えます。素のホイールは文書をスクロールします。\n- 編集領域の右クリックでサクラ風のメニューを開きます。選択の外をクリックするとキャレットが移動し、使えない項目は灰色です。URL上では「リンクを開く」、図の上では「図を拡大表示」も出ます。「パス名をコピー」「ファイル名をコピー」を追加しました。\n- 検索・置換・Grepダイアログを小さくしました。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.12 Windows beta\n\n- fix(mac): default held character keys to repeat\n- merge: integrate binary scroll and format display with native tests\n- merge: reconcile Markdown selection scroll branch with main\n- ops(release): add TaCM artifact rollout tasks\n- feat(app): manage file associations from native extension lists\n- fix(build): align macOS bundle version check\n- feat(app): configure file associations by extension\n- feat(view): reflect syntax colors in bounded minimap windows\n- fix(app): refresh external watcher after every overwrite save\n- fix(tools): record the packaging agent and model from the run instead of a fixed Codex\n\n拡張子ごとのファイル関連付け管理と、バイナリ表示の形式パネルを追加しました。\n- Windowsの設定メニューから拡張子ごとにoreditを関連付けできます。標準拡張子一覧と独自拡張子を管理し、OSの既定アプリ選択を確認できます。\n- バイナリ表示で形式定義を使ったfield表示・選択・値編集に対応しました。編集後も定義を更新し、選択したfile addressを保持します。\n- バイナリのスクロール中に完成済みframeを表示し、scrollbarをpaneの表示範囲に合わせます。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
