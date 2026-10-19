@@ -1,9 +1,14 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- 検索とMonitorのGUIをすべてSprayへ統合しました。Avalonia版とそのランタイムを配布から削除しました。\r\n- Toolsから状態、索引対象、索引ポリシー、ボリューム、マウント・保存設定、イベントを確認できます。\r\n- マウント追加はパス入力・フォルダ選択、backend・policy指定、ミリ秒単位の更新間隔に対応しました。詳細画面に世代・件数予算・スキップ・更新エラーを表示します。\r\n- イベントの購読・解除・クリア・コピー・詳細表示、再接続・全更新を利用できます。\r\n- C++クライアントの複数マウント応答の読み取りを修正しました。サービス、sfisctl、C# SDKは引き続き利用できます。\r\n- ZIPのEXEはsfis-search.exe、sfis.exe、sfisctl.exeの3本です。GUIに.NETランタイムは不要です。\r\n\r\n起動方法: ZIPを新しい空のフォルダに展開し、bin/sfis-search.exeを起動してください。通常の検索にサービス登録は不要です。データはbin/dataに保存されます。\r\n\r\nWindows x64向けの未署名Betaです。NTFSボリューム全体を索引する場合は管理者として起動してください。\r\n",
+  "notes": "- Statically link the MSVC runtime into sfis.exe and sfisctl.exe so the engine and CLI no longer need the Visual C++ Redistributable.\n- Fix a GUI startup compatibility issue on older Windows DXGI versions: use Factory4 and fall back to legacy adapter enumeration when Factory6 is unavailable. Retain WARP software rendering.\n- Bundle the matching Visual C++ runtime DLLs with the portable GUI and show errors when window-system initialization fails.\n- Verified locally: native self-tests, live engine/client behavior, legacy DXGI/WARP regression tests, GUI controls and folder search, and clean-extraction startup/shutdown. Windows Server 2016 target-machine validation is still pending.\n\nExtract into a new empty folder and run bin/sfis-search.exe. The package remains an unsigned beta.\r\n",
   "notesHistory": [
+    {
+      "version": "0.3.1",
+      "notes": "- Statically link the MSVC runtime into sfis.exe and sfisctl.exe so the engine and CLI no longer need the Visual C++ Redistributable.\n- Fix a GUI startup compatibility issue on older Windows DXGI versions: use Factory4 and fall back to legacy adapter enumeration when Factory6 is unavailable. Retain WARP software rendering.\n- Bundle the matching Visual C++ runtime DLLs with the portable GUI and show errors when window-system initialization fails.\n- Verified locally: native self-tests, live engine/client behavior, legacy DXGI/WARP regression tests, GUI controls and folder search, and clean-extraction startup/shutdown. Windows Server 2016 target-machine validation is still pending.\n\nExtract into a new empty folder and run bin/sfis-search.exe. The package remains an unsigned beta.\r\n",
+      "publishedAtUtc": "2026-10-19T03:11:05Z"
+    },
     {
       "version": "0.3.0",
       "notes": "- 検索とMonitorのGUIをすべてSprayへ統合しました。Avalonia版とそのランタイムを配布から削除しました。\r\n- Toolsから状態、索引対象、索引ポリシー、ボリューム、マウント・保存設定、イベントを確認できます。\r\n- マウント追加はパス入力・フォルダ選択、backend・policy指定、ミリ秒単位の更新間隔に対応しました。詳細画面に世代・件数予算・スキップ・更新エラーを表示します。\r\n- イベントの購読・解除・クリア・コピー・詳細表示、再接続・全更新を利用できます。\r\n- C++クライアントの複数マウント応答の読み取りを修正しました。サービス、sfisctl、C# SDKは引き続き利用できます。\r\n- ZIPのEXEはsfis-search.exe、sfis.exe、sfisctl.exeの3本です。GUIに.NETランタイムは不要です。\r\n\r\n起動方法: ZIPを新しい空のフォルダに展開し、bin/sfis-search.exeを起動してください。通常の検索にサービス登録は不要です。データはbin/dataに保存されます。\r\n\r\nWindows x64向けの未署名Betaです。NTFSボリューム全体を索引する場合は管理者として起動してください。\r\n",
@@ -19,9 +24,9 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sfis-v0.3.0/SFIS-0.3.0-win-x64.zip",
-      "sha256": "7a4def4d0ce073a6367952dae5a6d7903b68b1ef7e36e2d175e12b2b0159380b",
-      "size": 22453622
+      "url": "https://github.com/yahright/downloads/releases/download/sfis-v0.3.1/SFIS-0.3.1-win-x64.zip",
+      "sha256": "b9019072037ed37ddc100e07b5327dfabd3d44e61cd45361c32162d813118eb6",
+      "size": 23321585
     }
   ]
 }
