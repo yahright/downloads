@@ -1,23 +1,23 @@
 {
-  "version": "0.3.0-beta.1",
+  "version": "0.3.0-beta.2",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/usbemu-v0.3.0-beta.1",
-  "notes": "Windows beta with persistent usbip-win2/native UDE selection, launchers and installation guide. Includes LOCAL TEST SIGNED native drivers; Microsoft signing and native driver installation/USB transfers are unverified. See docs/windows-install.md.",
-  "sourceCommit": "8c0519383d17f16b3c2a0b65ca8c986122f4288c",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/usbemu-v0.3.0-beta.2",
+  "notes": "Fix native-driver preflight on VMs: detect legacy BIOS and query UEFI Secure Boot before registry fallback; report unknown-state diagnostics. LOCAL TEST SIGNED native driver only; TESTSIGNING still required. Actual native driver installation/USB transfer remains unverified.",
+  "sourceCommit": "20ea4e6376bd76eae46a4ceb60229630109c747c",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.3.0-beta.1/USBEMU-0.3.0-beta.1-win-x64-portable.zip",
-      "sha256": "ebfc63a1cfda0beee786cf6283b01a71d5334fdc7e299c79d45587787900378b",
-      "size": 7460507
+      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.3.0-beta.2/USBEMU-0.3.0-beta.2-win-x64-portable.zip",
+      "sha256": "1afe7886a2e85b66ac5dd611a19cb68105bbb054e8ac1441cd2eda9d8b953162",
+      "size": 7461472
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.3.0-beta.1/USBEMU-0.3.0-beta.1-win-arm64-portable.zip",
-      "sha256": "0405b07af95722ace0491a14588ec2b569eb35ffd058862b985a2408c6393600",
-      "size": 6679309
+      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.3.0-beta.2/USBEMU-0.3.0-beta.2-win-arm64-portable.zip",
+      "sha256": "63509a4c03d146e2d2d4594c3e44239f8cd71f9834529d66828ef354101bbee7",
+      "size": 6680270
     }
   ]
 }
