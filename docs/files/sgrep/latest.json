@@ -1,17 +1,25 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "channel": "Beta",
-  "tag": "sgrep-v0.7.0",
-  "releaseDateUtc": "2026-10-16T01:39:30Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-v0.7.0",
+  "tag": "sgrep-v0.7.1",
+  "releaseDateUtc": "2026-10-19T04:04:56Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-v0.7.1",
   "downloads": [
     {
       "product": "Sg",
       "platform": "x64",
       "kind": "cli-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/Sg-0.7.0-x64.zip",
-      "sha256": "1a445bddab62afdbbe2afab9a47d6648f56813f04f1cb4fda66e46ac33dc0b91",
-      "size": 1581845
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.1/Sg-0.7.1-x64.zip",
+      "sha256": "6c100c9d04103b985974a3567e0d0fb26428000487804d149886cbd9e33fa410",
+      "size": 1401729
+    },
+    {
+      "product": "Sg",
+      "platform": "ARM64",
+      "kind": "cli-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.1/Sg-0.7.1-ARM64.zip",
+      "sha256": "76d7da85d0650bb6f4eb5ec7e294e2cfeaa96e5d30b5118d15308119c12f9424",
+      "size": 1319135
     },
     {
       "product": "SgrepGUI",
@@ -29,14 +37,6 @@
       "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepVSIX-0.7.0-x64.zip",
       "sha256": "d93f3a3c7a1d09b3915e0b173e5b9b864ddbead2ee51141a01274027a885af1c",
       "size": 2967170
-    },
-    {
-      "product": "Sg",
-      "platform": "ARM64",
-      "kind": "cli-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/Sg-0.7.0-ARM64.zip",
-      "sha256": "4a504c9a670e7c0fb3831f741294122212cdc67829c7fb014b0f0035aeb9f66c",
-      "size": 1862103
     },
     {
       "product": "SgrepGUI",
