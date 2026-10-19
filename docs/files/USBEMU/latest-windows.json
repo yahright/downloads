@@ -1,23 +1,23 @@
 {
-  "version": "0.2.0-beta.4",
+  "version": "0.3.0-beta.1",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/usbemu-v0.2.0-beta.4",
-  "notes": "Windows beta repackaging of the latest USBEMU source and documentation. No functional changes from beta.3. See README-WINDOWS.txt for requirements and limitations.",
-  "sourceCommit": "d99fd3c3bc687d3cc07680d0d1e3c43df3d1abb5",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/usbemu-v0.3.0-beta.1",
+  "notes": "Windows beta with persistent usbip-win2/native UDE selection, launchers and installation guide. Includes LOCAL TEST SIGNED native drivers; Microsoft signing and native driver installation/USB transfers are unverified. See docs/windows-install.md.",
+  "sourceCommit": "8c0519383d17f16b3c2a0b65ca8c986122f4288c",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.2.0-beta.4/USBEMU-0.2.0-beta.4-win-x64-portable.zip",
-      "sha256": "862be8bc3da6f259d9a637d73dcd29d8f6b471e7cf7a2d6f1caf7569ace58ab8",
-      "size": 7384058
+      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.3.0-beta.1/USBEMU-0.3.0-beta.1-win-x64-portable.zip",
+      "sha256": "ebfc63a1cfda0beee786cf6283b01a71d5334fdc7e299c79d45587787900378b",
+      "size": 7460507
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.2.0-beta.4/USBEMU-0.2.0-beta.4-win-arm64-portable.zip",
-      "sha256": "f105a0d5d41b5f849cb2d5615e2bd225fac4431a70e201517f493a0058d77dbf",
-      "size": 6606407
+      "url": "https://github.com/yahright/downloads/releases/download/usbemu-v0.3.0-beta.1/USBEMU-0.3.0-beta.1-win-arm64-portable.zip",
+      "sha256": "0405b07af95722ace0491a14588ec2b569eb35ffd058862b985a2408c6393600",
+      "size": 6679309
     }
   ]
 }
