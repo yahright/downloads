@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "a35bc974c3c8b097ff344c80d09b9c8847d26685",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.12",
-  "published_at": "2026-10-19T00:43:23.699668+00:00",
+  "source_sha": "c233950ed06653c2e98a0fa744d3455bd61089ce",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.13",
+  "published_at": "2026-10-20T23:50:07.382832+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.12/oredit-0.1.12-windows-x64.zip",
-      "sha256": "db1c785299937b0c2566e21811bd5253ed97c2918c835cef83d7bb774f2ea60f",
-      "bytes": 3318304
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.13/oredit-0.1.13-windows-x64.zip",
+      "sha256": "2e1862d66748461231022852f7ba3363ca03396fb7d9bc34d76a8f4b791723c2",
+      "bytes": 3338809
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.12/oredit-0.1.12-windows-arm64.zip",
-      "sha256": "c98a29f0ad1c06516a23a7fa47e84242a50b314e4f742090fdd7bdbc5b3d741c",
-      "bytes": 2955693
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.13/oredit-0.1.13-windows-arm64.zip",
+      "sha256": "7d30e09c99c86bd581be806b3498be0845b423a9257f2ca1a44120703cf11ca1",
+      "bytes": 2973572
     }
   ],
-  "notes": "oredit 0.1.12 Windows beta\n\n- fix(mac): default held character keys to repeat\n- merge: integrate binary scroll and format display with native tests\n- merge: reconcile Markdown selection scroll branch with main\n- ops(release): add TaCM artifact rollout tasks\n- feat(app): manage file associations from native extension lists\n- fix(build): align macOS bundle version check\n- feat(app): configure file associations by extension\n- feat(view): reflect syntax colors in bounded minimap windows\n- fix(app): refresh external watcher after every overwrite save\n- fix(tools): record the packaging agent and model from the run instead of a fixed Codex\n\n拡張子ごとのファイル関連付け管理と、バイナリ表示の形式パネルを追加しました。\n- Windowsの設定メニューから拡張子ごとにoreditを関連付けできます。標準拡張子一覧と独自拡張子を管理し、OSの既定アプリ選択を確認できます。\n- バイナリ表示で形式定義を使ったfield表示・選択・値編集に対応しました。編集後も定義を更新し、選択したfile addressを保持します。\n- バイナリのスクロール中に完成済みframeを表示し、scrollbarをpaneの表示範囲に合わせます。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.13 Windows beta\n\n- merge: integrate retained Markdown scrolling and background prefetch\n- fix(app): preserve launch positions and resume the updating instance\n\nMarkdownのスクロールと、新しい表示範囲の補充を改善しました。\n- 文字配置をキャッシュし、表示範囲の前後を背景で先読みします。小さい文書は上限内で広く準備します。\n- 補充待ちでも完成済みの表示と選択を保持し、ソース表示へ自動で切り替えません。\n- 文書の最下部から上へ戻る操作、空行をまたぐ移動、大きな移動中の方向反転とクリックを改善しました。\n- 外部から開く際の行・桁指定を保持し、更新したインスタンスのタブ・位置・分割を再起動後に復元します。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
