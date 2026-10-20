@@ -1,9 +1,14 @@
 {
-  "version": "0.10.26",
+  "version": "0.10.28",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- docs(help): Phase D instructions for in-app help index, MCP help tools, AI-readable help bundle\n- feat(help): generate settings index\n- feat(help): bundle localized topics and search\n- feat(help): add read-only MCP help tools\n- feat(help): add settings and topic navigation\n- feat(help): export AI-readable help bundles\n- fix(git): refresh history display after remote updates\n- fix(help): import bundle exporter collection types\n- docs(help): record Phase D implementation and acceptance\n- feat(help): route the help bundle menu command",
+  "notes": "- feat(update): re-check for updates about every 4 hours while running",
   "notesHistory": [
+    {
+      "version": "0.10.28",
+      "notes": "- feat(update): re-check for updates about every 4 hours while running",
+      "publishedAtUtc": "2026-10-20T05:04:17Z"
+    },
     {
       "version": "0.10.26",
       "notes": "- docs(help): Phase D instructions for in-app help index, MCP help tools, AI-readable help bundle\n- feat(help): generate settings index\n- feat(help): bundle localized topics and search\n- feat(help): add read-only MCP help tools\n- feat(help): add settings and topic navigation\n- feat(help): export AI-readable help bundles\n- fix(git): refresh history display after remote updates\n- fix(help): import bundle exporter collection types\n- docs(help): record Phase D implementation and acceptance\n- feat(help): route the help bundle menu command",
@@ -48,27 +53,22 @@
       "version": "0.10.15",
       "notes": "Improved pane selection scrolling so moving the selection within the visible area avoids unnecessary scroll requests.",
       "publishedAtUtc": "2026-09-25T01:17:42Z"
-    },
-    {
-      "version": "0.10.14",
-      "notes": "- fix(rename): keep large batch rename responsive\n- fix(pane): reduce mark and scroll latency\n- release: bump InsightFlow to 0.10.14",
-      "publishedAtUtc": "2026-09-24T22:31:47Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.26/InsightFlow-0.10.26-win-x64-portable.zip",
-      "sha256": "2f2b73d16dddb5f502e48ee17b70c64487298ecace28bb72d625755095c15318",
-      "size": 110097334
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.28/InsightFlow-0.10.28-win-x64-portable.zip",
+      "sha256": "c29b6cc61cd4360d814d920fe24043d58d56d1ec34b4c2e87db25fcb12084195",
+      "size": 110134141
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.26/InsightFlow-0.10.26-win-arm64-portable.zip",
-      "sha256": "5a260ebf5b2b33eaf7f7f89a1931988513ef1e5e94ce6c46f8449d701b9bd587",
-      "size": 106444768
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.28/InsightFlow-0.10.28-win-arm64-portable.zip",
+      "sha256": "9bbd040ce3ce1fe3c8217dee130c18b8cc4255ca91558faeaa0f4df50f06a4d4",
+      "size": 106481595
     }
   ]
 }
