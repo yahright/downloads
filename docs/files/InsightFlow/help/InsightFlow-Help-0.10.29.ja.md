@@ -1,6 +1,6 @@
 # InsightFlow Help 0.10.29 (ja)
 
-Generated: 2026-10-20 06:00 UTC
+Generated: 2026-10-20 06:38 UTC
 
 この文書は AI アシスタント（NotebookLM / GitHub Copilot / ChatGPT など）に渡して InsightFlow の使い方を質問するためのものです。
 
@@ -647,6 +647,7 @@ Ctrl+Shift+T（macOSはCmd+Shift+T）でコマンドバーを表示します。�
 
 ### Application
 - **AI 用ヘルプファイルを開く** (`RevealHelpBundle`) — keys: `{"windows":[],"mac":[]}`; menu: Help > AI 用ヘルプファイルを開く…; 同梱された AI 向けヘルプファイル（英語・日本語）を表示します。
+- **InsightFlow を終了** (`Quit`) — keys: `{"windows":[],"mac":[]}`; menu: File > 終了; 
 - **オンラインマニュアル** (`OpenOnlineManual`) — keys: `{"windows":[],"mac":[]}`; menu: Help > オンラインマニュアル; 公開されている InsightFlow マニュアルを既定のブラウザーで開きます。
 - **キャンセル** (`Cancel`) — keys: `{"windows":[],"mac":[]}`; menu: ; 現在の長時間操作をキャンセルします。
 - **キーボードのヘルプ** (`ShowKeyboardHelp`) — keys: `{"windows":[],"mac":[]}`; menu: Help > キーボードのヘルプ; キーボードショートカットダイアログを開きます。
@@ -663,7 +664,6 @@ Ctrl+Shift+T（macOSはCmd+Shift+T）でコマンドバーを表示します。�
 - **更新を確認** (`CheckForUpdates`) — keys: `{"windows":[],"mac":[]}`; menu: Help > 更新を確認; 
 - **機能ガイド** (`OpenFeatureGuide`) — keys: `{"windows":[],"mac":[]}`; menu: Help > 機能ガイド; オフラインの機能ガイドを既定のブラウザーで開きます。
 - **現在のジョブをバックグラウンドへ** (`SendCurrentJobToBackground`) — keys: `{"windows":[],"mac":[]}`; menu: Tools > ジョブ > 現在のジョブをバックグラウンドへ; 現在の長時間操作をバックグラウンドに送ります。
-- **終了** (`Quit`) — keys: `{"windows":[],"mac":[]}`; menu: File > 終了; 
 - **設定** (`Settings`) — keys: `{"windows":["Ctrl\u002B,"],"mac":["\u2318\u002B,"]}`; menu: Tools > 設定; アプリケーション設定を開きます。
 
 ### Archive

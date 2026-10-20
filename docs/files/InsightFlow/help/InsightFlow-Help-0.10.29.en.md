@@ -1,6 +1,6 @@
 # InsightFlow Help 0.10.29 (en)
 
-Generated: 2026-10-20 06:00 UTC
+Generated: 2026-10-20 06:38 UTC
 
 Give this document to an AI assistant such as NotebookLM, GitHub Copilot, or ChatGPT to ask questions about InsightFlow.
 
@@ -658,7 +658,7 @@ Use the Help menu. With automatic checking enabled, checks occur at startup and 
 - **Open AI Help Files** (`RevealHelpBundle`) — keys: `{"windows":[],"mac":[]}`; menu: Help > Open AI Help Files...; Show the bundled English and Japanese AI-readable help files.
 - **Open Workspace...** (`OpenWorkspace`) — keys: `{"windows":["Ctrl\u002BO"],"mac":["\u2318\u002BO"]}`; menu: File > Open Workspace...; Open a previously saved named workspace.
 - **Portable Package Export** (`PackageExport`) — keys: `{"windows":[],"mac":[]}`; menu: File > Portable Package Export...; Create a portable package containing the app, config, tools, plugins, scripts, and optional runtime data.
-- **Quit** (`Quit`) — keys: `{"windows":[],"mac":[]}`; menu: File > Quit; 
+- **Quit InsightFlow** (`Quit`) — keys: `{"windows":[],"mac":[]}`; menu: File > Quit; 
 - **Save Workspace...** (`SaveWorkspace`) — keys: `{"windows":["Ctrl\u002BS"],"mac":["\u2318\u002BS"]}`; menu: File > Save Workspace...; Save the current tabs and layout as a named workspace.
 - **Send Current Job To Background** (`SendCurrentJobToBackground`) — keys: `{"windows":[],"mac":[]}`; menu: Tools > Jobs > Send Current Job to Background; Send the current long operation to the background.
 - **Send Feedback** (`SendFeedback`) — keys: `{"windows":[],"mac":[]}`; menu: Help > Send Feedback / Report Issue; 
