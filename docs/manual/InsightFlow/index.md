@@ -44,10 +44,16 @@ InsightFlow の使い方をまとめたマニュアルです（試験公開中�
 - [キーボードショートカット](keyboard-shortcuts.md)
 - [設定](settings.md)
 
-## AI に読ませるヘルプ
+<!-- insightflow-bundled-help:start -->
+## 機能ガイド・AI向け説明書
 
-- [AI 用ヘルプ（日本語）](../../files/InsightFlow/help/InsightFlow-Help-0.10.26.ja.md)
-- [AI Help (English)](../../files/InsightFlow/help/InsightFlow-Help-0.10.26.en.md)
+InsightFlow 0.10.29 向けのガイドです。OSごとの配布バージョンが異なる場合があります。HTMLはスクリーンショット付きで、保存すればオフラインでも読めます。
+
+- [機能ガイド（日本語）](../../files/InsightFlow/help/InsightFlow-Feature-Guide-0.10.29.ja.html)
+- [Feature Guide (English)](../../files/InsightFlow/help/InsightFlow-Feature-Guide-0.10.29.en.html)
+- [AI用ヘルプ（日本語）](../../files/InsightFlow/help/InsightFlow-Help-0.10.29.ja.md)
+- [AI Help (English)](../../files/InsightFlow/help/InsightFlow-Help-0.10.29.en.md)
+<!-- insightflow-bundled-help:end -->
 
 ---
 
