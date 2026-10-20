@@ -1,22 +1,22 @@
 {
-  "version": "0.10.27",
+  "version": "0.10.28",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.27",
-  "notes": "- feat(command-bar): add a one-line command bar under the panes (Cmd/Ctrl+Shift+T): run commands in the active pane's folder, insert marked names or paths with Ctrl+Enter, and both panes refresh when the command finishes\n- feat(diskusage): keep partial results on cancel and flag them with a banner\n- feat(search): clear results and filter by size range\n- fix: apply the Favorites IME setting after the window is activated\n- docs(help): localize Japanese help UI labels",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.28",
+  "notes": "- feat(update): re-check for updates about every 4 hours while the app is running (in addition to startup); a new version lights the existing \"Update available\" badge",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.27/InsightFlow-0.10.27-osx-arm64-app.zip",
-      "sha256": "514ce009bdcc4d4bd414d1121a4d196d0afd5220fc0d653ffb03a9d637033db0",
-      "size": 103310205
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.28/InsightFlow-0.10.28-osx-arm64-app.zip",
+      "sha256": "5956013bbff32e2d502c67fafc54bf087c934c3c6b63249532c6cc44271d7145",
+      "size": 103313183
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.27/InsightFlow-0.10.27-osx-arm64.dmg",
-      "sha256": "bbcf974cf65248dcc580f0510821226cb40856400e567109588f4b27d293b829",
-      "size": 112081972
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.28/InsightFlow-0.10.28-osx-arm64.dmg",
+      "sha256": "dad75b7ba3998562ff9a37983c3ab3f3325eb4bc45a2dfe85b8fe4ec95734f18",
+      "size": 112255604
     }
   ]
 }
