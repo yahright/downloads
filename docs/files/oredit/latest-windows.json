@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "bf165f6917ba99bbe98507b4765e294fb79583c3",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.14",
-  "published_at": "2026-10-21T02:55:21.855697+00:00",
+  "source_sha": "eb8c8fcfaf6b27aa76e8b07357579dbe73d64dd2",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.15",
+  "published_at": "2026-10-21T05:15:43.683058+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.14/oredit-0.1.14-windows-x64.zip",
-      "sha256": "605ae5e663a976249aca7a6df2f37ad1835c8f74a6d751130ccc9c95e2f88665",
-      "bytes": 3354378
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.15/oredit-0.1.15-windows-x64.zip",
+      "sha256": "df5507b9f7db4c985bfee4cc322eea068324e1f1dda248c01672b52568ec7b0f",
+      "bytes": 3354612
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.14/oredit-0.1.14-windows-arm64.zip",
-      "sha256": "2192af27589171efa9d6a0cb50dd8283c28359a4360e2907b8e14f0e2a5ac591",
-      "bytes": 2984700
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.15/oredit-0.1.15-windows-arm64.zip",
+      "sha256": "1f29756572c1216e5e78cfc7dd410bae038e7518161dbaa19b17c429f90d46a9",
+      "bytes": 2984977
     }
   ],
-  "notes": "oredit 0.1.14 Windows beta\n\n- feat(app): select installed fonts and disable mac scroll elasticity\n- fix(win): reduce repeated text shaping and scroll draw effects\n- feat(app): persist startup window position size and show state\n\n通常テキストのスクロール、起動時のウィンドウ配置、フォント設定を改善しました。\n- 長い行の文字配置計算と描画時の文字色設定を減らし、スクロール中に計算済みの行を再利用します。折返し表示で通った範囲の上移動も改善しました。\n- 起動時は位置をOSに任せ、前回のウィンドウサイズと通常／最大化状態を引き継ぎます。位置・サイズの継承や固定指定を個別に設定できます。\n- 「設定 → 設定…」でインストール済みフォントを一覧から選べます。文字サイズとともに共通・タイプ別に保存でき、OS既定へ戻せます。\n- スクロールの改善はWindowsの通常テキスト表示で検証しました。Mac版の変更は今回の配布に含みません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.15 Windows beta\n\n- fix(app): validate grep folders in background job\n- fix(win): show grep validation and worker status in its dialog\n\nフォルダからの再帰検索で、反応が分からない問題を修正しました。\n- フォルダ未入力などの案内、検索完了、検索エラーの理由をGrep画面に表示します。文書内検索の表示を上書きしません。\n- 検索フォルダの確認を背景で行い、確認中も画面を操作できるようにしました。\n- フォントと文字サイズは引き続き「設定 → 設定…」から変更・保存できます。本文の描画方式と既定フォントは変更していません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
