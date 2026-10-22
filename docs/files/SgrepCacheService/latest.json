@@ -1,25 +1,17 @@
 {
-  "version": "0.4.0",
+  "version": "0.6.0",
   "channel": "Beta",
-  "tag": "sgrep-cache-v0.4.0",
-  "releaseDateUtc": "2026-10-16T01:39:28Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-cache-v0.4.0",
+  "tag": "sgrep-cache-v0.6.0",
+  "releaseDateUtc": "2026-10-22T04:38:08Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-cache-v0.6.0",
   "downloads": [
     {
       "product": "SgrepCacheService",
       "platform": "x64",
       "kind": "service-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.4.0/SgrepCacheService-0.4.0-x64.zip",
-      "sha256": "9008931b68d0e2507e85b85831c157d792b76f66579903a537f16a93a0999b56",
-      "size": 1547996
-    },
-    {
-      "product": "SgrepCacheService",
-      "platform": "ARM64",
-      "kind": "service-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.4.0/SgrepCacheService-0.4.0-ARM64.zip",
-      "sha256": "53425d6e8f59d73699597ee016201d63198a84b00141a4c5114ee2ed357554f3",
-      "size": 1750361
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.6.0/SgrepCacheService-0.6.0-x64.zip",
+      "sha256": "addf5777755c48c0614042ec09a3730b898e8d10f1a751b1617ae1d8a70a4645",
+      "size": 26106154
     }
   ]
 }
