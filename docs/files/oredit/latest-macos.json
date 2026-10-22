@@ -1,0 +1,18 @@
+{
+  "product": "oredit",
+  "version": "0.1.18",
+  "platform": "macos",
+  "channel": "beta",
+  "source_sha": "4bcd77f5e773bc36a400aaebd52973f263c1d131",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.18",
+  "published_at": "2026-10-22T10:01:17.170038+00:00",
+  "assets": [
+    {
+      "architecture": "universal",
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.18/oredit-0.1.18-macos-universal.zip",
+      "sha256": "04221dc0b256df216514c65b5fa1f4b6a9c9b82664d6364bdc1381d8ba46ea6f",
+      "bytes": 6834650
+    }
+  ],
+  "notes": "macOS版 0.1.18 beta を公開します。\n\n- インクリメンタル検索を Esc で取り消したとき、検索開始位置ではなく取消時点の選択・カーソル・表示位置へ戻るよう修正しました。\n- 検索・置換パネルの検索ボタンが入力欄の現在の検索語を使うよう修正しました。\n- Apple Silicon と Intel に対応する universal build です。macOS 13 以降に対応します。\n\nDeveloper ID 署名、公証、staple、Gatekeeper 検証済み。Release CTest 498/498 成功。"
+}
