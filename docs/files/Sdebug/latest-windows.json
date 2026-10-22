@@ -1,0 +1,32 @@
+{
+  "product": "Sdebug",
+  "version": "0.1.0",
+  "channel": "Beta",
+  "sourceCommit": "3915981a5919ab13d0ee1fe47c533c0588c0d7c2",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sdebug-v0.1.0",
+  "notes": "Initial Sdebug Lite Beta. Latest MSI validation is pending (offline); Win7 and product acceptance are incomplete.",
+  "publishedAtUtc": "2026-10-22T23:28:18Z",
+  "notesHistory": [
+    {
+      "version": "0.1.0",
+      "notes": "Initial Sdebug Lite Beta. Latest MSI validation is pending (offline); Win7 and product acceptance are incomplete.",
+      "publishedAtUtc": "2026-10-22T23:28:18Z"
+    }
+  ],
+  "downloads": [
+    {
+      "platform": "win-x86",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sdebug-v0.1.0/Sdebug-0.1.0-win-x86-portable.zip",
+      "sha256": "c7a268a650d94f665366b92d9ce55cfe3fe2900c95f506a83db3debfc8c54586",
+      "size": 6737934
+    },
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sdebug-v0.1.0/Sdebug-0.1.0-win-x64-portable.zip",
+      "sha256": "8fcb29af57c8a3e5e75d85f65c00aeb263f3b1a48d25eaf208c38f0069880907",
+      "size": 6993764
+    }
+  ]
+}
