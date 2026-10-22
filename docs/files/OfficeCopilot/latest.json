@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "channel": "Beta",
+  "tag": "office-copilot-addin-v0.2.0",
+  "releaseDateUtc": "2026-10-22T21:17:33Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/office-copilot-addin-v0.2.0",
+  "notes": "Office Copilot 0.2.0 (beta)\n\n- feat(onenote): M0/M1 skeleton, vtable interop, registration scripts, exp3 COM probe\n- feat(onenote): COM surrogate registration (AppID/DllSurrogate/LaunchPermission); M1 verified live\n- exp4: Copilot SDK runs inside the dllhost surrogate with an AssemblyResolve hook\n- feat(onenote): M2 pseudo-docking pane in the dllhost surrogate\n- feat(chat): M3 Copilot chat in the OneNote pane\n- fix(pane): resize drag lost moves in overlay mode and never applied the release point\n- feat(onenote): M4 read/write OneNote context from the chat\n- feat(release): M5 installer (Inno Setup) and beta publish script\n- fix(tools): unregister deletes HKLM keys via the 64-bit registry view, non-fatal per key\n- exp6: MSO custom task pane vtable dump; Word late binding works from x64\n- feat(word): M6a Word add-in with a custom task pane (plain COM, no VSTO)\n- feat(office): Excel and PowerPoint add-ins, per-window task panes, undo for inserts\n- feat(release): installer for Word / Excel / PowerPoint, signing hook, Office UI regression check, 0.2.0\n\nPackage: OneNote / Word / Excel / PowerPoint desktop add-ins for 64-bit Office on Windows 10/11 (x64 / ARM64 with x64 Office). Run OfficeCopilot-Setup-0.2.0.exe (administrator rights are required: the COM classes are registered machine-wide; the wizard asks whether the add-ins are turned on for this user only or for every user of the PC), then restart the Office apps and open the \"Copilot\" tab.\n\nThe Copilot runtime is not bundled. Install the GitHub Copilot CLI (npm install -g @github/copilot, or winget install GitHub.Copilot) and sign in; the setup and the chat pane show these instructions when no CLI is found. Each chat turn uses GitHub Copilot premium requests. Excel / PowerPoint writes cannot be undone with Office's Undo (the pane has its own \"undo last insert\"). 32-bit Office and automatic updates are not included.\n\nBeta validation: automated Core unit tests; installer install / load / uninstall in both scopes checked on Windows 11 ARM64 with x64 Microsoft 365. The setup is not code-signed (SmartScreen may warn).",
+  "downloads": [
+    {
+      "product": "Office Copilot",
+      "component": "onenote",
+      "platform": "win32-x64",
+      "kind": "inno-setup",
+      "version": "0.2.0",
+      "url": "https://github.com/yahright/downloads/releases/download/office-copilot-addin-v0.2.0/OfficeCopilot-Setup-0.2.0.exe",
+      "sha256": "1fe6e8e1fc10bcbc3e0e7f72cafd73df159436a6997a02862b60eee2bdb8af5b",
+      "size": 5270944
+    }
+  ]
+}
