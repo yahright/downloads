@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "a0f86cc65ef981b1ab2fa81ff2f9b6e348c7b2ae",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.16",
-  "published_at": "2026-10-21T06:02:35.853251+00:00",
+  "source_sha": "61320a948c4a4328b06d6ec6c51463a87da75f83",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.17",
+  "published_at": "2026-10-22T00:46:52.379692+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.16/oredit-0.1.16-windows-x64.zip",
-      "sha256": "1be252fe1158ded973c08062f2bc5fcea77a797acb8140cfa36e2edaf6ca46ae",
-      "bytes": 3355385
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.17/oredit-0.1.17-windows-x64.zip",
+      "sha256": "2aa6eb2ac7e4afe4ae2fcd33f2fc6dba8f29ac93781b238392a938bf4e04232a",
+      "bytes": 3398177
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.16/oredit-0.1.16-windows-arm64.zip",
-      "sha256": "6238be1a475caabd25bd259bc50bafbde320550f194d94e8672081f9b13bc10e",
-      "bytes": 2985994
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.17/oredit-0.1.17-windows-arm64.zip",
+      "sha256": "aef949ff33356120505746e995c6443a578c03f0c749249d3dbdf8440aeb2c18",
+      "bytes": 3024289
     }
   ],
-  "notes": "oredit 0.1.16 Windows beta\n\n- feat(win): integrate search histories into editable fields\n\nフォルダからの再帰検索で、反応が分からない問題を修正しました。\n- フォルダ未入力などの案内、検索完了、検索エラーの理由をGrep画面に表示します。文書内検索の表示を上書きしません。\n- 検索フォルダの確認を背景で行い、確認中も画面を操作できるようにしました。\n- フォントと文字サイズは引き続き「設定 → 設定…」から変更・保存できます。本文の描画方式と既定フォントは変更していません。\n\n\n検索履歴を入力欄へ統合しました。\n- 検索語・置換語・Grep検索語の右端の矢印から、直近20件の履歴を選べます。別の履歴専用欄は撤去しました。\n- 実行直後に候補を更新し、再起動後も履歴と直前の語を戻します。タブ復元がOFFでも保持します。\n- 通常検索は履歴を選ぶだけでは実行しません。候補を開いた時のEnter/Escは候補の確定/取消になります。\n- Windows標準の入力部品と既存の背景保存を使い、描画方式や依存ライブラリは変更していません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.17 Windows beta\n\n- fix(view): isolate filter native checks and size huge-file line numbers\n- fix(view): tolerate brief clipboard ownership contention in filter smoke test\n- fix(view): retain filtered giant line caret and EOF positions\n- fix(view): guard line filter print checks without an active editor\n- fix(view): restore line filter controls when returning to filtered tabs\n- perf(app): throttle line filter progress updates to ten per second\n- feat(core): add explicit editable line filters with bounded projections\n- fix(core): keep malformed text readable without blocking the editor\n\n行フィルタと、不正文字・巨大な行を含むファイルの読み込み改善を追加しました。\n- 「検索 → 行フィルタ…」で条件を入力し、「適用」またはEnterで一致する行だけを表示します。正規表現・大小文字・単語単位・一致行の除外に対応し、条件の入力中には走査しません。\n- 元の行番号を保ち、表示行内の文字編集と表示部分のコピーができます。保存は非表示行も含む元文書全体が対象です。編集後の表示行集合は再適用まで維持します。\n- 改行の挿入、複数行編集、切り取り、置換、印刷はフィルタを解除して行います。正規表現は改行込み80,000 UTF-8 byteを超える物理行で処理を中止し、前の結果を残します。固定文字列は巨大行も分割走査します。\n- 不正な文字は代替文字で読み込みを継続し、文字コード欄から読み込み診断を確認できます。巨大な1行を含むファイルで画面準備が止まる問題も改善しました。\n- フォントの描画方式・既定値・配色は変更していません。\n\n行フィルタの1GiB全文走査はWindows ARM64のheadless warm計測で中央値約6～8.5秒です。強制Hugeモードの1GiB open計測は約442～647msで、200ms目標は未達です。実GUIの表示時間・cold I/O・実IMEは引き続き検証項目です。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
