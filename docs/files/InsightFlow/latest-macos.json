@@ -1,22 +1,22 @@
 {
-  "version": "0.10.29",
+  "version": "0.10.30",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.29",
-  "notes": "- feat(help): add screenshot feature guide and keep bundled AI docs in sync",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.30",
+  "notes": "InsightFlow 0.10.30 (beta)\n\n- feat(preview): add bounded read-only binary viewer\n- feat(fileops): unify engine choices as standard or scopy\n- fix(grep): allow a new search from retained results",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.29/InsightFlow-0.10.29-osx-arm64-app.zip",
-      "sha256": "7e89e181c82ee3462d80269431cda97d3c96198fa4951eda32f1d0a7ac1351a4",
-      "size": 103619287
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-osx-arm64-app.zip",
+      "sha256": "65044338667caddaef0c8cd410a7245a0e28beb07dae44c912c6d4f31e419b8b",
+      "size": 103665307
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.29/InsightFlow-0.10.29-osx-arm64.dmg",
-      "sha256": "0f7d284f0702ceee0636094a46a83aecffd62067177d313c50bf078b39ac8c1b",
-      "size": 112570431
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-osx-arm64.dmg",
+      "sha256": "bf9673b8d8073d490e6d3a283d3703b9c534f1eeb6012fc0af3c71fc8fcd5685",
+      "size": 112612712
     }
   ]
 }
