@@ -1,9 +1,14 @@
 {
-  "version": "0.10.29",
+  "version": "0.10.30",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- feat(help): add screenshot feature guide and keep bundled AI docs in sync",
+  "notes": "- fix(grep): allow a new search from retained results\n- feat(copy): choose native or legacy from copy confirmation\n- docs(copy): clarify legacy uses the native default\n- fix(copy): simplify engine picker to three choices\n- feat(fileops): unify engine choices as standard or scopy\n- docs(preview): define binary preview specification\n- feat(preview): add bounded read-only binary viewer\n- Merge binary preview and copy engine selection for 0.10.30\n- Merge new Grep search from retained results for 0.10.30",
   "notesHistory": [
+    {
+      "version": "0.10.30",
+      "notes": "- fix(grep): allow a new search from retained results\n- feat(copy): choose native or legacy from copy confirmation\n- docs(copy): clarify legacy uses the native default\n- fix(copy): simplify engine picker to three choices\n- feat(fileops): unify engine choices as standard or scopy\n- docs(preview): define binary preview specification\n- feat(preview): add bounded read-only binary viewer\n- Merge binary preview and copy engine selection for 0.10.30\n- Merge new Grep search from retained results for 0.10.30",
+      "publishedAtUtc": "2026-10-23T06:35:57Z"
+    },
     {
       "version": "0.10.29",
       "notes": "- feat(help): add screenshot feature guide and keep bundled AI docs in sync",
@@ -48,27 +53,22 @@
       "version": "0.10.18",
       "notes": "- release(InsightFlow): sync macOS 0.10.17 ledger\n- fix: quiet Git hover effects and expose streaming copy activity\n- feat(jobs): redesign Jobs dialog around selection actions and progress details\n- fix(jobs): readable status pill and engine badge text in light theme",
       "publishedAtUtc": "2026-09-27T22:30:40Z"
-    },
-    {
-      "version": "0.10.16",
-      "notes": "- docs: hand off remaining cursor and scroll latency\n- perf: add opt-in cursor latency trace and measurement script\n- perf: trace page/jump/folder/resize and compare CacheLength variants\n- docs: correct CacheLength note timestamp\n- fix(pane): scroll one row by offset instead of ScrollIntoView\n- docs: correct offset-scroll note timestamp",
-      "publishedAtUtc": "2026-09-25T06:56:12Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.29/InsightFlow-0.10.29-win-x64-portable.zip",
-      "sha256": "f0c8c2546fe9a3f842e0a438574a43dc107e6ea2143a53bf7473d3199039b986",
-      "size": 110435535
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-win-x64-portable.zip",
+      "sha256": "ed9dc51abdd9694324d9b01451d21967832a1aad4f4e52ddf86afeff465fec6c",
+      "size": 110475361
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.29/InsightFlow-0.10.29-win-arm64-portable.zip",
-      "sha256": "e5e777122957ada76a1c3f03a3542ed70d8667e936a1b3936af0ab7dba28cd1b",
-      "size": 106782978
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-win-arm64-portable.zip",
+      "sha256": "7e7da9b3f9b3eb37a1323d009a483ce8d0537dc91bea4b18903b2325b0b5f1ac",
+      "size": 106822805
     }
   ]
 }
