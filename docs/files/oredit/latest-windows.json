@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.17",
+  "version": "0.1.20",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "61320a948c4a4328b06d6ec6c51463a87da75f83",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.17",
-  "published_at": "2026-10-22T00:46:52.379692+00:00",
+  "source_sha": "0cb21a1b90c99ff97908fd85f8c7d42d114e69f7",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.20",
+  "published_at": "2026-10-23T10:53:09.459568+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.17/oredit-0.1.17-windows-x64.zip",
-      "sha256": "2aa6eb2ac7e4afe4ae2fcd33f2fc6dba8f29ac93781b238392a938bf4e04232a",
-      "bytes": 3398177
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.20/oredit-0.1.20-windows-x64.zip",
+      "sha256": "1267b039595a055505a005244caa99f73328394ddc357a6fd8124c05e52459bd",
+      "bytes": 3394332
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.17/oredit-0.1.17-windows-arm64.zip",
-      "sha256": "aef949ff33356120505746e995c6443a578c03f0c749249d3dbdf8440aeb2c18",
-      "bytes": 3024289
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.20/oredit-0.1.20-windows-arm64.zip",
+      "sha256": "866223bc489c7d7d18bbf72956891d917faf3608e3a897efea3d1c8a709c9f56",
+      "bytes": 3017901
     }
   ],
-  "notes": "oredit 0.1.17 Windows beta\n\n- fix(view): isolate filter native checks and size huge-file line numbers\n- fix(view): tolerate brief clipboard ownership contention in filter smoke test\n- fix(view): retain filtered giant line caret and EOF positions\n- fix(view): guard line filter print checks without an active editor\n- fix(view): restore line filter controls when returning to filtered tabs\n- perf(app): throttle line filter progress updates to ten per second\n- feat(core): add explicit editable line filters with bounded projections\n- fix(core): keep malformed text readable without blocking the editor\n\n行フィルタと、不正文字・巨大な行を含むファイルの読み込み改善を追加しました。\n- 「検索 → 行フィルタ…」で条件を入力し、「適用」またはEnterで一致する行だけを表示します。正規表現・大小文字・単語単位・一致行の除外に対応し、条件の入力中には走査しません。\n- 元の行番号を保ち、表示行内の文字編集と表示部分のコピーができます。保存は非表示行も含む元文書全体が対象です。編集後の表示行集合は再適用まで維持します。\n- 改行の挿入、複数行編集、切り取り、置換、印刷はフィルタを解除して行います。正規表現は改行込み80,000 UTF-8 byteを超える物理行で処理を中止し、前の結果を残します。固定文字列は巨大行も分割走査します。\n- 不正な文字は代替文字で読み込みを継続し、文字コード欄から読み込み診断を確認できます。巨大な1行を含むファイルで画面準備が止まる問題も改善しました。\n- フォントの描画方式・既定値・配色は変更していません。\n\n行フィルタの1GiB全文走査はWindows ARM64のheadless warm計測で中央値約6～8.5秒です。強制Hugeモードの1GiB open計測は約442～647msで、200ms目標は未達です。実GUIの表示時間・cold I/O・実IMEは引き続き検証項目です。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.20 Windows beta\n\n- test: accept CRLF Mermaid corpus expectations on Windows\n- test(win): check responsive Markdown cell alignment at desktop DPI\n- chore(release): prepare Windows 0.1.20 and stabilize native DPI fixtures\n- fix(win): scale and resize the manual update dialog\n- docs(release): record macOS 0.1.19 publication\n\n更新確認ウィンドウが小さく、下部のボタンが見切れる問題を修正しました。\n- Windowsの画面倍率に合わせて、ウィンドウ・文字・ボタンを拡大します。\n- ウィンドウの枠をドラッグしてサイズを変更できます。変更点の欄も広がります。\n- 更新画面を表示中に倍率の異なるモニターへ移動しても、配置を調整します。\n- 最新mainの内容を含み、行フィルタ、検索履歴、不正文字の代替読み込みなどを引き続き利用できます。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
