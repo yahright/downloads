@@ -1,18 +1,18 @@
 {
   "product": "oredit",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "platform": "macos",
   "channel": "beta",
-  "source_sha": "1af0109bbaf0d7738c0a1eb64c211f35c74bc80a",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.21",
-  "published_at": "2026-10-23T19:38:41Z",
+  "source_sha": "46b274990505b7c796829b7aec719c1bb373c53c",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.22",
+  "published_at": "2026-10-23T20:07:12Z",
   "assets": [
     {
       "architecture": "universal",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.21/oredit-0.1.21-macos-universal.zip",
-      "sha256": "a013d7e6d26bff573b6fac6f6f71f634b914166d60b97baca4a36956700af7f3",
-      "bytes": 7453372
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.22/oredit-0.1.22-macos-universal.zip",
+      "sha256": "8dea35cc8a09598292a5a289b8cee86ccac11950cb17934538700ac792c89187",
+      "bytes": 7453242
     }
   ],
-  "notes": "macOS版 0.1.21 beta を公開します。\n\n- CSV/TSV閲覧と編集、形式検出、列操作、フィルタ、変換、検索、結合などを追加しました。詳細は `docs/CSV.md` と `docs/CSV-COVERAGE.md` を参照してください。\n- Apple Silicon / Intel universal build、macOS 13以降に対応します。\n- Developer ID署名、公証、staple、Gatekeeper検証済み。\n- arm64 Release CTest 584/584成功。macOS native CSV smokeを含みます。\n\nCSV機能の100GiB級実データ、全体的なMac実操作、実IME、長時間・容量限界の受入は継続中です。この版はbetaです。"
+  "notes": "macOS版 0.1.22 beta を公開します。\n\n- 「更新を確認」が invalid external process limits/path で失敗する問題を修正しました。\n- ⌘Qで終了するとき、ウィンドウの最大化状態判定が無限再帰してクラッシュする問題を修正しました。通常サイズ・最大化状態の保存と復元を維持します。\n- 0.1.21のCSV機能を含みます。\n- Apple Silicon / Intel universal、macOS 13以降。Developer ID署名・公証・staple・Gatekeeper検証済み。\n- arm64 Release CTest 586/586成功。実際の更新画面での公開manifest取得・表示と、通常/最大化/再起動からの⌘Q正常終了を確認しました。\n\n0.1.19/0.1.21では更新確認自体が失敗するため、今回のDMGまたはZIPから手動でアプリを入れ替えてください。\n\n実IME・100GiB級CSVなどの全体受入は継続中です。この版はbetaです。"
 }
