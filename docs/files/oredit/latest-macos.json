@@ -1,18 +1,18 @@
 {
   "product": "oredit",
-  "version": "0.1.19",
+  "version": "0.1.21",
   "platform": "macos",
   "channel": "beta",
-  "source_sha": "27914bd92e1c513ef211f792220e3dde39e78677",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.19",
-  "published_at": "2026-10-22T13:22:32Z",
+  "source_sha": "1af0109bbaf0d7738c0a1eb64c211f35c74bc80a",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.21",
+  "published_at": "2026-10-23T19:38:09Z",
   "assets": [
     {
       "architecture": "universal",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.19/oredit-0.1.19-macos-universal.zip",
-      "sha256": "00e0b17069b8e6ca569e8d7c15214d8d1d1487803515724e0023335de96a72d6",
-      "bytes": 6834651
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.21/oredit-0.1.21-macos-universal.zip",
+      "sha256": "a013d7e6d26bff573b6fac6f6f71f634b914166d60b97baca4a36956700af7f3",
+      "bytes": 7453372
     }
   ],
-  "notes": "macOS版 0.1.19 beta を公開します。\n\n- 0.1.18からエディタ機能の変更はありません。今回は配布パッケージのバージョン更新です。\n- Sgrep検索worker（oredit_sgrep）をuniversalアプリ内に同梱しています（0.1.18と同様）。\n- Apple Silicon / Intel universal build、macOS 13以降に対応します。\n\nDeveloper ID署名、公証、staple、Gatekeeper検証済み。Release CTest 498/498成功。"
+  "notes": "macOS版 0.1.21 beta を公開します。\n\n- CSV/TSV閲覧と編集、形式検出、列操作、フィルタ、変換、検索、結合などを追加しました。詳細は `docs/CSV.md` と `docs/CSV-COVERAGE.md` を参照してください。\n- Apple Silicon / Intel universal build、macOS 13以降に対応します。\n- Developer ID署名、公証、staple、Gatekeeper検証済み。\n- arm64 Release CTest 584/584成功。macOS native CSV smokeを含みます。\n\nCSV機能の100GiB級実データ、全体的なMac実操作、実IME、長時間・容量限界の受入は継続中です。この版はbetaです。"
 }
