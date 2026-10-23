@@ -1,22 +1,22 @@
 {
-  "version": "0.10.30",
+  "version": "0.10.31",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.30",
-  "notes": "InsightFlow 0.10.30 (beta)\n\n- feat(preview): add bounded read-only binary viewer\n- feat(fileops): unify engine choices as standard or scopy\n- fix(grep): allow a new search from retained results",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.31",
+  "notes": "- Fix a stack overflow in binary previews, including DMG files.\n- Change Disk Usage scan targets with parent folder, volume root, folder picker, and editable paths.",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-osx-arm64-app.zip",
-      "sha256": "65044338667caddaef0c8cd410a7245a0e28beb07dae44c912c6d4f31e419b8b",
-      "size": 103665307
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.31/InsightFlow-0.10.31-osx-arm64-app.zip",
+      "sha256": "99178949e4146060baec2c68f58cb9f35efa993bc3faaa6f98fc78568816fd47",
+      "size": 103669636
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-osx-arm64.dmg",
-      "sha256": "bf9673b8d8073d490e6d3a283d3703b9c534f1eeb6012fc0af3c71fc8fcd5685",
-      "size": 112612712
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.31/InsightFlow-0.10.31-osx-arm64.dmg",
+      "sha256": "d0a52000187d8d52ed9f1c7faf160e44af3333855729723936f062ebf608afec",
+      "size": 112621292
     }
   ]
 }
