@@ -1,20 +1,20 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "channel": "Beta",
-  "tag": "office-copilot-addin-v0.2.1",
-  "releaseDateUtc": "2026-10-23T03:13:29Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/office-copilot-addin-v0.2.1",
-  "notes": "Office Copilot 0.2.1 (beta)\n\n- feat(installer): register for 32-bit Office on 64-bit Windows\n\nPackage: OneNote / Word / Excel / PowerPoint desktop add-ins for 64-bit or 32-bit Office on 64-bit Windows 10/11 (x64 / ARM64 with x64 Office); the setup registers for the Office bitness it finds. Run OfficeCopilot-Setup-0.2.1.exe (administrator rights are required: the COM classes are registered machine-wide; the wizard asks whether the add-ins are turned on for this user only or for every user of the PC), then restart the Office apps and open the \"Copilot\" tab.\n\nThe Copilot runtime is not bundled. Install the GitHub Copilot CLI (npm install -g @github/copilot, or winget install GitHub.Copilot) and sign in; the setup and the chat pane show these instructions when no CLI is found. Each chat turn uses GitHub Copilot premium requests. Excel / PowerPoint writes cannot be undone with Office's Undo (the pane has its own \"undo last insert\"). 32-bit Windows and automatic updates are not supported.\n\nBeta validation: automated Core unit tests; installer install / load / uninstall in both scopes checked on Windows 11 ARM64 with x64 Microsoft 365. Registration for 32-bit Office was checked only without 32-bit Office (32-bit registry view, add-in classes created from a 32-bit process); please report problems with 32-bit Office. The setup is not code-signed (SmartScreen may warn).",
+  "tag": "office-copilot-addin-v0.2.2",
+  "releaseDateUtc": "2026-10-24T00:28:42Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/office-copilot-addin-v0.2.2",
+  "notes": "Office Copilot 0.2.2 (beta)\n\n- feat: add browsable chat thread history\n- feat: continue conversations opened from chat history\n\nPackage: OneNote / Word / Excel / PowerPoint desktop add-ins for 64-bit or 32-bit Office on 64-bit Windows 10/11 (x64 / ARM64 with x64 Office); the setup registers for the Office bitness it finds. Run OfficeCopilot-Setup-0.2.2.exe (administrator rights are required: the COM classes are registered machine-wide; the wizard asks whether the add-ins are turned on for this user only or for every user of the PC), then restart the Office apps and open the \"Copilot\" tab.\n\nThe Copilot runtime is not bundled. Install the GitHub Copilot CLI (npm install -g @github/copilot, or winget install GitHub.Copilot) and sign in; the setup and the chat pane show these instructions when no CLI is found. Each chat turn uses GitHub Copilot premium requests. Excel / PowerPoint writes cannot be undone with Office's Undo (the pane has its own \"undo last insert\"). 32-bit Windows and automatic updates are not supported.\n\nBeta validation: automated Core unit tests; installer install / load / uninstall in both scopes checked on Windows 11 ARM64 with x64 Microsoft 365. Registration for 32-bit Office was checked only without 32-bit Office (32-bit registry view, add-in classes created from a 32-bit process); please report problems with 32-bit Office. The setup is not code-signed (SmartScreen may warn).",
   "downloads": [
     {
       "product": "Office Copilot",
       "component": "onenote",
       "platform": "win32-x64",
       "kind": "inno-setup",
-      "version": "0.2.1",
-      "url": "https://github.com/yahright/downloads/releases/download/office-copilot-addin-v0.2.1/OfficeCopilot-Setup-0.2.1.exe",
-      "sha256": "9315ce2dfe44f4fbd0d6324ddafa465e64df58d53fb3d717cd62457fe639f792",
-      "size": 5274006
+      "version": "0.2.2",
+      "url": "https://github.com/yahright/downloads/releases/download/office-copilot-addin-v0.2.2/OfficeCopilot-Setup-0.2.2.exe",
+      "sha256": "4fef46a652243e8296f390172f2f43037b910ca82dead468bd99fa2a3dcf042d",
+      "size": 5279979
     }
   ]
 }
