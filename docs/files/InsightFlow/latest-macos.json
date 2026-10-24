@@ -1,22 +1,22 @@
 {
-  "version": "0.10.31",
+  "version": "0.10.33",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.31",
-  "notes": "- Fix a stack overflow in binary previews, including DMG files.\n- Change Disk Usage scan targets with parent folder, volume root, folder picker, and editable paths.",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.33",
+  "notes": "- Apply the Favorite IME setting whenever a text field receives focus.\n- Add an option to disable IME composition in Favorite search and edit fields.",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.31/InsightFlow-0.10.31-osx-arm64-app.zip",
-      "sha256": "99178949e4146060baec2c68f58cb9f35efa993bc3faaa6f98fc78568816fd47",
-      "size": 103669636
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.33/InsightFlow-0.10.33-osx-arm64-app.zip",
+      "sha256": "545aa20902ab5f141d0d66844e4f7349c32e106679cd03ade44c84b7761a4722",
+      "size": 103672318
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.31/InsightFlow-0.10.31-osx-arm64.dmg",
-      "sha256": "d0a52000187d8d52ed9f1c7faf160e44af3333855729723936f062ebf608afec",
-      "size": 112621292
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.33/InsightFlow-0.10.33-osx-arm64.dmg",
+      "sha256": "8ad72bccc539a588d4cbd386f25de6e599b96fe5d828a0dbe8463fa9a92ce492",
+      "size": 112352431
     }
   ]
 }

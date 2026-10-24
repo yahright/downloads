@@ -47,12 +47,12 @@ InsightFlow の使い方をまとめたマニュアルです（試験公開中�
 <!-- insightflow-bundled-help:start -->
 ## 機能ガイド・AI向け説明書
 
-InsightFlow 0.10.32 向けのガイドです。OSごとの配布バージョンが異なる場合があります。HTMLはスクリーンショット付きで、保存すればオフラインでも読めます。
+InsightFlow 0.10.33 向けのガイドです。OSごとの配布バージョンが異なる場合があります。HTMLはスクリーンショット付きで、保存すればオフラインでも読めます。
 
-- [機能ガイド（日本語）](../../files/InsightFlow/help/InsightFlow-Feature-Guide-0.10.32.ja.html)
-- [Feature Guide (English)](../../files/InsightFlow/help/InsightFlow-Feature-Guide-0.10.32.en.html)
-- [AI用ヘルプ（日本語）](../../files/InsightFlow/help/InsightFlow-Help-0.10.32.ja.md)
-- [AI Help (English)](../../files/InsightFlow/help/InsightFlow-Help-0.10.32.en.md)
+- [機能ガイド（日本語）](../../files/InsightFlow/help/InsightFlow-Feature-Guide-0.10.33.ja.html)
+- [Feature Guide (English)](../../files/InsightFlow/help/InsightFlow-Feature-Guide-0.10.33.en.html)
+- [AI用ヘルプ（日本語）](../../files/InsightFlow/help/InsightFlow-Help-0.10.33.ja.md)
+- [AI Help (English)](../../files/InsightFlow/help/InsightFlow-Help-0.10.33.en.md)
 <!-- insightflow-bundled-help:end -->
 
 ---
