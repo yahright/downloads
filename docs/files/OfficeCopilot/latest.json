@@ -1,20 +1,20 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "channel": "Beta",
-  "tag": "office-copilot-addin-v0.2.4",
-  "releaseDateUtc": "2026-10-24T08:34:28Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/office-copilot-addin-v0.2.4",
-  "notes": "Office Copilot 0.2.4 (beta)\n\n- feat: bundle the OneNote MCP server in the setup (mcp\\OfficeExport.exe)\n- feat: remove the OneNote page cache on uninstall, show it in diagnostics\n\nPackage: OneNote / Word / Excel / PowerPoint desktop add-ins for 64-bit or 32-bit Office on 64-bit Windows 10/11 (x64 / ARM64 with x64 Office); the setup registers for the Office bitness it finds. Run OfficeCopilot-Setup-0.2.4.exe (administrator rights are required: the COM classes are registered machine-wide; the wizard asks whether the add-ins are turned on for this user only or for every user of the PC), then restart the Office apps and open the \"Copilot\" tab.\n\nIncludes the read-only OneNote MCP server (C:\\Program Files\\OfficeCopilot\\mcp\\OfficeExport.exe, started as \"OfficeExport.exe mcp\"; built from onenote-export ae49d6c) for VS Code, the Copilot CLI and the Word / Excel / PowerPoint chat (mcpServers in settings.json). Register it as a stdio MCP server: command = that path, args = [\"mcp\"].\n\nThe Copilot runtime is not bundled. Install the GitHub Copilot CLI (npm install -g @github/copilot, or winget install GitHub.Copilot) and sign in; the setup and the chat pane show these instructions when no CLI is found. Each chat turn uses GitHub Copilot premium requests. Excel / PowerPoint writes cannot be undone with Office's Undo (the pane has its own \"undo last insert\"). 32-bit Windows and automatic updates are not supported.\n\nBeta validation: automated Core unit tests; installer install / load / uninstall in both scopes checked on Windows 11 ARM64 with x64 Microsoft 365. Registration for 32-bit Office was checked only without 32-bit Office (32-bit registry view, add-in classes created from a 32-bit process); please report problems with 32-bit Office. The setup is not code-signed (SmartScreen may warn).",
+  "tag": "office-copilot-addin-v0.2.5",
+  "releaseDateUtc": "2026-10-24T09:09:05Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/office-copilot-addin-v0.2.5",
+  "notes": "Office Copilot 0.2.5 (beta)\n\n- fix: show the chat pane in 32-bit Office (SetWindowLongPtr is not in 32-bit user32)\n- test: show the real pane in 32-bit and 64-bit processes before a release\n\nPackage: OneNote / Word / Excel / PowerPoint desktop add-ins for 64-bit or 32-bit Office on 64-bit Windows 10/11 (x64 / ARM64 with x64 Office); the setup registers for the Office bitness it finds. Run OfficeCopilot-Setup-0.2.5.exe (administrator rights are required: the COM classes are registered machine-wide; the wizard asks whether the add-ins are turned on for this user only or for every user of the PC), then restart the Office apps and open the \"Copilot\" tab.\n\nIncludes the read-only OneNote MCP server (C:\\Program Files\\OfficeCopilot\\mcp\\OfficeExport.exe, started as \"OfficeExport.exe mcp\"; built from onenote-export ae49d6c) for VS Code, the Copilot CLI and the Word / Excel / PowerPoint chat (mcpServers in settings.json). Register it as a stdio MCP server: command = that path, args = [\"mcp\"].\n\nThe Copilot runtime is not bundled. Install the GitHub Copilot CLI (npm install -g @github/copilot, or winget install GitHub.Copilot) and sign in; the setup and the chat pane show these instructions when no CLI is found. Each chat turn uses GitHub Copilot premium requests. Excel / PowerPoint writes cannot be undone with Office's Undo (the pane has its own \"undo last insert\"). 32-bit Windows and automatic updates are not supported.\n\nBeta validation: automated Core unit tests; installer install / load / uninstall in both scopes checked on Windows 11 ARM64 with x64 Microsoft 365. Registration for 32-bit Office was checked only without 32-bit Office (32-bit registry view, add-in classes created from a 32-bit process); please report problems with 32-bit Office. The setup is not code-signed (SmartScreen may warn).",
   "downloads": [
     {
       "product": "Office Copilot",
       "component": "onenote",
       "platform": "win32-x64",
       "kind": "inno-setup",
-      "version": "0.2.4",
-      "url": "https://github.com/yahright/downloads/releases/download/office-copilot-addin-v0.2.4/OfficeCopilot-Setup-0.2.4.exe",
-      "sha256": "c0a2b48750c9796c73fc4f759e8c5eb91c4986069065905d9124350e2af7c45e",
-      "size": 5374978
+      "version": "0.2.5",
+      "url": "https://github.com/yahright/downloads/releases/download/office-copilot-addin-v0.2.5/OfficeCopilot-Setup-0.2.5.exe",
+      "sha256": "246b72708d30654f369c588569e5fb746d7de23c16786a3156b9c013d15a24db",
+      "size": 5375169
     }
   ]
 }
