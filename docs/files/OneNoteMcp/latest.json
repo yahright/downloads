@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "channel": "Beta",
+  "tag": "onenote-mcp-v0.1.0",
+  "releaseDateUtc": "2026-10-24T08:05:46Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/onenote-mcp-v0.1.0",
+  "notes": "OneNote MCP 0.1.0 (beta)\n\nVS Code extension that lets Copilot chat search and read the notes of the OneNote desktop app on this PC (read-only; OneNote is never changed).\n\n- Registers the OneNote MCP server automatically (no mcp.json needed). OfficeExport.exe is bundled (onenote-export ae49d6c).\n- Page titles in answers are links; a click shows the page in OneNote, in front, without a browser.\n\nInstall: Extensions view > ... > Install from VSIX, and choose onenote-mcp-0.1.0.vsix (or: code --install-extension onenote-mcp-0.1.0.vsix). Requires Windows, the OneNote desktop app (Microsoft 365 / 2016 or later) and VS Code 1.101 or later with GitHub Copilot chat in Agent mode. If you registered OneNote in mcp.json yourself, remove that entry so the tools are not listed twice.\n\nBeta validation: automated OfficeExport tests; server start, search and opening pages from chat links checked on Windows 11 ARM64 with x64 Office 2024. No Marketplace publication or automatic updates.",
+  "downloads": [
+    {
+      "product": "OneNote MCP",
+      "component": "vscode",
+      "platform": "win32",
+      "kind": "vscode-vsix",
+      "version": "0.1.0",
+      "url": "https://github.com/yahright/downloads/releases/download/onenote-mcp-v0.1.0/onenote-mcp-0.1.0.vsix",
+      "sha256": "2e9a3c610b661fc23efd53ecec28ea10f4c762e1eb5510ddfcd78086b48bf781",
+      "size": 107849
+    }
+  ]
+}
