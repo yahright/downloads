@@ -1,22 +1,22 @@
 {
-  "version": "0.10.33",
+  "version": "0.10.34",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.33",
-  "notes": "- Apply the Favorite IME setting whenever a text field receives focus.\n- Add an option to disable IME composition in Favorite search and edit fields.",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.34",
+  "notes": "- Apply the Favorite IME setting before the first input can cancel the switch.\n- Fix input-event cleanup after an IME request finishes.",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.33/InsightFlow-0.10.33-osx-arm64-app.zip",
-      "sha256": "545aa20902ab5f141d0d66844e4f7349c32e106679cd03ade44c84b7761a4722",
-      "size": 103672318
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.34/InsightFlow-0.10.34-osx-arm64-app.zip",
+      "sha256": "1420b4554562f3d3fce253b49740dfda405f3dc2b188e287fe46ebd87ad68906",
+      "size": 103672726
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.33/InsightFlow-0.10.33-osx-arm64.dmg",
-      "sha256": "8ad72bccc539a588d4cbd386f25de6e599b96fe5d828a0dbe8463fa9a92ce492",
-      "size": 112352431
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.34/InsightFlow-0.10.34-osx-arm64.dmg",
+      "sha256": "2b284587beaeb36677e9def60cf7095040b233fc1e80af13225ee11e0212d14f",
+      "size": 112627257
     }
   ]
 }
