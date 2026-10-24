@@ -1,9 +1,14 @@
 {
-  "version": "0.10.30",
+  "version": "0.10.32",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- fix(grep): allow a new search from retained results\n- feat(copy): choose native or legacy from copy confirmation\n- docs(copy): clarify legacy uses the native default\n- fix(copy): simplify engine picker to three choices\n- feat(fileops): unify engine choices as standard or scopy\n- docs(preview): define binary preview specification\n- feat(preview): add bounded read-only binary viewer\n- Merge binary preview and copy engine selection for 0.10.30\n- Merge new Grep search from retained results for 0.10.30",
+  "notes": "- release(InsightFlow): record macOS 0.10.31 publication\n- Fix quadratic job progress lookup during bulk deletion\n- docs: record bulk deletion fix integration into master",
   "notesHistory": [
+    {
+      "version": "0.10.32",
+      "notes": "- release(InsightFlow): record macOS 0.10.31 publication\n- Fix quadratic job progress lookup during bulk deletion\n- docs: record bulk deletion fix integration into master",
+      "publishedAtUtc": "2026-10-24T01:09:00Z"
+    },
     {
       "version": "0.10.30",
       "notes": "- fix(grep): allow a new search from retained results\n- feat(copy): choose native or legacy from copy confirmation\n- docs(copy): clarify legacy uses the native default\n- fix(copy): simplify engine picker to three choices\n- feat(fileops): unify engine choices as standard or scopy\n- docs(preview): define binary preview specification\n- feat(preview): add bounded read-only binary viewer\n- Merge binary preview and copy engine selection for 0.10.30\n- Merge new Grep search from retained results for 0.10.30",
@@ -48,27 +53,22 @@
       "version": "0.10.19",
       "notes": "- release(InsightFlow): sync macOS 0.10.18 ledger\n- 更新バッジをVS Code風の塗りつぶしボタンにし、ラベルを「更新」に変更\n- Clarify streaming SCOPY progress without changing copy execution",
       "publishedAtUtc": "2026-09-29T22:39:34Z"
-    },
-    {
-      "version": "0.10.18",
-      "notes": "- release(InsightFlow): sync macOS 0.10.17 ledger\n- fix: quiet Git hover effects and expose streaming copy activity\n- feat(jobs): redesign Jobs dialog around selection actions and progress details\n- fix(jobs): readable status pill and engine badge text in light theme",
-      "publishedAtUtc": "2026-09-27T22:30:40Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-win-x64-portable.zip",
-      "sha256": "ed9dc51abdd9694324d9b01451d21967832a1aad4f4e52ddf86afeff465fec6c",
-      "size": 110475361
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.32/InsightFlow-0.10.32-win-x64-portable.zip",
+      "sha256": "7dc208a0ece4b275e7ac89d9bde61e3923d61a658ebb767ff226e475f2e846af",
+      "size": 110479909
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.30/InsightFlow-0.10.30-win-arm64-portable.zip",
-      "sha256": "7e7da9b3f9b3eb37a1323d009a483ce8d0537dc91bea4b18903b2325b0b5f1ac",
-      "size": 106822805
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.32/InsightFlow-0.10.32-win-arm64-portable.zip",
+      "sha256": "1e33367854f29ad8c021b57ee67189b91ddc6276f42d1bd4f5536f85589344cc",
+      "size": 106827355
     }
   ]
 }
