@@ -1,22 +1,22 @@
 {
-  "version": "0.10.35",
+  "version": "0.10.36",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.35",
-  "notes": "- Add a configurable IME mode for the F selection dialog, separate from Favorites.",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.36",
+  "notes": "- Preserve the selected results tab in the Jobs dialog during progress updates.",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.35/InsightFlow-0.10.35-osx-arm64-app.zip",
-      "sha256": "b92f8be2fcc363435295ea92e0f5aa220626a7e0eb63aa03f7f59eef0df5732b",
-      "size": 103674684
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.36/InsightFlow-0.10.36-osx-arm64-app.zip",
+      "sha256": "9c0b2d32961e75e643cc4b4c76b7530cb65e2d32dbada8fc945692194cc3588f",
+      "size": 103674949
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.35/InsightFlow-0.10.35-osx-arm64.dmg",
-      "sha256": "40efac33c92f850c19bcf980debcfa319909011398b2bf672fbc78a4724f4e35",
-      "size": 112643031
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.36/InsightFlow-0.10.36-osx-arm64.dmg",
+      "sha256": "f0808907241697ab259828629f4c44a90bc6646a83d18209a87565129129af49",
+      "size": 112637992
     }
   ]
 }
