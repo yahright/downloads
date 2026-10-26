@@ -1,26 +1,26 @@
 {
-    "version":  "0.1.0",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.1.0",
-    "sourceCommit":  "52efba20caa5f7dc72685d9a95c2dff60c7aead0",
-    "publishedAtUtc":  "2026-10-26T06:38:13.2305123+00:00",
-    "notes":  "# RepoSyncTool 0.1.0 — Windows ベータ\n\nWindows x64 / ARM64 の初回ポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n- 複数リポジトリの一覧・同期 ON/OFF と fast-forward 同期。\n- Git ワークスペースで履歴・ブランチ・差分、stage/unstage、commit、fetch/pull/push、stash、merge/rebase。\n- 差分の行・ハンク単位 stage/unstage と複数ブランチの履歴フィルター。\n- 任意登録のログイン時・6時間ごとの自動同期、CLI / stdio MCP、TaCM 接続機能。\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\n\n最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は追加受入が残ります。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.1.0/RepoSyncTool-0.1.0-win-x64-portable.zip",
-                          "sha256":  "c126bc7ac165da22e7286447be1a5f0a3f02bc43e1ae4097f076046e0dba4b1b",
-                          "size":  47432200,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.1.0/RepoSyncTool-0.1.0-win-arm64-portable.zip",
-                          "sha256":  "0e7006191a69c3e3329feb6ec1aaf0e77d80843885a7b17f67e5a6536eeb9d20",
-                          "size":  45306010,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.2.0",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.2.0",
+  "sourceCommit": "8e75fc0f1c511db522555dae4fb31823d87e06b3",
+  "publishedAtUtc": "2026-10-26T23:29:24.4925603+00:00",
+  "notes": "# RepoSyncTool 0.2.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.1.0 からの変更\n\n- **差分ペイン（SourceTree 風）**\n  - ⚙ メニュー: 外部 Diff、空白文字の扱い（区別する・行末を無視・量の違いを無視・すべて無視）、空白文字の表示、コンテキストの行数（1〜100）。\n  - … メニュー: ファイルのステージ・アンステージ、ファイルの変更の破棄、コミットの変更の打ち消し、差分のコピー。\n  - @@ 行のボタン: ハンク単位のステージ・アンステージ・破棄。コミットの差分では「打ち消す」（作業ツリーで打ち消し、コミットはしません）。\n  - 差分の文字を小さくし、行のホバーや選択の色を出さないようにしました。\n- **履歴の期間指定**: 「範囲を指定」で開始・終了をカレンダーから選べます（終了日はその日を含みます）。\n- **操作後の履歴**: マージ・コミット・リセットなど ref が動く操作の後は、表示中の履歴を読み直し、選んでいたコミットを選び直します。\n- **一覧の操作感**: 履歴・リポジトリ一覧などの DataGrid はセル単位の枠を出さず、行単位で選ぶようにしました。\n\n## 既知の制限\n\n- 空白の扱いや行数を変えた差分では、行・ハンク単位の操作は使えません（既定に戻すと使えます）。\n- 差分の打ち消し・破棄の自動テスト（git を使うもの）は、テストホストが止まる問題があるため今回の出荷から外しています。実機では画面の表示まで確認しています。破棄・打ち消しの実行は、配布前に確認が必要です。自動テストは次版で復活させます。\n\n## 導入\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\n\n最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は追加受入が残ります。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.2.0/RepoSyncTool-0.2.0-win-x64-portable.zip",
+      "sha256": "d9de482f730cdc3deee627e2dfd6e5e7667514c4a17a29c54c4a77fa668c90a7",
+      "size": 49078856,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.2.0/RepoSyncTool-0.2.0-win-arm64-portable.zip",
+      "sha256": "912677a854d62277b73340bdbc70ab1e3b18c8ee27ac0175d8e9a53564a78c53",
+      "size": 46840359,
+      "signed": false
+    }
+  ]
 }
