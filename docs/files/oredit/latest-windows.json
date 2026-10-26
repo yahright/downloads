@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.20",
+  "version": "0.1.23",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "0cb21a1b90c99ff97908fd85f8c7d42d114e69f7",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.20",
-  "published_at": "2026-10-23T10:53:09.459568+00:00",
+  "source_sha": "daf915d26252008b1415f9e86cabae5b8f5fec34",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.23",
+  "published_at": "2026-10-26T01:12:02.151679+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.20/oredit-0.1.20-windows-x64.zip",
-      "sha256": "1267b039595a055505a005244caa99f73328394ddc357a6fd8124c05e52459bd",
-      "bytes": 3394332
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.23/oredit-0.1.23-windows-x64.zip",
+      "sha256": "25dc57c94b97f9fb1ea7c816ec9a6b8b1dbeec3283c13201f18239ccd8672fdf",
+      "bytes": 4490781
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.20/oredit-0.1.20-windows-arm64.zip",
-      "sha256": "866223bc489c7d7d18bbf72956891d917faf3608e3a897efea3d1c8a709c9f56",
-      "bytes": 3017901
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.23/oredit-0.1.23-windows-arm64.zip",
+      "sha256": "30ccdf3c67046837aa438bc21e0b06a8e954e5ece2d5c695bf8a2761df13fb89",
+      "bytes": 3978795
     }
   ],
-  "notes": "oredit 0.1.20 Windows beta\n\n- test: accept CRLF Mermaid corpus expectations on Windows\n- test(win): check responsive Markdown cell alignment at desktop DPI\n- chore(release): prepare Windows 0.1.20 and stabilize native DPI fixtures\n- fix(win): scale and resize the manual update dialog\n- docs(release): record macOS 0.1.19 publication\n\n更新確認ウィンドウが小さく、下部のボタンが見切れる問題を修正しました。\n- Windowsの画面倍率に合わせて、ウィンドウ・文字・ボタンを拡大します。\n- ウィンドウの枠をドラッグしてサイズを変更できます。変更点の欄も広がります。\n- 更新画面を表示中に倍率の異なるモニターへ移動しても、配置を調整します。\n- 最新mainの内容を含み、行フィルタ、検索履歴、不正文字の代替読み込みなどを引き続き利用できます。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.23 Windows beta\n\nWindows 0.1.20以降のCSV機能と任意AIチャットを含みます。\n- データメニューからCSV表へ切り替え、セル編集・矩形コピー/貼り付け・検索/置換・列操作・ソート・結合・集計を利用できます。通常はテキスト表示のままです。\n- 巨大CSVの保護編集・暫定閲覧、独立した分割ペイン、形式推定・見出し保護・列幅設定に対応しました。100GiB以上の実容量・長時間・実IMEなどの受入は継続しています。\n\n任意AIチャットを追加しました。AIは既定でOFFです。設定でClaude Code、Codex CLI、GitHub Copilot CLIを選び、右ペインで会話できます。履歴、下書き、停止、選択範囲や現在の文書の明示添付に対応します。\n- OFFではAI専用UI/controller/timer/worker/CLI/履歴読込を開始しません。通常の設定ファイルにもAI設定を追加しません。\n- 各社CLIを別途導入・ログインしてから使用してください。CLI/SDKや認証情報は同梱しません。\n- ツール実行・MCP・hooks・承認要求を抑止し、未対応のCLI版や未知の応答は拒否します。検証済み版はClaude Code 2.1.296、Codex CLI 0.162.1、Copilot CLI 1.0.103です。\n- OFF起動のMac warm30回比較は中央値+1.469ms、p95は悪化なし。物理初回表示やWindows性能の保証値ではありません。\n- Windowsの3社実認証、実IME/DPI、混在高負荷・長時間・OS traceの受入は継続しています。\n\n0.1.20以前からは、CPUに合うZIPを新しいフォルダへ展開し、oreditを終了してからInstall.ps1で入れ替えてください。旧版の「終了して更新」は新しいAI補助プログラムを受け付けません。設定・復旧データは保持されます。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
