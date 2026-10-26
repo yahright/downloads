@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "daf915d26252008b1415f9e86cabae5b8f5fec34",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.23",
-  "published_at": "2026-10-26T01:12:02.151679+00:00",
+  "source_sha": "282f8c27240166051f78e1ec7988c8fafdfafd9f",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.24",
+  "published_at": "2026-10-26T05:51:59.562053+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.23/oredit-0.1.23-windows-x64.zip",
-      "sha256": "25dc57c94b97f9fb1ea7c816ec9a6b8b1dbeec3283c13201f18239ccd8672fdf",
-      "bytes": 4490781
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.24/oredit-0.1.24-windows-x64.zip",
+      "sha256": "0a633926b05fb1e44544afa00aff697259f115826499b65c6970de5be8db9ab1",
+      "bytes": 4495367
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.23/oredit-0.1.23-windows-arm64.zip",
-      "sha256": "30ccdf3c67046837aa438bc21e0b06a8e954e5ece2d5c695bf8a2761df13fb89",
-      "bytes": 3978795
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.24/oredit-0.1.24-windows-arm64.zip",
+      "sha256": "85e5c51a284c99fb31a6f993968faa9e34f7e5b7a6dbec5f46d8c10ab623c69d",
+      "bytes": 3982779
     }
   ],
-  "notes": "oredit 0.1.23 Windows beta\n\nWindows 0.1.20以降のCSV機能と任意AIチャットを含みます。\n- データメニューからCSV表へ切り替え、セル編集・矩形コピー/貼り付け・検索/置換・列操作・ソート・結合・集計を利用できます。通常はテキスト表示のままです。\n- 巨大CSVの保護編集・暫定閲覧、独立した分割ペイン、形式推定・見出し保護・列幅設定に対応しました。100GiB以上の実容量・長時間・実IMEなどの受入は継続しています。\n\n任意AIチャットを追加しました。AIは既定でOFFです。設定でClaude Code、Codex CLI、GitHub Copilot CLIを選び、右ペインで会話できます。履歴、下書き、停止、選択範囲や現在の文書の明示添付に対応します。\n- OFFではAI専用UI/controller/timer/worker/CLI/履歴読込を開始しません。通常の設定ファイルにもAI設定を追加しません。\n- 各社CLIを別途導入・ログインしてから使用してください。CLI/SDKや認証情報は同梱しません。\n- ツール実行・MCP・hooks・承認要求を抑止し、未対応のCLI版や未知の応答は拒否します。検証済み版はClaude Code 2.1.296、Codex CLI 0.162.1、Copilot CLI 1.0.103です。\n- OFF起動のMac warm30回比較は中央値+1.469ms、p95は悪化なし。物理初回表示やWindows性能の保証値ではありません。\n- Windowsの3社実認証、実IME/DPI、混在高負荷・長時間・OS traceの受入は継続しています。\n\n0.1.20以前からは、CPUに合うZIPを新しいフォルダへ展開し、oreditを終了してからInstall.ps1で入れ替えてください。旧版の「終了して更新」は新しいAI補助プログラムを受け付けません。設定・復旧データは保持されます。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.24 Windows beta\n\nCSVの列幅調整、複数セル選択・コピー、テキスト列色分けを追加しました。\n- CSV表の列番号ヘッダの境界をドラッグして幅を調整できます。境界のダブルクリックで読み込み済みセルを現在のフォントに合わせて自動調整します。\n- セルをドラッグして矩形範囲を選び、Shiftで範囲を拡張、Ctrlで範囲を追加できます。Ctrl+CでTSV形式の内容をクリップボードへコピーします。\n- 「表示 → ハイライト → CSV/TSV列色分け」で、テキスト表示の列色を切り替えられます。引用符内のカンマ・改行を区切りと誤認しません。\n- 設定は列ごとの保存幅を優先します。通常は160 DIP、ダブルクリック自動調整は40〜600 DIPです。\n\nWindows x64/ARM64のbetaです。Mac版は今回のリリースに含みません。100GiB以上の実容量、実IME、実機present、長時間RSSなどの全体受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
