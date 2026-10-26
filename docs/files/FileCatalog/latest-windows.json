@@ -1,17 +1,17 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "channel": "Beta",
-  "releaseTag": "filecatalog-v0.1.0",
-  "sourceCommit": "3bbeb6bd674a05cef880971ceb8f252f255b8ffa",
-  "publishedAtUtc": "2026-10-25T23:43:20Z",
-  "notes": "# FileCatalog 0.1.0 — Windows ベータ\n\nWindows x64 向けの初回ポータブル版です。ARM64 Windows 11 上の x64 実行環境で検証しています。\n\n- ローカル・外付けディスク・NAS の名前とパスを台帳へ保存し、切断中も検索。\n- AND / OR 検索、種類・サイズ・更新日フィルター、拡張子プリセット、編集可能な検索履歴。\n- 選択した場所のテキスト・Office 本文を保存し、オフライン検索・書き出し。\n- 省負荷走査、取消・再開、進捗と残り時間の目安、トレイ常駐。\n- CLI、常駐サービス、任意のログイン時起動、既定オフの MCP、端末間の台帳取り込み。\n\n新しい空のフォルダーへ展開し、`FileCatalog/FileCatalog.exe` を起動してください。台帳は `%LOCALAPPDATA%\\FileCatalog` に保存されます。未署名ベータです。PDF 抽出には対応する x64 PDF IFilter が必要です。\n\n実物の NAS・外付け、Dropbox 実アカウント、日本語 IME/DPI、PDF IFilter、Mac と Windows 間の相互取り込みは追加確認が残ります。\n\n[使い方](https://yahright.github.io/downloads/manual/FileCatalog/)\n",
+  "releaseTag": "filecatalog-v0.1.1",
+  "sourceCommit": "3177fc73165151aa2b34f6359242d18c2c8f0e97",
+  "publishedAtUtc": "2026-10-26T07:24:46Z",
+  "notes": "# FileCatalog 0.1.1 — Windows ベータ\n\n0.1.0 からの更新: Windows でメニューバーが検索欄に重なる問題を修正しました。起動時とウィンドウの標準サイズ・最小サイズで、検索欄と検索ボタンがメニューの下に表示されます。\n\nWindows x64 向けの初回ポータブル版です。ARM64 Windows 11 上の x64 実行環境で検証しています。\n\n- ローカル・外付けディスク・NAS の名前とパスを台帳へ保存し、切断中も検索。\n- AND / OR 検索、種類・サイズ・更新日フィルター、拡張子プリセット、編集可能な検索履歴。\n- 選択した場所のテキスト・Office 本文を保存し、オフライン検索・書き出し。\n- 省負荷走査、取消・再開、進捗と残り時間の目安、トレイ常駐。\n- CLI、常駐サービス、任意のログイン時起動、既定オフの MCP、端末間の台帳取り込み。\n\n新しい空のフォルダーへ展開し、`FileCatalog/FileCatalog.exe` を起動してください。台帳は `%LOCALAPPDATA%\\FileCatalog` に保存されます。未署名ベータです。PDF 抽出には対応する x64 PDF IFilter が必要です。\n\n実物の NAS・外付け、Dropbox 実アカウント、日本語 IME/DPI、PDF IFilter、Mac と Windows 間の相互取り込みは追加確認が残ります。\n\n[使い方](https://yahright.github.io/downloads/manual/FileCatalog/)\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/filecatalog-v0.1.0/FileCatalog-0.1.0-win-x64-portable.zip",
-      "sha256": "c47841ef9ff355dde612ffa8b69e7610be66a50c1c462be510b6932c737e001c",
-      "size": 29178249,
+      "url": "https://github.com/yahright/downloads/releases/download/filecatalog-v0.1.1/FileCatalog-0.1.1-win-x64-portable.zip",
+      "sha256": "4382b142081ff33384343a74c9b6b9f4c1a78afb5094d745adda6b3120ac50b3",
+      "size": 29178595,
       "signed": false
     }
   ]
