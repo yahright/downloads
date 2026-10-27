@@ -1,26 +1,26 @@
 {
-  "version": "0.2.0",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.2.0",
-  "sourceCommit": "8e75fc0f1c511db522555dae4fb31823d87e06b3",
-  "publishedAtUtc": "2026-10-26T23:29:24.4925603+00:00",
-  "notes": "# RepoSyncTool 0.2.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.1.0 からの変更\n\n- **差分ペイン（SourceTree 風）**\n  - ⚙ メニュー: 外部 Diff、空白文字の扱い（区別する・行末を無視・量の違いを無視・すべて無視）、空白文字の表示、コンテキストの行数（1〜100）。\n  - … メニュー: ファイルのステージ・アンステージ、ファイルの変更の破棄、コミットの変更の打ち消し、差分のコピー。\n  - @@ 行のボタン: ハンク単位のステージ・アンステージ・破棄。コミットの差分では「打ち消す」（作業ツリーで打ち消し、コミットはしません）。\n  - 差分の文字を小さくし、行のホバーや選択の色を出さないようにしました。\n- **履歴の期間指定**: 「範囲を指定」で開始・終了をカレンダーから選べます（終了日はその日を含みます）。\n- **操作後の履歴**: マージ・コミット・リセットなど ref が動く操作の後は、表示中の履歴を読み直し、選んでいたコミットを選び直します。\n- **一覧の操作感**: 履歴・リポジトリ一覧などの DataGrid はセル単位の枠を出さず、行単位で選ぶようにしました。\n\n## 既知の制限\n\n- 空白の扱いや行数を変えた差分では、行・ハンク単位の操作は使えません（既定に戻すと使えます）。\n- 差分の打ち消し・破棄の自動テスト（git を使うもの）は、テストホストが止まる問題があるため今回の出荷から外しています。実機では画面の表示まで確認しています。破棄・打ち消しの実行は、配布前に確認が必要です。自動テストは次版で復活させます。\n\n## 導入\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\n\n最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は追加受入が残ります。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.2.0/RepoSyncTool-0.2.0-win-x64-portable.zip",
-      "sha256": "d9de482f730cdc3deee627e2dfd6e5e7667514c4a17a29c54c4a77fa668c90a7",
-      "size": 49078856,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.2.0/RepoSyncTool-0.2.0-win-arm64-portable.zip",
-      "sha256": "912677a854d62277b73340bdbc70ab1e3b18c8ee27ac0175d8e9a53564a78c53",
-      "size": 46840359,
-      "signed": false
-    }
-  ]
+    "version":  "0.3.0",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.3.0",
+    "sourceCommit":  "a98a61f2f41aacafabe03f53b69810f639226bca",
+    "publishedAtUtc":  "2026-10-27T01:13:33.3198808+00:00",
+    "notes":  "# RepoSyncTool 0.3.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.2.0 からの変更\n\n- **何でも元に戻す**\n  - 操作（コミット・ブランチ・タグ・リセット・マージ・リベース・チェリーピック・破棄など）ごとに、動かした ref と HEAD を記録します。\n  - Ctrl+Z で直前の操作を取り消し、Ctrl+Shift+Z でやり直します。取り消せない場合は理由と案内を表示します。\n  - ⚙ →「操作履歴と取り消し」で、このアプリの操作一覧（最大200件）から「取り消す」「この時点まで戻す」「前後を比較」を選べます。reflog タブでは、アプリの外で行った操作も含めて戻せます。\n  - リベース・分割・まとめ・amend などで履歴が書き換わると、バナーで「前後を比較」「取り消す」を出します。\n  - push など、リモートだけを変えた操作は自動では戻さず、戻し方（force-with-lease のコマンド）を案内します。\n- **版の比較（range-diff）**: 2つの範囲、または A...B を比べ、同一・変更・削除・追加を組ごとに表示します。書き換え前後の比較に使えます。\n- **Blame と行の履歴**: ファイル一覧・コミットのファイル・差分の行から開けます。移動やコピーを追い、空白だけの変更は無視します。`.git-blame-ignore-revs` があれば使います。行の履歴は、その行を変えたコミットを新しい順に表示します。\n- **Interactive rebase の編集画面**: コミットを行で並べて、ドラッグで順番を変え、行ごとに pick・edit・squash・fixup・drop を選びます。履歴で別のコミットへドロップすると並べ替えや fixup・squash を提案し、サイドバーのブランチを別のブランチへドロップするとマージかリベースを選べます。\n- **コマンドパレット（Ctrl+P）**: 操作・ブランチ・コミット・ファイル・ブックマークをあいまい検索して実行します。\n- **差分ペイン**\n  - ⚙ メニューに、差分アルゴリズム（既定・histogram・patience・minimal）、左右に並べて表示、文字・単語単位のハイライト、移動したコードの色分け（ダブルクリックで移動元・移動先へ）、構文の色分けを追加しました。表示の設定は保存されます。\n- **履歴のたどり方**\n  - コミットの右クリック:「このコミットの子孫だけを表示」「親コミットへジャンプ」「子コミットへジャンプ」（Alt+↓ / Alt+↑、複数あるときは選ぶ）「直系のコミットを一覧してジャンプ」「この枝を表示から除外」。\n- **左のサイドバー**\n  - ブランチ・フォルダ・リモート・「ブランチ」「リモート」の見出しに、履歴に表示するかの ON/OFF チェックを付けました。右クリックで「表示ブランチから除外」もできます。\n- **未コミットの変更の行**: 履歴の先頭（HEAD の上）に「未コミットの変更」の行を出します。選ぶと変更ファイルが並び、ファイルの差分を表示します。\n- **状態更新**: 読み込み済みの履歴も読み直します。コマンドラインで行ったコミットやチェリーピックが画面に反映されます。\n- **チェリーピック・打ち消し**: 未コミットの変更があっても実行できます。追跡中の変更は stash に退避し、終わったら戻します。戻すときに競合したら、stash「RepoSyncTool: 取り込み前の未コミット変更」に残し、その旨を表示します。\n- **安定性**\n  - 左のサイドバーで見出しやフォルダを折りたたむと、一覧の作り直しを操作の後に行うようにしました。\n  - 処理されなかった例外はアプリを閉じずにエラー表示にし、`%LOCALAPPDATA%\\RepoSyncTool\\logs\\crash.log` に記録します。\n  - コミットの打ち消し（作業ツリーへの打ち消し）が、リポジトリのロックを二重に取って止まる問題を直しました。\n- **起動スクリプト**: `run-gui-windows.bat` と `run-gui-mac.command` を Release 構成で起動するようにしました。\n\n## 既知の制限\n\n- 追加した機能（undo の操作履歴・range-diff・blame・rebase 編集画面・D\u0026D・コマンドパレット・サイドバーの ON/OFF）は、自動テストで確認していますが、実機の画面での操作確認はまだです。\n- rebase の編集画面では、コミットメッセージの書き換え（reword）はできません。メッセージを直すには edit で止めて amend します。\n- stash の作成・適用・削除は、取り消しの対象外です。\n- 差分の構文色は内蔵の簡易ハイライトです。対応する言語は一部だけです。\n- 空白の扱いや行数、アルゴリズムを変えた差分では、行・ハンク単位の操作は使えません（既定に戻すと使えます）。\n- 最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は、追加の受入が残ります。\n- 自動テストの一部（OS のタスクスケジューラに登録する試験）は環境に依存するため、失敗することがあります。\n\n## 導入\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.3.0/RepoSyncTool-0.3.0-win-x64-portable.zip",
+                          "sha256":  "2b7404806ef8c35179fa117a604c8447437da0087269b42aae08f5a79e76ffeb",
+                          "size":  47680878,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.3.0/RepoSyncTool-0.3.0-win-arm64-portable.zip",
+                          "sha256":  "f0d46e4bd9fd66914d68152e6726748c08583aee562ea7eaca5bfd2e148ee74d",
+                          "size":  45554711,
+                          "signed":  false
+                      }
+                  ]
 }
