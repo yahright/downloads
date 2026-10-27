@@ -1,9 +1,14 @@
 {
-  "version": "0.10.37",
+  "version": "0.10.38",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- docs: record InsightFlow 0.10.36 macOS release\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: correct 0.10.36 notarization record\n- build: update dependencies for 0.10.37",
+  "notes": "- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38",
   "notesHistory": [
+    {
+      "version": "0.10.38",
+      "notes": "- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38",
+      "publishedAtUtc": "2026-10-27T08:56:30Z"
+    },
     {
       "version": "0.10.37",
       "notes": "- docs: record InsightFlow 0.10.36 macOS release\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: correct 0.10.36 notarization record\n- build: update dependencies for 0.10.37",
@@ -48,27 +53,22 @@
       "version": "0.10.21",
       "notes": "- docs: record SCOPY incomplete folder copy investigation\n- fix: reconcile SCOPY copies before reporting completion\n- Fix SCOPY copy completion reconciliation\n- Ask about archive extraction conflicts only when files collide",
       "publishedAtUtc": "2026-10-06T00:20:56Z"
-    },
-    {
-      "version": "0.10.20",
-      "notes": "- Remember archive extraction conflict choices and fix dialog keyboard focus\n- Isolate SCOPY runtime from older shell extension CRTs\n- Stop automatic reads from downloading cloud-only files",
-      "publishedAtUtc": "2026-10-04T05:57:56Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.37/InsightFlow-0.10.37-win-x64-portable.zip",
-      "sha256": "18424c946aad925d95a9a826fd1342980b34fbac65012b925989d2e0a814c2b4",
-      "size": 110712258
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.38/InsightFlow-0.10.38-win-x64-portable.zip",
+      "sha256": "4696f25e6c4bf590a72040e4d7b8cfcbe178ea6da991ee136c0ef246d55b1279",
+      "size": 110728379
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.37/InsightFlow-0.10.37-win-arm64-portable.zip",
-      "sha256": "8fb65e2d9845a0a2c54ed3e207c8765d16a20da55cdd86e50f12af29ceb1fa05",
-      "size": 107059815
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.38/InsightFlow-0.10.38-win-arm64-portable.zip",
+      "sha256": "51890215587864e4fbf4ba7b479b0a28a8f4d80c06079ed4c76152305487247a",
+      "size": 107075960
     }
   ]
 }
