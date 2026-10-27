@@ -1,25 +1,25 @@
 {
-    "version":  "0.4.0",
+    "version":  "0.5.0",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.4.0",
-    "sourceCommit":  "5017e05001e4985d80fe2203ba2198f90ac5eea7",
-    "publishedAtUtc":  "2026-10-27T02:46:56.6168823+00:00",
-    "notes":  "# RepoSyncTool 0.4.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.3.0 からの変更\n\n- **指定したコミットだけを表示**: 表示範囲メニューの「ハッシュを指定して表示…」で、ハッシュを入力（1行に1つ、空白・カンマ区切り、`git log --oneline` の貼り付けも可）すると、そのコミットだけを新しい順に表示します。コミットの右クリック「選択したコミットだけを表示」でも使えます。\n- **履歴の読み込み量**: 1回に1000件（「さらに1000件」で続き）、1つの表示で最大20000件まで読み込みます。\n- **ハッシュでのジャンプ**: 読み込んでいないコミットへジャンプしても、それより新しいコミットが消えなくなりました。今の表示範囲で続きを読んで探し、範囲にないときはそのコミットを含むブランチを表示します。\n- **履歴に表示するブランチのダイアログ**: 左のサイドバーと同じ階層（ローカル／リモート → リモート → フォルダ）で表示します。見出し・リモート・フォルダのチェックで中のブランチをまとめて選び、「表示」で反映します。全部選ぶと「すべて表示」に戻ります。左のサイドバーの ON/OFF チェックは、切り替えるたびに重かったため外しました。\n- **フィルターの記憶**: 表示ブランチと検索・絞り込みの条件を、リポジトリごとに覚えて、次に開いたときに戻します。「すべてクリア」で、表示ブランチも含めてまとめて外せます。\n- **画面配置の記憶**: ウィンドウの大きさ・位置、左バーの幅、分割位置、一覧のカラム幅と並び順を覚えます。\n- **外部ツール**: 外部 Diff は、ツールが起動したら操作を終えます。「実行中」のダイアログが出たままになりません。外部マージは、ツールを閉じるまで待ちますが、モーダルのダイアログは出しません。\n- **自動テスト**: ハングしたテストは5分で打ち切るようにしました。環境に依存して失敗していた、OS のタスクスケジューラに実際に登録するテストは削除しました。\n\n## 既知の制限\n\n- 0.3.0・0.4.0 で追加した機能（undo の操作履歴・range-diff・blame・rebase の編集画面・D\u0026D・コマンドパレット・ブランチダイアログのツリー・配置の記憶・指定コミットの表示）は、自動テストで確認していますが、実機の画面での操作確認はまだです。\n- rebase の編集画面では、コミットメッセージの書き換え（reword）はできません。stash の作成・適用・削除は、取り消しの対象外です。\n- 空白の扱いや行数、アルゴリズムを変えた差分では、行・ハンク単位の操作は使えません。\n- OS のタスクスケジューラによる自動同期は、自動テストから外したため、実機での確認が必要です。\n- 最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は、追加の受入が残ります。\n\n## 導入\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+    "releaseTag":  "reposynctool-v0.5.0",
+    "sourceCommit":  "159f5f5d6dd8a19700a7dbd83b76116b8ed15bc4",
+    "publishedAtUtc":  "2026-10-27T04:36:39.2183689+00:00",
+    "notes":  "# RepoSyncTool 0.5.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.4.0 からの変更\n\n- **Shift_JIS・EUC-JP のファイルの文字化けを修正**\n  - 差分（作業ツリー・ステージ済み・コミット・スタッシュ）、新規ファイルのプレビュー、競合の各版の表示、blame、行の履歴、range-diff で、ファイルごとに文字コードを自動判定して表示します（UTF-8 として読めなければ、Shift_JIS か EUC-JP のうち日本語として自然に読める方）。\n  - 差分の ⚙ →「文字コード」で、自動／UTF-8／Shift_JIS／EUC-JP を選べます。選んだ文字コードはリポジトリごとに覚えます。\n  - 変わるのは表示だけです。UTF-8 以外のファイルでは、行・ハンク単位のステージ・破棄・打ち消しは使えません（ファイル単位は使えます）。\n  - コミットの変更をファイル単位で打ち消すとき、Shift_JIS のファイルが壊れないようにしました。\n- **右クリックメニュー・ドロップダウンを小さく**: 余白と文字を詰め、メニュー1行の高さを約34pxから26px以下にしました（右クリックメニュー、ツールバーや ⚙ のメニュー）。\n\n## 既知の制限\n\n- 0.3.0 以降に追加した機能（undo の操作履歴・range-diff・blame・rebase の編集画面・D\u0026D・コマンドパレット・ブランチダイアログのツリー・配置の記憶・指定コミットの表示・文字コードの切替・小さくしたメニュー）は、自動テストで確認していますが、実機の画面での操作確認はまだです。\n- 競合の編集画面は、UTF-8 のファイルだけが対象です。\n- rebase の編集画面では、コミットメッセージの書き換え（reword）はできません。stash の作成・適用・削除は、取り消しの対象外です。\n- 空白の扱い、行数、アルゴリズム、文字コードを変えた差分では、行・ハンク単位の操作は使えません。\n- OS のタスクスケジューラによる自動同期は、自動テストから外したため、実機での確認が必要です。\n- 最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は、追加の受入が残ります。\n\n## 導入\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.4.0/RepoSyncTool-0.4.0-win-x64-portable.zip",
-                          "sha256":  "fd301aed41f8746f2fa732a63f6885d6e57493864890cce79ed421e6c2e666dd",
-                          "size":  47696743,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.5.0/RepoSyncTool-0.5.0-win-x64-portable.zip",
+                          "sha256":  "72154b2e4f0dd399785ce781a9f130d57f789ba46fe79728a95a0097f4b75b22",
+                          "size":  47702202,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.4.0/RepoSyncTool-0.4.0-win-arm64-portable.zip",
-                          "sha256":  "51316256a34b71fed7a27bbf89d16c26ad46cb587ea8a32ea2812e8944a81c1a",
-                          "size":  45570568,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.5.0/RepoSyncTool-0.5.0-win-arm64-portable.zip",
+                          "sha256":  "f0ef50ea091f59af7f1ca7ec45e394c9541c277b4fcb71a66bca7f59a15bee7a",
+                          "size":  45576055,
                           "signed":  false
                       }
                   ]
