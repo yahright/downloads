@@ -1,25 +1,25 @@
 {
-    "version":  "0.7.0",
+    "version":  "0.8.0",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.7.0",
-    "sourceCommit":  "0c98f41ab571c86ca0e6fe87ee412c34a775d46d",
-    "publishedAtUtc":  "2026-10-28T00:10:41.9901206+00:00",
-    "notes":  "# RepoSyncTool 0.7.0 — Windows ベータ\r\n\r\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\r\n\r\n## 0.6.0 からの変更\r\n\r\n- **チェリーピックの実行画面（TortoiseGit 風）**: 計画画面で実行すると、進行状況を表示する実行ウィンドウが開きます。ブランチの切り替えは確認なしで行えます。\r\n- **現在のブランチを強調**: 履歴で、チェックアウト中のブランチ（detached のときは HEAD）を赤で表示し、先頭に並べます。\r\n- **リポジトリ一覧の自動検索**: 起動時と指定間隔（5〜60 分）での自動検索を ON/OFF できます。前回確認したリポジトリ一覧を起動直後に表示します。\r\n- **ワークスペース画面を開いたときの負荷軽減**: ワークスペース画面が開いている間は背景スキャンを 1 件ずつに絞り、戻ったときは対象リポジトリだけを再確認します。リポジトリ一覧からの画面起動は、スキャン中や未コミット変更ありでも可能です。\r\n\r\n## 既知の制限\r\n\r\n- 0.3.0 以降に追加した機能（計画画面を含む）は、自動テストで確認していますが、実機の画面での操作確認はまだです。クリックの軽さが実機で十分かも未確認です。\r\n- 競合の編集画面は、UTF-8 のファイルだけが対象です。\r\n- rebase の編集画面では、コミットメッセージの書き換え（reword）はできません。stash の作成・適用・削除は、取り消しの対象外です。\r\n- OS のタスクスケジューラによる自動同期は、自動テストから外したため、実機での確認が必要です。\r\n- 最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は、追加の受入が残ります。\r\n\r\n## 導入\r\n\r\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータで、アプリ内自動更新機能はありません。\r\n\r\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\r\n",
+    "releaseTag":  "reposynctool-v0.8.0",
+    "sourceCommit":  "4a61309848bdfeef01265a4be7a1f7d320eac9ea",
+    "publishedAtUtc":  "2026-10-28T02:05:36.7023404+00:00",
+    "notes":  "# RepoSyncTool 0.8.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.7.0 からの変更\n\n- **アプリ内更新**: 起動時と 6 時間ごとに新しいバージョンを確認し、見つかると左下のボタンが「● 更新 x.y.z…」に変わります。「更新を確認…」で変更点を確認し、「ダウンロードして更新」で ZIP のダウンロード・SHA-256 照合・置き換え・再起動まで行います。失敗したときは元のファイルに戻します。オフライン用に「ZIPから更新…」もあります。0.8.0 から次の版への更新で使えます（0.7.0 から 0.8.0 へは手動で更新してください）。\n- **履歴の自動読み込み**: 一度に読む件数を 1000 件から 200 件にし、一覧の最後付近までスクロールすると続きを自動で読み込みます。スクロール位置と選択は保たれます。\n- **履歴をすぐ開く**: 前回読んだ履歴（最大 5000 件）を覚えておき、ブランチやタグが動いていなければ、次に開いたときに git を待たずにそこまで表示します。「状態更新」も、何も動いていなければ読み直しません。\n- **コミット表示の高速化**: 履歴でコミットをクリックしたときの Git 呼び出しを約 6 回から 2 回に減らしました。一度表示したコミットはすぐに表示します。\n- **ホバー表示の廃止**: 履歴の行にマウスを乗せても光らなくなりました。\n- **描画方式の切り替え**: 左の「描画方式…」で、既定（GPU）・ソフトウェア・ANGLE・WGL を選べます（再起動後に反映）。Windows on ARM やリモートデスクトップでは、初回起動時にソフトウェア描画への切り替えを提案します。スクロールやマウスの追従が遅いときに試してください。\n\n## 既知の制限\n\n- 今回の変更は自動テストで確認していますが、実機の画面での操作確認はまだです。アプリ内更新の実際の置き換えは、次の版の公開時に初めて実地で使われます。\n- 自動更新は、書き込めないフォルダー（Program Files など）に置いた場合は使えません。Mac 版は対象外です。\n- 競合の編集画面は、UTF-8 のファイルだけが対象です。\n- rebase の編集画面では、コミットメッセージの書き換え（reword）はできません。stash の作成・適用・削除は、取り消しの対象外です。\n- 最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は、追加の受入が残ります。\n\n## 導入\n\nZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください（0.7.0 からは、アプリを閉じて新しいフォルダーへ展開します。自動同期を登録している場合は新しい配置で登録し直してください）。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.7.0/RepoSyncTool-0.7.0-win-x64-portable.zip",
-                          "sha256":  "2359f7209d4d85debd502ca102387a673c22532ced926c6cace43e4d90563e60",
-                          "size":  47736511,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.8.0/RepoSyncTool-0.8.0-win-x64-portable.zip",
+                          "sha256":  "a11552e9082d4ed85dfbce24966e58432751fc68e7d7c3cd2189d453b07980c2",
+                          "size":  47775402,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.7.0/RepoSyncTool-0.7.0-win-arm64-portable.zip",
-                          "sha256":  "4cd66a67cd5171b16d1b8d0d3fac345f2495d5ad80375d7111b81b20fd1932be",
-                          "size":  45610355,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.8.0/RepoSyncTool-0.8.0-win-arm64-portable.zip",
+                          "sha256":  "22818033e095d221a9135b908debd2e6261899c622b5f9f1574687038830880a",
+                          "size":  45649242,
                           "signed":  false
                       }
                   ]
