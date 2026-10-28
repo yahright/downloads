@@ -12,16 +12,16 @@ title: RepoSyncTool Windows
 1. [Windows ベータ配布ページ](https://github.com/yahright/downloads/releases?q=reposynctool&expanded=true) で、お使いの CPU に合う `win-x64` または `win-arm64` の `portable.zip` をダウンロードします。
 2. 新しい空のフォルダーへ展開し、`RepoSyncTool.exe` を起動します。.NET の追加インストールは不要です。
 3. Git 2.35 以上を別途インストールしてください。Git が PATH にない場合は、アプリの「Git設定…」で実行ファイルを指定します。
-4. 対象フォルダーにリポジトリ群の親フォルダーを指定し、一覧を更新します。必要に応じて再帰検索を有効にします。
+4. 「＋追加」からリポジトリを登録します。既存の監視フォルダーを使っている場合は、起動時に登録への切り替えを選べます。
 
 Windows 版は未署名ベータです。ダウンロード時や初回起動時に Windows の警告が表示される場合があります。ZIP と同名の `.sha256` でダウンロードの SHA-256 を照合できます。
 
 ## 主な操作
 
-- 一覧で状態を確認し、同期対象を ON/OFF。「変更を適用」で端末ごとの設定を保存します。
+- 一覧で状態を確認し、右クリックからリポジトリごとの自動同期を ON/OFF できます。
 - 一括 Sync は追跡先を取得し、fast-forward 可能なリポジトリだけを更新します。未コミット変更・競合・履歴分岐などは理由付きで保留します。
 - リポジトリを開くと、履歴・ブランチ・差分、stage/unstage、commit、fetch/pull/push、stash、merge/rebase などを利用できます。
-- tracked UTF-8 テキストの差分で行・ハンクをチェックし、部分 stage/unstage ができます。履歴は複数ブランチで絞り込めます。
+- 差分で行・ハンクの部分 stage/unstage、専用ウィンドウ、左右表示、連続表示、確認済み印を利用できます。履歴は複数ブランチで絞り込めます。
 - CLI は `RepoSyncTool.exe --cli`、stdio MCP は `RepoSyncTool.exe --mcp` から利用できます。
 
 ## 自動同期（任意）

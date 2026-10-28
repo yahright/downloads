@@ -1,26 +1,26 @@
 {
-    "version":  "0.9.3",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.9.3",
-    "sourceCommit":  "11d8622d3706ea49b99d5d23bcf125f7c31151dc",
-    "publishedAtUtc":  "2026-10-28T05:35:17.2961381+00:00",
-    "notes":  "# RepoSyncTool 0.9.3 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.9.2 からの変更\n\n- **ブランチ切り替えで変更が上書きされるとき**: Git が切り替えを止めたら、エラーの代わりに選択画面を出します。「変更を切り替え先へ持っていく」（一時退避して切り替え、戻します）、「変更を今のブランチに残して切り替える」（そのブランチに戻ったとき自動で戻します）、「キャンセル」から選べます。\n- **ブランチの説明**: 左バーのブランチを右クリック →「説明を編集…」。名前の横に 1 行目を表示し、マウスを乗せると全文が見えます。左バーの検索は説明にも一致します。説明はこのリポジトリのローカル設定（Git 標準の branch.\u003c名前\u003e.description）に保存され、push はされません。\n- **前へ／後へ**: 履歴の「↓ 前へ」「↑ 後へ」（Alt+↓／Alt+↑）で親・子のコミットへ選択を移します。分かれ目では、来た道を戻る → マージは本流（第 1 親）→ 子が 1 つならそこ → グラフで同じ列の子、の順に決め、決まらないときだけ候補を出します。\n\n## 0.9.2 の変更（0.9.1 から）\n\n- **修正**: ブランチ切り替えなどが長い Git エラー（上書きされるファイルの一覧など）で止まると、画面下のステータス欄が上へ伸びて画面を覆い、消せなくなっていた問題を直しました。ステータス欄は 1 行目だけを表示し、全文は出力ログ（ステータス欄のクリックで開きます）に残します。\n\n## 0.9.1 の変更（0.9.0 から）\n\n- **修正**: 0.9.0 で、作業画面のフェッチ・プッシュ・タグのプッシュ・強制プッシュ・リモートブランチ削除が「必須引数がnullです。」で失敗していた問題を直しました。0.9.0 をお使いの場合は更新してください。\n\n## 0.9.0 の変更（0.8.0 から）\n\n- **プルダイアログ（SourceTree 型）**: 作業画面の「プル」で、リモート（URL 表示）とリモートブランチを選べます。「更新」でそのリモートをフェッチして一覧を読み直します。オプションは「マージした変更を即座にコミット」「マージ元コミットのメッセージを含める（--log）」「ファストフォワード可能でも新たなコミットを作成する（--no-ff）」「マージの代わりにリベースする」の 4 つで、次回も同じ状態で開きます。未コミットの変更があってもプルできます（上書きになる場合は Git が止めます。リベースは変更を一時退避して戻します）。\n- **リポジトリの切り替え**: 作業画面のツールバー左端「📁 名前 ▾」または Ctrl+O で、最近開いたリポジトリと一覧の全リポジトリから検索して切り替えられます。Enter / クリックで同じ位置に切り替え、Ctrl+Enter / Ctrl+クリックで別ウィンドウに開きます。\n- **コミットのコピー（TortoiseGit 型）**: 履歴のコミットを右クリック →「クリップボードにコピー」で、すべての情報・SHA・短縮 SHA・短縮 SHA と件名・件名・メッセージ全文・作成者・日時・ブランチ/タグを選んでコピーできます。複数選択にも対応します。\n- **左バーの修正**: 見出しやフォルダーを畳む・開くと、選択とスクロール位置が先頭に戻っていた問題を直しました。\n\n## 既知の制限\n\n- 今回の変更は自動テストで確認していますが、実機の画面での操作確認はまだです。\n- 自動更新は、書き込めないフォルダー（Program Files など）に置いた場合は使えません。Mac 版は対象外です。\n- 競合の編集画面は、UTF-8 のファイルだけが対象です。\n- rebase の編集画面では、コミットメッセージの書き換え（reword）はできません。stash の作成・適用・削除は、取り消しの対象外です。\n- 最低対応 OS、x64 実機、日本語 IME/HiDPI、別ユーザーの IPC 拒否、実 SSH/GCM/署名、実 TaCM の端末間配送、ログイン・スリープ復帰による自動同期は、追加の受入が残ります。\n\n## 導入\n\n0.8.0 以降をお使いの場合は、左下の「● 更新 0.9.3…」から「ダウンロードして更新」で更新できます。初めての場合や 0.7.0 以前からは、ZIP を新しい空フォルダーへ展開し、`RepoSyncTool.exe` を起動してください（自動同期を登録している場合は新しい配置で登録し直してください）。設定・台帳は `%LOCALAPPDATA%\\RepoSyncTool` に保存します。未署名ベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.9.3/RepoSyncTool-0.9.3-win-x64-portable.zip",
-                          "sha256":  "3b03dca340716abb15321a392fb932537cd57b5af1265c062897ce5fd4b55bb6",
-                          "size":  47795755,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.9.3/RepoSyncTool-0.9.3-win-arm64-portable.zip",
-                          "sha256":  "431449fa5f311c3c736692fec3df21b8f98c5cc4e86ba1e72814153f97ba415d",
-                          "size":  45669593,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.11.0",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.11.0",
+  "sourceCommit": "4e769841c43ed6671a12c330894a79ad74fbdecd",
+  "publishedAtUtc": "2026-10-28T23:27:28.9300333+00:00",
+  "notes": "# RepoSyncTool 0.11.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.9.3 からの変更\n\n- **リポジトリ管理画面**: 登録・検索・状態確認を中心に画面を刷新しました。複数の追加方法、未取得・未 Push 件数、絞り込み、定期 Fetch、自動同期設定を使えます。従来の監視フォルダーは起動時に登録への切り替えを選べます。\n- **差分レビュー**: 差分専用ウィンドウを開き、1列・左右・自動表示を切り替えられます。変更位置の地図、折り返し、連続表示、F7/F8 による移動、ファイルの絞り込み・確認済み印、差分の前後の展開に対応しました。\n- **文字コード検査**: `.encoding-rules` を置いたリポジトリで文字コードの検査・修復を利用できます。Shift_JIS / EUC-JP の行・ハンク操作と競合解決にも対応しました。\n- **生成物の掃除**: 掃除機能の内部処理を追加しました。画面や自動実行からの利用は今後の対応です。\n\n## 既知の制限\n\n- 新機能の実画面での操作確認は未完了です。Windows x64 実機、IME/HiDPI、実認証や自動同期の受入も残っています。\n- 自動更新は書き込めないフォルダーでは利用できません。Mac 版の自動更新は未対応です。\n- rebase の編集画面では reword はできず、stash の作成・適用・削除は取り消しの対象外です。\n\n## 導入\n\n0.8.0 以降は左下の更新ボタンから更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。Windows 版は未署名のベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\r\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.11.0/RepoSyncTool-0.11.0-win-x64-portable.zip",
+      "sha256": "ce4e7b492690279b883bfcd63c441c312ba67829f1d3aede27dae646c36ca222",
+      "size": 49466154,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.11.0/RepoSyncTool-0.11.0-win-arm64-portable.zip",
+      "sha256": "7dbeb2c20772f7acc85ddc342f3fa61b9eb3e2ceec577db93fc22761bb7af423",
+      "size": 47227665,
+      "signed": false
+    }
+  ]
 }
