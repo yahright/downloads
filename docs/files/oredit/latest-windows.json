@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.26",
+  "version": "0.1.27",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "e429ce24d95e0372cefc358fd32f4790f56dabef",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.26",
-  "published_at": "2026-10-28T02:32:48.324272+00:00",
+  "source_sha": "9c2fcff47e319b101566f419023eaf465e3f91a6",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.27",
+  "published_at": "2026-10-28T07:31:42.832268+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.26/oredit-0.1.26-windows-x64.zip",
-      "sha256": "a0990a3f8f2e5e6aff004fbe613276603d1c1a2e621d343e3ea05445f3332283",
-      "bytes": 5168482
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.27/oredit-0.1.27-windows-x64.zip",
+      "sha256": "64ad40440e8d814706b72fefcbb921e594c8e95636b7c19e9c50db256f03b2b4",
+      "bytes": 5170498
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.26/oredit-0.1.26-windows-arm64.zip",
-      "sha256": "32d383672c145e387784e529b36fe826c5b3a9d20d54e871bd8ef280156d5e87",
-      "bytes": 4561411
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.27/oredit-0.1.27-windows-arm64.zip",
+      "sha256": "8849cf18f89590e1c44c4969376d71b5b87c1501c43fd047437d73ef917f7951",
+      "bytes": 4563423
     }
   ],
-  "notes": "oredit 0.1.26 Windows beta\n\nGrep後の表示とタグジャンプ後のキー操作を修正しました。\n- Grep結果バーが配色テーマ（ライト/ダーク）に追従します。結果タブを開いた直後にバー部分が白く抜け、クリックするまで表示されない場合がある問題に対処しました（実機での再確認が必要です）。\n- 分割表示（下／右）の境界に見えるスプリッターを付けました。ドラッグで幅・高さを変えられます。\n- 分割表示は結果バーの「分割解除」ボタン、または結果側・元ファイル側どちらの右クリックメニューからも解除できます。\n- Grepのタグジャンプで対象行が表示先頭になったとき、↑キーが「position outside prepared display range」エラーになる問題を修正しました。\n\nWindows x64/ARM64のbetaです。Mac版は今回のリリースに含みません。実機の見た目（テーマ・DPI・スプリッターのドラッグ）の物理操作確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.27 Windows beta\n\nMarkdownの表示を改善しました。\n- ライブ編集で文字を打つたび・日本語変換中に、本文が一瞬左へ寄って中央へ戻る揺れを直しました。整形の更新を待つ間も同じ本文の位置に表示します。\n- 左右分割の右ペインも、更新を待つ間は直前の表示を残し、左へ寄らなくなりました。\n- Markdownメニューに「本文を全幅で表示」を追加しました。本文を中央900px寄せではなくウィンドウ幅いっぱいに広げます（Notionの全幅表示相当）。設定は保存され、「Markdownリソース設定…」からも切り替えられます。\n- メニューバーの「Grep結果」サブメニューの項目が反応しなかった問題を修正しました。\n\nWindows x64/ARM64のbetaです。Mac版は今回のリリースに含みません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
