@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "282f8c27240166051f78e1ec7988c8fafdfafd9f",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.24",
-  "published_at": "2026-10-26T05:51:59.562053+00:00",
+  "source_sha": "cd179c5902367761cee500ae4c8e91906ea2a9b2",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.25",
+  "published_at": "2026-10-28T00:39:38.418092+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.24/oredit-0.1.24-windows-x64.zip",
-      "sha256": "0a633926b05fb1e44544afa00aff697259f115826499b65c6970de5be8db9ab1",
-      "bytes": 4495367
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.25/oredit-0.1.25-windows-x64.zip",
+      "sha256": "50cfe296821d3265a534b21fcc41f9d4992dad35a84f1f8fe674756d3bb69ab6",
+      "bytes": 5166876
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.24/oredit-0.1.24-windows-arm64.zip",
-      "sha256": "85e5c51a284c99fb31a6f993968faa9e34f7e5b7a6dbec5f46d8c10ab623c69d",
-      "bytes": 3982779
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.25/oredit-0.1.25-windows-arm64.zip",
+      "sha256": "becb59e8598e14aad24a24e50d70ec06d00db4f61aaea2989356316df67b3d9c",
+      "bytes": 4559179
     }
   ],
-  "notes": "oredit 0.1.24 Windows beta\n\nCSVの列幅調整、複数セル選択・コピー、テキスト列色分けを追加しました。\n- CSV表の列番号ヘッダの境界をドラッグして幅を調整できます。境界のダブルクリックで読み込み済みセルを現在のフォントに合わせて自動調整します。\n- セルをドラッグして矩形範囲を選び、Shiftで範囲を拡張、Ctrlで範囲を追加できます。Ctrl+CでTSV形式の内容をクリップボードへコピーします。\n- 「表示 → ハイライト → CSV/TSV列色分け」で、テキスト表示の列色を切り替えられます。引用符内のカンマ・改行を区切りと誤認しません。\n- 設定は列ごとの保存幅を優先します。通常は160 DIP、ダブルクリック自動調整は40〜600 DIPです。\n\nWindows x64/ARM64のbetaです。Mac版は今回のリリースに含みません。100GiB以上の実容量、実IME、実機present、長時間RSSなどの全体受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.25 Windows beta\n\nGrep（フォルダから検索）の対象指定と、検索後の結果操作を強化しました。\n- 対象を「このファイル／このファイルのフォルダ／親フォルダ／プロジェクト／開いているファイル」から選べます。開いた時点でフォルダと検索語が入り、`;`で複数フォルダ、除外ファイル・除外フォルダ（既定 .git;.svn;.hg）を指定できます。\n- 結果の表示先を「別タブ／下に分割／右に分割／ファイルへ出力」から選べます。分割表示ではF4/Shift+F4で次・前の結果へ移動し、開いているタブを再利用します。境界はドラッグで動かせます。\n- 結果タブ上部の結果バーで絞り込めます（空白=AND、|=OR、!否定、p: c: ext: dir: file:、^前方 後方$ '完全）。適用で連鎖し、解除で戻ります。行ごと・ファイルごと・ファイル別グループの表示、マーク（Ctrl+M）、行・ファイルの非表示、コメント行の除外に対応しました。\n- 右クリックから、このファイル／表示中のファイルの再Grep、結果のファイルだけを別の語でGrep、Work Itemsへの追加ができます。\n- ファイルパス一覧・TSV・CSV・前後の行付きでコピー／保存できます。表示中の一致行を元ファイルで一括・逐次にコメントアウト／削除できます（実行前に確認、行内容を照合、保存はしません）。\n- 結果の行に桁番号を追加しました（`# oredit-sgrep v2`）。旧形式の結果も開いてジャンプできます。\n\nWindows x64/ARM64のbetaです。Mac版は今回のリリースに含みません。Grep結果の操作はMacでは未実装です。実IME/DPIの物理操作と長時間の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, ten bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
