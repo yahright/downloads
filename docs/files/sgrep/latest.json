@@ -33,10 +33,10 @@
       "product": "SgrepVSIX",
       "platform": "x64",
       "kind": "vsix-zip",
-      "vsixVersion": "1.0.20261016.1",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepVSIX-0.7.0-x64.zip",
-      "sha256": "d93f3a3c7a1d09b3915e0b173e5b9b864ddbead2ee51141a01274027a885af1c",
-      "size": 2967170
+      "vsixVersion": "1.0.20261029.1",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261029.1/SgrepVSIX-1.0.20261029.1-x64.zip",
+      "sha256": "4a633eb5e937e6d87f5e3b869ceff6dff236843e0df7b9e8a907212fab1785db",
+      "size": 3426111
     },
     {
       "product": "SgrepGUI",
@@ -50,10 +50,10 @@
       "product": "SgrepVSIX",
       "platform": "ARM64",
       "kind": "vsix-zip",
-      "vsixVersion": "1.0.20261016.1",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.7.0/SgrepVSIX-0.7.0-ARM64.zip",
-      "sha256": "fec56961cbecd7c64a0da6dca349cfaccc46b29797e643998561c4e22f56d4ad",
-      "size": 2967185
+      "vsixVersion": "1.0.20261029.1",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261029.1/SgrepVSIX-1.0.20261029.1-ARM64.zip",
+      "sha256": "903f5dff6b7ccf0bc84b1e17878279d1d84e4131525fe3046981365e38e55e67",
+      "size": 3426098
     }
   ]
 }
