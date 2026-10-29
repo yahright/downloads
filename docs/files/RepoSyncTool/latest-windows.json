@@ -1,26 +1,26 @@
 {
-  "version": "0.12.0",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.12.0",
-  "sourceCommit": "8beecec7841e975ab0506b8eeb86b54733faf61a",
-  "publishedAtUtc": "2026-10-29T01:49:43.1693461+00:00",
-  "notes": "# RepoSyncTool 0.12.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.11.0 からの変更\n\n- **差分一覧の表示修正**: 長いファイルパスが右側の追加・削除行数に重ならないよう省略表示します。ホバーで全文を確認できます。未ステージ・ステージ済み・履歴・差分別窓に対応します。\n- **お気に入りブランチ**: ブランチの右クリックから登録・解除し、左バー上部にまとめて表示できます。ローカル・リモート、複数選択、ブランチ名変更への追従に対応します。\n- **作者の色分け**: 履歴の作者を「自分／特定の人／その他」で色分けします。自分は Git のメールアドレスから判定します。作者欄の右クリックや ⚙「作者の色分け…」から人物・別名・色を設定できます。\n- **コミットを含むブランチの選択**: 「表示ブランチを選択…」で選択中のコミット、または貼り付けたハッシュを含むローカル・リモートブランチをまとめて選べます。「表示」を押すまで履歴は変更しません。\n- **操作後の表示連動**: ブランチ作成・チェックアウト・チェリーピック後に、履歴の表示対象も作成先・切り替え先・取り込み先へ切り替えるオプションを追加しました。既定ONで、OFFなら元の選択を保ちます。チェリーピックの比較表示からの復帰と新しい先端の選択にも対応します。\n- **同梱の導入手順を更新**: リポジトリ管理画面と現在の設定・更新メニューに合わせました。\n\n個人設定はこのPCのリポジトリごとに記憶します。TaCM 接続では開いているウィンドウの中だけ保持します。\n\n## 既知の制限\n\n- 新機能の実画面での操作受入、Windows x64 実機、IME/HiDPI、実認証・自動同期の受入は残っています。\n- 作者・名前・期間などの検索条件は、表示ブランチを操作に連動させても維持します。条件に合わないコミットは表示されません。\n- 自動更新は書き込めないフォルダーでは利用できません。Mac 版の自動更新は未対応です。\n- rebase の編集画面では reword はできず、stash の作成・適用・削除は取り消しの対象外です。\n\n## 導入\n\n0.8.0 以降は ⚙「更新を確認…」から更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。Windows 版は未署名のベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.12.0/RepoSyncTool-0.12.0-win-x64-portable.zip",
-      "sha256": "9c0b11ad4b388f089957fc36cba70dd7458585725466e01b8a30d9eb5142b2d1",
-      "size": 49481691,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.12.0/RepoSyncTool-0.12.0-win-arm64-portable.zip",
-      "sha256": "617800ebdeb92bb2bb16acc4e917bb5913b482fc6a98979ff56a3eaab7f3a07d",
-      "size": 47243182,
-      "signed": false
-    }
-  ]
+    "version":  "0.13.0",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.13.0",
+    "sourceCommit":  "dced879f7a699ded65fb5045d89885903cd9f421",
+    "publishedAtUtc":  "2026-10-29T03:14:29.4303036+00:00",
+    "notes":  "# RepoSyncTool 0.13.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.12.0 からの変更\n\n- **差分への注釈**: コミット、ファイル、ハンクにメモや要対応の注釈を付けられます。作業ツリーにも対応し、差分画面から保存・移動できます。一覧や履歴にも注釈を表示します。\n- 注釈はこの PC にローカル保存され、Git や他の端末には共有されません。\n\n## 既知の制限\n\n- 今回のリリースではテストを実行していません。注釈機能の実画面での操作受入も未実施です。\n- Windows x64 実機、IME/HiDPI、実認証・自動同期の受入は残っています。\n- 自動更新は書き込めないフォルダーでは利用できません。Mac 版の自動更新は未対応です。\n- rebase の編集画面では reword はできず、stash の作成・適用・削除は取り消しの対象外です。\n\n## 導入\n\n0.8.0 以降は ⚙「更新を確認…」から更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。Windows 版は未署名のベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.13.0/RepoSyncTool-0.13.0-win-x64-portable.zip",
+                          "sha256":  "003489489ed3119719fa2c809fec28794a0cec23e2454b8f90fd25a61297bb04",
+                          "size":  47996515,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.13.0/RepoSyncTool-0.13.0-win-arm64-portable.zip",
+                          "sha256":  "de9dd5f6f61c3ad4e65aaa6108951446825cc6adc9d7287957134c3ad25663be",
+                          "size":  45870325,
+                          "signed":  false
+                      }
+                  ]
 }
