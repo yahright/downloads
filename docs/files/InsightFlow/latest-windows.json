@@ -2,12 +2,12 @@
   "version": "0.10.39",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- fix(jobs): preserve result tab selection during progress refresh\n- Bump version to 0.10.36\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: correct 0.10.36 notarization record\n- build: update dependencies for 0.10.37\n- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38\n- Merge origin/master into codex/favorites-ime-on-open",
+  "notes": "- feat(diskusage): WizTree-style columns in the folder tree\n- feat(diskusage): WizTree-style File view tab\n- feat(diskusage): attributes column in the File view\n- feat(diskusage): folder rows, duplicate expansion and truncation note in the File view\n- chore: bump version to 0.10.39",
   "notesHistory": [
     {
       "version": "0.10.39",
-      "notes": "- fix(jobs): preserve result tab selection during progress refresh\n- Bump version to 0.10.36\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: correct 0.10.36 notarization record\n- build: update dependencies for 0.10.37\n- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38\n- Merge origin/master into codex/favorites-ime-on-open",
-      "publishedAtUtc": "2026-10-28T02:52:29Z"
+      "notes": "- feat(diskusage): WizTree-style columns in the folder tree\n- feat(diskusage): WizTree-style File view tab\n- feat(diskusage): attributes column in the File view\n- feat(diskusage): folder rows, duplicate expansion and truncation note in the File view\n- chore: bump version to 0.10.39",
+      "publishedAtUtc": "2026-10-29T03:18:16Z"
     },
     {
       "version": "0.10.38",
@@ -60,15 +60,15 @@
       "platform": "win-x64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.39/InsightFlow-0.10.39-win-x64-portable.zip",
-      "sha256": "122601795639d39de40cfdce89bc98ba3666a0d17d3b329369dcb444afeb3d66",
-      "size": 110739696
+      "sha256": "d8e5b0bf76bc52141ec1a9053bba846f5afc6a8be5526a1bcf5c8f349283d616",
+      "size": 110747273
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
       "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.39/InsightFlow-0.10.39-win-arm64-portable.zip",
-      "sha256": "2b4f2954f7fabf2bd647c4f8af8649e9150a5e28c54d0f0a8bc9749119340ff1",
-      "size": 107087260
+      "sha256": "0ac2935ddcc5c995e3dffd1b78c114ecf58f68a9781919a5ed9656925c70cb3d",
+      "size": 107094868
     }
   ]
 }

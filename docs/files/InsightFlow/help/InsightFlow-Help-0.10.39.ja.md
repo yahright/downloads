@@ -1,6 +1,6 @@
 # InsightFlow Help 0.10.39 (ja)
 
-Generated: 2026-10-28 02:49 UTC
+Generated: 2026-10-29 03:16 UTC
 
 この文書は AI アシスタント（NotebookLM / GitHub Copilot / ChatGPT など）に渡して InsightFlow の使い方を質問するためのものです。
 
@@ -300,7 +300,6 @@ Ctrl+Shift+T（macOSはCmd+Shift+T）でコマンドバーを表示します。�
 - 認証トークン (`RemoteTokenBox`)
 
 ### ジョブとディスク使用量 > ディスク使用量（詳細）
-- MFT スキャン用の管理者ヘルパー: (`DiskUsageMftHelperPolicyBox`)
 - MFT スナップショットは昇格時に確認が必要です (`DiskUsageMftRequiresConfirmationBox`)
 - MFT 診断を表示 (`DiskUsageShowMftDiagnosticsBox`)
 - NTFS MFT スナップショットバックエンドを使用 (`DiskUsageEnableNtfsMftSnapshotBackendBox`)
@@ -2050,12 +2049,6 @@ InsightFlow はクラシックな2画面ファイラーです。**コピーや�
 | サムネイルグリッド表示 | `Ctrl+Shift+G` | 表示 → サムネイルグリッドの切り替え |
 
 画像・PDF・Office 文書・テキスト/コード・動画など、多くの形式に対応しています。
-
-### 画像の向きと回転
-
-JPEGなどに記録されたEXIFの向き情報に従って、画像の回転・反転を自動補正します。プレビュー右上の **↶ / ↷** ボタンで左右90度ずつ回転し、**0°** で写真の向きに戻せます。回転後の縦横に合わせて、画像全体を表示枠に収めます。ペイン内・別ウィンドウ・固定プレビューで共通です。別ウィンドウと固定プレビューでは `R` でも右に90度回転します。
-
-回転はプレビュー内の操作で、元の画像ファイルは変更しません。向き情報がない、または誤っている写真はボタンで調整してください。写真の内容から上下を推測する機能はありません。
 
 ### バイナリ（Hex）プレビュー
 

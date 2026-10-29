@@ -1,6 +1,6 @@
 # InsightFlow Help 0.10.39 (en)
 
-Generated: 2026-10-28 02:49 UTC
+Generated: 2026-10-29 03:16 UTC
 
 Give this document to an AI assistant such as NotebookLM, GitHub Copilot, or ChatGPT to ask questions about InsightFlow.
 
@@ -405,7 +405,6 @@ Use the Help menu. With automatic checking enabled, checks occur at startup and 
 - Use default copy filters (`CopyDefaultsEnabledBox`)
 
 ### JobsAndDiskUsage > Disk Usage (Advanced)
-- Admin helper for MFT scans: (`DiskUsageMftHelperPolicyBox`)
 - Allow bulk review operations (`DiskUsageEnableCleanupReviewBulkOperationsBox`)
 - Classify cleanup candidates (`DiskUsageEnableCleanupClassificationBox`)
 - Cleanup ranking sensitivity (`DiskUsageCleanupRankingSensitivityBox`)
@@ -1144,12 +1143,6 @@ Press **Primary+Shift+T** (View → Show Command Bar) to open a one-line command
 You can also drop files onto the bar or pick a value from the **+** menu. What you type is passed to the shell as is (Windows: `cmd.exe`, macOS/Linux: your login shell); there are no placeholders to expand. Commands do not get keyboard input, so run interactive programs with Shift+Enter. Commands cannot run in archive, remote, or search-result tabs.
 
 ### Views and Preview
-
-## Image orientation and rotation
-
-Images follow the EXIF orientation stored in JPEGs and other supported photos, including mirrored orientations. Use **↶ / ↷** at the top right to rotate left or right by 90 degrees, and **0°** to return to the photo's orientation. The entire image fits the preview after each rotation. The controls work in pane, detached and pinned previews; detached and pinned previews also support `R` to rotate right.
-
-Rotation affects the preview only and does not modify the source file. Use the buttons when orientation metadata is absent or incorrect. The viewer does not infer which way is up from the image content.
 
 ## Binary (Hex) preview
 
