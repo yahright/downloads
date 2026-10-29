@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.29",
+  "version": "0.1.31",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "62a6e63334d51c4465f216925cb34aba5adcf690",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.29",
-  "published_at": "2026-10-29T00:48:19.616459+00:00",
+  "source_sha": "c0bc87a836cffc8226d31ef8255f521c7eeaeccc",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.31",
+  "published_at": "2026-10-29T10:24:57.214527+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.29/oredit-0.1.29-windows-x64.zip",
-      "sha256": "cbd1d7f2f535e3c57a4fd5229a84afd512dac0b72a7c28f6dbcb6026bf083db1",
-      "bytes": 5347152
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.31/oredit-0.1.31-windows-x64.zip",
+      "sha256": "90e9b5feaddaed0674283d4878d137671f4f0529563b756bb0f3a68d8ad8d92a",
+      "bytes": 5364239
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.29/oredit-0.1.29-windows-arm64.zip",
-      "sha256": "0025ea8e5a87320b42fbb7124b10f71deadf4c40dd0aece3922fca2c2ad7c8c2",
-      "bytes": 4717589
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.31/oredit-0.1.31-windows-arm64.zip",
+      "sha256": "ad09364349d3586f9c7bfb042d29d545f042c01ef7f41e6e9000b2885a10ebe7",
+      "bytes": 4735341
     }
   ],
-  "notes": "oredit 0.1.29 Windows beta\n\n- 左サイドバーにアウトライン／ファイル切替、幅の調整・保存、フォルダの遅延展開と現在ファイルの選択を追加しました。Ctrl+Bで開閉、Ctrl+Shift+Eでファイルを表示できます。\n- Ctrl+Shift+Oでファイル内のシンボルを入力して絞り込み、移動できます。選択中は本文をプレビューし、Enterで確定、Escで元の位置へ戻ります。コマンドパレット等も同じ画面へ統一しました。\n- Sparserのネイティブ解析を取り込み、複数言語の名前・種類・親を抽出します。タイプ別のサクラ互換アウトラインルールにも対応しました。巨大ファイル・フォルダは上限と未解析部分を表示し、取消できます。\n- サイドバー・候補一覧・メニューバー／プルダウン／右クリックメニューが、ライト／ダーク／カスタム配色へ追従します。\n- 設定・キー割当画面とGrep進捗表示を統合しました。\n\nWindows x64/ARM64のbetaです。Mac版のコードは今回未検証のため配布しません。実IME・高DPI・物理x64での操作確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.31 Windows beta\n\n- ファイル末尾へ移動したとき、EOF行を画面の最下段に収めて手前の本文をできるだけ表示します。短い文書は先頭を維持し、末尾で下へスクロールしても本文が消えません。\n- アウトライン／ファイル一覧の縦横スクロールバーが、ライト／ダーク／カスタム配色へ追従します。つまみの色だけを変更した場合も即時に反映します。\n- アウトラインの絞り込みに×解除とCtrl+Aの全選択を追加しました。文字選択・コピー／貼り付けができ、150ms待って絞り込み、日本語変換中は確定を待ちます。矢印で項目を選ぶ間は一覧にフォーカスを保ち、Enter／ダブルクリックで本文へ移動します。\n- 本文の拡大・縮小を追加しました。Ctrl+プラス／マイナス／0、Ctrl+ホイール、表示メニュー、ステータスバーの倍率から50〜300%で操作できます。同じウィンドウのタブ・分割で共有し、基本文字サイズ・文書内容・印刷は変更しません。再起動すると100%です。\n- Ctrl+Shift+Oのシンボル移動で、確定した対象を中央付近へ寄せます。末尾付近は本文をできるだけ残します。\n- 読み取れたファイルを、開く前後のファイルID・属性変化だけで拒否していた経路を修正しました。保存時の衝突検査は維持し、復旧データは変更しません。\n- アウトラインの同じ状態表示を繰り返し更新する処理を抑え、Batch（.bat／.cmd）の色分けを追加しました。利用者環境での点滅の解消確認は継続しています。\n\nWindows x64/ARM64のbetaです。中断した0.1.30候補を置き換えず、新しい版として公開します。Mac版は今回含みません。元のCSV／ネットワーク共有環境、実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
