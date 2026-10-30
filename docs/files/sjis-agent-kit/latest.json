@@ -1,0 +1,18 @@
+{
+  "product": "sjis-agent-kit",
+  "version": "0.1.0",
+  "platform": "windows",
+  "channel": "beta",
+  "source_sha": "c006535c3e3ea5576c16854b38513afb1e675a7e",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.1.0",
+  "published_at": "2026-10-30T01:49:00Z",
+  "notes": "初回beta。VC6 など Shift_JIS (CP932) のソースを、VS Code + GitHub Copilot（Claude Haiku など）で壊さずに編集するためのキットです。MCP・Python は不要で、Windows 標準の PowerShell 5.1 で動きます。\n\n- `tools\\sjis.cmd open` で .ai\\work に UTF-8 の作業コピーを作り、AI はそれを通常のツールで編集し、`tools\\sjis.cmd close` で Shift_JIS に書き戻します。\n- 書き戻しは CP932 に厳密に変換します。変換できない文字は行・桁つきでエラーにして、書き戻しません。改行は CRLF に揃え（.dsp/.dsw は必ず CRLF）、BOM は付けず、変更していない行は元のバイト列のまま残します（IBM 拡張文字が化けません）。open 後に VC6 側で変更されていたら上書きしません。\n- grep（日本語可）、show、status、discard、check（UTF-8 化・BOM・.dsp の LF を検出）を同梱しています。\n- install.ps1 で、Copilot 用の指示（copilot-instructions.md と applyTo 付き instructions）、VS Code 設定（sjis.cmd の自動承認、元ソース直接編集は承認必須）、.gitignore、pre-commit フックを導入します。\n\n未検証: 実際の Copilot + Claude Haiku での運用、`chat.tools.*` 設定が実機の VS Code で効くか。",
+  "assets": [
+    {
+      "kind": "zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.1.0/sjis-agent-kit-0.1.0.zip",
+      "sha256": "bb825a3fffe58e807456017cf3a49b23321b6d0278c107b0a6df6fe46e06f726",
+      "bytes": 15035
+    }
+  ]
+}
