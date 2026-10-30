@@ -1,25 +1,25 @@
 {
-    "version":  "0.14.0",
+    "version":  "0.15.0",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.14.0",
-    "sourceCommit":  "21e5668de9d61f3a51cc691b7d701418f20424af",
-    "publishedAtUtc":  "2026-10-29T23:38:09.7789148+00:00",
-    "notes":  "# RepoSyncTool 0.14.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.13.0 からの変更\n\n- **差分の「全体」切替**: 差分の見出しの「全体」（Ctrl+Shift+W）を ON にすると、ファイル全体を表示します。過去のコミットもチェックアウトせずに全体を見られ、`@@` 行が残るので全体を見ながら注釈・確認済み・行の stage が使えます。ON/OFF は次回も残ります。削除・競合・2 MiB 超などのファイルはハンクだけで、見出しに理由を出します。連続表示ではハンクだけです。\n- **エディタで開く**: ファイル一覧・差分の行の右クリック、差分の「…」、Ctrl+Shift+O で作業ツリーのファイルをテキストエディタで開きます。差分の行からはその行へ移動します。エディタは「外部ツール（Diff・マージ・エディタ）…」で設定します（VS Code・Notepad++・サクラエディタ・秀丸エディタ・Sublime Text・メモ帳・カスタム）。未設定なら OS の既定のアプリで開きます。\n\n## 既知の制限\n\n- 新機能の実画面での操作受入は未実施です。\n- Windows x64 実機、IME/HiDPI、実認証・自動同期の受入は残っています。\n- 自動更新は書き込めないフォルダーでは利用できません。Mac 版の自動更新は未対応です。\n- rebase の編集画面では reword はできず、stash の作成・適用・削除は取り消しの対象外です。\n\n## 導入\n\n0.8.0 以降は ⚙「更新を確認…」から更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。Windows 版は未署名のベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+    "releaseTag":  "reposynctool-v0.15.0",
+    "sourceCommit":  "a8cbf60087ed08c6edd446bebadaa3058d3b1605",
+    "publishedAtUtc":  "2026-10-30T03:24:17.3179629+00:00",
+    "notes":  "# RepoSyncTool 0.15.0 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.14.0 からの変更\n\n- **差分の文字コード選択**: 差分ビュー上部の「文字コード」で、自動・UTF-8・Shift_JIS（CP932）・EUC-JPを選んで読み直せます。文字化けしているときに切り替えてください。選択はリポジトリごとに記憶し、「全体」表示や前後に展開した行にも反映します。ファイルの内容は書き換えません。\n- **コミット詳細の高さ調整**: 履歴のコミットメッセージ・注釈とファイル一覧の間にスプリッターを追加しました。境界をドラッグして高さを調整でき、位置を次回も復元します。\n- どちらも通常のGit画面と差分ウィンドウで利用できます。\n\n## 既知の制限\n\n- 新機能の実際のファイル・実画面での操作受入は継続中です。\n- Windows x64 実機、IME/HiDPI、実認証・自動同期の受入は残っています。\n- 自動更新は書き込めないフォルダーでは利用できません。Mac 版の自動更新は未対応です。\n- rebase の編集画面では reword はできず、stash の作成・適用・削除は取り消しの対象外です。\n\n## 導入\n\n0.8.0 以降は ⚙「更新を確認…」から更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。Windows 版は未署名のベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.14.0/RepoSyncTool-0.14.0-win-x64-portable.zip",
-                          "sha256":  "ba29fb84e01b0607926c5388b67aa35cbb01a8ed89c497265a3cc7d0a2d22d02",
-                          "size":  48003747,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.15.0/RepoSyncTool-0.15.0-win-x64-portable.zip",
+                          "sha256":  "375f62f82f08abc7c6bdf7157425999febf0c7241291659a20625b6812a7d384",
+                          "size":  48005594,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.14.0/RepoSyncTool-0.14.0-win-arm64-portable.zip",
-                          "sha256":  "b5e39ee3e4a65c6a659bb90488a7d5388b94b11bc5c84cc89d9d63ccbedb3452",
-                          "size":  45877577,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.15.0/RepoSyncTool-0.15.0-win-arm64-portable.zip",
+                          "sha256":  "8709b273d9b279bd6bd54be7852a121dbb2f33e8ea2a37bad9737af22da81185",
+                          "size":  45879410,
                           "signed":  false
                       }
                   ]
