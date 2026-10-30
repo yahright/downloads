@@ -3,22 +3,22 @@
   "version": "0.2.0",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "91e53c63e8b65b8c81033ae468d839ff0444cd61",
+  "source_sha": "fe673524fb81d3486b933ccf088329bfccff9f6c",
   "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.0",
-  "published_at": "2026-10-30T02:43:55Z",
+  "published_at": "2026-10-30T02:45:36Z",
   "notes": "PowerShell・Python が使えない環境向けに作り直しました。配布物は 2 種類です。\n\n- **VS Code 拡張機能（sjis-agent-kit-0.2.0.vsix、おすすめ）**: Copilot から直接呼べるツール sjis_read / sjis_edit / sjis_write / sjis_grep / sjis_check を追加します。sjis_edit は完全一致の置換で編集し、Shift_JIS (CP932) + CRLF で保存します。コマンド「SJIS: Set Up Copilot for Shift_JIS Sources」で、Copilot 用の指示、標準の読み取り・編集ツールを外したカスタムエージェント「VC6」、設定を作ります。別のツールがソースを UTF-8 で保存した場合は警告し、直前の Shift_JIS 版に戻せます。\n- **コマンドライン版（sjis-agent-kit-0.2.0.zip、sjis.exe）**: 0.1.0 の PowerShell スクリプトを、C で書いた単体の exe に置き換えました（x86、x64 / ARM64 の Windows でも動作、ランタイム不要）。使い方は open → .ai\\work のコピーを編集 → close。導入は install.cmd。\n\n共通: 変換は Windows のコードページ 932 と同じ結果になります。変換できない文字は保存せず行・桁を返し、変更していない行は元のバイト列のまま残し、.dsp / .dsw は必ず CRLF にします。\n\n未検証: 実際の Copilot + Claude Haiku での運用、カスタムエージェント VC6 のツール指定が効くか、sjis.c の VC6 でのビルド。",
   "assets": [
     {
       "kind": "vsix",
       "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.0/sjis-agent-kit-0.2.0.vsix",
-      "sha256": "c0c5e0d7a7ab3fbd08c196704391aa1ea32621e2120ec09d564ccbc630b310c3",
+      "sha256": "ee3b5029eed0c3b093ec7b2384e2cba205b0cbf75b59dab1528a8565f9d8cfbf",
       "bytes": 36853
     },
     {
       "kind": "exe-zip",
       "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.0/sjis-agent-kit-0.2.0.zip",
-      "sha256": "90ae6b04c007c6cb59fed644370af19f0b6cd47fbc098fc347b6fe5e8015920a",
-      "bytes": 6698
+      "sha256": "66f05d2455e306ac23a72b113b0f931d27d46bdb94bcc644aa62d70b26bd9b97",
+      "bytes": 110609
     }
   ]
 }
