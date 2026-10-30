@@ -1,23 +1,23 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "42b31ea657a7c0eddf194076844010062d05a248",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.1",
-  "published_at": "2026-10-30T04:59:14Z",
-  "notes": "- 拡張機能: コマンド「SJIS: Check Shift_JIS Sources (Open Editors)」を追加（開いているタブのソースだけ検査）。全体の検査は「(Whole Workspace)」として残した\n- sjis_grep を VS Code 同梱の ripgrep で検索するようにした（2000ファイルで約2秒→約0.4秒）。ripgrep が見つからなければ従来の方法\n- 大量のファイルが変わった直後（git checkout / pull など）に sjis_read が待たされる問題を修正\n- 各ツールの処理時間を出力パネル「SJIS Agent Kit」に記録するようにした\n- Copilot への指示に「大きいファイルは sjis_grep で行番号を調べ、その前後だけ sjis_read で読む」を追加（セットアップコマンドを再実行すると反映）\n- sjis.exe は版番号のみ変更",
+  "source_sha": "1c456650974aba590ce279afe33993d04179ba10",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.2",
+  "published_at": "2026-10-30T06:05:51Z",
+  "notes": "- sjis_read: ワークスペース外のファイル（VC98 の Include など）も読めるようにした（読む前に確認が出る）。書き込みはワークスペース内だけで、外を指定したときのエラーに「このパスで再試行しない」と明記\n- sjis_read: 指定した行だけをデコードするようにし、デコード処理も高速化（約15MBのファイルで約2倍速）。/c:/… や file:///… 形式のパスも受け付ける\n- sjis_grep: ripgrep をやめ、並列読み込みと、検索語を含まないファイルのデコードを省く方式にした（2000ファイルで約0.24秒）\n- sjis_check（全体の検査）も並列読み込みにした\n- sjis.exe は版番号のみ変更",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.1/sjis-agent-kit-0.2.1.vsix",
-      "sha256": "aac7e2834500419917e06675463049df3850775f2daa535224262becd0840b24",
-      "bytes": 38358
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.2/sjis-agent-kit-0.2.2.vsix",
+      "sha256": "298022fe1a0ca03fe195bbc60b9ed6082549ef087d53b991f77304d7183465bf",
+      "bytes": 38310
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.1/sjis-agent-kit-0.2.1.zip",
-      "sha256": "188dab33fb34a327fa301cad38d97dfe2a216cd4efbf26d41162af14184c0026",
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.2/sjis-agent-kit-0.2.2.zip",
+      "sha256": "d857591371f4d366c95343ae19c76b3d5ddc50f2e5f7dbccb40e86416722f27b",
       "bytes": 110610
     }
   ]
