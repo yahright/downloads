@@ -1,18 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "c006535c3e3ea5576c16854b38513afb1e675a7e",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.1.0",
-  "published_at": "2026-10-30T01:49:00Z",
-  "notes": "初回beta。VC6 など Shift_JIS (CP932) のソースを、VS Code + GitHub Copilot（Claude Haiku など）で壊さずに編集するためのキットです。MCP・Python は不要で、Windows 標準の PowerShell 5.1 で動きます。\n\n- `tools\\sjis.cmd open` で .ai\\work に UTF-8 の作業コピーを作り、AI はそれを通常のツールで編集し、`tools\\sjis.cmd close` で Shift_JIS に書き戻します。\n- 書き戻しは CP932 に厳密に変換します。変換できない文字は行・桁つきでエラーにして、書き戻しません。改行は CRLF に揃え（.dsp/.dsw は必ず CRLF）、BOM は付けず、変更していない行は元のバイト列のまま残します（IBM 拡張文字が化けません）。open 後に VC6 側で変更されていたら上書きしません。\n- grep（日本語可）、show、status、discard、check（UTF-8 化・BOM・.dsp の LF を検出）を同梱しています。\n- install.ps1 で、Copilot 用の指示（copilot-instructions.md と applyTo 付き instructions）、VS Code 設定（sjis.cmd の自動承認、元ソース直接編集は承認必須）、.gitignore、pre-commit フックを導入します。\n\n未検証: 実際の Copilot + Claude Haiku での運用、`chat.tools.*` 設定が実機の VS Code で効くか。",
+  "source_sha": "91e53c63e8b65b8c81033ae468d839ff0444cd61",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.0",
+  "published_at": "2026-10-30T02:43:55Z",
+  "notes": "PowerShell・Python が使えない環境向けに作り直しました。配布物は 2 種類です。\n\n- **VS Code 拡張機能（sjis-agent-kit-0.2.0.vsix、おすすめ）**: Copilot から直接呼べるツール sjis_read / sjis_edit / sjis_write / sjis_grep / sjis_check を追加します。sjis_edit は完全一致の置換で編集し、Shift_JIS (CP932) + CRLF で保存します。コマンド「SJIS: Set Up Copilot for Shift_JIS Sources」で、Copilot 用の指示、標準の読み取り・編集ツールを外したカスタムエージェント「VC6」、設定を作ります。別のツールがソースを UTF-8 で保存した場合は警告し、直前の Shift_JIS 版に戻せます。\n- **コマンドライン版（sjis-agent-kit-0.2.0.zip、sjis.exe）**: 0.1.0 の PowerShell スクリプトを、C で書いた単体の exe に置き換えました（x86、x64 / ARM64 の Windows でも動作、ランタイム不要）。使い方は open → .ai\\work のコピーを編集 → close。導入は install.cmd。\n\n共通: 変換は Windows のコードページ 932 と同じ結果になります。変換できない文字は保存せず行・桁を返し、変更していない行は元のバイト列のまま残し、.dsp / .dsw は必ず CRLF にします。\n\n未検証: 実際の Copilot + Claude Haiku での運用、カスタムエージェント VC6 のツール指定が効くか、sjis.c の VC6 でのビルド。",
   "assets": [
     {
-      "kind": "zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.1.0/sjis-agent-kit-0.1.0.zip",
-      "sha256": "bb825a3fffe58e807456017cf3a49b23321b6d0278c107b0a6df6fe46e06f726",
-      "bytes": 15035
+      "kind": "vsix",
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.0/sjis-agent-kit-0.2.0.vsix",
+      "sha256": "c0c5e0d7a7ab3fbd08c196704391aa1ea32621e2120ec09d564ccbc630b310c3",
+      "bytes": 36853
+    },
+    {
+      "kind": "exe-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.0/sjis-agent-kit-0.2.0.zip",
+      "sha256": "90ae6b04c007c6cb59fed644370af19f0b6cd47fbc098fc347b6fe5e8015920a",
+      "bytes": 6698
     }
   ]
 }
