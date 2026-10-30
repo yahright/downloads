@@ -1,22 +1,32 @@
 {
-  "version": "0.10.38",
+  "version": "0.10.40",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.38",
-  "notes": "- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.40",
+  "notes": "InsightFlow 0.10.40 for macOS Apple Silicon (Beta)\n\n- macOSのディスク使用量で、APFSの別経路やハードリンクによる二重計上を修正しました。\n- ユーザーファイルは `/System/Volumes/Data/Users/...` ではなく、通常の `/Users/...` に表示します。\n- ローカルディスクの走査がWindows共有経由でMacのホームへ戻ることを防ぎます。共有フォルダーを直接指定した走査は引き続き利用できます。\n- ディスク使用量の空画面で、案内が表や分割線と重なる問題を修正しました。\n- ファイル表示タブ、検索、重複表示、属性列、フォルダー行、ツリーの列表示をmacOSへ提供します。\n- 画像プレビューのEXIF回転補正と回転操作、AIチャットから利用できるMCP機能など、前回のmacOS配布以降の統合済み変更を含みます。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release fixes duplicate disk-usage accounting through APFS aliases and hard links, keeps familiar macOS paths, avoids network-share round trips during local scans, and repairs the empty-state layout. It also includes the File view and previously integrated preview/AI-chat improvements.\n\nWindowsの公開版は0.10.39を維持します。",
+  "notesHistory": [
+    {
+      "version": "0.10.40",
+      "notes": "InsightFlow 0.10.40 for macOS Apple Silicon (Beta)\n\n- macOSのディスク使用量で、APFSの別経路やハードリンクによる二重計上を修正しました。\n- ユーザーファイルは `/System/Volumes/Data/Users/...` ではなく、通常の `/Users/...` に表示します。\n- ローカルディスクの走査がWindows共有経由でMacのホームへ戻ることを防ぎます。共有フォルダーを直接指定した走査は引き続き利用できます。\n- ディスク使用量の空画面で、案内が表や分割線と重なる問題を修正しました。\n- ファイル表示タブ、検索、重複表示、属性列、フォルダー行、ツリーの列表示をmacOSへ提供します。\n- 画像プレビューのEXIF回転補正と回転操作、AIチャットから利用できるMCP機能など、前回のmacOS配布以降の統合済み変更を含みます。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release fixes duplicate disk-usage accounting through APFS aliases and hard links, keeps familiar macOS paths, avoids network-share round trips during local scans, and repairs the empty-state layout. It also includes the File view and previously integrated preview/AI-chat improvements.\n\nWindowsの公開版は0.10.39を維持します。"
+    },
+    {
+      "version": "0.10.38",
+      "notes": "- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38"
+    }
+  ],
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.38/InsightFlow-0.10.38-osx-arm64-app.zip",
-      "sha256": "c9b3333cfdba2018a0bded86d30ab848bae63d0767876a601d49167964cbfb50",
-      "size": 104053824
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.40/InsightFlow-0.10.40-osx-arm64-app.zip",
+      "sha256": "4f06c1e37a0f9b59515035f747af3e02546ab05686fa00f492944cdbea06db8b",
+      "size": 104093803
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.38/InsightFlow-0.10.38-osx-arm64.dmg",
-      "sha256": "c06845643c900af98c1cf992503cc776c1409641041a569d50005a29a201a9df",
-      "size": 113031886
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.40/InsightFlow-0.10.40-osx-arm64.dmg",
+      "sha256": "106ae40dca130a2f1d42916f9ddfd36c220ef348a1ad3667905b6441e725f0e6",
+      "size": 113096619
     }
   ]
 }
