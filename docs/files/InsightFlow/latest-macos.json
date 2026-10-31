@@ -1,9 +1,13 @@
 {
-  "version": "0.10.40",
+  "version": "0.10.41",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.40",
-  "notes": "InsightFlow 0.10.40 for macOS Apple Silicon (Beta)\n\n- macOSのディスク使用量で、APFSの別経路やハードリンクによる二重計上を修正しました。\n- ユーザーファイルは `/System/Volumes/Data/Users/...` ではなく、通常の `/Users/...` に表示します。\n- ローカルディスクの走査がWindows共有経由でMacのホームへ戻ることを防ぎます。共有フォルダーを直接指定した走査は引き続き利用できます。\n- ディスク使用量の空画面で、案内が表や分割線と重なる問題を修正しました。\n- ファイル表示タブ、検索、重複表示、属性列、フォルダー行、ツリーの列表示をmacOSへ提供します。\n- 画像プレビューのEXIF回転補正と回転操作、AIチャットから利用できるMCP機能など、前回のmacOS配布以降の統合済み変更を含みます。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release fixes duplicate disk-usage accounting through APFS aliases and hard links, keeps familiar macOS paths, avoids network-share round trips during local scans, and repairs the empty-state layout. It also includes the File view and previously integrated preview/AI-chat improvements.\n\nWindowsの公開版は0.10.39を維持します。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.41",
+  "notes": "InsightFlow 0.10.41 for macOS Apple Silicon (Beta)\n\n- ディスク使用量で「論理サイズ」と「ディスク上のサイズ」を一覧・フォルダーツリー・全体合計に表示します。取得できない割当量は「不明」と区別します。ファイル割当量の合計は、APFSの共有ブロック等によりボリューム使用量・削除で空く容量とは異なる場合があります。\n- Jで開くお気に入りの「仮想リスト」タブで、Enter/OKが選択中の仮想リストを開くよう修正しました。\n- ペインのタブに右クリックメニューを追加しました。「閉じる」「他を閉じる」「左側を閉じる」「右側を閉じる」を利用でき、各ペインの最後の1タブは残します。\n- ディスク使用量の開始前・結果クリア後の案内と表の重なり、および小さな窓での表示を改善しました。\n- macOSで.commandを起動した後のzsh終了処理と、.NET 10環境でのヘルプ生成を修正しました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release separates logical size from size on disk, fixes opening saved virtual lists from Favorites, adds pane-tab context menus, and improves the Disk Usage empty-state layout. Allocation totals are not a measure of reclaimable APFS space.\n\nWindowsの公開版は0.10.39を維持します。",
   "notesHistory": [
+    {
+      "version": "0.10.41",
+      "notes": "InsightFlow 0.10.41 for macOS Apple Silicon (Beta)\n\n- ディスク使用量で「論理サイズ」と「ディスク上のサイズ」を一覧・フォルダーツリー・全体合計に表示します。取得できない割当量は「不明」と区別します。ファイル割当量の合計は、APFSの共有ブロック等によりボリューム使用量・削除で空く容量とは異なる場合があります。\n- Jで開くお気に入りの「仮想リスト」タブで、Enter/OKが選択中の仮想リストを開くよう修正しました。\n- ペインのタブに右クリックメニューを追加しました。「閉じる」「他を閉じる」「左側を閉じる」「右側を閉じる」を利用でき、各ペインの最後の1タブは残します。\n- ディスク使用量の開始前・結果クリア後の案内と表の重なり、および小さな窓での表示を改善しました。\n- macOSで.commandを起動した後のzsh終了処理と、.NET 10環境でのヘルプ生成を修正しました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release separates logical size from size on disk, fixes opening saved virtual lists from Favorites, adds pane-tab context menus, and improves the Disk Usage empty-state layout. Allocation totals are not a measure of reclaimable APFS space.\n\nWindowsの公開版は0.10.39を維持します。"
+    },
     {
       "version": "0.10.40",
       "notes": "InsightFlow 0.10.40 for macOS Apple Silicon (Beta)\n\n- macOSのディスク使用量で、APFSの別経路やハードリンクによる二重計上を修正しました。\n- ユーザーファイルは `/System/Volumes/Data/Users/...` ではなく、通常の `/Users/...` に表示します。\n- ローカルディスクの走査がWindows共有経由でMacのホームへ戻ることを防ぎます。共有フォルダーを直接指定した走査は引き続き利用できます。\n- ディスク使用量の空画面で、案内が表や分割線と重なる問題を修正しました。\n- ファイル表示タブ、検索、重複表示、属性列、フォルダー行、ツリーの列表示をmacOSへ提供します。\n- 画像プレビューのEXIF回転補正と回転操作、AIチャットから利用できるMCP機能など、前回のmacOS配布以降の統合済み変更を含みます。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release fixes duplicate disk-usage accounting through APFS aliases and hard links, keeps familiar macOS paths, avoids network-share round trips during local scans, and repairs the empty-state layout. It also includes the File view and previously integrated preview/AI-chat improvements.\n\nWindowsの公開版は0.10.39を維持します。"
@@ -17,16 +21,16 @@
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.40/InsightFlow-0.10.40-osx-arm64-app.zip",
-      "sha256": "4f06c1e37a0f9b59515035f747af3e02546ab05686fa00f492944cdbea06db8b",
-      "size": 104093803
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.41/InsightFlow-0.10.41-osx-arm64-app.zip",
+      "sha256": "da8ba748f78c67a43a13f0e0a2d6e6ab7a45ff82a7128a6ca588f43bee3bb8d7",
+      "size": 104103510
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.40/InsightFlow-0.10.40-osx-arm64.dmg",
-      "sha256": "106ae40dca130a2f1d42916f9ddfd36c220ef348a1ad3667905b6441e725f0e6",
-      "size": 113096619
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.41/InsightFlow-0.10.41-osx-arm64.dmg",
+      "sha256": "aae41567ce768570192bec4e87ffdbce21af650cac0ded019199aa4bd52955aa",
+      "size": 113096721
     }
   ]
 }
