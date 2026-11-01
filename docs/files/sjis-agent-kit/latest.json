@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "84e04a650ed09f7ae500917d5827e22e3c08c9f0",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.3",
-  "published_at": "2026-11-01T00:34:48Z",
-  "notes": "- Add a Shift_JIS sample project and build.cmd for trying the kit\n- Add sample\\setup.bat: make a test repository with the kit installed\n- Extension: sjis_edit/sjis_write work outside the workspace with confirmation\n- Merge origin/sample-sjis\n- Extension: sjis_grep/sjis_check take a path outside the workspace\n- Extension: serialize edits to one file, accept \\n typed as text, list replaceAll lines",
+  "source_sha": "f4c8feb6480720078cbe1221fba36e17e1541592",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.4",
+  "published_at": "2026-11-01T02:18:55Z",
+  "notes": "- Extension: decode big files in one pass; faster check and round trip",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.3/sjis-agent-kit-0.2.3.vsix",
-      "sha256": "cb0ecb10016db297bd9e5e2f599079eab3a5e7048a5476565ef885f16c1c07b7",
-      "bytes": 39952
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.4/sjis-agent-kit-0.2.4.vsix",
+      "sha256": "779734f599fef35f502c1c9b039812759c1098cc4498343b35596d153b38741f",
+      "bytes": 40063
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.3/sjis-agent-kit-0.2.3.zip",
-      "sha256": "50a2257cafddeec669ce66b1723d2c2602746d9704fa3b65a83126658fa3302e",
-      "bytes": 110692
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.4/sjis-agent-kit-0.2.4.zip",
+      "sha256": "322de4153edd22843875a8dcf8a00abd48d2fe8856130a53d67ef920d171cfc9",
+      "bytes": 110691
     }
   ]
 }
