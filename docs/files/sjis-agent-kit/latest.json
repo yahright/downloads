@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "1c456650974aba590ce279afe33993d04179ba10",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.2",
-  "published_at": "2026-10-30T06:05:51Z",
-  "notes": "- sjis_read: ワークスペース外のファイル（VC98 の Include など）も読めるようにした（読む前に確認が出る）。書き込みはワークスペース内だけで、外を指定したときのエラーに「このパスで再試行しない」と明記\n- sjis_read: 指定した行だけをデコードするようにし、デコード処理も高速化（約15MBのファイルで約2倍速）。/c:/… や file:///… 形式のパスも受け付ける\n- sjis_grep: ripgrep をやめ、並列読み込みと、検索語を含まないファイルのデコードを省く方式にした（2000ファイルで約0.24秒）\n- sjis_check（全体の検査）も並列読み込みにした\n- sjis.exe は版番号のみ変更",
+  "source_sha": "84e04a650ed09f7ae500917d5827e22e3c08c9f0",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.3",
+  "published_at": "2026-11-01T00:34:48Z",
+  "notes": "- Add a Shift_JIS sample project and build.cmd for trying the kit\n- Add sample\\setup.bat: make a test repository with the kit installed\n- Extension: sjis_edit/sjis_write work outside the workspace with confirmation\n- Merge origin/sample-sjis\n- Extension: sjis_grep/sjis_check take a path outside the workspace\n- Extension: serialize edits to one file, accept \\n typed as text, list replaceAll lines",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.2/sjis-agent-kit-0.2.2.vsix",
-      "sha256": "298022fe1a0ca03fe195bbc60b9ed6082549ef087d53b991f77304d7183465bf",
-      "bytes": 38310
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.3/sjis-agent-kit-0.2.3.vsix",
+      "sha256": "cb0ecb10016db297bd9e5e2f599079eab3a5e7048a5476565ef885f16c1c07b7",
+      "bytes": 39952
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.2/sjis-agent-kit-0.2.2.zip",
-      "sha256": "d857591371f4d366c95343ae19c76b3d5ddc50f2e5f7dbccb40e86416722f27b",
-      "bytes": 110610
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.3/sjis-agent-kit-0.2.3.zip",
+      "sha256": "50a2257cafddeec669ce66b1723d2c2602746d9704fa3b65a83126658fa3302e",
+      "bytes": 110692
     }
   ]
 }
