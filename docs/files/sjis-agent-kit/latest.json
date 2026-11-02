@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "f4c8feb6480720078cbe1221fba36e17e1541592",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.4",
-  "published_at": "2026-11-01T02:18:55Z",
-  "notes": "- Extension: decode big files in one pass; faster check and round trip",
+  "source_sha": "8630c6bb7685395314db9d6a2cd21d5c584b65b3",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.5",
+  "published_at": "2026-11-02T04:58:30Z",
+  "notes": "- VS Code の文字コードの自動警告をオフにできる設定 `sjisAgentKit.encodingWarnings.enabled` を追加しました。\n- 「no longer Shift_JIS」の通知を止めるには、VS Code のユーザー設定に `\"sjisAgentKit.encodingWarnings.enabled\": false` を指定してください。既定値は `true` です。\n- 自動警告をオフにしても、`sjis_*` ツールと手動の Shift_JIS チェックは引き続き使用できます。",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.4/sjis-agent-kit-0.2.4.vsix",
-      "sha256": "779734f599fef35f502c1c9b039812759c1098cc4498343b35596d153b38741f",
-      "bytes": 40063
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.5/sjis-agent-kit-0.2.5.vsix",
+      "sha256": "af888c570421b5851c01ae70b92fef5a258a274a6bcf187eba686334bf96498d",
+      "bytes": 40433
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.4/sjis-agent-kit-0.2.4.zip",
-      "sha256": "322de4153edd22843875a8dcf8a00abd48d2fe8856130a53d67ef920d171cfc9",
-      "bytes": 110691
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.5/sjis-agent-kit-0.2.5.zip",
+      "sha256": "63e0ec2b42cc921297940fd0e948861c5d4131b71f0c4b42c10a3ca53cf7adc4",
+      "bytes": 110608
     }
   ]
 }
