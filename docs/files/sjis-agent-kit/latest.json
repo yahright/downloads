@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "8630c6bb7685395314db9d6a2cd21d5c584b65b3",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.5",
-  "published_at": "2026-11-02T04:58:30Z",
-  "notes": "- VS Code の文字コードの自動警告をオフにできる設定 `sjisAgentKit.encodingWarnings.enabled` を追加しました。\n- 「no longer Shift_JIS」の通知を止めるには、VS Code のユーザー設定に `\"sjisAgentKit.encodingWarnings.enabled\": false` を指定してください。既定値は `true` です。\n- 自動警告をオフにしても、`sjis_*` ツールと手動の Shift_JIS チェックは引き続き使用できます。",
+  "source_sha": "883d18cdc38391bec2024705784a75e6db92ce8f",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.6",
+  "published_at": "2026-11-02T06:05:56Z",
+  "notes": "- VS Code拡張の自動ファイル監視・文字コード検査・「no longer Shift_JIS」通知・復元機能を削除しました。\n- ファイルを開く・保存する・外部ツールで変更するだけでは、SJIS Agent Kitは検査や通知を行いません。通知を止める設定も不要です。\n- sjis_read / sjis_edit / sjis_write / sjis_grep / sjis_check と、コマンドパレットからの手動チェックは引き続き使用できます。\n- 更新後はVS Codeのウィンドウを再読み込みしてください。",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.5/sjis-agent-kit-0.2.5.vsix",
-      "sha256": "af888c570421b5851c01ae70b92fef5a258a274a6bcf187eba686334bf96498d",
-      "bytes": 40433
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.6/sjis-agent-kit-0.2.6.vsix",
+      "sha256": "ce7edcd9a7a6ba59d65a28af16b83480007a3cda61b6b13ae4dcf3329b517387",
+      "bytes": 39575
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.5/sjis-agent-kit-0.2.5.zip",
-      "sha256": "63e0ec2b42cc921297940fd0e948861c5d4131b71f0c4b42c10a3ca53cf7adc4",
-      "bytes": 110608
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.6/sjis-agent-kit-0.2.6.zip",
+      "sha256": "6403287b382a7b2668a6f7e5b9bfa94b6597dee3934b6e762bfde401b3fa2b15",
+      "bytes": 110644
     }
   ]
 }
