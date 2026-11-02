@@ -1,25 +1,25 @@
 {
-    "version":  "0.16.2",
+    "version":  "0.16.3",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.16.2",
-    "sourceCommit":  "8abc28ad91035a197e02ee6a53eb107129c80ce3",
-    "publishedAtUtc":  "2026-11-01T22:59:14.5367531+00:00",
-    "notes":  "# RepoSyncTool 0.16.2 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.15.0 からの主な変更\n\n- 差分の左右表示を改善し、同期する横スクロール、変更箇所の色分け、ロケーションペイン、選択行の詳細表示を追加しました。差分ウィンドウのファイル一覧を開閉できます。\n- チェリーピックの事前チェック、チェックアウトせずに別ブランチへ取り込む一括操作、メッセージの変更、複数ブランチやファイル単位での取り込みなどを追加しました。\n- ビルド生成物の掃除、クローン・新規作成時の保存先の表示と変更を追加しました。\n- 外部ツールによる変更後の自動更新、複数リポジトリの操作、履歴表示やバージョン情報を改善しました。\n- 差分の構文色分けを追加し、テーマ・色・拡張子ごとの言語やユーザーキーワードを設定できます。\n- 差分の行詳細、ファイル・画像・文書・表の比較、競合解決の操作を拡充しました。\n\n## 既知の制限\n\n- 新機能の実画面での操作受入は継続中です。Windows x64 実機、IME/HiDPI、実認証・自動同期の受入も残っています。\n- 自動更新は書き込めないフォルダーでは利用できません。Windows 版は未署名のベータです。\n\n## 導入\n\n0.8.0 以降は ⚙「更新を確認…」から更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+    "releaseTag":  "reposynctool-v0.16.3",
+    "sourceCommit":  "456df3263343a8dda1b662eadb6694d39470bb4f",
+    "publishedAtUtc":  "2026-11-02T03:12:58.8906084+00:00",
+    "notes":  "# RepoSyncTool 0.16.3 — Windows ベータ\n\nWindows x64 / ARM64 のポータブル版です。.NET ランタイムを同梱しています。Git 2.35 以上が別途必要です。\n\n## 0.16.2 からの主な変更\n\n- コミット欄に Amend チェックを追加し、直前のコミットを修正できるようにしました。\n- 差分で Alt+↓／↑ による変更箇所の移動、Alt+→／← による選択行の適用、Alt+Shift+→／← によるハンクの適用を追加しました。\n\n## 既知の制限\n\n- 新機能の実画面での操作受入は継続中です。Windows x64 実機、IME/HiDPI、実認証・自動同期の受入も残っています。\n- 自動更新は書き込めないフォルダーでは利用できません。Windows 版は未署名のベータです。\n\n## 導入\n\n0.8.0 以降は ⚙「更新を確認…」から更新できます。初めての場合や 0.7.0 以前からは ZIP を新しい空フォルダーに展開して `RepoSyncTool.exe` を起動してください。自動同期を登録している場合は新しい配置で登録し直してください。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.16.2/RepoSyncTool-0.16.2-win-x64-portable.zip",
-                          "sha256":  "36f5781bdb8b15be49dd707877b7bc693ef93b95b076173414bb8096b0db24de",
-                          "size":  48260277,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.16.3/RepoSyncTool-0.16.3-win-x64-portable.zip",
+                          "sha256":  "725a46319daa5490604757d7445a2bbd72db27e05a816ba3acbcd5ea6ec757c1",
+                          "size":  48268224,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.16.2/RepoSyncTool-0.16.2-win-arm64-portable.zip",
-                          "sha256":  "6f2a158a831bb37f513ac0033b8e2f19245ffd4ebe377e5dbffb1726fb8b9c0a",
-                          "size":  46134101,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.16.3/RepoSyncTool-0.16.3-win-arm64-portable.zip",
+                          "sha256":  "b0e75ce5186383561d1836fe46761d9c058f3ec7625a1f7dcc23340abe2d0c70",
+                          "size":  46142059,
                           "signed":  false
                       }
                   ]
