@@ -1,25 +1,25 @@
 {
-    "version":  "0.17.1",
+    "version":  "0.17.2",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.17.1",
-    "sourceCommit":  "813870a0025320f62e36c9ba9d60662cc58a6ecc",
-    "publishedAtUtc":  "2026-11-04T03:18:07.7095934+00:00",
-    "notes":  "# RepoSyncTool 0.17.1 — Windows ベータ\n\nWindows x64 / ARM64 ポータブル版。.NET 同梱、Git 2.35以上が必要です。\n\n## 変更点\n\n- **AIのモデル・エフォート選択**: チャット上部とAI設定画面から選択でき、AIごとに保存されます。会話を保ったまま次の送信から反映します。Codex / CopilotはCLIからモデルと対応エフォートを取得し、ClaudeはSonnet / Opus / Haikuの別名から選べます。モデルIDの直接指定と「CLIの既定」への復帰も可能です。\n- **ファイル単位のRevert**: 変更ファイル一覧の右クリック、または差分ファイルメニューから「Revert（HEADの内容へ戻す）…」を選べます。確認後、選択ファイルのステージ済み・未ステージの変更をまとめて戻します。削除は復元し、リネームは元の名前へ戻し、ステージ済み追加ファイルは削除します。未追跡・競合・submodule・symlinkは対象外です。\n- **RevertのUndo / Redo**: 操作前のファイル内容・ステージ内容・存在状態をバックアップします。無関係なファイルのステージ変更を保ったまま復元でき、Gitの整理処理後にもステージ内容を戻せます。\n- **AIからのRevert**: 「Git 操作（確認つき）」でファイルを指定して依頼できます。GUIと同じ計画・確認・バックアップ・操作履歴を使います。\n\n## 導入と制限\n\n0.8.0以降のアプリでは、⚙ →「更新を確認…」から更新できます。手動導入はZIPを新しい空のフォルダーへ展開してください。\n\nAIには各CLIの導入・ログインが必要です。初期状態はOFF・読むだけです。Claudeの正確なモデル一覧の動的取得、AIモードの選択、AI側セッションの再開は後続です。\n\nWindows版は未署名ベータです。幅の狭い変更ファイル一覧の表示、worktreeの一括操作、物理x64端末・日本語IME/HiDPIなどの追加受入は継続しています。macOS版の更新は含みません。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+    "releaseTag":  "reposynctool-v0.17.2",
+    "sourceCommit":  "bd26c82c48048c9d69f6f7e6a3034cc5a7c85352",
+    "publishedAtUtc":  "2026-11-04T05:52:10.1433592+00:00",
+    "notes":  "# RepoSyncTool 0.17.2 — Windows ベータ\n\nWindows x64 / ARM64 ポータブル版。.NET 同梱、Git 2.35以上が必要です。\n\n## 変更点\n\n- **ブランチ削除ダイアログのエラー修正**: 候補の表示時に `NullReferenceException`（`BranchDialog.cs:109`）が発生する問題を修正しました。候補が空の状態や絞り込み後の再表示でも、安全に表示しチェック状態を維持します。\n- **チェリーピックの Edit を Amend 編集に**: Edit の行を取り込んだコミットで停止し、コミット欄の Amend を自動で有効にします。ファイル・ハンク・行の単位で内容を選び、説明を編集して「Amend して続行」で確定できます。通常の Amend ボタンからも続行できます。\n- **作者・作者日時を保持**: Edit の確定では作者・作者日時を引き継ぎます。説明欄はチェリーピック画面と Git 画面で連動し、計画中に説明を変えても Edit のまま保持します。競合解決中に編集した説明も引き継ぎます。\n- **Edit の続行と中止を改善**: 無変更のままの続行、複数の Edit、スキップと中止に対応。空の選択や外部ツールによる HEAD 変更は停止して理由を表示し、両画面の同時操作による二重確定を防ぎます。除外した元の変更は退避してから取り除きます。\n- **状態更新時の履歴表示**: 更新開始時に古い履歴と詳細を空にして「状態を更新しています…」を表示します。取得後は残っているコミットの選択を復元します。\n\n## 導入と制限\n\n0.8.0以降は ⚙ →「更新を確認…」から更新できます。手動導入はZIPを新しい空のフォルダーへ展開してください。\n\nWindows版は未署名ベータです。幅の狭い変更ファイル一覧の表示、worktreeの一括操作、物理x64端末・日本語IME/HiDPIなどの追加受入は継続しています。macOS版の更新は含みません。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.17.1/RepoSyncTool-0.17.1-win-x64-portable.zip",
-                          "sha256":  "607fc88bac54d4e2b892f45b143a3e4c6bbbc0219815ba7e5386b8021fdcef29",
-                          "size":  49615992,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.17.2/RepoSyncTool-0.17.2-win-x64-portable.zip",
+                          "sha256":  "f6587363eeb9772a368aab6d702f72daa408ccf745a271ccfe8e11de923411a1",
+                          "size":  49620133,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.17.1/RepoSyncTool-0.17.1-win-arm64-portable.zip",
-                          "sha256":  "ba7892942cb053dffe24ff2a366b145036ffa060328a56bf795fadccb9242a79",
-                          "size":  47489805,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.17.2/RepoSyncTool-0.17.2-win-arm64-portable.zip",
+                          "sha256":  "49e297f81dd8684971afdf95528504b2b8766c70ff733b08d94f29200756a080",
+                          "size":  47493928,
                           "signed":  false
                       }
                   ]
