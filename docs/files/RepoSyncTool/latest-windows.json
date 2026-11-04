@@ -1,26 +1,26 @@
 {
-    "version":  "0.16.7",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.16.7",
-    "sourceCommit":  "2d346873ab7029075e5dedfbfa11d406d5129d96",
-    "publishedAtUtc":  "2026-11-03T21:08:50.0955267+00:00",
-    "notes":  "# RepoSyncTool 0.16.7 — Windows ベータ\n\nWindows x64 / ARM64 ポータブル版。.NET 同梱、Git 2.35以上が必要です。\n\n## 変更点\n- **コミットメッセージの履歴**: コミット欄の「履歴 ▾」または Ctrl+M で、前に入れたメッセージを検索して入力欄へ戻せます。入力欄が空のときは ↑ / ↓ で1件ずつ呼び出せます。コミットできなかったメッセージ（フックで止まった場合など）も残ります。書きかけは画面を閉じても次に開いたとき戻ります。\n- **リポジトリ一覧のホイール**: 状態確認の最中でも、マウスホイール・スクロールバー・キーで一覧が動くようにしました。\n- **Windows Host のデータ作成**: Host のデータを、作成したユーザーを所有者として作るようにしました。\n- **成果物の掃除（sweep）**: 保護対象のファイルは残し、同じフォルダー内のそれ以外を削除するようにしました。\n- **差分・比較・競合の改善**: 差分の左右表示、構文の色分け、文字コードを指定した競合解決、外部編集後の再読込、差分の編集・保存、行や範囲のコピー、現在のハンクの表示を改善しました。\n- **Git 操作の追加**: コミット欄の Amend、差分の Alt+矢印による変更箇所の移動と適用、チェリーピックの事前チェック、ブランチ選択画面の最終更新・コミッタ・件名の列、バイナリの16進比較と表の比較を追加しました。\n- **速さ**: 差分の表示と状態更新を速くし、履歴キャッシュを検索条件ごとに保持するようにしました。\n\n## 導入と制限\n⚙「更新を確認…」またはZIPを新しいフォルダーへ展開してください。Windows版は未署名のベータです。各機能の実画面受入と x64 実機での確認は継続中です。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.16.7/RepoSyncTool-0.16.7-win-x64-portable.zip",
-                          "sha256":  "34e52009acea5dd2da4905967b40ca76c7713f7fc45007a755d57b01d0fd414d",
-                          "size":  48420408,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.16.7/RepoSyncTool-0.16.7-win-arm64-portable.zip",
-                          "sha256":  "501948606b80b60e54df45482049cf1fecd4a200a34c373722c9ac5d9e9481c7",
-                          "size":  46294260,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.17.0",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.17.0",
+  "sourceCommit": "901da7fa7d62c98fd78909f56364664b7e3d4fa8",
+  "publishedAtUtc": "2026-11-04T00:08:58.4540550+00:00",
+  "notes": "# RepoSyncTool 0.17.0 — Windows ベータ\n\nWindows x64 / ARM64 ポータブル版。.NET 同梱、Git 2.35以上が必要です。\n\n## 変更点\n\n- **AI チャット**: Git 画面の「✦ AI」または Ctrl+Shift+I で右側のチャットを開けます。設定で有効にした Claude / Codex / GitHub Copilot がタブに並び、会話・入力・実行状態を個別に保持します。各 CLI の導入とログインが必要です。機能全体は初期状態では OFF です。\n- **レビューと下書き**: 履歴の右クリックから選択コミットをレビュー・説明できます。コミット欄の「✦ ステージ済みをレビュー」「✦ メッセージ案」も利用できます。指摘から差分へ移動し、要対応の注釈に取り込めます。メッセージ案は入力欄へ反映し、コミットはユーザーが実行します。\n- **アプリのデータとの連携**: AI が注釈・確認済み・ブックマーク・チェリーピックのチェックリスト・お気に入りブランチを読み取れます。「注釈・確認済みも」に切り替えると変更でき、会話内で元に戻せます。ユーザーの注釈の変更などには確認を出します。AI の確認済みは紫の印で、人の未確認として残ります。\n- **確認付きの Git 操作**: 「Git 操作（確認つき）」では既存 Host の計画・再照合・ジョブを使います。操作ごとに「今回だけ」「この会話」「常に許可」を選べ、常に許可は設定から解除できます。push は送信先が変わると再確認します。操作履歴から既存の取消機能を利用できます。\n- **会話と接続**: Markdown 表示、停止、会話の保存と履歴表示、CLI 接続テストに対応しました。履歴を開いた後の送信は新しい AI セッションになります。API キーの設定は不要です。\n- **未コミット変更の外部Diff**: 履歴の「未コミットの変更」のファイルを開いたときに `fatal: Needed a single revision` になる不具合を修正しました。ステージ済みは HEAD と index、未ステージは index と作業ファイルを比較します。\n\n## 導入と制限\n\n⚙ →「AI チャット…」で機能と利用する AI を ON にしてください。各 CLI は別途導入し、ターミナルでログインしてください。モデルは AI ごとの設定欄に ID を指定できます（空欄は CLI の既定）。\n\nAI はローカルリポジトリが対象です。ネイティブのシェル実行・ファイル編集、遠隔リポジトリ、AI パネルの別窓化は対象外です。macOS の実機受入は後続です。Windows版は未署名ベータです。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.17.0/RepoSyncTool-0.17.0-win-x64-portable.zip",
+      "sha256": "7e01a2f2339083d4a013cff883eeed4f5eb93ea89d3d8613574cb5f0c939b006",
+      "size": 51129305,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.17.0/RepoSyncTool-0.17.0-win-arm64-portable.zip",
+      "sha256": "46c75491f4096a583ef08f4351f64f7df5f4e09260bafe7a2a53fb24ac1e5442",
+      "size": 48890819,
+      "signed": false
+    }
+  ]
 }
