@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.33",
+  "version": "0.1.35",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "6d446f0b89ea3e85a01f17b8a69da3bcefbc610a",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.33",
-  "published_at": "2026-10-30T00:39:48.988299+00:00",
+  "source_sha": "474e018f8ffe898a25347094a7f9c30a888cc54f",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.35",
+  "published_at": "2026-11-04T02:41:58.907489+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.33/oredit-0.1.33-windows-x64.zip",
-      "sha256": "c3645dd4d3b25d34a29a38138d4dc2ebecca4c5d1626ad3d8ba550a63fa0edb7",
-      "bytes": 5381707
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.35/oredit-0.1.35-windows-x64.zip",
+      "sha256": "625adbdb67259356293be9e61af208c0fa51a3b12fc078650e07be2481b182a2",
+      "bytes": 5397855
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.33/oredit-0.1.33-windows-arm64.zip",
-      "sha256": "b617602e73c15af5d529ced20324097850a926b534fffb9c0538481bb96e2ec4",
-      "bytes": 4750957
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.35/oredit-0.1.35-windows-arm64.zip",
+      "sha256": "01b1a5fb70609c0c0c217855d757bcd00b1ed7dbd63981aed01f505424c7b267",
+      "bytes": 4761860
     }
   ],
-  "notes": "oredit 0.1.33 Windows beta\n\n- 「設定 → VSCode配色テーマを取り込む…」を追加しました。VSCodeのテーマJSON（コメント付き可、includeによる継承も可）から、構文色（コメント・文字列・数値・キーワード・型・関数など）と、背景・文字・選択・現在行・行番号などの画面色を取り込み、名前付き配色として保存して共通設定に適用します。\n- oreditの色分けはキーワード表ベースのため、VSCodeと同じ配色になりますが、すべての単語の色がVSCodeと一致するわけではありません。.tmTheme参照のテーマは画面色だけを取り込みます。\n- 既定の配色を変更しました。ライトは背景をサクラエディタと同じクリーム色（#FFFBF0）に、ダークは背景を黒（#000000）にしました。保存済みの配色やカスタム色は変わりません。\n- サイドバーと本文の境界に区切り帯を表示し、見分けやすくしました。ドラッグ中は濃く表示します。\n\nWindows x64/ARM64のbetaです。0.1.32は公開していません。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.35 Windows beta\n\n- AIチャットの背景・文字・タブ・ボタンが、ライト／ダーク／カスタム配色に追従します。開いたままの配色変更にも反映します。\n- AIチャットに「診断（テスト送信）」を追加しました。選択中サービスへ固定の短文だけを送り、CLI起動・対応版・認証・接続・利用枠を確認し、結果と時刻を表示します。利用枠を消費する場合があります。会話・下書き・添付・履歴は保ち、「停止」で中止できます。\n- 起動引数などでファイルを開けない場合、「ファイルが見つかりません」「他のアプリが使用中」など、理由と対象パスを表示します。通常のopen失敗をメモリマップ失敗として表示しません。\n- ファイル内のシンボル検索（Ctrl+Shift+O）は、半角スペースで区切った各語を連続して含む候補だけに絞ります。大小文字は区別しません。短い候補を上位にし、共通設定「シンボルの絞り込み」で従来のファジーも選べます。入力欄のCtrl+Aも使えます。\n- タブの右クリックから「ほか／左側／右側／保存済み／すべて閉じる」、閉じたタブを開き直す（Ctrl+Shift+T）、パス・ファイル名・フォルダーのコピー、Explorerで表示、Grepを使えます。\n\nWindows x64/ARM64のbetaです。0.1.34候補は公開せず、新しい版として公開します。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
