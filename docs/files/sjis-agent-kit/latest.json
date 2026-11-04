@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "883d18cdc38391bec2024705784a75e6db92ce8f",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.6",
-  "published_at": "2026-11-02T06:05:56Z",
-  "notes": "- VS Code拡張の自動ファイル監視・文字コード検査・「no longer Shift_JIS」通知・復元機能を削除しました。\n- ファイルを開く・保存する・外部ツールで変更するだけでは、SJIS Agent Kitは検査や通知を行いません。通知を止める設定も不要です。\n- sjis_read / sjis_edit / sjis_write / sjis_grep / sjis_check と、コマンドパレットからの手動チェックは引き続き使用できます。\n- 更新後はVS Codeのウィンドウを再読み込みしてください。",
+  "source_sha": "17c5ac0e9b3dcb628c8e88911c4a007e5668061e",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.7",
+  "published_at": "2026-11-04T01:16:47Z",
+  "notes": "- VS Code拡張の検索ツール sjis_grep を削除しました。検索は標準検索など別のツールに任せます。\n- sjis_read / sjis_edit / sjis_write / sjis_check は引き続き使用できます。ファイルの読み書きにはこれらを使ってください。\n- Copilot向けの指示とVC6エージェントを更新しました。日本語検索にはShift_JIS (CP932)対応の検索手段を使います。ripgrepがある環境なら rg --encoding shift-jis を利用できます。\n- 旧版から更新した場合は、VS Codeのウィンドウを再読み込みし、対象フォルダで「SJIS: Set Up Copilot for Shift_JIS Sources」を再実行して、Copilot用の指示とVC6エージェントを更新してください。\n- コマンドライン版の sjis grep は変更していません。",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.6/sjis-agent-kit-0.2.6.vsix",
-      "sha256": "ce7edcd9a7a6ba59d65a28af16b83480007a3cda61b6b13ae4dcf3329b517387",
-      "bytes": 39575
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.7/sjis-agent-kit-0.2.7.vsix",
+      "sha256": "94fca896c7f8d2bd8c55548e834ed78a35716d7ea810df909ecda3b828f077e9",
+      "bytes": 39309
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.6/sjis-agent-kit-0.2.6.zip",
-      "sha256": "6403287b382a7b2668a6f7e5b9bfa94b6597dee3934b6e762bfde401b3fa2b15",
-      "bytes": 110644
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.7/sjis-agent-kit-0.2.7.zip",
+      "sha256": "68405be8ac6e4148245a9b4085522771629a5ab42998b8b7b9197d951d632d74",
+      "bytes": 110771
     }
   ]
 }
