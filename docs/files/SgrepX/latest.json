@@ -1,9 +1,9 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "channel": "Beta",
-  "tag": "sgrepx-v0.6.1",
-  "releaseDateUtc": "2026-10-19T04:06:58Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrepx-v0.6.1",
+  "tag": "sgrepx-v0.6.2",
+  "releaseDateUtc": "2026-11-06T04:36:10Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrepx-v0.6.2",
   "downloads": [
     {
       "product": "SgrepX",
@@ -12,6 +12,14 @@
       "url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.6.1/SgrepX-0.6.1-x64.zip",
       "sha256": "c3665ddbb480084edcafc3f2632a73407f1e4d9daaeb887bc088278d767ececd",
       "size": 22319659
+    },
+    {
+      "product": "SgrepX",
+      "platform": "macos-arm64",
+      "kind": "gui-dmg",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.6.2/SgrepX-0.6.2-macos-arm64.dmg",
+      "sha256": "32359092186302dceabb89dac7f15f098c1259e7999136067fa36378c368c21a",
+      "size": 27693338
     }
   ]
 }
