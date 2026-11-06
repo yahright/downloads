@@ -1,9 +1,13 @@
 {
-  "version": "0.10.41",
+  "version": "0.10.44",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.41",
-  "notes": "InsightFlow 0.10.41 for macOS Apple Silicon (Beta)\n\n- ディスク使用量で「論理サイズ」と「ディスク上のサイズ」を一覧・フォルダーツリー・全体合計に表示します。取得できない割当量は「不明」と区別します。ファイル割当量の合計は、APFSの共有ブロック等によりボリューム使用量・削除で空く容量とは異なる場合があります。\n- Jで開くお気に入りの「仮想リスト」タブで、Enter/OKが選択中の仮想リストを開くよう修正しました。\n- ペインのタブに右クリックメニューを追加しました。「閉じる」「他を閉じる」「左側を閉じる」「右側を閉じる」を利用でき、各ペインの最後の1タブは残します。\n- ディスク使用量の開始前・結果クリア後の案内と表の重なり、および小さな窓での表示を改善しました。\n- macOSで.commandを起動した後のzsh終了処理と、.NET 10環境でのヘルプ生成を修正しました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release separates logical size from size on disk, fixes opening saved virtual lists from Favorites, adds pane-tab context menus, and improves the Disk Usage empty-state layout. Allocation totals are not a measure of reclaimable APFS space.\n\nWindowsの公開版は0.10.39を維持します。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.44",
+  "notes": "InsightFlow 0.10.44 for macOS Apple Silicon (Beta)\n\n- パスバーで `~`（ホームフォルダー）と相対パス（現在のフォルダー基準）を使えるようにしました。\n- フィルターで絞り込んでいる間、ステータスに「表示中 / 全体」の件数（例: 100 / 3,000 files）を表示します。\n- 大きなフォルダーの読み込みが終わった後もステータスに「読み込み中」が残る問題を修正しました。\n- ファイルを削除した後、カーソルが先頭に戻らず隣の行に残るようにしました。\n- コピー・移動・削除のログに、カーソル行ではなく実際に操作したマーク項目（例: README.md (+1)）を表示します。\n- ログ欄が新しい行に追従しなくなり、削除や「元に戻す」の結果が見えなくなる問題を修正しました。取り消せる操作がないときは、取り消せる操作の種類を案内します。\n- macOSで ⌘A（すべてマーク）と ⌘⇧A（すべて解除）を使えるようにしました。Control+A も引き続き使えます。\n- ウィンドウを狭くしたとき、フィルター欄と色ラベルのボタンが重ならないよう2段に折り返します。\n- ペインのステータス行の並び順表示を、色・アイコン・▲▼付きのバッジにしました。\n- 無効なボタンに対するアクセシビリティ操作でアプリが終了する問題を修正しました。\n- 完全削除で読み取り専用のファイルを再試行時に削除できるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release adds `~` and relative paths to the path bar, shows visible/total counts while filtering, fixes a stale \"loading\" status, keeps the cursor near a deleted item, logs the items actually operated on, keeps the log bar following new lines, adds Cmd+A / Cmd+Shift+A on macOS, wraps the filter bar in narrow windows, shows the sort state as a badge, and fixes a crash on accessibility presses of disabled buttons.\n\nWindowsの公開版は0.10.43を維持します。",
   "notesHistory": [
+    {
+      "version": "0.10.44",
+      "notes": "InsightFlow 0.10.44 for macOS Apple Silicon (Beta)\n\n- パスバーで `~`（ホームフォルダー）と相対パス（現在のフォルダー基準）を使えるようにしました。\n- フィルターで絞り込んでいる間、ステータスに「表示中 / 全体」の件数（例: 100 / 3,000 files）を表示します。\n- 大きなフォルダーの読み込みが終わった後もステータスに「読み込み中」が残る問題を修正しました。\n- ファイルを削除した後、カーソルが先頭に戻らず隣の行に残るようにしました。\n- コピー・移動・削除のログに、カーソル行ではなく実際に操作したマーク項目（例: README.md (+1)）を表示します。\n- ログ欄が新しい行に追従しなくなり、削除や「元に戻す」の結果が見えなくなる問題を修正しました。取り消せる操作がないときは、取り消せる操作の種類を案内します。\n- macOSで ⌘A（すべてマーク）と ⌘⇧A（すべて解除）を使えるようにしました。Control+A も引き続き使えます。\n- ウィンドウを狭くしたとき、フィルター欄と色ラベルのボタンが重ならないよう2段に折り返します。\n- ペインのステータス行の並び順表示を、色・アイコン・▲▼付きのバッジにしました。\n- 無効なボタンに対するアクセシビリティ操作でアプリが終了する問題を修正しました。\n- 完全削除で読み取り専用のファイルを再試行時に削除できるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release adds `~` and relative paths to the path bar, shows visible/total counts while filtering, fixes a stale \"loading\" status, keeps the cursor near a deleted item, logs the items actually operated on, keeps the log bar following new lines, adds Cmd+A / Cmd+Shift+A on macOS, wraps the filter bar in narrow windows, shows the sort state as a badge, and fixes a crash on accessibility presses of disabled buttons.\n\nWindowsの公開版は0.10.43を維持します。"
+    },
     {
       "version": "0.10.41",
       "notes": "InsightFlow 0.10.41 for macOS Apple Silicon (Beta)\n\n- ディスク使用量で「論理サイズ」と「ディスク上のサイズ」を一覧・フォルダーツリー・全体合計に表示します。取得できない割当量は「不明」と区別します。ファイル割当量の合計は、APFSの共有ブロック等によりボリューム使用量・削除で空く容量とは異なる場合があります。\n- Jで開くお気に入りの「仮想リスト」タブで、Enter/OKが選択中の仮想リストを開くよう修正しました。\n- ペインのタブに右クリックメニューを追加しました。「閉じる」「他を閉じる」「左側を閉じる」「右側を閉じる」を利用でき、各ペインの最後の1タブは残します。\n- ディスク使用量の開始前・結果クリア後の案内と表の重なり、および小さな窓での表示を改善しました。\n- macOSで.commandを起動した後のzsh終了処理と、.NET 10環境でのヘルプ生成を修正しました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release separates logical size from size on disk, fixes opening saved virtual lists from Favorites, adds pane-tab context menus, and improves the Disk Usage empty-state layout. Allocation totals are not a measure of reclaimable APFS space.\n\nWindowsの公開版は0.10.39を維持します。"
@@ -21,16 +25,16 @@
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.41/InsightFlow-0.10.41-osx-arm64-app.zip",
-      "sha256": "da8ba748f78c67a43a13f0e0a2d6e6ab7a45ff82a7128a6ca588f43bee3bb8d7",
-      "size": 104103510
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.44/InsightFlow-0.10.44-osx-arm64-app.zip",
+      "sha256": "fb8608e0f2f734f4763eaa63223800a7556d1456a240c7cbb6b5f788fd7a1091",
+      "size": 104112220
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.41/InsightFlow-0.10.41-osx-arm64.dmg",
-      "sha256": "aae41567ce768570192bec4e87ffdbce21af650cac0ded019199aa4bd52955aa",
-      "size": 113096721
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.44/InsightFlow-0.10.44-osx-arm64.dmg",
+      "sha256": "9786519ca5ec2af33fddfb232c492cfbdf3e79ef7bccee5718c0b2d4f18d3142",
+      "size": 113123336
     }
   ]
 }
