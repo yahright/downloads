@@ -1,9 +1,14 @@
 {
-  "version": "0.10.43",
+  "version": "0.10.45",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Clear read-only attribute on permanent delete retry (I-0113)",
+  "notes": "- Index disk_usage.query and serve automation off the UI thread (I-0128)",
   "notesHistory": [
+    {
+      "version": "0.10.45",
+      "notes": "- Index disk_usage.query and serve automation off the UI thread (I-0128)",
+      "publishedAtUtc": "2026-11-06T08:36:18Z"
+    },
     {
       "version": "0.10.43",
       "notes": "- Clear read-only attribute on permanent delete retry (I-0113)",
@@ -48,27 +53,22 @@
       "version": "0.10.28",
       "notes": "- feat(update): re-check for updates about every 4 hours while running",
       "publishedAtUtc": "2026-10-20T05:04:17Z"
-    },
-    {
-      "version": "0.10.26",
-      "notes": "- docs(help): Phase D instructions for in-app help index, MCP help tools, AI-readable help bundle\n- feat(help): generate settings index\n- feat(help): bundle localized topics and search\n- feat(help): add read-only MCP help tools\n- feat(help): add settings and topic navigation\n- feat(help): export AI-readable help bundles\n- fix(git): refresh history display after remote updates\n- fix(help): import bundle exporter collection types\n- docs(help): record Phase D implementation and acceptance\n- feat(help): route the help bundle menu command",
-      "publishedAtUtc": "2026-10-17T03:58:55Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.43/InsightFlow-0.10.43-win-x64-portable.zip",
-      "sha256": "e2a38ee0913cb44a9c92b1cd92a8fd124d2e2d39c3635846dbd733174098d4fa",
-      "size": 110771519
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.45/InsightFlow-0.10.45-win-x64-portable.zip",
+      "sha256": "cedf763ed539c5e577a7337b7cdf2e96908bbf2a51e6b20f147f764b2af79725",
+      "size": 110779650
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.43/InsightFlow-0.10.43-win-arm64-portable.zip",
-      "sha256": "985a4a4e7419aadc79c68cc06675994dc2785d4d04d51ea49918d1280d493949",
-      "size": 107119095
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.45/InsightFlow-0.10.45-win-arm64-portable.zip",
+      "sha256": "9bbcb9e346f2693481798e521da778dff9a8575fb5333470d239b81c52a90eef",
+      "size": 107126966
     }
   ]
 }
