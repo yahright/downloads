@@ -1,26 +1,26 @@
 {
-  "version": "0.19.0",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.19.0",
-  "sourceCommit": "57ef7d9a351ad3f5640430084013e583a3e86b35",
-  "publishedAtUtc": "2026-11-05T07:37:04.221885+00:00",
-  "notes": "# RepoSyncTool 0.19.0 — Windows ベータ\n\nWindows x64 / ARM64 ポータブル版。.NET同梱、Git 2.35以上が必要です。\n\n## 変更点\n\n- **プッシュを一覧から選択**: SourceTreeを参考に、送信チェック・ローカルブランチ・送り先ブランチ・追跡設定を一覧にしました。複数ブランチを選択でき、絞り込み・表示中の全選択・全解除にも対応します。初期選択は現在のブランチだけです。\n- **プッシュの詳細設定**: ダイアログでリモートと送信先URLを確認し、送り先名を編集できます。タグ3種、ドライラン、Force with leaseも選べます。選択した全ブランチの文字コードを事前検査し、送信元やリモートのOIDが変わっていれば拒否します。複数送信の途中で失敗した場合は停止し、送信済み件数を表示します。\n- **リモート履歴を表示／非表示**: 履歴上部のチェックで、リモートだけの履歴とリモートラベルを隠せます。ローカルから辿れる履歴は残し、設定をリポジトリごとに保存します。\n- **履歴検索を停止**: 検索中に表示される「停止」で中断し、条件を変えて検索し直せます。画面の待機だけでなく、Hostの該当検索・Git処理やロック待機へ停止を伝えます。\n- **リセットの3種類**: 説明付きのSoft・Mixed・Hardを選択できます（既定Mixed）。Hardには確認チェックがあり、変更対象の通常ファイルとステージ内容を退避してUndo／Redoできます。\n- **ブックマークを移動**: 「コミット・名前・メモを変更…」で、別のコミットへ移動できます。短縮ハッシュ・ブランチ名・タグ名に対応し、作成日時を保持します。移動先にある別のブックマークは上書きしません。\n- **チェリーピックのファイル名クリック**: コミットタブ下部でファイル名をクリックしても、取り込みチェックが変わらないようにしました。ファイル名は差分表示、チェックボックスは取り込みの変更として分けています。\n\n## 導入と制限\n\n0.8.0以降は ⚙ →「更新を確認…」から更新できます。手動導入はZIPを新しい空のフォルダーへ展開してください。\n\nWindows版は未署名ベータです。Hardの退避上限は64 MiBで、symlink・submodule・ファイルとフォルダの入れ替えなど復元できない変更は実行前に拒否します。複数プッシュは一括ロールバックではなく、先に送信できたブランチは残ります。遠隔検索の停止には接続先Hostの更新も必要です。\n\n幅280pxの一覧、worktree一括操作、大量ファイル計画の性能、物理x64・Mac・IME／HiDPI・実TaCMなどの既存残受入は継続しています。今回は関連36件・追加修正1件の成功と配布物の最小限の確認を行い、全体テストは再実行していません。macOS配布版の更新は含みません。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.19.0/RepoSyncTool-0.19.0-win-x64-portable.zip",
-      "sha256": "27b3778207cacfe0a697139177a100516f5142d34c9a7a663ffc9e8d8bf37ee2",
-      "size": 49810071,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.19.0/RepoSyncTool-0.19.0-win-arm64-portable.zip",
-      "sha256": "d3e60605fe1018546889084da3e7a86ceeec0ab7075f0259c2ec21bd7293b3ca",
-      "size": 47683881,
-      "signed": false
-    }
-  ]
+    "version":  "0.19.3",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.19.3",
+    "sourceCommit":  "2ff3c027cee3c8a15ed082bb312ea93939571e5c",
+    "publishedAtUtc":  "2026-11-07T20:32:13.1824521+00:00",
+    "notes":  "# RepoSyncTool 0.19.3 Windows ベータ\n\nWindows 0.19.0 からの主な変更です。\n\n- **リポジトリの移動**: 選択したリポジトリを別の場所へ移動し、同じ場所にある worktree も移せます。移動元は内容を確認してごみ箱へ送れます。\n- **生成物の掃除**: ビルドが取得した依存ファイルも候補に含め、種類・安全度・理由と中身のツリーを表示します。出力物は初期状態では選択しません。\n- **ブランチ管理と左バー**: ブランチの作成・切り替え・名前変更・削除、表示切替に対応。サブモジュールとサブツリーも表示します。\n- **チェリーピック**: マトリクスの表示や操作、変更の取り込み元と一致状況、計画の初期化を改善しました。\n- **履歴と差分**: 差分の標準配色を赤と緑に変更し、配色の切り替えに対応。変更ファイルの状態表示、履歴画面の表示と列幅の調整を改善しました。\n- **その他**: Pull / Push の件数表示、GitHub リポジトリ名の変更、クローン・新規作成の既定保存先を追加しました。\n\nWindows x64 / ARM64 向けの未署名ベータです。新機能の一部は Windows 実画面での受入確認が継続中です。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.19.3/RepoSyncTool-0.19.3-win-x64-portable.zip",
+                          "sha256":  "b1a3d906975130045f42fb313ec5b38170e2ef1328e31c8d1b3d7ad0259de09e",
+                          "size":  49967465,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.19.3/RepoSyncTool-0.19.3-win-arm64-portable.zip",
+                          "sha256":  "22fc9893991887712bb4a71c180205ba8ea62ac1e3f3afdb8d06ba209d42e44f",
+                          "size":  47841269,
+                          "signed":  false
+                      }
+                  ]
 }
