@@ -1,9 +1,14 @@
 {
-  "version": "0.10.46",
+  "version": "0.10.47",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Version update only; no functional changes since Windows 0.10.45.",
+  "notes": "- feat(network): offer to remount a remembered network volume when opening it unmounted\n- fix(network): open the folder after remounting and detect a just-unmounted volume\n- fix(diskusage): skip cloud/FUSE mounts when scanning a local Mac volume\n- feat(preview): play video/audio inline with Quick Look on macOS\n- feat(diskusage): rank largest files by on-disk size; size columns side by side and reorderable\n- fix(diskusage): keep the largest on-disk files when a scan exceeds MaxItems",
   "notesHistory": [
+    {
+      "version": "0.10.47",
+      "notes": "- feat(network): offer to remount a remembered network volume when opening it unmounted\n- fix(network): open the folder after remounting and detect a just-unmounted volume\n- fix(diskusage): skip cloud/FUSE mounts when scanning a local Mac volume\n- feat(preview): play video/audio inline with Quick Look on macOS\n- feat(diskusage): rank largest files by on-disk size; size columns side by side and reorderable\n- fix(diskusage): keep the largest on-disk files when a scan exceeds MaxItems",
+      "publishedAtUtc": "2026-11-08T00:46:17Z"
+    },
     {
       "version": "0.10.46",
       "notes": "Version update only; no functional changes since Windows 0.10.45.",
@@ -48,27 +53,22 @@
       "version": "0.10.30",
       "notes": "- fix(grep): allow a new search from retained results\n- feat(copy): choose native or legacy from copy confirmation\n- docs(copy): clarify legacy uses the native default\n- fix(copy): simplify engine picker to three choices\n- feat(fileops): unify engine choices as standard or scopy\n- docs(preview): define binary preview specification\n- feat(preview): add bounded read-only binary viewer\n- Merge binary preview and copy engine selection for 0.10.30\n- Merge new Grep search from retained results for 0.10.30",
       "publishedAtUtc": "2026-10-23T06:35:57Z"
-    },
-    {
-      "version": "0.10.29",
-      "notes": "- feat(help): add screenshot feature guide and keep bundled AI docs in sync",
-      "publishedAtUtc": "2026-10-20T06:01:58Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.46/InsightFlow-0.10.46-win-x64-portable.zip",
-      "sha256": "fcfa698580de717cf3284c3163c85ea8bc04010defc9f873a3aac3afeaac1b07",
-      "size": 110779697
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.47/InsightFlow-0.10.47-win-x64-portable.zip",
+      "sha256": "9b1949664e2d11dc8bf033c558417a1aae0ac280f83334763d3b7618e71b187e",
+      "size": 110785427
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.46/InsightFlow-0.10.46-win-arm64-portable.zip",
-      "sha256": "1ac5129b5fe2c0284a6d67ba7fe84b934732f41540ca321c18f87c8b625e02f2",
-      "size": 107127018
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.47/InsightFlow-0.10.47-win-arm64-portable.zip",
+      "sha256": "0f4cb4ac4916ea7616f6735936bb71bf85a38e38d1ef749404194304efbbe0b0",
+      "size": 107132736
     }
   ]
 }
