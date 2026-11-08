@@ -1,26 +1,26 @@
 {
-  "version": "0.20.0",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.20.0",
-  "sourceCommit": "c28f513f955da76f8534ca14d50dcae5da2c9d35",
-  "publishedAtUtc": "2026-11-08T11:29:01.4926430+00:00",
-  "notes": "# RepoSyncTool 0.20.0 ベータ\n\n- GitHubの既存リポジトリを検索し、登録済みかを確認してクローンできます。「＋ 新規」から開きます。\n- 作業画面の設定 → GitHubから、現在のブランチのPR作成画面と、選択したコミットのCI結果を開けます。CIはチェックとコミットステータスを取得します。\n- ローカルのマージでも、即時コミット、no-ff、コミット要約、リベースを選べます。\n- サブモジュールの追加、初期化・再帰更新、サブツリーの取り込みに対応しました。\n- パッチファイルと貼り付けた本文を確認・ドライランして適用できます。履歴で選んだ複数コミットは連番のパッチへ保存できます。\n- 共通・リポジトリ別のコミットテンプレート、既存の commit.template とファイルのインポートに対応しました。入力中の文と保存済み下書きを優先します。\n- タグの署名キー指定、ローカルタグの付け替え、作成後のプッシュに対応しました。\n- フェッチ時に全リモート・prune・全タグ取得を選べます。\n- テキストとバイナリの読み込み上限、作者日時／コミット日時、相対日時と日付書式、作者の頭文字表示を設定できます。\n- コミットの隣に「コミットしてプッシュ」を追加しました。コミット成功後に送信先を確認できます。\n- カスタム操作を画面で登録・編集し、コミットの選択なしでも実行できます。既存のJSON登録も引き継ぎます。\n- LFSの初期化、track／untrack、pull／fetch／checkout／pruneを実行できます。git-lfsのインストールが必要です。\n- グローバル無視リストの作成・編集、ツールバーボタンの表示切替、作者別の全参照コミット数と割合を追加しました。\n- Macでは選択した作業ファイルをQuick Lookで確認できます。\n- 作業画面の設定に、GitHub・取り込みと書き出し・入力と表示・確認とツールのメニューを追加しました。\n\nパッチの適用はUTF-8テキストで2 MiBまでです。連番パッチはマージ以外のコミットを選びます。テキストの表示上限は1〜8 MiB、バイナリは1〜128 MiBで、Hostの転送上限を超える内容は外部ツールで確認してください。追加のリポジトリ操作、各種設定、GitHub連携はこのPCのリポジトリ用です。GitHubの一覧とCI結果には認証済みのGitHub CLIが必要です。サブツリーはgit-subtreeを使います。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.20.0/RepoSyncTool-0.20.0-win-x64-portable.zip",
-      "sha256": "867cca4b83857e517016965d146f43ad75dbab5eabb5dafa7e5cbb5f001e5c51",
-      "size": 49910998,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.20.0/RepoSyncTool-0.20.0-win-arm64-portable.zip",
-      "sha256": "0a0c98b3d0d70301aba8b901313bf9d47d341bd02e20c17fa619cb32e8ba65ae",
-      "size": 47821001,
-      "signed": false
-    }
-  ]
+    "version":  "0.21.0",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.21.0",
+    "sourceCommit":  "e9fac3a2df8fa12510cfec379b5e1f2ddaf31a7b",
+    "publishedAtUtc":  "2026-11-08T23:22:21.8824290+00:00",
+    "notes":  "# RepoSyncTool 0.21.0 ベータ\r\n\r\n- 作業画面の左バーに「Explorer」タブを追加しました。リポジトリのフォルダの中身をツリーで見られます。変更のあるファイルは色と M/A/U/R/C で、変更を含むフォルダは「•」で示します。ファイル名の検索、ダブルクリックで開く、右クリックで履歴・エクスプローラーで表示・パスのコピーができます。\r\n- 左バーの「リポジトリ」タブをなくしました。リポジトリの切り替えは左上のボタンから行います。\r\n- 「GitHubからクローン」の一覧を見やすくしました。名前を太字にし、説明は1行で表示します。ログイン中のアカウント名は一覧から省き、件数の欄に1回だけ出します。取得上限は選択式にし、ダブルクリックでもクローンできます。\r\n- リポジトリ一覧で、マウスを乗せただけでは行の色が変わらないようにしました。\r\n- WindowsでGitHubの一覧取得が日本語の説明で失敗することがある不具合を直しました。\r\n\r\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\r\n",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.21.0/RepoSyncTool-0.21.0-win-x64-portable.zip",
+                          "sha256":  "07a65fe0f72a3ad0b2b225fa9f1c076e7c7fbaa93d3d3366178b0c0729cd1e7e",
+                          "size":  50045909,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.21.0/RepoSyncTool-0.21.0-win-arm64-portable.zip",
+                          "sha256":  "fc5e9595e2c1a562bb43c0b6fddb8670a6e865125f9628713e1fc4bb70caea94",
+                          "size":  47919720,
+                          "signed":  false
+                      }
+                  ]
 }
