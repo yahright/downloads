@@ -1,26 +1,26 @@
 {
-    "version":  "0.19.3",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.19.3",
-    "sourceCommit":  "2ff3c027cee3c8a15ed082bb312ea93939571e5c",
-    "publishedAtUtc":  "2026-11-07T20:32:13.1824521+00:00",
-    "notes":  "# RepoSyncTool 0.19.3 Windows ベータ\n\nWindows 0.19.0 からの主な変更です。\n\n- **リポジトリの移動**: 選択したリポジトリを別の場所へ移動し、同じ場所にある worktree も移せます。移動元は内容を確認してごみ箱へ送れます。\n- **生成物の掃除**: ビルドが取得した依存ファイルも候補に含め、種類・安全度・理由と中身のツリーを表示します。出力物は初期状態では選択しません。\n- **ブランチ管理と左バー**: ブランチの作成・切り替え・名前変更・削除、表示切替に対応。サブモジュールとサブツリーも表示します。\n- **チェリーピック**: マトリクスの表示や操作、変更の取り込み元と一致状況、計画の初期化を改善しました。\n- **履歴と差分**: 差分の標準配色を赤と緑に変更し、配色の切り替えに対応。変更ファイルの状態表示、履歴画面の表示と列幅の調整を改善しました。\n- **その他**: Pull / Push の件数表示、GitHub リポジトリ名の変更、クローン・新規作成の既定保存先を追加しました。\n\nWindows x64 / ARM64 向けの未署名ベータです。新機能の一部は Windows 実画面での受入確認が継続中です。\n\n[導入・使い方](https://yahright.github.io/downloads/manual/RepoSyncTool/)",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.19.3/RepoSyncTool-0.19.3-win-x64-portable.zip",
-                          "sha256":  "b1a3d906975130045f42fb313ec5b38170e2ef1328e31c8d1b3d7ad0259de09e",
-                          "size":  49967465,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.19.3/RepoSyncTool-0.19.3-win-arm64-portable.zip",
-                          "sha256":  "22fc9893991887712bb4a71c180205ba8ea62ac1e3f3afdb8d06ba209d42e44f",
-                          "size":  47841269,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.20.0",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.20.0",
+  "sourceCommit": "c28f513f955da76f8534ca14d50dcae5da2c9d35",
+  "publishedAtUtc": "2026-11-08T11:29:01.4926430+00:00",
+  "notes": "# RepoSyncTool 0.20.0 ベータ\n\n- GitHubの既存リポジトリを検索し、登録済みかを確認してクローンできます。「＋ 新規」から開きます。\n- 作業画面の設定 → GitHubから、現在のブランチのPR作成画面と、選択したコミットのCI結果を開けます。CIはチェックとコミットステータスを取得します。\n- ローカルのマージでも、即時コミット、no-ff、コミット要約、リベースを選べます。\n- サブモジュールの追加、初期化・再帰更新、サブツリーの取り込みに対応しました。\n- パッチファイルと貼り付けた本文を確認・ドライランして適用できます。履歴で選んだ複数コミットは連番のパッチへ保存できます。\n- 共通・リポジトリ別のコミットテンプレート、既存の commit.template とファイルのインポートに対応しました。入力中の文と保存済み下書きを優先します。\n- タグの署名キー指定、ローカルタグの付け替え、作成後のプッシュに対応しました。\n- フェッチ時に全リモート・prune・全タグ取得を選べます。\n- テキストとバイナリの読み込み上限、作者日時／コミット日時、相対日時と日付書式、作者の頭文字表示を設定できます。\n- コミットの隣に「コミットしてプッシュ」を追加しました。コミット成功後に送信先を確認できます。\n- カスタム操作を画面で登録・編集し、コミットの選択なしでも実行できます。既存のJSON登録も引き継ぎます。\n- LFSの初期化、track／untrack、pull／fetch／checkout／pruneを実行できます。git-lfsのインストールが必要です。\n- グローバル無視リストの作成・編集、ツールバーボタンの表示切替、作者別の全参照コミット数と割合を追加しました。\n- Macでは選択した作業ファイルをQuick Lookで確認できます。\n- 作業画面の設定に、GitHub・取り込みと書き出し・入力と表示・確認とツールのメニューを追加しました。\n\nパッチの適用はUTF-8テキストで2 MiBまでです。連番パッチはマージ以外のコミットを選びます。テキストの表示上限は1〜8 MiB、バイナリは1〜128 MiBで、Hostの転送上限を超える内容は外部ツールで確認してください。追加のリポジトリ操作、各種設定、GitHub連携はこのPCのリポジトリ用です。GitHubの一覧とCI結果には認証済みのGitHub CLIが必要です。サブツリーはgit-subtreeを使います。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.20.0/RepoSyncTool-0.20.0-win-x64-portable.zip",
+      "sha256": "867cca4b83857e517016965d146f43ad75dbab5eabb5dafa7e5cbb5f001e5c51",
+      "size": 49910998,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.20.0/RepoSyncTool-0.20.0-win-arm64-portable.zip",
+      "sha256": "0a0c98b3d0d70301aba8b901313bf9d47d341bd02e20c17fa619cb32e8ba65ae",
+      "size": 47821001,
+      "signed": false
+    }
+  ]
 }
