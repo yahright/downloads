@@ -1,25 +1,25 @@
 {
-    "version":  "0.21.0",
+    "version":  "0.22.0",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.21.0",
-    "sourceCommit":  "e9fac3a2df8fa12510cfec379b5e1f2ddaf31a7b",
-    "publishedAtUtc":  "2026-11-08T23:22:21.8824290+00:00",
-    "notes":  "# RepoSyncTool 0.21.0 ベータ\r\n\r\n- 作業画面の左バーに「Explorer」タブを追加しました。リポジトリのフォルダの中身をツリーで見られます。変更のあるファイルは色と M/A/U/R/C で、変更を含むフォルダは「•」で示します。ファイル名の検索、ダブルクリックで開く、右クリックで履歴・エクスプローラーで表示・パスのコピーができます。\r\n- 左バーの「リポジトリ」タブをなくしました。リポジトリの切り替えは左上のボタンから行います。\r\n- 「GitHubからクローン」の一覧を見やすくしました。名前を太字にし、説明は1行で表示します。ログイン中のアカウント名は一覧から省き、件数の欄に1回だけ出します。取得上限は選択式にし、ダブルクリックでもクローンできます。\r\n- リポジトリ一覧で、マウスを乗せただけでは行の色が変わらないようにしました。\r\n- WindowsでGitHubの一覧取得が日本語の説明で失敗することがある不具合を直しました。\r\n\r\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\r\n",
+    "releaseTag":  "reposynctool-v0.22.0",
+    "sourceCommit":  "c614c5124a2b21ee515bfab754cc538c563c1263",
+    "publishedAtUtc":  "2026-11-09T11:33:43.0114085+00:00",
+    "notes":  "# RepoSyncTool 0.22.0 ベータ\n\n- 変更ファイルの一覧で、未追跡のファイルを「未追跡」の節に分けて、追跡済みの変更の後ろに出すようにしました（TortoiseGit と同じ並び）。見出しには件数と行数が出て、クリックで畳めます。絞り込みバーの「未追跡を分ける」で元の表示に戻せます。\n- Revert の制限を減らしました。サブモジュールの更新も Revert・破棄・この時点に戻す・hard リセットで戻せます（サブモジュールの中に未コミットの変更があるときだけ確認します）。未追跡ファイルの Revert・破棄は削除として行い、Ctrl+Z で戻せます。「外部Gitで」という案内はなくしました。\n- コミットの打ち消しとチェリーピックで、未コミットの変更を勝手に stash しなくなりました。戻すときに競合することはありません。対象のファイルに未コミットの変更があるときだけ、そのファイル名を出して先に止めます。\n- 「無視」に「このリポだけ（.git/info/exclude）」と「このPCの全リポ（グローバル除外）」を追加しました。.gitignore をコミットせずに無視できます。\n- 履歴で「未コミットの変更」を選ぶと、ファイルごとと合計の追加・削除行数を表示します。\n- 履歴の未コミットの差分をその場で編集・保存できるようにしました（ダブルクリック・F2・右クリック、Ctrl+S で保存）。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.21.0/RepoSyncTool-0.21.0-win-x64-portable.zip",
-                          "sha256":  "07a65fe0f72a3ad0b2b225fa9f1c076e7c7fbaa93d3d3366178b0c0729cd1e7e",
-                          "size":  50045909,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.22.0/RepoSyncTool-0.22.0-win-x64-portable.zip",
+                          "sha256":  "92139e4babb8e4482c8c912431db1aa0f761cfd30f3026c310b39f29f7aa3a10",
+                          "size":  50070892,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.21.0/RepoSyncTool-0.21.0-win-arm64-portable.zip",
-                          "sha256":  "fc5e9595e2c1a562bb43c0b6fddb8670a6e865125f9628713e1fc4bb70caea94",
-                          "size":  47919720,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.22.0/RepoSyncTool-0.22.0-win-arm64-portable.zip",
+                          "sha256":  "2810f28d2f28dc06cd5ca6f4d3966f73c41d87ec2e2116c8ff6d0df31cb22c58",
+                          "size":  47944669,
                           "signed":  false
                       }
                   ]
