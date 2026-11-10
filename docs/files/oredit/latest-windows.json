@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.38",
+  "version": "0.1.39",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "48ca84790e259aa6a3f5d3022ad85cf2b4b62849",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.38",
-  "published_at": "2026-11-10T00:46:22.714394+00:00",
+  "source_sha": "d439abdb8f4ca2c651bb1e2c090f2d6f5d585cde",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.39",
+  "published_at": "2026-11-10T05:55:02.038299+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.38/oredit-0.1.38-windows-x64.zip",
-      "sha256": "aa4ab9834171b98aeb6dfcac49ee3130564d1de07bb6e10930a9f23f5955d01f",
-      "bytes": 5410559
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.39/oredit-0.1.39-windows-x64.zip",
+      "sha256": "d34ed10029579cf5be2bbfb0336bd5a07f3b25171e6d95fb5e40c75be705e9c6",
+      "bytes": 5446096
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.38/oredit-0.1.38-windows-arm64.zip",
-      "sha256": "e9764837d85a1dac84ec123503c732a973c61494401a401b77b31784cbf6a28d",
-      "bytes": 4772705
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.39/oredit-0.1.39-windows-arm64.zip",
+      "sha256": "f3e21ba8fd433e76399d56002c6734e05dfecea05c80416ea729254efb867ff8",
+      "bytes": 4805252
     }
   ],
-  "notes": "oredit 0.1.38 Windows beta\n\n- Grep結果の絞り込みに「特殊構文」の切替を追加しました。既定では !! などを文字列として検索できます。\n- Windowsの既定固定幅フォント、タイプ別配色、サイドバー表示時の行番号を改善しました。\n\n検証状況: ARM64のテスト構成は711/711成功。x64は全体実行で初回708/711、再実行706/711。初回失敗3件は個別再試行で成功しましたが、再実行でMarkdownとnative editorのタイムアウト、サイドバー再起動と検索履歴の失敗が残っています。原因は未確定です。最終配布ZIPのインストーラーおよびライト・ダーク・カスタムの実画面確認は未実施です。\n\nWindows 10/11 x64・ARM64向けの署名なしbetaです。Mac版は含みません。\r\n"
+  "notes": "oredit 0.1.39 Windows beta\n\n- chore: bump oredit to 0.1.39 (I-0158)\n- fix(app): keep default settings loadable by older releases; guard light themes for every type\n- fix(view): stop Markdown Read and Live at the end like Source\n- fix(view): double-click at a CRLF line end selects the last word, not half the break\n- Merge origin/main (Windows 0.1.38) into feat/log-viewing\n- feat(app): launch external tools without waiting and pass line, column and selection (I-0150)\n- feat(app): follow appends per tab on Windows and macOS (I-0149)\n- feat(app): append-only detection on the watch worker and file_watch=4 (I-0149)\n- feat(core): append ingestion and line filter extension for following (I-0149)\n- fix(core): keep log path and ID rules case-sensitive for speed (I-0146)\n- feat(app): read-only formatted view of the caret log line (I-0148)\n- feat(app): elapsed time between log lines in the status bar (I-0148)\n- feat(app): line filter from the selected text (I-0147)\n- feat(core): log highlighting and optional level-line backgrounds (I-0146)\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
