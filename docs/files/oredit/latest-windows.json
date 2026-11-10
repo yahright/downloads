@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.39",
+  "version": "0.1.40",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "d439abdb8f4ca2c651bb1e2c090f2d6f5d585cde",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.39",
-  "published_at": "2026-11-10T05:55:02.038299+00:00",
+  "source_sha": "722a23fc232f1986bc820018729471f11f96b3f8",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.40",
+  "published_at": "2026-11-10T09:27:04.444663+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.39/oredit-0.1.39-windows-x64.zip",
-      "sha256": "d34ed10029579cf5be2bbfb0336bd5a07f3b25171e6d95fb5e40c75be705e9c6",
-      "bytes": 5446096
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.40/oredit-0.1.40-windows-x64.zip",
+      "sha256": "64d8e11a86b87b1f4eafcd67eb6685bcfb2c9ca354671bd94a6d598048459dbd",
+      "bytes": 5446997
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.39/oredit-0.1.39-windows-arm64.zip",
-      "sha256": "f3e21ba8fd433e76399d56002c6734e05dfecea05c80416ea729254efb867ff8",
-      "bytes": 4805252
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.40/oredit-0.1.40-windows-arm64.zip",
+      "sha256": "9bc6cfeb8bed9ee8189e7e4c48a45ba4508c3698af3b0b9e981dafd1cbe6ebba",
+      "bytes": 4805229
     }
   ],
-  "notes": "oredit 0.1.39 Windows beta\n\n- chore: bump oredit to 0.1.39 (I-0158)\n- fix(app): keep default settings loadable by older releases; guard light themes for every type\n- fix(view): stop Markdown Read and Live at the end like Source\n- fix(view): double-click at a CRLF line end selects the last word, not half the break\n- Merge origin/main (Windows 0.1.38) into feat/log-viewing\n- feat(app): launch external tools without waiting and pass line, column and selection (I-0150)\n- feat(app): follow appends per tab on Windows and macOS (I-0149)\n- feat(app): append-only detection on the watch worker and file_watch=4 (I-0149)\n- feat(core): append ingestion and line filter extension for following (I-0149)\n- fix(core): keep log path and ID rules case-sensitive for speed (I-0146)\n- feat(app): read-only formatted view of the caret log line (I-0148)\n- feat(app): elapsed time between log lines in the status bar (I-0148)\n- feat(app): line filter from the selected text (I-0147)\n- feat(core): log highlighting and optional level-line backgrounds (I-0146)\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.40 Windows beta\n\n- 開いた後に別のプログラムが同じファイルを保存したとき、上書き保存が「save target changed」で止まり保存できない問題を直しました。「上書き保存の確認」で「はい」を選ぶと、こちらの内容で同じ文字コード・改行のまま上書きします。「いいえ」なら保存せず、編集内容はそのまま残ります（既定は「いいえ」）。終了やタブを閉じる途中の保存は、無断で上書きしないよう従来どおり止まります。\n- 外部更新の通知で「以後更新を監視しない」を選んだ後も、ファイル→再読込や、タブの右クリックメニューに追加した「再読込」で読み直せます。監視していないタブはステータスバーに「更新監視なし」と表示します。\n\n0.1.39 の内容も含みます（アプリ内の更新確認には 0.1.39 が出ていなかったため）。\n- ログ閲覧: レベル等の色分けと、レベル行の背景色（既定OFF）。選択文字列で行を絞り込むフィルタ。行間の経過時間をステータスバーに表示。キャレット行のログを整形表示（読み取り専用）。追記の追従（タブごと、外部更新の監視「追記に追従」）。外部ツールを待たずに起動し、行・桁・選択文字列を渡す。\n- SJIS等の改行がCRLFの行末でダブルクリックしたとき「selection splits crlf」が出る問題を直しました。\n- Markdown の Read/Live 表示でも、末尾で余分にスクロールせず止まります。\n- 既定の設定ファイルを、旧版でも読める書き方にしました。\n\nWindows x64/ARM64のbetaです。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
