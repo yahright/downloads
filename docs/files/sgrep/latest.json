@@ -1,17 +1,17 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "channel": "Beta",
-  "tag": "sgrep-v0.8.0",
-  "releaseDateUtc": "2026-11-08T06:59:19Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-v0.8.0",
+  "tag": "sgrep-v0.8.1",
+  "releaseDateUtc": "2026-11-10T01:20:26Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-v0.8.1",
   "downloads": [
     {
       "product": "Sg",
       "platform": "x64",
       "kind": "cli-zip",
-      "size": 1572042,
-      "sha256": "4436c1a41b53d0fbd90abd56fc949cc8ecd7ff2a2fab70944d09ae93474b3af1",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.8.0/Sg-0.8.0-x64.zip"
+      "size": 1572368,
+      "sha256": "91afc871653c02f31a7cd39c7cdd20fda117341e7270f3246c1b4f30ec5a4514",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.8.1/Sg-0.8.1-x64.zip"
     },
     {
       "product": "SgrepGUI",
@@ -34,9 +34,9 @@
       "product": "Sg",
       "platform": "ARM64",
       "kind": "cli-zip",
-      "size": 1497698,
-      "sha256": "a7deeb2bb86ce443f7041ed7648bb3d53542480bd9bf6fa8218258292bbcac33",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.8.0/Sg-0.8.0-ARM64.zip"
+      "size": 1498238,
+      "sha256": "51b2b1b81c6676208dac080be0418eb4dc2689dda02db707593460a09ba9b794",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.8.1/Sg-0.8.1-ARM64.zip"
     },
     {
       "product": "SgrepGUI",
@@ -59,9 +59,9 @@
       "product": "Sg",
       "platform": "mac-arm64",
       "kind": "cli-zip",
-      "size": 1788812,
-      "sha256": "143da6e42ae40a0e7f3e5141722888b29e8e946b4e40c305ae7366d308d73826",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.8.0/Sg-0.8.0-mac-arm64.zip"
+      "size": 1788933,
+      "sha256": "c63f52293bc3f22fe2f55b5981334ba61bc46fbd8bca0d5204ee56f1f4f2867e",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.8.1/Sg-0.8.1-mac-arm64.zip"
     }
   ]
 }
