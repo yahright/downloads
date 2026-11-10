@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.40",
+  "version": "0.1.41",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "722a23fc232f1986bc820018729471f11f96b3f8",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.40",
-  "published_at": "2026-11-10T09:27:04.444663+00:00",
+  "source_sha": "cd8ff9f798a444e13fd00c854f56be5e5315527e",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.41",
+  "published_at": "2026-11-10T23:35:38.141518+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.40/oredit-0.1.40-windows-x64.zip",
-      "sha256": "64d8e11a86b87b1f4eafcd67eb6685bcfb2c9ca354671bd94a6d598048459dbd",
-      "bytes": 5446997
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.41/oredit-0.1.41-windows-x64.zip",
+      "sha256": "99c67eb47d05d4dcc705c45efaa25b85657f3cf46043f117be5f61eb443a6ed2",
+      "bytes": 5477521
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.40/oredit-0.1.40-windows-arm64.zip",
-      "sha256": "9bc6cfeb8bed9ee8189e7e4c48a45ba4508c3698af3b0b9e981dafd1cbe6ebba",
-      "bytes": 4805229
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.41/oredit-0.1.41-windows-arm64.zip",
+      "sha256": "410cff626f090a8073400a273a0c8c1e6deccdc790446d795ff3a4425abbbdab",
+      "bytes": 4830573
     }
   ],
-  "notes": "oredit 0.1.40 Windows beta\n\n- 開いた後に別のプログラムが同じファイルを保存したとき、上書き保存が「save target changed」で止まり保存できない問題を直しました。「上書き保存の確認」で「はい」を選ぶと、こちらの内容で同じ文字コード・改行のまま上書きします。「いいえ」なら保存せず、編集内容はそのまま残ります（既定は「いいえ」）。終了やタブを閉じる途中の保存は、無断で上書きしないよう従来どおり止まります。\n- 外部更新の通知で「以後更新を監視しない」を選んだ後も、ファイル→再読込や、タブの右クリックメニューに追加した「再読込」で読み直せます。監視していないタブはステータスバーに「更新監視なし」と表示します。\n\n0.1.39 の内容も含みます（アプリ内の更新確認には 0.1.39 が出ていなかったため）。\n- ログ閲覧: レベル等の色分けと、レベル行の背景色（既定OFF）。選択文字列で行を絞り込むフィルタ。行間の経過時間をステータスバーに表示。キャレット行のログを整形表示（読み取り専用）。追記の追従（タブごと、外部更新の監視「追記に追従」）。外部ツールを待たずに起動し、行・桁・選択文字列を渡す。\n- SJIS等の改行がCRLFの行末でダブルクリックしたとき「selection splits crlf」が出る問題を直しました。\n- Markdown の Read/Live 表示でも、末尾で余分にスクロールせず止まります。\n- 既定の設定ファイルを、旧版でも読める書き方にしました。\n\nWindows x64/ARM64のbetaです。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.41 Windows beta\n\n- キーワード強調を追加しました。Ctrl+Shift+KでON/OFFでき、表示→ハイライト→キーワード強調からグループを選べます。色・大小文字・単語単位を登録でき、選択文字列の追加とkeywords.tomlの編集にも対応します。保存すると全タブへ反映し、折返し位置をまたぐ語も強調します。\n- Windowsのポータブル設定に対応しました。ツール→設定をアプリのフォルダへ移す（ポータブル化）を選んで再起動すると、exeの隣のsettingsフォルダへ設定を引き継ぎます。元の設定は残し、アプリ内更新でもsettingsフォルダを保持します。書き込み可能なフォルダで使ってください。\n\nWindows x64/ARM64のbetaです。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
