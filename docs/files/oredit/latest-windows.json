@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.37",
+  "version": "0.1.38",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "2eb168f8d2241d4a7f5ba6723da52a9041fe0c17",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.37",
-  "published_at": "2026-11-09T05:55:02.749248+00:00",
+  "source_sha": "48ca84790e259aa6a3f5d3022ad85cf2b4b62849",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.38",
+  "published_at": "2026-11-10T00:46:22.714394+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.37/oredit-0.1.37-windows-x64.zip",
-      "sha256": "3bf3a39c53adae0eaeccbe47ab01a163abdd1b6dd19cd91211ee40e30469de42",
-      "bytes": 5407630
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.38/oredit-0.1.38-windows-x64.zip",
+      "sha256": "aa4ab9834171b98aeb6dfcac49ee3130564d1de07bb6e10930a9f23f5955d01f",
+      "bytes": 5410559
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.37/oredit-0.1.37-windows-arm64.zip",
-      "sha256": "4835ee73cf13079849ab18074beb94f3a098b82a822c73868c37f6df18f3eda5",
-      "bytes": 4768901
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.38/oredit-0.1.38-windows-arm64.zip",
+      "sha256": "e9764837d85a1dac84ec123503c732a973c61494401a401b77b31784cbf6a28d",
+      "bytes": 4772705
     }
   ],
-  "notes": "oredit 0.1.37 Windows beta\n\n- ネットワーク共有上のファイルで、ファイルIDや属性だけの違いを外部更新として扱い、再読込確認を繰り返す問題に対処しました。実際のサイズ・更新時刻の変化は検知し、保存時の競合検査も維持します。\n- 外部更新の確認で「再読込」「以後通知メッセージのみ」「以後更新を監視しない」「以後未編集で再ロード」「閉じる」を選べます。「以後…」はそのタブだけに適用します。共通設定の「ファイル・保存」→「外部更新の監視」でも既定の動きを選べます。\n- 通常テキストのCtrl+End・マウスホイールで末尾へ移動するとき、末尾行が画面の先頭へ来るまで余分にスクロールせず、直前の内容と末尾下の約3行分の表示余白を残して止まります。途中は下端まで行を表示し、追記後に読み直すと新しい末尾を使います。折り返しなし／ウィンドウ幅／指定桁数の各モードで回帰確認しました。\n- 未公開だったC++色分けの改善と、サイドバーのファイル選択だけでは一覧を作り直さない改善も含みます。\n\n- キャレットは既定で500msごとに点滅します。点滅による再描画範囲を本文に絞り、左バーの「続き」などのボタンを巻き込まないようにしました。\n- ダークテーマのファイルタブ文字を明るくしました。左バーと本文の間には、中央線とホバー時の強調がある幅8 DIPのスプリッターを表示し、ドラッグで幅を変えられます。\n\nWindows x64/ARM64のbetaです。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.38 Windows beta\n\n- Grep結果の絞り込みに「特殊構文」の切替を追加しました。既定では !! などを文字列として検索できます。\n- Windowsの既定固定幅フォント、タイプ別配色、サイドバー表示時の行番号を改善しました。\n\n検証状況: ARM64のテスト構成は711/711成功。x64は全体実行で初回708/711、再実行706/711。初回失敗3件は個別再試行で成功しましたが、再実行でMarkdownとnative editorのタイムアウト、サイドバー再起動と検索履歴の失敗が残っています。原因は未確定です。最終配布ZIPのインストーラーおよびライト・ダーク・カスタムの実画面確認は未実施です。\n\nWindows 10/11 x64・ARM64向けの署名なしbetaです。Mac版は含みません。\r\n"
 }
