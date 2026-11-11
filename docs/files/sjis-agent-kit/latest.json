@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "a8de5fffbcbf07eb9043ab7997ecdc8312caf014",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.8",
-  "published_at": "2026-11-09T01:05:26Z",
-  "notes": "- sjis_readでワークスペース外のファイルを読む際、拡張独自の追加確認を求めないようにしました。外部ファイルを書き換えるsjis_edit/sjis_write、およびsjis_checkの確認は維持します。\n- sjis_readのファイルアクセスをNode.jsによる直接読み込みに変更し、VS Codeのファイルシステムプロバイダー経由の待機を避けます。\n- ファイル読み込みに30秒のタイムアウトとキャンセル対応を追加しました。応答しないファイルやネットワークドライブを無期限に待ち続けず、エラーを返します。\n- ツールの実行開始をSJIS Agent Kit出力ログに記録し、開始前の確認待ちと実行中の待機を切り分けやすくしました。\n- 更新後はVS Codeのウィンドウを再読み込みしてください。報告環境で発生した停止の個別原因は未特定です。",
+  "source_sha": "6675e5d22e9014f1bdc5ca9d876c1504c1615610",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.9",
+  "published_at": "2026-11-11T20:57:49Z",
+  "notes": "- 拡張機能の発行者を `sjiskit` に変更しました。拡張機能の ID は `sjiskit.sjis-agent-kit` になります。\n- 0.2.8 以前から更新するときは、先に拡張機能ビューで旧版の SJIS Agent Kit をアンインストールしてから 0.2.9 をインストールしてください。両方を入れたままにすると、同じ名前のツールが二重に登録されます。\n- 更新後、対象フォルダで「SJIS: Set Up Copilot for Shift_JIS Sources」を再実行してください。VC6 エージェントのツール名が新しい ID に更新されます。\n- ツールの動作に変更はありません。",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.8/sjis-agent-kit-0.2.8.vsix",
-      "sha256": "16d7cc157ababef305b2d062971adce400055ae33b07c4dd9bccdad27225dddc",
-      "bytes": 39784
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.9/sjis-agent-kit-0.2.9.vsix",
+      "sha256": "360e6e6fa01960a01264864cbba840b99fc01f9fd374803b274c74818b844f8a",
+      "bytes": 39875
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.8/sjis-agent-kit-0.2.8.zip",
-      "sha256": "ba9b2b3413731b5114bc0458a3526006d909ab1287a8a657a882a409aa975064",
-      "bytes": 110772
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.9/sjis-agent-kit-0.2.9.zip",
+      "sha256": "1038880c1f043d5dc57e527116d20f5c8223c1c56ea60e0afa473fc17fb53f29",
+      "bytes": 110845
     }
   ]
 }
