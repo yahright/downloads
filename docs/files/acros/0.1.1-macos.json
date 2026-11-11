@@ -1,0 +1,24 @@
+{
+  "version": "0.1.1",
+  "channel": "Beta",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/acros-v0.1.1",
+  "notes": "# acros 0.1.1 — macOS Beta\n\nPDFの文字をマウスでドラッグしても選択範囲が広がらない不具合を修正しました。\n\n- マウスを押してから離すまで、移動に合わせて文字選択を更新します。\n- 逆方向・複数行への選択、解放した位置の反映、ビューの外で離した場合のドラッグ終了を修正しました。\n- 同じ入力判定を使う図形の描画と注釈の移動・サイズ変更も修正しました。\n- 実際と同じ形式のマウス移動イベントを使う回帰テストを追加しました。\n\n## 対象・更新方法\n\nApple Silicon（Mシリーズ）・macOS 26以降向けです。Developer ID署名・Apple公証済みのZIP/DMGを配布します。\nacrosを終了してから、DMG内のacros.appをApplicationsへドラッグし、旧版と入れ替えてください。\n設定はアプリとは別に保存されます。アプリ内自動更新は未実装です。\n\n## 確認範囲と制限\n\nローカルのReleaseとASan/UBSanで検証しました。今回の実画面用操作ツールは、ドラッグ途中の移動と\n解放位置を正しく送らなかったため、実マウスでのドラッグ・コピーの受入確認は残っています。\n自動テストでは選択を広げながらコピーした文字列、逆方向・複数行・解放位置と範囲外での終了を確認しました。\n\n0.1.0 Betaの機能・制限を引き継ぎます。グループ内の文字編集、OCR、墨消し、パスワード設定/解除、\n電子署名作成/検証、XFA/PDF JavaScript、段落リフローは未対応です。\nWindows・Intel Mac・macOS 26未満は今回の配布対象に含みません。\n",
+  "publishedAtUtc": "2026-11-11T03:19:34.359366+00:00",
+  "minimumSystemVersion": "26.0",
+  "downloads": [
+    {
+      "platform": "osx-arm64",
+      "kind": "app-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/acros-v0.1.1/acros-0.1.1-osx-arm64-app.zip",
+      "sha256": "c3bb824689b35e9f894dac352cc51e26324f6c09848c4b8a8dac9871131d6253",
+      "size": 37199651
+    },
+    {
+      "platform": "osx-arm64",
+      "kind": "dmg",
+      "url": "https://github.com/yahright/downloads/releases/download/acros-v0.1.1/acros-0.1.1-osx-arm64.dmg",
+      "sha256": "c8194e1df5a7d5e58fc960d884acce4d5bb3ef37acc58807b1535efa452676e7",
+      "size": 41098500
+    }
+  ]
+}

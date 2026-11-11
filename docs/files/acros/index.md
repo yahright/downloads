@@ -7,11 +7,14 @@ title: acros — Mac版ダウンロード
 
 PDFの閲覧・注釈・ページ操作・本文/画像編集・フォーム入力に対応するアプリです。
 
-**0.1.0 Beta / Apple Silicon（Mシリーズ）/ macOS 26以降**
+**0.1.1 Beta / Apple Silicon（Mシリーズ）/ macOS 26以降**
 
-- [DMGをダウンロード](https://github.com/yahright/downloads/releases/download/acros-v0.1.0/acros-0.1.0-osx-arm64.dmg) — 初回インストール用
-- [アプリZIPをダウンロード](https://github.com/yahright/downloads/releases/download/acros-v0.1.0/acros-0.1.0-osx-arm64-app.zip) — 展開して手動で配置
-- [リリースノート・SHA256](https://github.com/yahright/downloads/releases/tag/acros-v0.1.0)
+0.1.1では、マウスのドラッグで文字の選択範囲を広げられない不具合を修正しました。
+旧版を終了してからアプリを入れ替えてください。
+
+- [DMGをダウンロード](https://github.com/yahright/downloads/releases/download/acros-v0.1.1/acros-0.1.1-osx-arm64.dmg) — 初回インストール用
+- [アプリZIPをダウンロード](https://github.com/yahright/downloads/releases/download/acros-v0.1.1/acros-0.1.1-osx-arm64-app.zip) — 展開して手動で配置
+- [リリースノート・SHA256](https://github.com/yahright/downloads/releases/tag/acros-v0.1.1)
 - [配布情報JSON](latest-macos.json)
 
 Developer ID署名・Apple公証済みです。DMGを開いてacros.appをApplicationsへドラッグしてください。
@@ -39,5 +42,5 @@ Intel Mac・macOS 25以前・Windowsは今回の配布に含みません。
 - アプリ内の自動更新は未実装です。新版への更新は手動でアプリを差し替えてください。
 - Reader/Chromeとの網羅的比較、複雑な縦書き・ルビ、実Retina・ピンチ・印刷出力・性能の受入確認が残っています。
 
-MacのReleaseでcore28ケースとUI11ケースを確認しています。日本語注釈・本文・フォームの保存と、
+MacのReleaseでcore28ケースとUI12ケースを確認しています。日本語注釈・本文・フォームの保存と、
 macOSプレビューでの表示、暗号化PDFの編集保存、配布物の署名・公証・起動も確認済みです。
