@@ -1,26 +1,26 @@
 {
-    "version":  "0.25.0",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.25.0",
-    "sourceCommit":  "9ac9a6c17a6fe78db541ebe7773ee5b8f21bb4e7",
-    "publishedAtUtc":  "2026-11-11T04:25:30.5001423+00:00",
-    "notes":  "# RepoSyncTool 0.25.0 ベータ\n\n- プル画面で、今のブランチに加えてほかのローカルブランチも選び、まとめて追跡先へ早送りできるようにしました。分岐しているブランチや、別の作業ツリーで開いているブランチは変更せずに理由を表示します。\n- 起動直後にリポジトリの Git 画面を開くと、一覧全体の状態確認と定期フェッチがその読み込みを待つようにしました。開いたリポジトリがすぐ表示され、全体の確認は裏で続きます。\n- 履歴の詳細で、取り込み元（cherry-pick 元）をコミットメッセージの上のカードに分けて表示し、「そのまま」「変更あり」「一部」を色で示します。カードから元のコミットへ移動できます。詳細欄をスプリッターで狭めても、「コミットに注釈」などのボタンがはみ出さないようにしました。\n- 左バーのエクスプローラで、フォルダーと、拡張子ごとのファイルにアイコンを付けました。obj などの .gitignore 対象は既定で表示しません（「無視されているもの（.gitignore）も表示」で切り替え）。\n- 画面右上のリモート選択欄をなくしました。既定は今のブランチの追跡先（無ければ origin）です。リモートが2つ以上あるときだけ、フェッチ・タグの Push・Remote URL変更・削除などの各画面で対象を選べます。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.25.0/RepoSyncTool-0.25.0-win-x64-portable.zip",
-                          "sha256":  "1b8ecbed061d51efb232a0fa081bc6ce6ac7677650326622c8ab2f930d94fb93",
-                          "size":  50109176,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.25.0/RepoSyncTool-0.25.0-win-arm64-portable.zip",
-                          "sha256":  "4c33510cbfbbe2bc45585c53df7de9392733f3b313e81a5ea709ae290a260ebc",
-                          "size":  47983001,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.26.0",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.26.0",
+  "sourceCommit": "d406ac4a6423d90ef4fc873084e4d2406c1d28e4",
+  "publishedAtUtc": "2026-11-11T07:06:44.5136819+00:00",
+  "notes": "# RepoSyncTool 0.26.0 ベータ\n\n- 変更ファイルの一覧（ステージ済み・未ステージ・履歴のコミットのファイル）の右クリックに「パスをコピー」を追加しました。\n  - リポジトリからの相対パス（/ 区切り、Ctrl+C）、絶対パス（Ctrl+Shift+C）、ファイル名、\\ 区切りの相対パスをコピーできます。\n  - 履歴のコミットのファイルでは「コミット:パス」（git show にそのまま使える形）もコピーできます。\n  - 「状態とパスの一覧（すべての情報）」で、M・A・D などの状態つきの一覧（コミットのファイルではコミットの ID と件名つき）をコピーできます。\n  - Ctrl / Shift+クリックで複数選ぶと1行に1件ずつコピーします。各項目には、実際にコピーされる文字列が表示されます。\n- 履歴の並び順に「作者日時順」を追加しました（親子関係順・コミット日時順・作者日時順の3つ）。作者日時はコミットを最初に書いた日時で、リベースやチェリーピックをしても変わりません。\n  - 「条件 ▾」のほか、履歴の列見出しの右クリックからも選べます。選ぶとすぐ並べ直します（「検索」を押す必要はありません）。\n  - 親子関係順以外のときは「表示中:」に「並び順: …」と出ます。× で親子関係順に戻ります。並び順はリポジトリごとに覚えます。\n- 履歴でコミットを右クリックしたときの「チェックアウト」で、そのコミットに複数のブランチが乗っているときは、どのブランチに切り替えるかを選べるようにしました。\n  - 今のブランチ（チェックアウト中）と、別の worktree で使っているブランチは選べない状態で表示します。\n  - 同じ名前のローカルブランチが無いリモートブランチ（origin/… など）は、同じ名前のローカルブランチを作って切り替えます。\n  - 「ブランチなし（detached HEAD）でこのコミットへ」も選べます。ブランチが1本だけならこれまでどおりすぐ切り替えます。\n- 他の人のプルリクエストやブランチを、手元でレビューできるようにしました（⚙ →「レビュー（他の人の PR・ブランチ）」）。GitHub・Gitea・Forgejo・GitLab の PR の URL、番号、ブランチ名を入れると取ってきます。自分のブランチは作らず、今の作業にも触りません。\n  - 見方を3つから選べます: 「差分だけ」（何も書き出さずにこの画面の比較で見る）、「変更ファイルのコピー」（変更されたファイルだけを分岐点の版 base/ と PR の版 pr/ のフォルダに書き出し、設定した外部 Diff ツールでフォルダ比較を開く）、「worktree」（PR の状態を丸ごと別フォルダに取り出す）。\n  - 履歴はそのレビューのコミットだけに絞って開きます。「レビューを閉じる」で、取ってきたものと書き出したファイル・worktree を片付けます。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.26.0/RepoSyncTool-0.26.0-win-x64-portable.zip",
+      "sha256": "af7310b3aab141cd15e7755ac8b48d5df397a3bd8be02fd5c66efb963db61ff4",
+      "size": 51674417,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.26.0/RepoSyncTool-0.26.0-win-arm64-portable.zip",
+      "sha256": "a377ebd620a6320fc25a3b5a22fdc2b523de75e5458efd1e0709ff2cce22b3c0",
+      "size": 49435944,
+      "signed": false
+    }
+  ]
 }
