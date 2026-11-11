@@ -1,25 +1,25 @@
 {
-    "version":  "0.23.0",
+    "version":  "0.24.0",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.23.0",
-    "sourceCommit":  "c1bb38c473c686c556e9d9c281c6764b2db53058",
-    "publishedAtUtc":  "2026-11-10T22:06:57.5516656+00:00",
-    "notes":  "# RepoSyncTool 0.23.0 ベータ\n\n- 差分の左右表示を WinMerge に近づけました。\n  - 行の間に「@@ -10,9 +10,12 @@ …」の見出し行と「💬 ＋」の行を挟まなくなりました。ハンクの境目は細い線で示し、見出しは行番号にマウスを載せると表示されます。F7 で移った変更の見出しは差分の上の帯にも出ます。\n  - 注釈はハンク先頭行の右端に「💬 件数」で出ます。注釈を書く「💬 ＋」と「↑ 20行」「↓ 20行」は、その行にマウスを載せたときだけ表示されます。\n  - F7 / Shift+F7 で次・前の変更へ移るとき、移動先が画面内ならスクロールせず印だけを移します。画面外のときだけページ単位で動かします（下へは画面上寄り、上へは画面下寄り）。\n  - 作業ツリー側（右）をその場で編集できます。直したい位置をクリックしてそのまま入力するか、Enter / F2 で編集を始めます。↑ / ↓ で上下の行へ移り、行頭の Backspace・行末の Delete で行をつなげます。Ctrl+S で保存します。\n- リポジトリ一覧で、登録したフォルダが移動・削除されたリポジトリを赤字の「⚠ リポジトリが移動または削除」で表示します（元のパスはツールチップ）。\n- ブランチを作成・切り替えたあとも、それまで履歴に表示していたブランチを残して表示するオプションを追加しました（作成画面・設定・右クリックから。既定は OFF、リポジトリごとに記憶）。\n- 差分でタブとスペースが混在した行の桁を、コードの桁位置でそろえるようにしました。行の詳細からのコピーでもタブを保ちます。\n- 操作履歴（Host の job 記録）を追記型にしました。記録が増えても操作が止まらず、古い記録は自動で片付けます。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
+    "releaseTag":  "reposynctool-v0.24.0",
+    "sourceCommit":  "daf3ef14ff7e05dd69f86b0a64a9993289ed738b",
+    "publishedAtUtc":  "2026-11-11T03:15:59.9837138+00:00",
+    "notes":  "# RepoSyncTool 0.24.0 ベータ\n\n- 差分の本文に「+」「-」の記号を付けず、元のファイルと同じ見た目で表示するようにしました。+ / - は行番号の横に出ます。左右表示の「→」「←」「↶ 打ち消す」ボタンは、左側の本文の上から左右の間の細い列へ移しました。\n- 差分の空白記号（スペースの「·」、タブの「→」）は、ウィンドウを開くたびに非表示から始まります。メニューの「空白文字を表示」で表示したときも、そのウィンドウの間だけ有効です。\n- 折り返しを ON にしたとき、大きな行番号が欄に入らず2段になり、本文まで2行分の高さになる不具合を直しました。行番号の欄は表示中の最大の番号に合わせて広がります。\n- 差分ウィンドウの左の一覧をスプリッターで狭めすぎると、コミット欄や絞り込み欄がはみ出す不具合を直しました（一覧は最小 300px）。\n- リポジトリ一覧で、移動・削除と表示されたリポジトリに「場所を選び直す…」を追加しました。手で移したフォルダを選ぶと、★・グループ・表示状態を保ったまま新しい場所に付け替えます（複数選択時は移動先の親フォルダから同じ名前で探します）。リンクされた worktree も新しい場所を見つけられるよう修復します。ファイルの移動・削除は行いません。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.23.0/RepoSyncTool-0.23.0-win-x64-portable.zip",
-                          "sha256":  "05b38cae2efbf6c4203f657bbe466eb919ebbc3cd9a11293d7e0a2cb182cac2a",
-                          "size":  50089162,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.24.0/RepoSyncTool-0.24.0-win-x64-portable.zip",
+                          "sha256":  "16606713797e5cdd31c4d6665bc473762aa524c43c6a9c764bf1a22f0c49ee91",
+                          "size":  50094815,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.23.0/RepoSyncTool-0.23.0-win-arm64-portable.zip",
-                          "sha256":  "05ff19198b0709395371d454645339ca45691c05a6f6846e5b12d9cf1458f17b",
-                          "size":  47962985,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.24.0/RepoSyncTool-0.24.0-win-arm64-portable.zip",
+                          "sha256":  "6f331bcef1728f0c82464bf16a09209a8942908ee6dfe8b8cc48fad6caf9b5e9",
+                          "size":  47968637,
                           "signed":  false
                       }
                   ]
