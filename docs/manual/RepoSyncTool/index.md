@@ -16,6 +16,12 @@ title: RepoSyncTool Windows
 
 Windows 版は未署名ベータです。ダウンロード時や初回起動時に Windows の警告が表示される場合があります。ZIP と同名の `.sha256` でダウンロードの SHA-256 を照合できます。
 
+## Issue・PR管理（0.27.0）
+
+メイン画面・Git画面の「Issue / PR」から接続先を登録し、一覧の「更新」で取得します。作成・編集・レビューは下書きと送信確認を経て実行します。結果不明の場合はサーバーを確認し、重複送信しないでください。
+
+GitHub・Forgejo・GitLab・Gitea向けの管理機能、NOTE Issue編集、個人ボード、CLI/MCP・TaCM入口を含みます。実サービス検証済みはGitHubです。詳しい操作・制限・復旧方法は[操作説明](https://github.com/yahright/RepoSyncTool/blob/main/docs/issue-pr-management.md)を参照してください。Mac公開と他サービスの実機検証は別途です。
+
 ## 主な操作
 
 - 一覧でブランチ・変更数・未取得／未Push件数を確認し、検索や左バーで絞り込みます。ダブルクリックまたは「開く」で Git 画面を開きます。「状態更新」はローカル確認、「すべて Fetch」はリモート情報の取得です。

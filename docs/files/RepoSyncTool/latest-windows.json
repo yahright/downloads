@@ -1,25 +1,25 @@
 {
-  "version": "0.26.1",
+  "version": "0.27.0",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.26.1",
-  "sourceCommit": "8cb1975484890bb22048c9959d27330337680155",
-  "publishedAtUtc": "2026-11-11T07:35:51.8880818+00:00",
-  "notes": "# RepoSyncTool 0.26.1 ベータ\n\n- 変更ファイルの一覧（ステージ済み・未ステージ・履歴のコミットのファイル）の右クリックに「パスをコピー」を追加しました。\n  - リポジトリからの相対パス（/ 区切り、Ctrl+C）、絶対パス（Ctrl+Shift+C）、ファイル名、\\ 区切りの相対パスをコピーできます。\n  - 履歴のコミットのファイルでは「コミット:パス」（git show にそのまま使える形）もコピーできます。\n  - 「状態とパスの一覧（すべての情報）」で、M・A・D などの状態つきの一覧（コミットのファイルではコミットの ID と件名つき）をコピーできます。\n  - Ctrl / Shift+クリックで複数選ぶと1行に1件ずつコピーします。各項目には、実際にコピーされる文字列が表示されます。\n- 履歴の並び順に「作者日時順」を追加しました（親子関係順・コミット日時順・作者日時順の3つ）。作者日時はコミットを最初に書いた日時で、リベースやチェリーピックをしても変わりません。\n  - 「条件 ▾」のほか、履歴の列見出しの右クリックからも選べます。選ぶとすぐ並べ直します（「検索」を押す必要はありません）。\n  - 親子関係順以外のときは「表示中:」に「並び順: …」と出ます。× で親子関係順に戻ります。並び順はリポジトリごとに覚えます。\n- 履歴でコミットを右クリックしたときの「チェックアウト」で、そのコミットに複数のブランチが乗っているときは、どのブランチに切り替えるかを選べるようにしました。\n  - 今のブランチ（チェックアウト中）と、別の worktree で使っているブランチは選べない状態で表示します。\n  - 同じ名前のローカルブランチが無いリモートブランチ（origin/… など）は、同じ名前のローカルブランチを作って切り替えます。\n  - 「ブランチなし（detached HEAD）でこのコミットへ」も選べます。ブランチが1本だけならこれまでどおりすぐ切り替えます。\n- 他の人のプルリクエストやブランチを、手元でレビューできるようにしました（⚙ →「レビュー（他の人の PR・ブランチ）」）。GitHub・Gitea・Forgejo・GitLab の PR の URL、番号、ブランチ名を入れると取ってきます。自分のブランチは作らず、今の作業にも触りません。\n  - 見方を3つから選べます: 「差分だけ」（何も書き出さずにこの画面の比較で見る）、「変更ファイルのコピー」（変更されたファイルだけを分岐点の版 base/ と PR の版 pr/ のフォルダに書き出し、設定した外部 Diff ツールでフォルダ比較を開く）、「worktree」（PR の状態を丸ごと別フォルダに取り出す）。\n  - 履歴はそのレビューのコミットだけに絞って開きます。「レビューを閉じる」で、取ってきたものと書き出したファイル・worktree を片付けます。\n- 「チェックアウト時に表示ブランチも切り替える」と「今表示しているブランチも表示する」が両方オンのとき、コミットをチェックアウト（detached HEAD）したあとにブランチを切り替えると、「表示ブランチは完全ref名で…」と出て履歴が表示されない不具合を直しました。\n\n- Windows PowerShell 5.1 の公開処理で、日本語を含む配布マニフェストを UTF-8 として読み込むようにしました。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。\n",
+  "releaseTag": "reposynctool-v0.27.0",
+  "sourceCommit": "6e37c5aa77ab2e79cca53323e2d5fb00b95ad39c",
+  "publishedAtUtc": "2026-11-11T23:28:41.3103020+00:00",
+  "notes": "# RepoSyncTool 0.27.0 ベータ\n\nIssue・PR管理を追加しました。メイン画面とGit画面の「Issue / PR」から開けます。\n\n- GitHub・Forgejo・GitLab・Giteaの接続、一覧・検索・保存条件、本文と会話、担当・レビュー依頼・CI状態をまとめて確認できます。\n- Issue/PRの作成・編集・コメント、Markdownプレビュー、テンプレート、下書き保存、Draft切替、レビュー送信・会話解決、マージを追加しました。APIの対応範囲はサービスごとに異なります。\n- Issueからbranch/worktreeへ着手し、既存の3方式でPRをレビューできます。ファイルごとの確認済み表示、追加push後のレビュー位置の再指定、明示した関連に基づくIssue終了、変更を保護したworktree片付けに対応しました。\n- 個人ボード、期限、pin/snooze、更新通知、関連・依存、NOTEのMarkdown Issue編集、読み取り専用のAI支援、CLI/MCP・TaCM入口を追加しました。\n- Issue/PR専用SQLiteに下書き・関連・操作結果を保存します。バックアップと取り込み、結果不明時の自動再送防止、リポジトリ改名時の接続維持を備えます。既存Gitジョブのジャーナル保存方式は変更していません。\n- 前回公開後の改善（表示中ブランチに合わせた左バー、既存ラベルの選択、変更なしHEADのAmend、取り込み状況の詳細下端への移動）も含みます。\n\n関連自動テスト39件、GitHubのM365TestでIssue/PR作成・編集・レビュー・会話解決・マージ・関連Issue終了を確認しました。Windowsの全操作受入、Mac、GitLab/Gitea実サービス、実TaCM配送・実AIセッションは未確認です。Forgejo実機検証は延期しています。P11の全環境受入完了を示すリリースではありません。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。x64の起動確認はARM64端末のエミュレーションで行います。Mac版の公開は含みません。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.26.1/RepoSyncTool-0.26.1-win-x64-portable.zip",
-      "sha256": "697c5220cc9ad60a45a860e56419e956413d1fd9f44da4bea7517f5f8f8d93aa",
-      "size": 51674631,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.0/RepoSyncTool-0.27.0-win-x64-portable.zip",
+      "sha256": "424accfaa475a114f61face11f7e53f50aa9734ce3b50294e1cdd113973c5fbb",
+      "size": 53072375,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.26.1/RepoSyncTool-0.26.1-win-arm64-portable.zip",
-      "sha256": "d3a4ad25ede5d729b34897b82cd20eecc2fe2dc4c1b51dd1970f120b75001e1f",
-      "size": 49436149,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.0/RepoSyncTool-0.27.0-win-arm64-portable.zip",
+      "sha256": "859cc089b3a10986625f24b4046b91babe89d8e4a622ec116b0c7f9e7d8be61b",
+      "size": 50676574,
       "signed": false
     }
   ]
