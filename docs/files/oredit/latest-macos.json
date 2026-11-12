@@ -1,18 +1,18 @@
 {
   "product": "oredit",
-  "version": "0.1.44",
   "platform": "macos",
+  "version": "0.1.48",
   "channel": "beta",
-  "source_sha": "554e073f052411867f07f45ba3abb0c91a1aa0c8",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.44",
-  "published_at": "2026-11-11T20:41:01Z",
+  "source_sha": "a0ae9c14ab9b3705b4355727afe71b46e459bcc7",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.48",
+  "published_at": "2026-11-12T19:56:43Z",
   "assets": [
     {
       "architecture": "universal",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.44/oredit-0.1.44-macos-universal.zip",
-      "sha256": "7cb276bc657a3f1c4189ba9078714aad168e96f8c65fb93839af6f6c169ac796",
-      "bytes": 8726828
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.48/oredit-0.1.48-macos-universal.zip",
+      "bytes": 8769008,
+      "sha256": "5879b17afd1f5741bd6ae49c5d7f55c6433cd5ff161a0e7ce69645f0b37429db"
     }
   ],
-  "notes": "macOS版 0.1.44 beta（前回Mac公開版: 0.1.22）。\n\n- サイドバーのファイル一覧・アウトライン・シンボル候補、タブの右クリック操作、本文の拡大縮小を追加・改善しました。\n- Grep結果の下／右分割、次／前への移動、絞込み、非表示・マーク、出力や再Grepなどの後操作をMacでも利用できます。\n- 外部で変更されたファイルの通知と上書き確認、ログの追記追従・行フィルタ、外部ツール連携を改善しました。\n- 登録キーワードのグループ別強調を追加しました。Macでは「キーワード設定」でTOMLを編集します。Windows版の専用設定GUIとポータブル設定はMacでは未対応です。\n- Markdownの全幅表示、配色の取り込み、C++強調、任意のAIチャット（既定OFF、利用者による公式CLIの導入・認証が必要）など、0.1.22以降の変更を含みます。\n- 保存後に構文色が消える問題を修正し、タイトルバーのフルパス表示設定を追加しました。\n- Apple Silicon / Intel universal、macOS 13以降。\n\n実IME・Intel実機・物理DPI・巨大ファイルや長時間運用の全体受入は継続中です。この版はbetaです。0.1.19／0.1.21からはDMGまたはZIPで手動入替してください。\n\n検証: Release CTest 744/744成功。Developer ID署名・ZIP/DMG公証・staple・Gatekeeper検証済み。必須内容19,892,775バイト。3配色の本文・選択・サイドバー・ページ移動を実画面で確認。メニュー／ポップアップの3配色目視は継続中です。\n"
+  "notes": "macOS版 0.1.48 beta — アプリ内更新の修正版です。\n\n- 「終了して更新」でZIPの取得後に失敗し、旧アプリへ戻ってしまう問題を修正しました。CPU種別を検査するコマンドの引数順が原因でした。\n- 更新ZIP内の不正なパスを拒否する処理を修正しました。\n- Apple Silicon / Intel universal、macOS 13以降。\n\n旧0.1.44以前のアプリには不具合のある更新helperが組み込まれているため、初回のみこの版のDMG/ZIPからアプリを入れ替えてください。修正は更新先だけでなく更新元のhelperに必要です。設定・利用者ファイルはアプリの外に保存されます。\n\nWindows版の更新処理は別実装です。公開0.1.47のARM64/x64で実helperの各14条件（正常更新・CPU/ハッシュ/構造拒否・ロック・rollback・設定保持）が成功し、同じ不具合は再現していません。\n\nMac helperの9条件とRelease CTest 755/755を確認。実IME/Intel実機/物理DPI・巨大ファイル・長時間の全体受入は継続中です。この版はbetaです。\n\nDeveloper ID署名・ZIP/DMG公証・staple・Gatekeeper検証済み。\n"
 }
