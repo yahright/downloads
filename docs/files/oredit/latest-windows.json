@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.43",
+  "version": "0.1.45",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "8fbe3bacc04918df66e990ff798f4e67b6d75a98",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.43",
-  "published_at": "2026-11-11T06:14:48.712112+00:00",
+  "source_sha": "51df1f8659fe8e54443215bb5d714869cb50af64",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.45",
+  "published_at": "2026-11-12T01:39:10.835325+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.43/oredit-0.1.43-windows-x64.zip",
-      "sha256": "c344595a0fa5bdc2fc4b8f3c232b9ed0fe601880c071568257768d4345be9f58",
-      "bytes": 5494635
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.45/oredit-0.1.45-windows-x64.zip",
+      "sha256": "41b4fc1a6fe22d0356f4619db9461c71bed67850d689b55abc56add0de8438cb",
+      "bytes": 5512578
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.43/oredit-0.1.43-windows-arm64.zip",
-      "sha256": "8d28bf517925ef415e4a9734470a71b08107a24fb60832691efec69c22ab2523",
-      "bytes": 4850189
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.45/oredit-0.1.45-windows-arm64.zip",
+      "sha256": "b52e7a5e1a1571b945ecb0e9f992b8b72c0f359fdd1933b07970e8dc89748146",
+      "bytes": 4856718
     }
   ],
-  "notes": "oredit 0.1.43 Windows beta\n\n- Ctrl+Wでカーソル位置の単語を選択できます。タブを閉じるキーはCtrl+F4へ変更しました。ユーザー設定のキー割り当てを優先します。\n- Windowsメニューにアクセスキーを追加しました。Alt+Fなどでメニューを開き、表示された英数字で項目を選べます。\n- 設定に「タイトルバーにフルパスを表示」を追加しました。既定は従来のファイル名表示です。\n- 保存した強調定義を指定している場合、ファイルを開いた直後と保存後で異なる定義が適用される問題を修正しました。\n- 未保存編集がない状態で終了情報の保存に失敗した場合、対象パスを表示し、終了情報の保存を省略して終了するか、終了を取り消すか選べます。元ファイルは上書きしません。終了取消後のエラー反復も抑止しました。\n\n継続調査: INIやPowerShell（PS1）で保存後に色が消える元の条件（INIでは# key=valueがアウトラインへ出る）、および外部更新後の終了時にsave targetエラーが出る元の条件は未再現です。本版で全条件が解消したとは確認できていません。\n\nWindows x64/ARM64のbetaです。Mac版は今回含みません。実IME・物理DPI・物理x64の受入は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.45 Windows beta\n\n- 登録キーワードを強調・前後移動・一致行だけ表示・一致行の除外に共通利用できます。「検索 → キーワード」から操作します。\n- キーワードのTOMLインポート／エクスポートを追加しました。同名で異なるグループは別名で追加し、既存登録を保持します。\n- Shift_JISの日本語キーワードに対応。フィルタ中の行内編集・貼り付け・Undoと、非表示行を含む全文保存を確認しました。\n- フィルタ結果の描画への反映と、貼り付け時のフィルタ維持を修正しました。\n\n制約: 前のキーワードへの移動は先頭から走査します。10GiB合成入力で末尾からの前移動は約34～37秒、行フィルタは約98～118秒です（Windows ARM64 VM）。取消可能です。\nWindows x64/ARM64 beta。Mac実機・物理x64・実IME・物理DPIの確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
