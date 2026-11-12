@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.47",
+  "version": "0.1.49",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "34dbc51119b1718c47da55b98c159c492a4756fc",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.47",
-  "published_at": "2026-11-12T13:07:06.533330+00:00",
+  "source_sha": "10f9e6bf800fdf370ab48566a9a13267902a0baf",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.49",
+  "published_at": "2026-11-12T22:43:05.513459+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.47/oredit-0.1.47-windows-x64.zip",
-      "sha256": "3d16ce21084b0328867510e6e9c477f6755ca23d375fc4d261dd44217be7450e",
-      "bytes": 5520710
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.49/oredit-0.1.49-windows-x64.zip",
+      "sha256": "eabb2f95b9156e527027a7f9dc5b588570faf447751b8bcaa3ed0843219d4afd",
+      "bytes": 5544814
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.47/oredit-0.1.47-windows-arm64.zip",
-      "sha256": "8c6f24ef00f4bbde50cce6bed99ba9f607ed35deb9ddf883d8a3fab934c7755f",
-      "bytes": 4872619
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.49/oredit-0.1.49-windows-arm64.zip",
+      "sha256": "59ea371ba1f3559b4a67f6604fca8f5e1382d3c0b9e353d7b7ea76ae5369122c",
+      "bytes": 4891189
     }
   ],
-  "notes": "oredit 0.1.47 Windows beta\n\n- キーワードをさっと使えるようにしました。Ctrl+Shift+Kでグループを選ぶと、その場で強調します（ステータスバー右下の「キーワード」表示をクリックしても選べます）。\n- 強調中は本文の右上に1行の小窓が出ます。↑↓（またはF8／Shift+F8）で前後の一致へ移動し、「何件目/総数」を表示します。「一致行」「除外」は押すたびに切り替わり、もう一度押すと全行に戻ります（カーソル行はそのまま）。キーワード操作で大きな行フィルタバーは出なくなりました。\n- ×（または「なし」）で強調・絞込み・小窓をまとめて解除して元に戻ります。\n- キーワードは検索とは別扱いです。Escや検索ではキーワードの強調・絞込みは消えません。絞込み中の通常検索（F3・インクリメンタル検索）は表示中の行だけを探します。\n\n注意: Ctrl+Shift+Kは強調のON/OFFからグループ選択に変わりました（OFFは「なし」か×）。64MiBを超えるファイルでは件数欄は総数だけを表示します。\nWindows x64/ARM64 beta。Mac版は今回含みません。Mac実機・物理x64・実IME・物理DPIの確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.49 Windows beta\n\n- サイドバーに「キーワード」タブを追加しました（表示 → サイドバー → キーワードを表示、またはサイドバー上部のタブ）。ドロップダウンで適用するグループを選ぶとすぐ強調し、下の一覧に語ごとの件数を出します。語をクリックするとその語の次の出現へ移動します（Shift+クリックで前へ）。↑↓・一致行・除外・選択を追加・管理・解除のボタンもあります。\n- 複数のキーワードグループを同時に適用できるようになりました。ドロップダウンでグループ名をクリックするとそのグループだけ、左のチェック欄（またはSpace）で追加・除外できます（開いたまま即反映）。各グループに今の文書での件数を出し、文字を打つとグループを絞り込めます。小窓の「グループ▾」とステータスバーのキーワード表示からも同じドロップダウンを開けます。\n- 小窓で次へ（↓・F8）を押したときに、件数欄の変化で小窓が左に伸び縮みしないようにしました。一瞬で終わる検索では「検索中…」を出しません。\n\n注意: 2つ以上のグループを適用した状態は keywords.toml に配列で保存され、0.1.47以前のWindows版・0.1.48以前のMac版では読めません（1グループなら従来の形式のままです）。キーワードタブを開いていたことは次回起動に引き継ぎません。\nWindows x64/ARM64 beta。Mac版は今回含みません。Mac実機・物理x64・実IME・物理DPIの確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
