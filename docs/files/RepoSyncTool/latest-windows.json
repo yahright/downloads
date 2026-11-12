@@ -1,25 +1,25 @@
 {
-  "version": "0.27.0",
+  "version": "0.27.1",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.27.0",
-  "sourceCommit": "6e37c5aa77ab2e79cca53323e2d5fb00b95ad39c",
-  "publishedAtUtc": "2026-11-11T23:28:41.3103020+00:00",
-  "notes": "# RepoSyncTool 0.27.0 ベータ\n\nIssue・PR管理を追加しました。メイン画面とGit画面の「Issue / PR」から開けます。\n\n- GitHub・Forgejo・GitLab・Giteaの接続、一覧・検索・保存条件、本文と会話、担当・レビュー依頼・CI状態をまとめて確認できます。\n- Issue/PRの作成・編集・コメント、Markdownプレビュー、テンプレート、下書き保存、Draft切替、レビュー送信・会話解決、マージを追加しました。APIの対応範囲はサービスごとに異なります。\n- Issueからbranch/worktreeへ着手し、既存の3方式でPRをレビューできます。ファイルごとの確認済み表示、追加push後のレビュー位置の再指定、明示した関連に基づくIssue終了、変更を保護したworktree片付けに対応しました。\n- 個人ボード、期限、pin/snooze、更新通知、関連・依存、NOTEのMarkdown Issue編集、読み取り専用のAI支援、CLI/MCP・TaCM入口を追加しました。\n- Issue/PR専用SQLiteに下書き・関連・操作結果を保存します。バックアップと取り込み、結果不明時の自動再送防止、リポジトリ改名時の接続維持を備えます。既存Gitジョブのジャーナル保存方式は変更していません。\n- 前回公開後の改善（表示中ブランチに合わせた左バー、既存ラベルの選択、変更なしHEADのAmend、取り込み状況の詳細下端への移動）も含みます。\n\n関連自動テスト39件、GitHubのM365TestでIssue/PR作成・編集・レビュー・会話解決・マージ・関連Issue終了を確認しました。Windowsの全操作受入、Mac、GitLab/Gitea実サービス、実TaCM配送・実AIセッションは未確認です。Forgejo実機検証は延期しています。P11の全環境受入完了を示すリリースではありません。\n\nWindows 10/11向けのx64・ARM64自己完結型ZIP。未署名ベータです。x64の起動確認はARM64端末のエミュレーションで行います。Mac版の公開は含みません。\n",
+  "releaseTag": "reposynctool-v0.27.1",
+  "sourceCommit": "d45540c478d1661442d6fee3275b02a0e8897de6",
+  "publishedAtUtc": "2026-11-12T01:42:38.4044218+00:00",
+  "notes": "# RepoSyncTool 0.27.1 ベータ\n\nIssue・PR管理の最初の接続登録を分かりやすくしました。\n\n- 接続がない場合、画面中央に使い始め方と「最初の接続先を追加…」を表示します。\n- 接続登録でリポジトリのURLを貼り付けられます。GitHub CLIでログイン済みなら、アカウント名は空欄でも取得します。\n- 入力や認証に問題があった場合は、登録画面を閉じずに理由を表示します。入力し直しを減らし、同じ画面で再試行できます。\n- 登録後は追加した接続先を自動選択して一覧を取得します。初回は「すべて」の状態で表示するので、未完了が0件でも完了済みの項目を確認できます。\n- 一覧が空の場合は「未取得」と「条件に一致する項目なし」を区別して次の操作を案内します。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.0の未受入項目（Mac、他サービス等）は引き続き残ります。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.0/RepoSyncTool-0.27.0-win-x64-portable.zip",
-      "sha256": "424accfaa475a114f61face11f7e53f50aa9734ce3b50294e1cdd113973c5fbb",
-      "size": 53072375,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.1/RepoSyncTool-0.27.1-win-x64-portable.zip",
+      "sha256": "0fc8bf9a95718e1ee6791a9ed46508233164f0cb484005e28e9bc8c8ef9741a8",
+      "size": 53077534,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.0/RepoSyncTool-0.27.0-win-arm64-portable.zip",
-      "sha256": "859cc089b3a10986625f24b4046b91babe89d8e4a622ec116b0c7f9e7d8be61b",
-      "size": 50676574,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.1/RepoSyncTool-0.27.1-win-arm64-portable.zip",
+      "sha256": "97bbc8e4e765c2e5784b0825b9cfe3a01b91c2be7b4b1d046f4dc0cccfca869f",
+      "size": 50681762,
       "signed": false
     }
   ]
