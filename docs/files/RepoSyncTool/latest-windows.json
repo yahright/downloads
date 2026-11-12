@@ -1,26 +1,26 @@
 {
-  "version": "0.27.1",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.27.1",
-  "sourceCommit": "d45540c478d1661442d6fee3275b02a0e8897de6",
-  "publishedAtUtc": "2026-11-12T01:42:38.4044218+00:00",
-  "notes": "# RepoSyncTool 0.27.1 ベータ\n\nIssue・PR管理の最初の接続登録を分かりやすくしました。\n\n- 接続がない場合、画面中央に使い始め方と「最初の接続先を追加…」を表示します。\n- 接続登録でリポジトリのURLを貼り付けられます。GitHub CLIでログイン済みなら、アカウント名は空欄でも取得します。\n- 入力や認証に問題があった場合は、登録画面を閉じずに理由を表示します。入力し直しを減らし、同じ画面で再試行できます。\n- 登録後は追加した接続先を自動選択して一覧を取得します。初回は「すべて」の状態で表示するので、未完了が0件でも完了済みの項目を確認できます。\n- 一覧が空の場合は「未取得」と「条件に一致する項目なし」を区別して次の操作を案内します。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.0の未受入項目（Mac、他サービス等）は引き続き残ります。\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.1/RepoSyncTool-0.27.1-win-x64-portable.zip",
-      "sha256": "0fc8bf9a95718e1ee6791a9ed46508233164f0cb484005e28e9bc8c8ef9741a8",
-      "size": 53077534,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.27.1/RepoSyncTool-0.27.1-win-arm64-portable.zip",
-      "sha256": "97bbc8e4e765c2e5784b0825b9cfe3a01b91c2be7b4b1d046f4dc0cccfca869f",
-      "size": 50681762,
-      "signed": false
-    }
-  ]
+    "version":  "0.28.0",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.28.0",
+    "sourceCommit":  "91c8ab0d4cf7c16ed176f88fb52cb41c36bbc3b1",
+    "publishedAtUtc":  "2026-11-12T04:48:26.7953964+00:00",
+    "notes":  "# RepoSyncTool 0.28.0 ベータ\n\nIssue・PR画面を整理し、Git画面の左バーと履歴の表示を改善しました。\n\n- Issue・PR画面: 約40個並んでいたボタンを整理しました。上段は種類（Issue／Pull Request）・接続先・状態・検索（Enter）と「更新」「＋ 新規作成」、そのほかの設定は「⋯」にまとめました。左は絞り込みの一覧、一覧の下に件数とページ送り、詳細は状態のバッジと種類ごとの主な操作（Issue: コメント・着手・編集、PR: レビュー・レビュー送信・マージ・コメント）だけをボタンにし、残りは「⋯」から選びます。一覧に状態のバッジ、PRのCI結果、更新からの経過時間を表示します。★や「後で見る」の後も選んでいる項目は開いたままです。\n- Git画面: リポジトリを開いた直後に左バーの「履歴」を押しても履歴が出ず、ほかの表示に切り替えてから戻る必要があった問題を直しました。読み込みが終わり次第、履歴を表示します。\n- 左バー: 「表示:」でローカル・リモート・タグに加えて、スタッシュ・Worktree・サブモジュール・サブツリーも表示／非表示を切り替えられます。選択は次回も覚えています。\n- 左バー: ブランチ・タグの行の右端（「表示中」「チェックアウト中」の後）に最終コミットの日時を薄く短く表示します（今日は時刻、今年は月/日、それより前は年/月）。正確な日時はマウスを乗せると出ます。不要なら絞り込みメニューの「ブランチ・タグの最終コミット日時を表示」を外します。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.xの未受入項目（Mac、他サービス等）は引き続き残ります。\n",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.0/RepoSyncTool-0.28.0-win-x64-portable.zip",
+                          "sha256":  "5ae4fbb21c9a207c8434b6935458c2ca7be9b7fc6801020d505d6a91d98b47c3",
+                          "size":  51508736,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.0/RepoSyncTool-0.28.0-win-arm64-portable.zip",
+                          "sha256":  "45e0d1ec85e9ed21e857db8b9c1a3ca88f04ccff64e7438ca24d29095dfc03b3",
+                          "size":  49227623,
+                          "signed":  false
+                      }
+                  ]
 }
