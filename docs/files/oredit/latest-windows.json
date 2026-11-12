@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.45",
+  "version": "0.1.46",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "51df1f8659fe8e54443215bb5d714869cb50af64",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.45",
-  "published_at": "2026-11-12T01:39:10.835325+00:00",
+  "source_sha": "244f4876115e68fdf5efab354562331ff6af8918",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.46",
+  "published_at": "2026-11-12T07:01:19.750983+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.45/oredit-0.1.45-windows-x64.zip",
-      "sha256": "41b4fc1a6fe22d0356f4619db9461c71bed67850d689b55abc56add0de8438cb",
-      "bytes": 5512578
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.46/oredit-0.1.46-windows-x64.zip",
+      "sha256": "060f3dbef5fef2490e5ecd5e6e44f3776544e00258614a9f0073bbbcb564a289",
+      "bytes": 5515833
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.45/oredit-0.1.45-windows-arm64.zip",
-      "sha256": "b52e7a5e1a1571b945ecb0e9f992b8b72c0f359fdd1933b07970e8dc89748146",
-      "bytes": 4856718
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.46/oredit-0.1.46-windows-arm64.zip",
+      "sha256": "b77001ce90878c93506a4402902701dcb9ad9242654cc03a59c08de2a47eb00b",
+      "bytes": 4859288
     }
   ],
-  "notes": "oredit 0.1.45 Windows beta\n\n- 登録キーワードを強調・前後移動・一致行だけ表示・一致行の除外に共通利用できます。「検索 → キーワード」から操作します。\n- キーワードのTOMLインポート／エクスポートを追加しました。同名で異なるグループは別名で追加し、既存登録を保持します。\n- Shift_JISの日本語キーワードに対応。フィルタ中の行内編集・貼り付け・Undoと、非表示行を含む全文保存を確認しました。\n- フィルタ結果の描画への反映と、貼り付け時のフィルタ維持を修正しました。\n\n制約: 前のキーワードへの移動は先頭から走査します。10GiB合成入力で末尾からの前移動は約34～37秒、行フィルタは約98～118秒です（Windows ARM64 VM）。取消可能です。\nWindows x64/ARM64 beta。Mac実機・物理x64・実IME・物理DPIの確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.46 Windows beta\n\n- 検索・インクリメンタル検索で一致がある行の行番号を、検索一致色の帯・左端の印・太字で強調します。Grep結果から移動したファイルでは、そのファイルのGrepヒット行も強調します（編集すると行がずれるため、Grep分の強調は外れます）。色は配色の「検索一致行の行番号」で変更できます。\n- 検索画面をEscで閉じても一致の強調は残ります。閉じた後に本文でもう一度Escを押すと、本文と行番号の強調を消せます。次の検索・F3・Grepからの移動で再表示されます。\n- ミニマップの背景・境界線・文字を濃くし、表示範囲を枠線付きで示すようにして見やすくしました。\n\nWindows x64/ARM64 beta。Mac版は今回含みません。Mac実機・物理x64・実IME・物理DPIの確認は継続しています。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
