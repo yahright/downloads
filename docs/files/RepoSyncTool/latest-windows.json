@@ -1,25 +1,25 @@
 {
-    "version":  "0.28.1",
+    "version":  "0.28.3",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.28.1",
-    "sourceCommit":  "c2774d2f628c705afbb1ca86ce20d14173b2b5ed",
-    "publishedAtUtc":  "2026-11-12T07:53:55.0895130+00:00",
-    "notes":  "# RepoSyncTool 0.28.1 ベータ\n\nAmend（直前のコミットの修正）で、コミットのファイルを直接編集できるようにしました。\n\n- Amend: 「直前のコミットを修正 (Amend)」をONにして「ステージ済み・Amend 後」のファイルを選ぶと、左に HEAD~1 の版、右に作業ファイルを並べて開きます（TortoiseGit の Amend Last Commit と同じ）。右はその場で編集でき、→ で HEAD~1 の行に戻せます。保存（Ctrl+S）するとファイルに書き込み、同時に stage するので、そのまま「Amend」で編集がコミットに入ります。未ステージの変更が別にあるファイルは混ざらないよう閲覧用で開き、「作業ツリーと比較して編集」で編集できます（この場合は自動で stage しません）。\n- Amend: 外部 Diff（ファイル一覧の右クリック・差分の ⚙）は、Amend 中のファイルを HEAD~1 と作業ファイルの比較で開きます。ツールの右は作業ファイルそのものなので、ツールで保存すれば編集になります。保存後は「未ステージ」に出るので、stage してから Amend してください。\n- 差分の上の情報バーの左に、比べている版（HEAD~1・コミット）の名前を表示します（作業ツリーとの比較でも「ステージ済み（インデックス）」と出ていました）。\n- 変更ファイルの一覧: 右クリックメニューに行のツールチップが重なって項目を選べなかった問題を直しました。行のツールチップは出しません（文字コードに問題がある行の印と注釈の印だけ、印の上で説明が出ます）。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.x・0.28.0 の未受入項目（Mac、実画面確認など）は引き続き残ります。\n",
+    "releaseTag":  "reposynctool-v0.28.3",
+    "sourceCommit":  "7dca2b3076c7352798335cfbe438bbfd825fa705",
+    "publishedAtUtc":  "2026-11-13T03:02:27.9198279+00:00",
+    "notes":  "# RepoSyncTool 0.28.3 ベータ\n\nAmend の外部ツール編集と、ファイル一覧・ツリーの操作の不具合を直しました。0.28.2 は macOS だけの版（Windows 0.28.1 と同じ内容）です。\n\n- Amend: 外部 Diff（HEAD~1 と作業ファイルの比較）で編集・保存した内容が、「更新」すると元のままに見え、Amend にも入らなかった問題を直しました。そのファイルに別の未ステージの変更が無ければ、ツールで保存した内容は「更新」したとき（押さずに「Amend」したときはその直前）に自動で stage され、Amend 後のコミットに入ります。ツールを開いたまま保存し直しても同じです。別の未ステージの変更があるファイルは、混ざらないよう自動では stage しません（開いたときにその旨を表示します）。\n- Amend: 「ステージ済み・Amend 後」のファイルを編集用に開いているとき、F7（末尾で2回）・F8 で次のファイルへ進まず、一覧の先頭のファイルに戻っていた問題を直しました。\n- 履歴: コミットのファイル一覧が多く、横スクロールバーが出ているとき、一番下のファイルがバーの下に隠れて選べなかった問題を直しました。\n- 左バーの Explorer タブ: フォルダの ▸ / ▾ をクリックしても開閉しなかった（ダブルクリックでだけ開閉した）問題を直しました。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.x〜0.28.1 の未受入項目（実画面確認など）は引き続き残ります。\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.1/RepoSyncTool-0.28.1-win-x64-portable.zip",
-                          "sha256":  "c5f7352d8af79761f5d7c53d04633719a6f2be197fde817dc44b53a334317ffa",
-                          "size":  51511182,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.3/RepoSyncTool-0.28.3-win-x64-portable.zip",
+                          "sha256":  "0e7900b8ce754d71b469b2370a5a1ac577038ba77c98ff42e0fd5aa299e2843a",
+                          "size":  51512877,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.1/RepoSyncTool-0.28.1-win-arm64-portable.zip",
-                          "sha256":  "9e5009e8c693b3d604b6110bdd9477f6d99f5b046ded3b1128a32dfdf7ac1dec",
-                          "size":  49230071,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.3/RepoSyncTool-0.28.3-win-arm64-portable.zip",
+                          "sha256":  "1128954f93ca1e7a0a02119a47cad56c1c34879ad712f173d2017155729bdf92",
+                          "size":  49231765,
                           "signed":  false
                       }
                   ]
