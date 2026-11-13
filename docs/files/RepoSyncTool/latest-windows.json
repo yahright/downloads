@@ -1,25 +1,25 @@
 {
-    "version":  "0.28.3",
+    "version":  "0.28.4",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.28.3",
-    "sourceCommit":  "7dca2b3076c7352798335cfbe438bbfd825fa705",
-    "publishedAtUtc":  "2026-11-13T03:02:27.9198279+00:00",
-    "notes":  "# RepoSyncTool 0.28.3 ベータ\n\nAmend の外部ツール編集と、ファイル一覧・ツリーの操作の不具合を直しました。0.28.2 は macOS だけの版（Windows 0.28.1 と同じ内容）です。\n\n- Amend: 外部 Diff（HEAD~1 と作業ファイルの比較）で編集・保存した内容が、「更新」すると元のままに見え、Amend にも入らなかった問題を直しました。そのファイルに別の未ステージの変更が無ければ、ツールで保存した内容は「更新」したとき（押さずに「Amend」したときはその直前）に自動で stage され、Amend 後のコミットに入ります。ツールを開いたまま保存し直しても同じです。別の未ステージの変更があるファイルは、混ざらないよう自動では stage しません（開いたときにその旨を表示します）。\n- Amend: 「ステージ済み・Amend 後」のファイルを編集用に開いているとき、F7（末尾で2回）・F8 で次のファイルへ進まず、一覧の先頭のファイルに戻っていた問題を直しました。\n- 履歴: コミットのファイル一覧が多く、横スクロールバーが出ているとき、一番下のファイルがバーの下に隠れて選べなかった問題を直しました。\n- 左バーの Explorer タブ: フォルダの ▸ / ▾ をクリックしても開閉しなかった（ダブルクリックでだけ開閉した）問題を直しました。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.x〜0.28.1 の未受入項目（実画面確認など）は引き続き残ります。\n",
+    "releaseTag":  "reposynctool-v0.28.4",
+    "sourceCommit":  "fe3178edc3c32397d498db827c55dfd9cd7d0e2f",
+    "publishedAtUtc":  "2026-11-13T06:59:09.2553225+00:00",
+    "notes":  "# RepoSyncTool 0.28.4 ベータ\n\npush 後のリモートブランチの表示、ブランチの Web ページ、Markdown の整形表示を追加しました。\n\n- 履歴: 選んだブランチだけを表示しているとき、push で作られた・進んだリモートブランチ（origin/xxx）がラベルにも左バーにも出ず、選び直すまで見えなかった問題を直しました。push が成功すると、そのリモートブランチが表示中のブランチに加わります（ドライランとリモート非表示のときは加えません）。\n- 左バー: ブランチの右クリックに「ブラウザでブランチを開く」「ブランチの URL をコピー」を追加しました。リモートの URL（https・ssh）から GitHub・GitLab・Gitea / Forgejo / Codeberg・Bitbucket のブランチのページを作ります。ローカルブランチは追跡先のページを開きます。ブラウザは OS の既定のブラウザです（別のブラウザで開くときは URL をコピーしてください）。\n- 差分: .md ファイルを選ぶとヘッダーに「Markdown」が出ます。ON にすると変更前・変更後を整形して並べて表示します（「変更後だけ」も可）。作業ツリー・ステージ済み・Amend・コミットのファイルで使えます。画像は表示せず「[画像]」と表示します。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.x〜0.28.3 の未受入項目（実画面確認など）は引き続き残ります。\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.3/RepoSyncTool-0.28.3-win-x64-portable.zip",
-                          "sha256":  "0e7900b8ce754d71b469b2370a5a1ac577038ba77c98ff42e0fd5aa299e2843a",
-                          "size":  51512877,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.4/RepoSyncTool-0.28.4-win-x64-portable.zip",
+                          "sha256":  "15261f0e79b17d09a12c3fdee4aff97433c198f09f2481aabf0db4ce7cc77de9",
+                          "size":  51517970,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.3/RepoSyncTool-0.28.3-win-arm64-portable.zip",
-                          "sha256":  "1128954f93ca1e7a0a02119a47cad56c1c34879ad712f173d2017155729bdf92",
-                          "size":  49231765,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.28.4/RepoSyncTool-0.28.4-win-arm64-portable.zip",
+                          "sha256":  "9ced8f57e61b3c2904ccb49860460b6a4ff40f4d3de15d230c0006a5e7a16a22",
+                          "size":  49236836,
                           "signed":  false
                       }
                   ]
