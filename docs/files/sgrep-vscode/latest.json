@@ -1,24 +1,24 @@
 {
-  "version": "0.0.38",
-  "tag": "sgrep-vscode-v0.0.38",
-  "releaseDateUtc": "2026-11-10T07:04:22Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-vscode-v0.0.38",
+  "version": "0.0.39",
+  "tag": "sgrep-vscode-v0.0.39",
+  "releaseDateUtc": "2026-11-13T00:58:30Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sgrep-vscode-v0.0.39",
   "downloads": [
     {
       "product": "Sgrep for VS Code",
       "platform": "multi",
       "kind": "vscode-vsix",
-      "size": 14333609,
-      "sha256": "6c54c64d79ed90ee16f727a0c2f60c7fdec399eb7287d64db9e9661c7c51f455",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.38/sgrep-vscode-0.0.38.vsix"
+      "size": 14734745,
+      "sha256": "3166ffec6927a2c714c50e40cf63625cfb7457a8dbcfd7f97f2df6b4c4df3f0d",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.39/sgrep-vscode-0.0.39.vsix"
     },
     {
       "product": "Sgrep for VS Code",
       "platform": "multi",
       "kind": "vscode-vsix-zip",
-      "size": 14317468,
-      "sha256": "9e1dc5f2ed839c527b98809f3486cc80a3eb18f68c778d7ca71fd9ad92bd2278",
-      "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.38/sgrep-vscode-0.0.38.zip"
+      "size": 14721310,
+      "sha256": "dbe964ce61cee06b31cb841bbd805ebd524831ff759f3b551312ced438fd18f9",
+      "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.39/sgrep-vscode-0.0.39.zip"
     }
   ]
 }
