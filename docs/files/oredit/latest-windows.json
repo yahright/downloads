@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.50",
+  "version": "0.1.51",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "1f0afb51062bd02614c7ea63ccaa5bf23f95b4f9",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.50",
-  "published_at": "2026-11-13T07:37:31.759876+00:00",
+  "source_sha": "4184569c57fbd450e69f0c04e844c0de69bc1bbb",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.51",
+  "published_at": "2026-11-15T22:26:02.221242+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.50/oredit-0.1.50-windows-x64.zip",
-      "sha256": "bcd7833167b62bb2a4d8a7588effafed43deff6112be18de547b4bd5e459ed89",
-      "bytes": 5569438
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.51/oredit-0.1.51-windows-x64.zip",
+      "sha256": "2b1edcbbeb0401fa211a6fb23702d981d899d5db33e13591a360a93a21a68c39",
+      "bytes": 5570901
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.50/oredit-0.1.50-windows-arm64.zip",
-      "sha256": "5a66d5605b103c9a9fa330a3d7ee2c971db89082113c4e66e76a45e89d01fa1c",
-      "bytes": 4907320
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.51/oredit-0.1.51-windows-arm64.zip",
+      "sha256": "0822d713e218fb0b416554db3b619ad20c5b9b298e87a96490c25094d3c7f6e2",
+      "bytes": 4911799
     }
   ],
-  "notes": "oredit 0.1.50 Windows beta\n\n- Ctrl+P または「検索 → ツリーのファイルへ移動…」で、左バーの対象フォルダからファイル名・相対パスを入力して絞り込めます。Enterで開き、Escで取り消します。候補を選んだだけではファイルを開きません。\n- 取得済みの候補をすぐ表示し、未取得分は背景で列挙します。大量のファイルでも待ち続けないよう、候補4096件・訪問20000項目・500ms等で打ち切り、「一部まで」と表示します。未取得ファイルは検索できないため、その場合は左バーの「フォルダ」で対象を狭めてください。\n- 通常テキストの縦スクロールで、タッチパッドなどの小さい入力をためずに反映し、行の途中でも細かく移動できるようにしました。選択・キャレットの座標と、折返し・EOFの表示を合わせています。長い行の末尾で、微小入力を逆方向へ戻した際の位置ずれも修正しました。\n\nWindows x64/ARM64 beta。Macの変更はソースへ統合していますが、今回の公開物はWindows版です。物理タッチパッドの体感・実IME・物理DPI・低速networkの確認は継続中です。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.51 Windows beta\n\n- chore: bump version to 0.1.51\n- feat(view,app): Markdown Live keeps a provisional formatted display while an edit is reparsed\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
