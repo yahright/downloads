@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "channel": "beta",
+  "sourceRevision": "f393893a556f5b36e2c30e3e8d0c13722c14db05",
+  "publishedAt": "2026-11-15T23:35:59.9598236Z",
+  "packages": [
+    {
+      "runtime": "win-x64",
+      "url": "https://github.com/yahright/downloads/releases/download/office-ai-mcp-v0.1.0/office-ai-mcp-0.1.0-win-x64-portable.zip",
+      "sha256": "7d2be56ea0d1bfa264611f9e79d83e3a7be26d242cb7ee3955a08ead2fb5f7ea",
+      "size": 49295920
+    },
+    {
+      "runtime": "win-arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/office-ai-mcp-v0.1.0/office-ai-mcp-0.1.0-win-arm64-portable.zip",
+      "sha256": "f0c1d116dbd434533ed40cffb24be611215b544a2a578163dc2a1082aca42636",
+      "size": 47392761
+    }
+  ]
+}
