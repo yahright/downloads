@@ -1,25 +1,25 @@
 {
-  "version": "0.29.2",
+  "version": "0.29.3",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.2",
-  "sourceCommit": "a6d89667b16910aac4050619dde20d645d554782",
-  "publishedAtUtc": "2026-11-16T05:07:11.8970555+00:00",
-  "notes": "# RepoSyncTool 0.29.2 ベータ\n\nGit操作後の状態表示、長い差分の閲覧、履歴のSHAコピーとGrep検索を改善しました。\n\n- ブランチ作成とチェックアウトでエラーが起きたとき、実際の作成状態・切り替え結果・現在のチェックアウト先を表示します。切り替えを拒否されて未作成の場合と、チェックアウト後のフックが失敗して作成・切り替え済みの場合を区別します。\n- ファイルをRevertした直後に、履歴の「未コミットの変更」のファイル一覧・件数・差分を自動更新します。最後の変更を戻したときは詳細表示をクリアします。\n- 大きい差分ビューで長い行を横にスクロールできます。1列表示のバーを自動非表示にせず、上下表示でも横スクロールを有効にしました。保存済みのウィンドウサイズが画面より大きい場合は、下端のバーが画面内に収まるよう補正します。\n- 履歴で選択したコミットの完全なSHAをCtrl+Cでコピーできます。複数選択時は履歴の表示順に改行区切りでコピーします。「未コミットの変更」はコピー対象に含めません。SHAのコピーメニューにもショートカットを表示します。\n- Grepの履歴検索は既定で文字列の追加・削除を探す方式に変更しました。検索の打ち直し・中止で前の検索を停止し、検索がほかのGit操作を待たせないようにしました。smart caseに対応し、検索開始前のGit呼び出しも削減しました。\n\n0.29.1までのファイル・フォルダ用ツール設定、休眠リポジトリ、履歴のメモ列なども含みます。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。今回の配布対象はWindowsです。\n",
+  "releaseTag": "reposynctool-v0.29.3",
+  "sourceCommit": "6243dc99be27385448c3615f976a9b80a3cb60d1",
+  "publishedAtUtc": "2026-11-16T08:52:40.7207156+00:00",
+  "notes": "# RepoSyncTool 0.29.3 ベータ\n\n復旧用の参照が増え続ける問題と、未コミット変更があるとstashを適用できない問題を修正しました。\n\n- チェリーピックやRewordなどで操作ごとに作られていた復旧参照を、1本の内部復旧ログへ集約しました。既存の自動生成参照も次の復旧保存時に内容を保って移行します。操作の取り消しと古い復旧名によるアプリからの復元を維持し、GitのGCや全参照を含む複製後も復旧データを保持します。\n- 全ブランチを対象にしたGrepの履歴検索から内部復旧領域を除外しました。\n- 無関係な未コミット変更があってもstashを適用できるようにしました。既存のステージ済み・未ステージ・未追跡の変更と、stash内のステージ状態を保持します。stashの対象と重なるステージ済み変更はファイル名を示して拒否します。元のstashは残ります。\n\n0.29.2までのブランチ作成状態の表示、Revert後の自動更新、大きい差分の横スクロール、履歴のCtrl+Cによる完全SHAコピー、Grep高速化も含みます。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。今回の配布対象はWindowsです。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.2/RepoSyncTool-0.29.2-win-x64-portable.zip",
-      "sha256": "935df46ee3e8486693eb2c498397024a2d106e4a4b708ef46e1e0123c401d0d0",
-      "size": 53117598,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.3/RepoSyncTool-0.29.3-win-x64-portable.zip",
+      "sha256": "6bda4b38485a2d8d7ab8bd9d9c9e6fd9c0ce19f3c9ee6e31ada9e385144b92a8",
+      "size": 53122002,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.2/RepoSyncTool-0.29.2-win-arm64-portable.zip",
-      "sha256": "d2d9b5fc6fc27316c5766b3401bc5ec6fb018dc7c00990133a6172ec0c0fac98",
-      "size": 50721812,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.3/RepoSyncTool-0.29.3-win-arm64-portable.zip",
+      "sha256": "b26dccc9d82b63d42b6d26e942d340977c0120d165a0b3391bdb600259202b4d",
+      "size": 50726213,
       "signed": false
     }
   ]
