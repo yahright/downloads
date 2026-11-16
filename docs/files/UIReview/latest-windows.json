@@ -1,0 +1,25 @@
+{
+    "version":  "0.1.0",
+    "channel":  "Beta",
+    "sourceCommit":  "534eb6b1226fe9704243e0a2b699b0eea2bccc7e",
+    "releaseTag":  "ui-review-v0.1.0",
+    "publishedAtUtc":  "2026-11-16T22:16:25Z",
+    "notes":  "# UI Review Kit 0.1.0 Beta\n\nAIエージェントにUIの使い勝手・見た目・違和感をレビューさせるキットの初回配布です。\n\n- Web / iOS / macOS / Windows向けのレビュー手順、共通基準、操作シナリオのテンプレート。\n- Codex / Claude Code / GitHub Copilot向けの入口。\n- Windowsのインストール・更新・アンインストールUI。\n- 既存構成と追加内容の確認、引用符付きパス、固定された結果要約、対象切替時の結果リセット。\n- 編集済みファイルを保持する一部解除と、完了させるための案内。\n\nZIPを新しい空フォルダーへ展開し、`Start-UIReview.cmd`をダブルクリックしてください。\nWindows標準のPowerShell 5.1と.NET Frameworkを使用し、初回に付属ホストをビルドします。Git・SDK・Python・Node.jsは不要です。\n対象リポを選んで導入後、`docs/ui-review/project.md`と`scenarios/`を埋め、対象リポのチャットでUIレビューを依頼してください。\n\nWindows 11 ARM64で画面操作を確認。PowerShell 5.1 / 7で導入・解除の47チェックを確認しています。\n同じ台本の再レビューで5指摘を解消しました。ダーク・他DPI・実IME・他のWindows構成は未確認です。\n未署名のベータ版です。画面操作ツールは別途必要です。自動更新機能はありません。\n\n配布ZIPにはレビューキットとGUIに必要なスクリプト/ソース、利用説明、検証スクリプトを含みます。開発リポの履歴・作業ログ・レビュー証拠は含みません。",
+    "automaticUpdate":  false,
+    "requirements":  [
+                         "Windows PowerShell 5.1",
+                         "Windows Forms / .NET Framework"
+                     ],
+    "testedOn":  [
+                     "Windows 11 ARM64"
+                 ],
+    "downloads":  [
+                      {
+                          "platform":  "windows",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/ui-review-v0.1.0/UIReview-0.1.0-windows-portable.zip",
+                          "sha256":  "63fe19ea6799b8ded001afcb12214ff6c6a2578973f28833bb376684297fad9f",
+                          "size":  49409
+                      }
+                  ]
+}
