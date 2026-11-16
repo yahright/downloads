@@ -1,26 +1,26 @@
 {
-    "version":  "0.29.0",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.29.0",
-    "sourceCommit":  "14cfa2e9bb38de73bcb9a6149449005c8576acc2",
-    "publishedAtUtc":  "2026-11-15T23:51:25.9070855+00:00",
-    "notes":  "# RepoSyncTool 0.29.0 ベータ\n\nリポジトリの「休眠」、履歴のメモ列、起動直後からの一覧の編集、GitHub からのクローン画面の改善を入れました。\n\n- リポジトリ一覧: 使っていないリポジトリを右クリック「休眠にする」で休眠にできます。一覧には「☾ 休眠」として薄く残り、状態確認・Fetch・件数・掃除・定期の自動同期と自動掃除の対象から外れます。「休眠から戻す」で戻すと、すぐに状態を読み直します。これまでの「非表示」は休眠に置き換わり、非表示にしていたリポジトリはそのまま休眠になります。⚙「休眠を一覧に出さない」を ON にすると、休眠のリポジトリは左バーの「休眠」でだけ表示します。\n- リポジトリ一覧: 起動時の状態確認が終わるのを待たずに「＋ 新規」と「－ 外す」を使えるようにしました（Delete キー・右クリック「一覧から外す」・クローンも同じです）。Fetch・Sync は今までどおり確認が終わってから実行できます。\n- リポジトリ一覧: クローン・追加・自動追加のあとは、追加したリポジトリだけを読みます。外したときは行を消すだけです。どちらの場合も、全リポジトリの状態確認はやり直しません。\n- GitHub から探してクローン: 画面がすぐに開くようにしました（どれが登録済みかは裏で調べます）。どの行も同じ高さにし、「登録済み」は名前のすぐ左の欄に出します。行は一行おきに薄い背景と区切り線で区別します。\n- 履歴: 「メモ」列を追加しました。コミットに付けたメモの1行目（対応待ちは [要対応]）か、ファイルやハンクに付いているメモの数を表示します。右クリック「コミットにメモ…」で、選んだコミットにまとめてメモを付けられます。「メモのあるコミットだけを表示」（条件 ▾ からも選べます）で絞り込めます。列が増えたため、保存していた履歴の列幅は一度元に戻ります。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。0.27.x〜0.28.4 の未受入項目（実画面確認など）は引き続き残ります。\n",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.0/RepoSyncTool-0.29.0-win-x64-portable.zip",
-                          "sha256":  "1ea8908ae14473fff48c5a04deab782f49d4c15e9933a7f4e31efe093395cad8",
-                          "size":  51530748,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.0/RepoSyncTool-0.29.0-win-arm64-portable.zip",
-                          "sha256":  "ec1cadeab4610b4eacfca0caba8312e23dd9d3cb1613cfb842581be43b87747c",
-                          "size":  49249634,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.29.1",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.29.1",
+  "sourceCommit": "39f50581ce9bcae3715494ce7616df52ff69616d",
+  "publishedAtUtc": "2026-11-16T09:07:16.6507709+09:00",
+  "notes": "# RepoSyncTool 0.29.1 ベータ\n\nファイルとフォルダを開くツールを、それぞれ設定できるようにしました。\n\n- ⚙ →「エディタ・外部ツール…」（Git画面では「外部ツール（Diff・マージ・エディタ）…」）に「ファイルを開くツール」「フォルダを開くツール」を追加。それぞれ実行ファイルと引数を指定できます。たとえば、ファイルにはサクラエディタ、フォルダには VS Code を指定できます。\n- ファイル用は `$FILE`（ファイル）・`$LINE`（行番号）、フォルダ用は `$FOLDER`（フォルダ）を引数で使えます。\n- これまでのエディタ設定は両方に引き継ぎます。設定を保存した後は独立して変更できます。未指定のファイルはOS既定のアプリ、フォルダはVS Codeの自動検出を使います。\n- 設定画面はサイズ変更とスクロールに対応し、保存・キャンセルを下端に表示します。\n\nClaudeで実装した休眠リポジトリ（I-0378）を含む0.29.0の変更も引き続き収録しています。状態確認中の一覧編集・追加後の全件再確認の抑制・GitHubクローン画面・履歴のメモ列も含みます。Mac自動更新（I-0376）のコードは維持していますが、今回の配布対象はWindowsです。\n\nWindows x64・ARM64向け自己完結型ZIP、未署名ベータです。既存の未受入項目は継続します。\n\n検証: 関連テストと配布ZIPの整合性を確認。全体テストは一部ワーカーのビルドが長時間進まなかったため中断しており、全件成功は未確認です。設定保存・再起動後の実ツール起動とMac実機確認は引き続き残ります。\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.1/RepoSyncTool-0.29.1-win-x64-portable.zip",
+      "sha256": "400087bc42b8c09145e3824c7c5fb7bcff1a2ffe586f028e552115247e73f15a",
+      "size": 53110413,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.1/RepoSyncTool-0.29.1-win-arm64-portable.zip",
+      "sha256": "34070ebe5d0813ab9b5530ca9c15facac41427aadad4c5d1290a52fc8055a7a5",
+      "size": 50714616,
+      "signed": false
+    }
+  ]
 }
