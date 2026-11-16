@@ -1,64 +1,64 @@
 {
   "product": "commitcheck",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "channel": "beta",
-  "sourceCommit": "f0f7e6244db8b2599f49cdf7e18beb4b2d95dcd0",
-  "releaseTag": "commitcheck-v0.2.0",
+  "sourceCommit": "8a67697c410fdad4d931195d39b0a93d91a0d96d",
+  "releaseTag": "commitcheck-v0.3.0",
   "manualUrl": "https://yahright.github.io/downloads/manual/commitcheck/",
   "packages": [
     {
       "os": "darwin",
       "arch": "amd64",
-      "file": "commitcheck-0.2.0-darwin-amd64.tar.gz",
-      "sha256": "278f05668a761989fe7c0615a9c3f2193d493af7186bca9720d556a2b182ce84",
-      "size": 1020640,
-      "binarySha256": "b32aab2d610f016d4a67ca19d22cbf3e174b30b1a36e645b410f21e547f9ab6c",
-      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-darwin-amd64.tar.gz"
+      "file": "commitcheck-0.3.0-darwin-amd64.tar.gz",
+      "sha256": "d98470a286745ff37810caeb39fb2ad7f88b2e16c65c2a721dda558d3148f6f6",
+      "size": 1256852,
+      "binarySha256": "21ac84e7533643a55c1b15603a31cd4114a74b22aa9211684444c1659a68ec1c",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.3.0/commitcheck-0.3.0-darwin-amd64.tar.gz"
     },
     {
       "os": "darwin",
       "arch": "arm64",
-      "file": "commitcheck-0.2.0-darwin-arm64.tar.gz",
-      "sha256": "454d8906218455243b2a6639f7c958847eb524c4c0c3fd3ca227069ed7b3ba26",
-      "size": 949866,
-      "binarySha256": "9f524093a838a60cee2acf43a3c7e7ac7e6918c9890bbf235817e8a878b28006",
-      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-darwin-arm64.tar.gz"
+      "file": "commitcheck-0.3.0-darwin-arm64.tar.gz",
+      "sha256": "6cd48721849f5148ab2f3f0eaff404e00efb541c18c5b7ed03fc58ed3ef8d4c5",
+      "size": 1167282,
+      "binarySha256": "d83b7fd24607ce1dcfe88bdad32797c28bf8e4e95beafe7d836c4a3c59aa58d0",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.3.0/commitcheck-0.3.0-darwin-arm64.tar.gz"
     },
     {
       "os": "linux",
       "arch": "amd64",
-      "file": "commitcheck-0.2.0-linux-amd64.tar.gz",
-      "sha256": "8afeb6dec5f53106db4bb6677d7e09d27735396d663fc7b0998a0835e820d0ee",
-      "size": 1040435,
-      "binarySha256": "8499540ad0cbbb42281ad8c058090cdea317cfffc86e76b7511d20d5d821b875",
-      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-linux-amd64.tar.gz"
+      "file": "commitcheck-0.3.0-linux-amd64.tar.gz",
+      "sha256": "e1d592ba859f60905d4ee1dbd1b2c75293f169122ba027939772d589c67e0511",
+      "size": 1275018,
+      "binarySha256": "5179bc440febf8f96c29f70a828b1c7f7f1ecd411b4bc8d2fa772a7162418f8a",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.3.0/commitcheck-0.3.0-linux-amd64.tar.gz"
     },
     {
       "os": "linux",
       "arch": "arm64",
-      "file": "commitcheck-0.2.0-linux-arm64.tar.gz",
-      "sha256": "c57f2c28c4558355c3ca8f1c7b84910c5cba76b7471ea89159215be58351dd7f",
-      "size": 947896,
-      "binarySha256": "7a2d056962855d52c88bd9d80f877628f5d1c2d5dd6cc0e3daf9932b57211564",
-      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-linux-arm64.tar.gz"
+      "file": "commitcheck-0.3.0-linux-arm64.tar.gz",
+      "sha256": "0c0fc3866b4857b886ae96ae094010f1fd5c734ceef83dcd508bed35f6a96ada",
+      "size": 1160605,
+      "binarySha256": "f5ad8f40f0c9705d0966a00c7910021f57de1e75f68d6482034405c855356c24",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.3.0/commitcheck-0.3.0-linux-arm64.tar.gz"
     },
     {
       "os": "windows",
       "arch": "amd64",
-      "file": "commitcheck-0.2.0-windows-amd64.zip",
-      "sha256": "5afc0b24d4706f75d6df0d4219e19fd5640bb4ea0170114c7e7d2b5f3e50f65a",
-      "size": 1098980,
-      "binarySha256": "331dc7135b1619556e42b1a221d42238631706f52f793bc6d2331f73b6c3cb64",
-      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-windows-amd64.zip"
+      "file": "commitcheck-0.3.0-windows-amd64.zip",
+      "sha256": "4b02f36214e8cb1e4fbcb7d841b701be3562f95bd498558d5449fc9a814e496d",
+      "size": 1332050,
+      "binarySha256": "4cbf32fc5a68ca10f5b38e1814bf3555d1bafa30aee563ed5fb8501389a87676",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.3.0/commitcheck-0.3.0-windows-amd64.zip"
     },
     {
       "os": "windows",
       "arch": "arm64",
-      "file": "commitcheck-0.2.0-windows-arm64.zip",
-      "sha256": "1f8b979ff5e2963c0e831b4b2175019a3c915f1b547549728a67cb2e661525ee",
-      "size": 989804,
-      "binarySha256": "33a5dd2b10486017e0e3acf0b68d87b6ce161695c1a8a7b507f5509a7d024a68",
-      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-windows-arm64.zip"
+      "file": "commitcheck-0.3.0-windows-arm64.zip",
+      "sha256": "86b0084d914cc63837de399b9c0e6721e3d169e5a536ae71240ba8855a2561a9",
+      "size": 1197633,
+      "binarySha256": "f9360b0302a982f38d571688769ec8647b7d467ccfb10b0c98e455a2f560a2dd",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.3.0/commitcheck-0.3.0-windows-arm64.zip"
     }
   ]
 }
