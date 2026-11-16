@@ -1,6 +1,46 @@
 & {
 $ErrorActionPreference = "Stop"
 
+function Set-AppCatShortcutAppId([string]$Path, [string]$AppId) {
+    if (-not ("AppCatShortcutProperties" -as [type])) {
+        Add-Type -TypeDefinition @'
+using System;
+using System.Runtime.InteropServices;
+public static class AppCatShortcutProperties {
+    [StructLayout(LayoutKind.Sequential, Pack=4)]
+    public struct Key { public Guid Format; public uint Id; }
+    [StructLayout(LayoutKind.Explicit, Size=24)]
+    public struct Value { [FieldOffset(0)] public ushort Type; [FieldOffset(8)] public IntPtr Text; }
+    [ComImport, Guid("886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99"), InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+    public interface Store {
+        [PreserveSig] int GetCount(out uint count);
+        [PreserveSig] int GetAt(uint index, out Key key);
+        [PreserveSig] int GetValue(ref Key key, out Value value);
+        [PreserveSig] int SetValue(ref Key key, ref Value value);
+        [PreserveSig] int Commit();
+    }
+    [DllImport("shell32.dll", CharSet=CharSet.Unicode, PreserveSig=false)]
+    static extern void SHGetPropertyStoreFromParsingName(string path, IntPtr bind, uint flags, ref Guid id, out Store store);
+    public static void Set(string path, string appId) {
+        Guid id = typeof(Store).GUID;
+        Store store;
+        SHGetPropertyStoreFromParsingName(path, IntPtr.Zero, 2, ref id, out store);
+        var key = new Key { Format = new Guid("9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3"), Id = 5 };
+        var value = new Value { Type = 31, Text = Marshal.StringToCoTaskMemUni(appId) };
+        try {
+            Marshal.ThrowExceptionForHR(store.SetValue(ref key, ref value));
+            Marshal.ThrowExceptionForHR(store.Commit());
+        } finally {
+            Marshal.FreeCoTaskMem(value.Text);
+            Marshal.FinalReleaseComObject(store);
+        }
+    }
+}
+'@
+    }
+    [AppCatShortcutProperties]::Set([IO.Path]::GetFullPath($Path), $AppId)
+}
+
 if (-not $IsWindows -and $PSVersionTable.PSEdition -eq "Core") {
     throw "このインストーラーは Windows 専用です。"
 }
@@ -9,7 +49,7 @@ $versionUrl = if ($env:APPCAT_VERSION_URL) {
     $env:APPCAT_VERSION_URL
 }
 else {
-    "https://raw.githubusercontent.com/yahright/downloads/main/appcat/version.txt"
+    "https://raw.githubusercontent.com/yahright/downloads/main/appcat/version-windows.txt"
 }
 $installDir = if ($env:APPCAT_INSTALL_DIR) {
     [System.IO.Path]::GetFullPath($env:APPCAT_INSTALL_DIR)
@@ -83,6 +123,43 @@ try {
     }
     Remove-Item -LiteralPath $oldTarget -Force -ErrorAction SilentlyContinue
 
+    # クリックで画面が開くランチャー。macOS の AppCat.app と対になるもの。
+    # 本体と同じフォルダに置く（ランチャーは隣の appcat.exe を探す）。
+    $launcherSource = Join-Path $expanded "appcat-ui.exe"
+    $launcherTarget = Join-Path $installDir "appcat-ui.exe"
+    if (Test-Path -LiteralPath $launcherSource -PathType Leaf) {
+        $newLauncher = "$launcherTarget.new"
+        Copy-Item -LiteralPath $launcherSource -Destination $newLauncher -Force
+        Move-Item -LiteralPath $newLauncher -Destination $launcherTarget -Force
+    }
+    else {
+        $launcherTarget = $null
+    }
+
+    if ($launcherTarget -and $env:APPCAT_SKIP_SHORTCUT -ne "1") {
+        $programs = Join-Path $env:APPDATA "Microsoft\Windows\Start Menu\Programs"
+        New-Item -ItemType Directory -Force -Path $programs | Out-Null
+        $shortcutPath = Join-Path $programs "AppCat.lnk"
+        $shell = New-Object -ComObject WScript.Shell
+        $shortcut = $shell.CreateShortcut($shortcutPath)
+        $shortcut.TargetPath = $launcherTarget
+        $shortcut.WorkingDirectory = $installDir
+        $shortcut.Description = "AppCat の画面を開く"
+        $shortcut.Save()
+        Set-AppCatShortcutAppId -Path $shortcutPath -AppId "com.yahright.appcat"
+        # Register the toast sender and the activation URI for this user.
+        $appIdKey = "HKCU:\Software\Classes\AppUserModelId\com.yahright.appcat"
+        New-Item -Path $appIdKey -Force | Out-Null
+        New-ItemProperty -Path $appIdKey -Name "DisplayName" -Value "AppCat" -PropertyType String -Force | Out-Null
+        New-ItemProperty -Path $appIdKey -Name "IconUri" -Value $launcherTarget -PropertyType String -Force | Out-Null
+        $protocolKey = "HKCU:\Software\Classes\appcat"
+        New-Item -Path "$protocolKey\shell\open\command" -Force | Out-Null
+        Set-Item -Path $protocolKey -Value "URL:AppCat"
+        New-ItemProperty -Path $protocolKey -Name "URL Protocol" -Value "" -PropertyType String -Force | Out-Null
+        Set-Item -Path "$protocolKey\shell\open\command" -Value ('"' + $launcherTarget + '" "%1"')
+        Write-Host "スタートメニューに登録しました: $shortcutPath"
+    }
+
     if ($env:APPCAT_SKIP_PATH -ne "1") {
         $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
         $entries = @($userPath -split ";" | Where-Object { $_.Trim() })
@@ -102,8 +179,11 @@ try {
 
     & $target --version
     Write-Host "AppCat をインストールしました: $target" -ForegroundColor Green
+    if ($launcherTarget) {
+        Write-Host "スタートメニューの AppCat を開くと、画面が既定のブラウザで開きます。"
+    }
     if ($env:APPCAT_SKIP_PATH -ne "1") {
-        Write-Host "新しいターミナルを開き、appcat ui を実行してください。"
+        Write-Host "ターミナルから使う場合は、新しいターミナルで appcat ui を実行してください。"
     }
 }
 finally {

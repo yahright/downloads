@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "version": "0.1.4",
+  "released_at": "2026-11-16T22:35:12Z",
+  "release_tag": "appcat-v0.1.4",
+  "source_commit": "24615319ef5801e8a08c5a4f168e36b51f88183a",
+  "artifacts": [
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.4/appcat-0.1.4-windows-amd64.zip",
+      "sha256": "7e376aed20a559947dc500713da5164ee2e5dd6c7e08b88ead2144886dc76896",
+      "size": 4810969
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.4/appcat-0.1.4-windows-arm64.zip",
+      "sha256": "eeee4456dd4d964ae9a4a9ea86e121400a52012df1c88bdb4f6d4b0f52a6b712",
+      "size": 4311237
+    }
+  ],
+  "apps": []
+}
