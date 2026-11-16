@@ -1,0 +1,64 @@
+{
+  "product": "commitcheck",
+  "version": "0.2.0",
+  "channel": "beta",
+  "sourceCommit": "f0f7e6244db8b2599f49cdf7e18beb4b2d95dcd0",
+  "releaseTag": "commitcheck-v0.2.0",
+  "manualUrl": "https://yahright.github.io/downloads/manual/commitcheck/",
+  "packages": [
+    {
+      "os": "darwin",
+      "arch": "amd64",
+      "file": "commitcheck-0.2.0-darwin-amd64.tar.gz",
+      "sha256": "278f05668a761989fe7c0615a9c3f2193d493af7186bca9720d556a2b182ce84",
+      "size": 1020640,
+      "binarySha256": "b32aab2d610f016d4a67ca19d22cbf3e174b30b1a36e645b410f21e547f9ab6c",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-darwin-amd64.tar.gz"
+    },
+    {
+      "os": "darwin",
+      "arch": "arm64",
+      "file": "commitcheck-0.2.0-darwin-arm64.tar.gz",
+      "sha256": "454d8906218455243b2a6639f7c958847eb524c4c0c3fd3ca227069ed7b3ba26",
+      "size": 949866,
+      "binarySha256": "9f524093a838a60cee2acf43a3c7e7ac7e6918c9890bbf235817e8a878b28006",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-darwin-arm64.tar.gz"
+    },
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "file": "commitcheck-0.2.0-linux-amd64.tar.gz",
+      "sha256": "8afeb6dec5f53106db4bb6677d7e09d27735396d663fc7b0998a0835e820d0ee",
+      "size": 1040435,
+      "binarySha256": "8499540ad0cbbb42281ad8c058090cdea317cfffc86e76b7511d20d5d821b875",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-linux-amd64.tar.gz"
+    },
+    {
+      "os": "linux",
+      "arch": "arm64",
+      "file": "commitcheck-0.2.0-linux-arm64.tar.gz",
+      "sha256": "c57f2c28c4558355c3ca8f1c7b84910c5cba76b7471ea89159215be58351dd7f",
+      "size": 947896,
+      "binarySha256": "7a2d056962855d52c88bd9d80f877628f5d1c2d5dd6cc0e3daf9932b57211564",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-linux-arm64.tar.gz"
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "file": "commitcheck-0.2.0-windows-amd64.zip",
+      "sha256": "5afc0b24d4706f75d6df0d4219e19fd5640bb4ea0170114c7e7d2b5f3e50f65a",
+      "size": 1098980,
+      "binarySha256": "331dc7135b1619556e42b1a221d42238631706f52f793bc6d2331f73b6c3cb64",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-windows-amd64.zip"
+    },
+    {
+      "os": "windows",
+      "arch": "arm64",
+      "file": "commitcheck-0.2.0-windows-arm64.zip",
+      "sha256": "1f8b979ff5e2963c0e831b4b2175019a3c915f1b547549728a67cb2e661525ee",
+      "size": 989804,
+      "binarySha256": "33a5dd2b10486017e0e3acf0b68d87b6ce161695c1a8a7b507f5509a7d024a68",
+      "url": "https://github.com/yahright/downloads/releases/download/commitcheck-v0.2.0/commitcheck-0.2.0-windows-arm64.zip"
+    }
+  ]
+}
