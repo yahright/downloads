@@ -3,6 +3,8 @@
 Windows 10 2004 以降 / Windows 11。x64・arm64 の利用者セッションで動作する。
 管理者として起動しない。UAC・ログイン画面・昇格済みアプリは操作対象外。
 
+導入からCopilot接続、MCPを使わないCLI操作までの手順は [インストールと操作の説明書](install-and-use.md) を参照。
+
 ## 導入
 
 ZIP を `C:\Tools\ScreenPort` など書込み可能な固定の場所に展開する。
@@ -29,8 +31,10 @@ Windows ショートカットは `ctrl+s` / `ctrl+a`、Windows キーは `win`�
 
 ```powershell
 .\screenport.exe call list_windows
-.\screenport.exe call ax_tree '{"window":"com.yahright.screenport.fixture"}'
+.\screenport.exe --% call ax_tree "{\"window\":\"com.yahright.screenport.fixture\"}"
 ```
+
+上はWindows PowerShell 5.1でもJSONの引用符を保持する書き方。`call` は毎回別セッションなので、refや対話承認を次の呼出しに引き継がない。修正版0.1.1の単発 `type` / `key` は前面アプリへの明示的なfull事前許可を参照する（公開0.1.0にはこの修正がない）。`unattended`や別アプリの許可だけでは入力できず、秘密欄/宿主/種別/停止の制限も維持する。Windows版CLIは結果全体のJSONを返し、Mac版の `--json` / `--out` は未対応。入力・座標クリック・画像保存の実例は上の説明書を参照。
 
 ## 許可と停止
 
