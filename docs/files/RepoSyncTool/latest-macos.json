@@ -1,0 +1,26 @@
+{
+  "version": "0.29.3",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.29.3",
+  "sourceCommit": "034a4850c00172d119c66224bc19f870dc3d09ce",
+  "publishedAtUtc": "2026-11-16T23:07:23.5570150+00:00",
+  "notes": "# RepoSyncTool 0.29.3 ベータ（macOS）\n\nMac 版は 0.28.2 の次の公開です。Windows 0.28.3〜0.29.3 の変更をすべて含み、Mac でもアプリ内の自動更新が使えるようになりました。各変更の詳細は windows-0.28.3.md〜windows-0.29.3.md を参照してください。\n\n## Mac の自動更新（この版から）\n\n- メニューの「更新を確認…」で新しい Mac 版を確認し、「ダウンロードして更新」で RepoSyncTool.app を入れ替えて再起動します。ダウンロードした ZIP はサイズ・SHA-256 を確かめ、新しい .app の署名が有効で今のアプリと同じ Team ID のときだけ置き換えます。失敗したときは元の .app に戻します。\n- Git Host・CLI・MCP など、同じ .app から動いているプロセスが終わるのを待ってから入れ替えます。\n- 「ZIPから更新…」で、手でダウンロードした Mac 版 ZIP からも更新できます。\n- 自動更新はこの版の配布 ZIP の RepoSyncTool.app から使えます。今までの版（0.28.2 以前、手元でビルドした .app）からは自動更新できないため、**この版だけは手で入れ替えてください**。ダウンロード（App Translocation）のまま起動した .app や、書き込めないフォルダの .app は更新しません。/Applications に置いて起動してください。\n\n## 0.29.3\n\n- 復旧用の参照が増え続ける問題を修正し、1本の内部復旧ログへ集約しました。無関係な未コミット変更があっても stash を適用できるようにしました。\n\n## 0.29.2\n\n- ブランチ作成・チェックアウト失敗時の状態表示、Revert 直後の自動更新、大きい差分の横スクロール、履歴で選んだコミットの完全な SHA を Cmd+C でコピー、Grep の高速化。\n\n## 0.29.1\n\n- ファイルを開くツールとフォルダを開くツールを別々に設定できるようにしました（`$FILE`・`$LINE`・`$FOLDER`）。\n\n## 0.29.0\n\n- リポジトリの「休眠」（旧「非表示」を置き換え）、履歴の「メモ」列とメモのあるコミットだけの表示、状態確認中の一覧編集、追加・外したときに全件を再確認しない、GitHub からのクローン画面の改善。保存していた履歴の列幅は一度元に戻ります。\n\n## 0.28.4\n\n- push で作られたリモートブランチをすぐ表示、左バーのブランチ右クリック「ブラウザでブランチを開く」「ブランチの URL をコピー」、差分の「Markdown」整形表示。\n\n## 0.28.3\n\n- Amend の外部ツール編集が反映されない問題、F7/F8 の移動、履歴のファイル一覧の最下行、Explorer の ▸ / ▾ の開閉を修正しました。\n\nmacOS 14 以降向け Apple Silicon / Intel ZIP は Developer ID 署名・Apple 公証済みです。展開後に RepoSyncTool.app を /Applications に置いて起動してください。Mac での実画面、旧版からの自動更新の実機確認、Intel 実機、最低 OS は未確認です。\n",
+  "downloads": [
+    {
+      "platform": "osx-arm64",
+      "kind": "app-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.3/RepoSyncTool-0.29.3-osx-arm64.zip",
+      "sha256": "0527303756ad6ff57e745ac0c5e8d14da3220c3e03774d6c211bfb807dded3e4",
+      "size": 49350086,
+      "signed": true
+    },
+    {
+      "platform": "osx-x64",
+      "kind": "app-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.3/RepoSyncTool-0.29.3-osx-x64.zip",
+      "sha256": "d823dea20af39d8ef7f7502864696e9ae0bde8c1782ca6ba48a0787412a291f9",
+      "size": 55067457,
+      "signed": true
+    }
+  ]
+}
