@@ -73,9 +73,39 @@ Mac と同じ TLS 1.2 PSK、暗号スイート `PSK-AES128-GCM-SHA256` とペア
 
 `remote pair [label]` / `revoke KEY_ID` / `disable` / `status` / `list` / `remove NAME`。
 `remote enable --bind 127.0.0.1 --port 47800` で折り返し試験もできる。
-必要な通信経路は利用者のネットワーク方針に従って用意する（Firewall を自動変更しない）。
+Firewall は勝手に変更しない。許可ルールは人が設定画面か `firewall allow` で明示的に作る（UAC で管理者の承認が要る）。
 `remote.json` と `remotes.json` は利用者だけにアクセス権を付けて保存する。
 リモートには `unattended` を適用せず、事前許可したアプリ以外は操作される側の人が承認する。
+
+## 設定画面（VM 間で使うときの初期設定）
+
+トレイのメニュー「設定…」か `screenport.exe setup` で開く。
+VM の中に入れて、別の VM の AI から操作する用途を想定している。
+
+操作される側（ScreenPort を入れた VM）は「この PC を操作させる」タブ:
+
+1. 「この PC をリモートから操作できるようにする」をオンにする。
+2. 待受アドレスを選ぶ。Tailscale が無い VM は「アダプター『…』に追従」を選ぶと、DHCP で IP が変わっても同じアダプターで待ち受ける。
+3. 「接続を許す相手」を決める（既定は Tailscale なら `100.64.0.0/10`、それ以外は `LocalSubnet`）。特定の VM だけなら、その IP を書く。
+4. 「保存して適用」。初回は鍵を 1 つ作り、ペアリング文字列を表示する。
+5. 「ファイアウォールで許可する（管理者）」。TCP の待受ポートを `ScreenPortApp.exe` に限って許可する受信ルール `ScreenPort Remote` を作る。
+   Windows の「アクセスを許可しますか」を閉じたときに自動で作られた ScreenPortApp のブロックルールも、ここで消す（ブロックが許可より優先されるため）。
+6. 「コピー」で文字列を写し、操作する側へ渡す。操作する側ごとに「新しい鍵を発行」し、要らなくなったら「取り消し」。
+
+操作する側（AI を動かす VM）は「他の PC を操作する」タブで、名前とペアリング文字列を「登録」→「接続テスト」→「MCP 設定をコピー」。
+コピーされる JSON を AI クライアントの `mcpServers` に貼る。
+
+「全般」タブ: サインイン時の自動起動、人が触ったら止める秒数、承認なしで操作できるアプリ（`grants`）。
+リモートには `unattended` が効かないため、無人で操作させるアプリはここで事前許可する。
+
+同じことは CLI でもできる:
+
+```powershell
+.\screenport.exe remote enable --bind "adapter:イーサネット"
+.\screenport.exe firewall allow --from LocalSubnet   # UAC が出る
+.\screenport.exe firewall status
+.\screenport.exe autostart on
+```
 
 ## 開発
 
