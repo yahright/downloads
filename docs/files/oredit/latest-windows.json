@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.52",
+  "version": "0.1.54",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "b1afbde0b4dadadc906a99aaca0578e26a18e317",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.52",
-  "published_at": "2026-11-16T09:42:44.532559+00:00",
+  "source_sha": "482a3a14b09dc482238ecc21bd7176ec2fada29d",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.54",
+  "published_at": "2026-11-17T00:03:16.382157+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.52/oredit-0.1.52-windows-x64.zip",
-      "sha256": "133d0c3ac81515fc122ec61370d6525e5f8c84adb1609902403b8cfbcf895b4d",
-      "bytes": 5575002
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.54/oredit-0.1.54-windows-x64.zip",
+      "sha256": "907da84550eb15357e7f6f1a4ea13ad0b9b13a9f58b0d035e6fda5510603c16d",
+      "bytes": 5580271
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.52/oredit-0.1.52-windows-arm64.zip",
-      "sha256": "39750b5c1452f2d019f5d455c08de6fc074b46e2fd52ee2415c5dc3d49ee7c49",
-      "bytes": 4918876
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.54/oredit-0.1.54-windows-arm64.zip",
+      "sha256": "ed3aa42c9a91b393c2dc23de196a70ab1b5dd56735fab8d1ad1eccb5d9ed6439",
+      "bytes": 4923193
     }
   ],
-  "notes": "oredit 0.1.52 Windows beta\n\n- 登録キーワードの「一致行」「除外」でスクロールが重くなる問題を改善しました。同じ範囲の読み直しを減らし、準備済みの行を再利用します。先読みの完了で表示位置が戻ることも防ぎます。\n- ファイルを更新して再読込しても、登録キーワードの一致行／除外条件を維持し、新しい本文へ自動で再適用します。読込中に明示的に解除した条件は復活させません。\n- Markdownライブ編集で、ドラッグ選択後の削除やBackspaceを繰り返すと「edit splits a UTF-8 character」が出て編集できなくなる問題を修正しました。\n\nWindows x64/ARM64 betaです。Mac版は今回のリリースに含みません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.54 Windows beta\n\n- キーワード管理の「一括追加…」から、1行1語のキーワードをまとめて貼り付けて登録できます。選択中のグループへ追加し、既存のキーワードや設定は保持します。\n- 空行と同じグループ内の重複語はスキップし、追加・重複・空行の件数を表示します。前後の半角空白・タブを除いて取り込みます。\n- 入力の誤りや上限超過がある場合は一括追加全体を取り消し、入力を残して修正できます。管理画面で「保存」するまで設定ファイルは変更しません。\n\nWindows x64/ARM64 betaです。キーワード一括追加のMac画面は今回のリリースに含みません。\n\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
