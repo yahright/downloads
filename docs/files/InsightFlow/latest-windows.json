@@ -1,9 +1,14 @@
 {
-  "version": "0.10.49",
+  "version": "0.10.50",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Windows 0.10.47からの主な変更:\n- Program Filesなどの保護された場所へのコピーで、必要に応じてWindowsのUACを表示し、承認後はそのコピー操作だけ管理者権限で実行します。標準コピーとSCOPYの両方に対応します。\n- UACを取り消した場合はコピーをキャンセルし、失敗した処理を成功扱いにしないようにしました。本体の管理者再起動や、コピー先フォルダーのアクセス権の永続変更は行いません。移動・削除の昇格は対象外です。\n- ディスク使用量のスキャン中に件数・容量・経過時間・現在の場所を表示し、ファイル一覧を横スクロールできるようにしました。\n- フォルダー移動とGitウィンドウの応答性を改善しました。",
+  "notes": "Windows 0.10.49からの変更:\n- 標準エンジンの完全削除で、独立したローカルファイルを最大4件同時に処理するようにしました。1件ずつ完了を待っていた処理の待ち時間を重ねます。\n- フォルダー、重複したパス、リンク、ネットワーク上の項目などを含む選択は、従来の順次処理を維持します。\n- 個別の失敗と進捗はジョブへ記録します。キャンセルすると新しい削除を始めませんが、すでに始まった最大4件の削除は完了する場合があります。",
   "notesHistory": [
+    {
+      "version": "0.10.50",
+      "notes": "Windows 0.10.49からの変更:\n- 標準エンジンの完全削除で、独立したローカルファイルを最大4件同時に処理するようにしました。1件ずつ完了を待っていた処理の待ち時間を重ねます。\n- フォルダー、重複したパス、リンク、ネットワーク上の項目などを含む選択は、従来の順次処理を維持します。\n- 個別の失敗と進捗はジョブへ記録します。キャンセルすると新しい削除を始めませんが、すでに始まった最大4件の削除は完了する場合があります。",
+      "publishedAtUtc": "2026-11-17T09:00:19Z"
+    },
     {
       "version": "0.10.49",
       "notes": "Windows 0.10.47からの主な変更:\n- Program Filesなどの保護された場所へのコピーで、必要に応じてWindowsのUACを表示し、承認後はそのコピー操作だけ管理者権限で実行します。標準コピーとSCOPYの両方に対応します。\n- UACを取り消した場合はコピーをキャンセルし、失敗した処理を成功扱いにしないようにしました。本体の管理者再起動や、コピー先フォルダーのアクセス権の永続変更は行いません。移動・削除の昇格は対象外です。\n- ディスク使用量のスキャン中に件数・容量・経過時間・現在の場所を表示し、ファイル一覧を横スクロールできるようにしました。\n- フォルダー移動とGitウィンドウの応答性を改善しました。",
@@ -48,27 +53,22 @@
       "version": "0.10.37",
       "notes": "- docs: record InsightFlow 0.10.36 macOS release\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: correct 0.10.36 notarization record\n- build: update dependencies for 0.10.37",
       "publishedAtUtc": "2026-10-25T21:41:51Z"
-    },
-    {
-      "version": "0.10.32",
-      "notes": "- release(InsightFlow): record macOS 0.10.31 publication\n- Fix quadratic job progress lookup during bulk deletion\n- docs: record bulk deletion fix integration into master",
-      "publishedAtUtc": "2026-10-24T01:09:00Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.49/InsightFlow-0.10.49-win-x64-portable.zip",
-      "sha256": "adc200b3b2875667e9b7b4f83b4fd5290766a5e05f3e8b992a257333e3477d30",
-      "size": 110804250
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.50/InsightFlow-0.10.50-win-x64-portable.zip",
+      "sha256": "8d46a691928fe9302078d3360d2fa215e3d99f61cd4f5ae13287bcbb9330a155",
+      "size": 110806382
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.49/InsightFlow-0.10.49-win-arm64-portable.zip",
-      "sha256": "7b7ad5c9df7b208c6cb775af1267c3a11afbf9ec10c89abd4295482021335453",
-      "size": 107151561
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.50/InsightFlow-0.10.50-win-arm64-portable.zip",
+      "sha256": "0e53ea68ea09f4fe43f390b0f75a85b035afd2a90fa41e5792f785391dacb896",
+      "size": 107153687
     }
   ]
 }
