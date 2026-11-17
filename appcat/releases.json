@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-17T13:11:46.933Z",
+  "generated_at": "2026-11-17T23:01:07.243Z",
   "releases": [
     {
       "tag_name": "appcat-v0.1.7",
@@ -84,6 +84,54 @@
           "name": "appcat-0.1.5-windows-arm64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.1.5/appcat-0.1.5-windows-arm64.zip.sha256",
           "size": 98
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-v0.10.0",
+      "name": "Sgrep / sg 0.10.0",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "Sg-0.10.0-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/Sg-0.10.0-ARM64.zip",
+          "size": 1569932
+        },
+        {
+          "name": "Sg-0.10.0-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/Sg-0.10.0-ARM64.zip.sha256",
+          "size": 87
+        },
+        {
+          "name": "Sg-0.10.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/Sg-0.10.0-x64.zip",
+          "size": 1647564
+        },
+        {
+          "name": "Sg-0.10.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/Sg-0.10.0-x64.zip.sha256",
+          "size": 85
+        },
+        {
+          "name": "SgrepGUI-0.10.0-ARM64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/SgrepGUI-0.10.0-ARM64-portable.zip",
+          "size": 3725397
+        },
+        {
+          "name": "SgrepGUI-0.10.0-ARM64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/SgrepGUI-0.10.0-ARM64-portable.zip.sha256",
+          "size": 102
+        },
+        {
+          "name": "SgrepGUI-0.10.0-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/SgrepGUI-0.10.0-x64-portable.zip",
+          "size": 3361050
+        },
+        {
+          "name": "SgrepGUI-0.10.0-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/SgrepGUI-0.10.0-x64-portable.zip.sha256",
+          "size": 100
         }
       ]
     },
