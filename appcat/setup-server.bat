@@ -62,7 +62,7 @@ function Install-ServerBinary {
         Write-Host '[1/3] AppCat を取得します（GitHubログイン不要）'
         Download-File $manifestUrl $manifestPath
         $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
-        if ($manifest.schema -ne 1 -or $manifest.version -notmatch '^\d+\.\d+\.\d+$' -or [version]$manifest.version -lt [version]'0.1.6') {
+        if ($manifest.schema -ne 1 -or $manifest.version -notmatch '^\d+\.\d+\.\d+$' -or [version]$manifest.version -lt [version]'0.1.7') {
             throw '配布情報が不正、またはサーバー機能に対応していません。'
         }
         $artifacts = @($manifest.artifacts | Where-Object { $_.os -eq 'windows' -and $_.arch -eq $arch })
@@ -138,6 +138,12 @@ try {
     $action = $env:APPCAT_SERVER_ACTION
     if ($action -and $action -notin @('start', 'sync')) { throw 'APPCAT_SERVER_ACTION は start / sync で指定してください。' }
     if (-not (Test-Path -LiteralPath $appcat -PathType Leaf)) { Install-ServerBinary }
+    $installedVersion = (& $appcat --version) -join ''
+    if ($LASTEXITCODE -ne 0 -or $installedVersion -notmatch '^appcat (\d+\.\d+\.\d+)$') { throw 'サーバー本体の起動確認に失敗しました。' }
+    if ([version]$Matches[1] -lt [version]'0.1.7') {
+        Write-Host 'API不要のサーバー本体へ更新します。'
+        Install-ServerBinary
+    }
     Invoke-AppCat -CommandArgs @('--version')
 
     # Keep the downloaded batch in the server folder so the original file can be moved away.
@@ -150,6 +156,22 @@ try {
         [IO.File]::WriteAllText((Join-Path $serverHome "$mode-server.bat"), $wrapper, [Text.Encoding]::ASCII)
     }
 
+    $sourceArgs = @('store', 'source', 'set', 'github', [string]$settings.repository, '--store', $storeDir, '--os', 'windows')
+    $releaseIndex = if ($env:APPCAT_SERVER_RELEASES_URL) { $env:APPCAT_SERVER_RELEASES_URL } elseif ($settings.repository -eq 'yahright/downloads') { 'https://raw.githubusercontent.com/yahright/downloads/main/appcat/releases.json' } else { '' }
+    if ($releaseIndex) {
+        Write-Host '公開一覧ファイルを使います。GitHub API・ログイン・トークンは使いません。'
+        $sourceArgs += @('--releases-url', $releaseIndex)
+    }
+    if (@($settings.apps).Count -gt 0) { $sourceArgs += @('--only', ($settings.apps -join ',')) }
+    if ($env:APPCAT_SERVER_CATALOG_URL) { $sourceArgs += @('--catalog-url', $env:APPCAT_SERVER_CATALOG_URL) }
+    # Only rewrite source settings when they changed, keeping prior sync status on errors.
+    $sourcePath = Join-Path $storeDir 'upstream.json'
+    $source = if (Test-Path -LiteralPath $sourcePath) { Get-Content -LiteralPath $sourcePath -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
+    $expectedCatalog = if ($env:APPCAT_SERVER_CATALOG_URL) { $env:APPCAT_SERVER_CATALOG_URL } else { 'https://raw.githubusercontent.com/yahright/downloads/main/appcat/catalog.json' }
+    if (-not $source -or $source.repository -ne $settings.repository -or $source.os -ne 'windows' -or $source.catalog_url -ne $expectedCatalog -or $source.releases_url -ne $releaseIndex -or (($source.only | Sort-Object) -join ',') -ne (($settings.apps | Sort-Object) -join ',')) {
+        Invoke-AppCat -CommandArgs $sourceArgs
+    }
+
     $catalogPath = Join-Path $storeDir 'catalog.json'
     $hasPackages = $false
     if (Test-Path -LiteralPath $catalogPath) {
@@ -157,16 +179,6 @@ try {
     }
     if (-not $hasPackages -or $action -eq 'sync') {
         Write-Host '[2/3] 公開GitHubから配布物を同期します（初回は数分かかることがあります）'
-        $sourceArgs = @('store', 'source', 'set', 'github', [string]$settings.repository, '--store', $storeDir, '--os', 'windows')
-        if (@($settings.apps).Count -gt 0) { $sourceArgs += @('--only', ($settings.apps -join ',')) }
-        if ($env:APPCAT_SERVER_CATALOG_URL) { $sourceArgs += @('--catalog-url', $env:APPCAT_SERVER_CATALOG_URL) }
-        # Only rewrite source settings when they changed, keeping prior sync status on errors.
-        $sourcePath = Join-Path $storeDir 'upstream.json'
-        $source = if (Test-Path -LiteralPath $sourcePath) { Get-Content -LiteralPath $sourcePath -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
-        $expectedCatalog = if ($env:APPCAT_SERVER_CATALOG_URL) { $env:APPCAT_SERVER_CATALOG_URL } else { 'https://raw.githubusercontent.com/yahright/downloads/main/appcat/catalog.json' }
-        if (-not $source -or $source.repository -ne $settings.repository -or $source.os -ne 'windows' -or $source.catalog_url -ne $expectedCatalog -or (($source.only | Sort-Object) -join ',') -ne (($settings.apps | Sort-Object) -join ',')) {
-            Invoke-AppCat -CommandArgs $sourceArgs
-        }
         try {
             Invoke-AppCat -CommandArgs @('store', 'sync', '--store', $storeDir)
         } catch {
@@ -204,8 +216,8 @@ try {
     $exitCode = 1
     Write-Host "`nセットアップ/起動に失敗しました。" -ForegroundColor Red
     Write-Host $_.Exception.Message -ForegroundColor Red
-    Write-Host '通信エラーの場合はGitHub・raw.githubusercontent.com・api.github.com・配布ファイルの接続許可を確認してください。ログインは不要です。'
-    Write-Host 'GitHub API の回数制限（HTTP 403/429）の場合は、時間を置いて sync-server.bat を実行してください。'
+    Write-Host '詳しい理由は上のエラーとログに記録しました。標準の取得元ではGitHub API・アカウント・トークンは使いません。'
+    Write-Host '接続先URLが出ている場合は、そのURLへの通信・プロキシ・証明書設定を確認してください。'
     Write-Host "ログ: $logDir"
 } finally {
     if ($transcript) { Stop-Transcript | Out-Null }
