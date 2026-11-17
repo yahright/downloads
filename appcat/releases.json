@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-17T23:02:31.414Z",
+  "generated_at": "2026-11-17T23:03:00.123Z",
   "releases": [
     {
       "tag_name": "appcat-v0.1.7",
@@ -180,6 +180,52 @@
           "name": "SgrepGUI-0.10.0-x64-portable.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.10.0/SgrepGUI-0.10.0-x64-portable.zip.sha256",
           "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-cache-v0.9.0",
+      "name": "Sgrep Cache Service / Manager 0.9.0",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepCacheService-0.9.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.9.0/SgrepCacheService-0.9.0-x64.zip",
+          "size": 25370442
+        },
+        {
+          "name": "SgrepCacheService-0.9.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.9.0/SgrepCacheService-0.9.0-x64.zip.sha256",
+          "size": 99
+        }
+      ]
+    },
+    {
+      "tag_name": "sga-v0.6.2",
+      "name": "SGA 0.6.2",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SGA-0.6.2-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.2/SGA-0.6.2-ARM64.zip",
+          "size": 5176825
+        },
+        {
+          "name": "SGA-0.6.2-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.2/SGA-0.6.2-ARM64.zip.sha256",
+          "size": 87
+        },
+        {
+          "name": "SGA-0.6.2-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.2/SGA-0.6.2-x64.zip",
+          "size": 5216668
+        },
+        {
+          "name": "SGA-0.6.2-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.2/SGA-0.6.2-x64.zip.sha256",
+          "size": 85
         }
       ]
     },
