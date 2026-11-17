@@ -1,18 +1,18 @@
 {
   "product": "oredit",
   "platform": "macos",
-  "version": "0.1.48",
+  "version": "0.1.56",
   "channel": "beta",
-  "source_sha": "a0ae9c14ab9b3705b4355727afe71b46e459bcc7",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.48",
-  "published_at": "2026-11-12T19:56:43Z",
+  "source_sha": "bcdd00e27967e223d3055ae2cdef529e261d1754",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.56",
+  "published_at": "2026-11-17T11:53:17Z",
   "assets": [
     {
-      "architecture": "universal",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.48/oredit-0.1.48-macos-universal.zip",
-      "bytes": 8769008,
-      "sha256": "5879b17afd1f5741bd6ae49c5d7f55c6433cd5ff161a0e7ce69645f0b37429db"
+      "architecture": "arm64",
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.56/oredit-0.1.56-macos-arm64.zip",
+      "bytes": 4509824,
+      "sha256": "7891a8d1bf54dfa8660d06549ef1c2d5dae7328ba241b9792f0e9775975bcbda"
     }
   ],
-  "notes": "macOS版 0.1.48 beta — アプリ内更新の修正版です。\n\n- 「終了して更新」でZIPの取得後に失敗し、旧アプリへ戻ってしまう問題を修正しました。CPU種別を検査するコマンドの引数順が原因でした。\n- 更新ZIP内の不正なパスを拒否する処理を修正しました。\n- Apple Silicon / Intel universal、macOS 13以降。\n\n旧0.1.44以前のアプリには不具合のある更新helperが組み込まれているため、初回のみこの版のDMG/ZIPからアプリを入れ替えてください。修正は更新先だけでなく更新元のhelperに必要です。設定・利用者ファイルはアプリの外に保存されます。\n\nWindows版の更新処理は別実装です。公開0.1.47のARM64/x64で実helperの各14条件（正常更新・CPU/ハッシュ/構造拒否・ロック・rollback・設定保持）が成功し、同じ不具合は再現していません。\n\nMac helperの9条件とRelease CTest 755/755を確認。実IME/Intel実機/物理DPI・巨大ファイル・長時間の全体受入は継続中です。この版はbetaです。\n\nDeveloper ID署名・ZIP/DMG公証・staple・Gatekeeper検証済み。\n"
+  "notes": "oredit 0.1.56 macOS beta（Apple Silicon 専用）\n\n- この版は Apple Silicon（arm64）専用です。Intel Mac の方は 0.1.48 の universal 版を使い続けてください。Intel 対応の universal 版は必須バイナリが 20MB の上限を 282,791 バイト超えたため、今回は配布しません。\n- Markdown ライブ編集で、編集中の段落を入力のたびに元のソースへ戻さず、仮の整形表示を保つようにしました。（Mac 実画面での目視確認は継続中です）\n- ライブ編集で日本語をドラッグ選択して削除したとき、UTF-8 の文字が途中で分かれて表示や保存が壊れる問題を修正しました。\n- ライブ編集の変更を、現在の本文の行に正しく反映するよう修正しました。\n- SJIS（CP932）のフォルダ検索で、長い英数字の後に日本語があるファイルの文字コードを判定できるよう修正しました（Windows 0.1.55 と同じ修正。Mac での実機確認は未実施）。\n- macOS 13 以降。Developer ID 署名・公証・staple・Gatekeeper 検証済みです。\n- 実 IME・物理操作などの受入は継続中です。この版は beta です。\n"
 }
