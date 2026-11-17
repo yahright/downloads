@@ -6,3 +6,5 @@ appcat/*.txt text eol=lf
 # Keep historical release binaries out of GitHub-generated source archives.
 /docs/files export-ignore
 /docs/files/** export-ignore
+
+appcat/*.bat text eol=crlf
