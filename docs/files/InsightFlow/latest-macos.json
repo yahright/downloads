@@ -1,9 +1,13 @@
 {
-  "version": "0.10.44",
+  "version": "0.10.51",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.44",
-  "notes": "InsightFlow 0.10.44 for macOS Apple Silicon (Beta)\n\n- パスバーで `~`（ホームフォルダー）と相対パス（現在のフォルダー基準）を使えるようにしました。\n- フィルターで絞り込んでいる間、ステータスに「表示中 / 全体」の件数（例: 100 / 3,000 files）を表示します。\n- 大きなフォルダーの読み込みが終わった後もステータスに「読み込み中」が残る問題を修正しました。\n- ファイルを削除した後、カーソルが先頭に戻らず隣の行に残るようにしました。\n- コピー・移動・削除のログに、カーソル行ではなく実際に操作したマーク項目（例: README.md (+1)）を表示します。\n- ログ欄が新しい行に追従しなくなり、削除や「元に戻す」の結果が見えなくなる問題を修正しました。取り消せる操作がないときは、取り消せる操作の種類を案内します。\n- macOSで ⌘A（すべてマーク）と ⌘⇧A（すべて解除）を使えるようにしました。Control+A も引き続き使えます。\n- ウィンドウを狭くしたとき、フィルター欄と色ラベルのボタンが重ならないよう2段に折り返します。\n- ペインのステータス行の並び順表示を、色・アイコン・▲▼付きのバッジにしました。\n- 無効なボタンに対するアクセシビリティ操作でアプリが終了する問題を修正しました。\n- 完全削除で読み取り専用のファイルを再試行時に削除できるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release adds `~` and relative paths to the path bar, shows visible/total counts while filtering, fixes a stale \"loading\" status, keeps the cursor near a deleted item, logs the items actually operated on, keeps the log bar following new lines, adds Cmd+A / Cmd+Shift+A on macOS, wraps the filter bar in narrow windows, shows the sort state as a badge, and fixes a crash on accessibility presses of disabled buttons.\n\nWindowsの公開版は0.10.43を維持します。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.51",
+  "notes": "InsightFlow 0.10.51 for macOS Apple Silicon (Beta)\n\n- 「再帰検索」を「ファイルを検索」に改名しました。上の検索語欄の Enter は常に新しい検索になり、結果の上に「前回の結果／件数」「結果を絞り込む（Ctrl+L）」「結果をクリア」をまとめました。開き直しても前回の結果をクリアせずに次の検索ができます。\n- 検索中に一覧が作り直されて表示やホバーが動く問題を修正しました。行を詰め、パス列の位置がそろうようにしました。\n- ロケーションランチャー（L）に Dropbox・Google Drive・OneDrive・Box・iCloud Drive・pCloud Drive のフォルダーを自動で表示します。不要なものは「非表示」で消せます。\n- ペイン上部（アドレス行・フィルター行）、ロケーションランチャー、お気に入りのボタンや入力欄を詰めました。お気に入りの右側のボタンがすべて表示されるようにしました。\n- ディスク使用量: スキャン中の帯を表示し、応答しないフォルダーがあってもすぐにキャンセルできるようにしました。最大のファイルをディスク上のサイズ順にし、サイズ列の並べ替え・横スクロールに対応しました。ローカルのスキャンで pCloud などのクラウド/FUSE マウントを数えないようにしました。\n- 動画・音声を Quick Look でプレビュー内再生できるようにしました（Quick Look 表示で固まる問題も修正）。\n- 記憶しているネットワークボリュームが未マウントのときは再マウントを案内し、マウント後に元のフォルダーを開きます。\n- フォルダー移動と Git ウィンドウの応答性を改善しました。外部エディタの参照で .app を選べるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release renames Recursive Search to Find Files with a separate result filter and no-clear new searches, lists cloud storage folders in the Location Launcher, tightens control sizes in the pane header, launcher and favorites, adds a scanning banner, prompt cancel and on-disk ranking to Disk Usage, plays video/audio with Quick Look, offers to remount network volumes, and improves folder/Git responsiveness.\n\nWindowsの公開版は0.10.50を維持します。",
   "notesHistory": [
+    {
+      "version": "0.10.51",
+      "notes": "InsightFlow 0.10.51 for macOS Apple Silicon (Beta)\n\n- 「再帰検索」を「ファイルを検索」に改名しました。上の検索語欄の Enter は常に新しい検索になり、結果の上に「前回の結果／件数」「結果を絞り込む（Ctrl+L）」「結果をクリア」をまとめました。開き直しても前回の結果をクリアせずに次の検索ができます。\n- 検索中に一覧が作り直されて表示やホバーが動く問題を修正しました。行を詰め、パス列の位置がそろうようにしました。\n- ロケーションランチャー（L）に Dropbox・Google Drive・OneDrive・Box・iCloud Drive・pCloud Drive のフォルダーを自動で表示します。不要なものは「非表示」で消せます。\n- ペイン上部（アドレス行・フィルター行）、ロケーションランチャー、お気に入りのボタンや入力欄を詰めました。お気に入りの右側のボタンがすべて表示されるようにしました。\n- ディスク使用量: スキャン中の帯を表示し、応答しないフォルダーがあってもすぐにキャンセルできるようにしました。最大のファイルをディスク上のサイズ順にし、サイズ列の並べ替え・横スクロールに対応しました。ローカルのスキャンで pCloud などのクラウド/FUSE マウントを数えないようにしました。\n- 動画・音声を Quick Look でプレビュー内再生できるようにしました（Quick Look 表示で固まる問題も修正）。\n- 記憶しているネットワークボリュームが未マウントのときは再マウントを案内し、マウント後に元のフォルダーを開きます。\n- フォルダー移動と Git ウィンドウの応答性を改善しました。外部エディタの参照で .app を選べるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release renames Recursive Search to Find Files with a separate result filter and no-clear new searches, lists cloud storage folders in the Location Launcher, tightens control sizes in the pane header, launcher and favorites, adds a scanning banner, prompt cancel and on-disk ranking to Disk Usage, plays video/audio with Quick Look, offers to remount network volumes, and improves folder/Git responsiveness.\n\nWindowsの公開版は0.10.50を維持します。"
+    },
     {
       "version": "0.10.44",
       "notes": "InsightFlow 0.10.44 for macOS Apple Silicon (Beta)\n\n- パスバーで `~`（ホームフォルダー）と相対パス（現在のフォルダー基準）を使えるようにしました。\n- フィルターで絞り込んでいる間、ステータスに「表示中 / 全体」の件数（例: 100 / 3,000 files）を表示します。\n- 大きなフォルダーの読み込みが終わった後もステータスに「読み込み中」が残る問題を修正しました。\n- ファイルを削除した後、カーソルが先頭に戻らず隣の行に残るようにしました。\n- コピー・移動・削除のログに、カーソル行ではなく実際に操作したマーク項目（例: README.md (+1)）を表示します。\n- ログ欄が新しい行に追従しなくなり、削除や「元に戻す」の結果が見えなくなる問題を修正しました。取り消せる操作がないときは、取り消せる操作の種類を案内します。\n- macOSで ⌘A（すべてマーク）と ⌘⇧A（すべて解除）を使えるようにしました。Control+A も引き続き使えます。\n- ウィンドウを狭くしたとき、フィルター欄と色ラベルのボタンが重ならないよう2段に折り返します。\n- ペインのステータス行の並び順表示を、色・アイコン・▲▼付きのバッジにしました。\n- 無効なボタンに対するアクセシビリティ操作でアプリが終了する問題を修正しました。\n- 完全削除で読み取り専用のファイルを再試行時に削除できるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release adds `~` and relative paths to the path bar, shows visible/total counts while filtering, fixes a stale \"loading\" status, keeps the cursor near a deleted item, logs the items actually operated on, keeps the log bar following new lines, adds Cmd+A / Cmd+Shift+A on macOS, wraps the filter bar in narrow windows, shows the sort state as a badge, and fixes a crash on accessibility presses of disabled buttons.\n\nWindowsの公開版は0.10.43を維持します。"
@@ -25,16 +29,16 @@
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.44/InsightFlow-0.10.44-osx-arm64-app.zip",
-      "sha256": "fb8608e0f2f734f4763eaa63223800a7556d1456a240c7cbb6b5f788fd7a1091",
-      "size": 104112220
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64-app.zip",
+      "sha256": "356ffb69b5ece1095ca27fcf168596a4e25fbe6ff8edd2ccb07fdc7772c7aed0",
+      "size": 104153087
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.44/InsightFlow-0.10.44-osx-arm64.dmg",
-      "sha256": "9786519ca5ec2af33fddfb232c492cfbdf3e79ef7bccee5718c0b2d4f18d3142",
-      "size": 113123336
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64.dmg",
+      "sha256": "8d8ff14f52bddfde6e828a4b7b661815ec7a8e745356a9a966a8b6db64bb10e2",
+      "size": 113161987
     }
   ]
 }
