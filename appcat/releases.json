@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T21:09:05.326Z",
+  "generated_at": "2026-11-18T21:11:29.670Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -23,7 +23,7 @@
     },
     {
       "tag_name": "insightflow-v0.10.51",
-      "name": "InsightFlow 0.10.51 Beta (macOS)",
+      "name": "InsightFlow 0.10.51 Beta (macOS / Windows)",
       "draft": false,
       "prerelease": false,
       "assets": [
