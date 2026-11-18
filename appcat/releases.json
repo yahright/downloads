@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T19:56:12.177Z",
+  "generated_at": "2026-11-18T21:05:25.084Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -18,6 +18,34 @@
           "name": "quicknav-vscode-0.8.1.vsix.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix.sha256",
           "size": 93
+        }
+      ]
+    },
+    {
+      "tag_name": "insightflow-v0.10.51",
+      "name": "InsightFlow 0.10.51 Beta (macOS)",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "InsightFlow-0.10.51-osx-arm64-app.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64-app.zip",
+          "size": 104153087
+        },
+        {
+          "name": "InsightFlow-0.10.51-osx-arm64-app.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64-app.zip.sha256",
+          "size": 104
+        },
+        {
+          "name": "InsightFlow-0.10.51-osx-arm64.dmg",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64.dmg",
+          "size": 113161987
+        },
+        {
+          "name": "InsightFlow-0.10.51-osx-arm64.dmg.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64.dmg.sha256",
+          "size": 100
         }
       ]
     },
