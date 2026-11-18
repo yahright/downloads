@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T23:17:34.140Z",
+  "generated_at": "2026-11-18T23:21:33.596Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -84,6 +84,34 @@
           "name": "TaCM-0.5.41-Windows.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/tacm-v0.5.41/TaCM-0.5.41-Windows.zip.sha256",
           "size": 90
+        }
+      ]
+    },
+    {
+      "tag_name": "reposynctool-v0.29.7",
+      "name": "RepoSyncTool 0.29.7 (Windows beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "RepoSyncTool-0.29.7-win-arm64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.7/RepoSyncTool-0.29.7-win-arm64-portable.zip",
+          "size": 50731611
+        },
+        {
+          "name": "RepoSyncTool-0.29.7-win-arm64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.7/RepoSyncTool-0.29.7-win-arm64-portable.zip.sha256",
+          "size": 109
+        },
+        {
+          "name": "RepoSyncTool-0.29.7-win-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.7/RepoSyncTool-0.29.7-win-x64-portable.zip",
+          "size": 53127415
+        },
+        {
+          "name": "RepoSyncTool-0.29.7-win-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.7/RepoSyncTool-0.29.7-win-x64-portable.zip.sha256",
+          "size": 107
         }
       ]
     },
