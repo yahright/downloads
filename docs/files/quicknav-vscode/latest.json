@@ -1,0 +1,14 @@
+{
+  "version": "0.8.1",
+  "channel": "Stable",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/quicknav-vscode-v0.8.1",
+  "downloads": [
+    {
+      "platform": "universal",
+      "kind": "vsix",
+      "url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix",
+      "sha256": "c62e05da21c9bd32574f7fea2926e70985b88d643bf8f543b71addf1e035d4f4",
+      "size": 559991
+    }
+  ]
+}

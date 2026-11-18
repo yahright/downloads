@@ -193,48 +193,48 @@
       "name": "QuickNav for VS Code",
       "type": "gui",
       "description": "Visual Studio Code用ファイルナビゲーション拡張（ダウンロード専用）",
-      "latest": "0.2.0",
+      "latest": "0.8.1",
       "download_only": true,
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "vsix",
-          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
-          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
-          "size": 499201,
+          "url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix",
+          "sha256": "c62e05da21c9bd32574f7fea2926e70985b88d643bf8f543b71addf1e035d4f4",
+          "size": 559991,
           "strip_components": 0,
-          "entry": "quicknav-vscode-0.2.0.vsix"
+          "entry": "quicknav-vscode-0.8.1.vsix"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "kind": "vsix",
-          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
-          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
-          "size": 499201,
+          "url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix",
+          "sha256": "c62e05da21c9bd32574f7fea2926e70985b88d643bf8f543b71addf1e035d4f4",
+          "size": 559991,
           "strip_components": 0,
-          "entry": "quicknav-vscode-0.2.0.vsix"
+          "entry": "quicknav-vscode-0.8.1.vsix"
         },
         {
           "os": "darwin",
           "arch": "amd64",
           "kind": "vsix",
-          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
-          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
-          "size": 499201,
+          "url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix",
+          "sha256": "c62e05da21c9bd32574f7fea2926e70985b88d643bf8f543b71addf1e035d4f4",
+          "size": 559991,
           "strip_components": 0,
-          "entry": "quicknav-vscode-0.2.0.vsix"
+          "entry": "quicknav-vscode-0.8.1.vsix"
         },
         {
           "os": "darwin",
           "arch": "arm64",
           "kind": "vsix",
-          "url": "https://yahright.github.io/downloads/files/all/quicknav-vscode-0.2.0.vsix",
-          "sha256": "dbda54ac49d27569f819a0510052a04580e1f0780e0a1a2ca8a777b96ecf2ac1",
-          "size": 499201,
+          "url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix",
+          "sha256": "c62e05da21c9bd32574f7fea2926e70985b88d643bf8f543b71addf1e035d4f4",
+          "size": 559991,
           "strip_components": 0,
-          "entry": "quicknav-vscode-0.2.0.vsix"
+          "entry": "quicknav-vscode-0.8.1.vsix"
         }
       ]
     },
