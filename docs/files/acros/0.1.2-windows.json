@@ -1,0 +1,17 @@
+{
+  "version": "0.1.2",
+  "channel": "Beta",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/acros-v0.1.2",
+  "notes": "# acros 0.1.2 — Windows Beta\n\nacros の初回 Windows リリースです。PDF の閲覧・検索・印刷、注釈、ページ操作、本文・画像編集、AcroForm の入力と保存に対応しています。\n\n## 対象と起動方法\n\n- Windows 11 x64 向けです。ZIP 全体を展開し、展開先の `acros.exe` を起動してください。\n- Visual C++ ランタイムを同梱しています。インストーラーや開発ツールは不要です。\n- この Beta の `acros.exe` は未署名のため、Windows SmartScreen が警告を表示する場合があります。\n- PDF の既定アプリは起動時に変わりません。Windows の「プログラムから開く」への追加は、同梱の `README.txt` を参照してください。\n- 設定は Windows のユーザープロファイルに保存されます。次の版へ更新するときは、acros を終了してから展開先を差し替えてください。\n\n## 既知の制限\n\nBeta 版です。大切な PDF は原本を残して編集してください。グループ内の文字置換、OCR、墨消し、電子署名の作成・検証、XFA、PDF 内 JavaScript は未対応です。\n",
+  "publishedAtUtc": "2026-11-18T21:28:18.6167230Z",
+  "minimumSystemVersion": "Windows 11",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/acros-v0.1.2/acros-0.1.2-win-x64-portable.zip",
+      "sha256": "7f188c88eb38f5f8174baee362db16c0711c980db98363e64f68906756e81b88",
+      "size": 31992876
+    }
+  ]
+}

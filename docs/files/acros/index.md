@@ -1,11 +1,24 @@
 ---
 layout: default
-title: acros — Mac版ダウンロード
+title: acros — ダウンロード
 ---
 
-# acros — Mac版ダウンロード
+# acros — ダウンロード
 
 PDFの閲覧・注釈・ページ操作・本文/画像編集・フォーム入力に対応するアプリです。
+
+## Windows
+
+**0.1.2 Beta / Windows 11 x64**
+
+- [Windows ZIPをダウンロード](https://github.com/yahright/downloads/releases/download/acros-v0.1.2/acros-0.1.2-win-x64-portable.zip)
+- [リリースノート・SHA-256](https://github.com/yahright/downloads/releases/tag/acros-v0.1.2)
+- [配布情報JSON](latest-windows.json)
+
+ZIP全体を展開し、展開先の `acros.exe` を起動してください。Visual C++ ランタイムは同梱済みです。
+このBetaの `acros.exe` は未署名のため、Windows SmartScreen が警告を表示する場合があります。
+
+## macOS
 
 **0.1.1 Beta / Apple Silicon（Mシリーズ）/ macOS 26以降**
 
@@ -21,7 +34,7 @@ Developer ID署名・Apple公証済みです。DMGを開いてacros.appをApplic
 Homebrewや開発ツールは不要です。既定のPDFアプリは自動変更しません。
 
 Beta版です。大切なPDFは原本を残して編集してください。自動更新は未実装です。
-Intel Mac・macOS 25以前・Windowsは今回の配布に含みません。
+Mac版は Apple Silicon・macOS 26以降が対象です。
 
 ## 主な機能
 
