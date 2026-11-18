@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.57",
+  "version": "0.1.58",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "df4793744c43ef40a705e4d4612bdea708a4843f",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.57",
-  "published_at": "2026-11-17T23:48:01.182391+00:00",
+  "source_sha": "42a6c22d93dbe5cb182da2fc0e6d6f15513e05a0",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.58",
+  "published_at": "2026-11-18T09:13:01.456730+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.57/oredit-0.1.57-windows-x64.zip",
-      "sha256": "527587380e2ed5f7535d2038d2ea4fb706e8cbb250bd7eccb8844035721d0356",
-      "bytes": 5582910
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.58/oredit-0.1.58-windows-x64.zip",
+      "sha256": "c16cd21f8bad53484e4b83fd24b1398e556c8a29f0bd2b62060c750754357dca",
+      "bytes": 5583856
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.57/oredit-0.1.57-windows-arm64.zip",
-      "sha256": "140a1843855e7164dda780c83a2860bc86c587aaa5ad96680ea7e47bf8dc3cfe",
-      "bytes": 4924885
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.58/oredit-0.1.58-windows-arm64.zip",
+      "sha256": "ac2a3a93ede99427019e4c677d1cff547b5b0a23fb86fcc2317be43bb08d9ae3",
+      "bytes": 4925202
     }
   ],
-  "notes": "oredit 0.1.57 Windows beta\n\n- Ctrl+Shift+F または「検索 → フォルダから検索…」で、検索語、検索条件、検索場所を順に指定できます。検索語とフォルダの履歴も選べます。\n- 除外条件・文字コード・結果の表示先は「詳細」で開閉できます。「ファイルへ出力」を選ぶと出力先と形式が表示されます。\n- 右下の「検索」または Enter で実行し、Esc または「閉じる」で条件画面を閉じます。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.58 Windows beta\n\n- 折り返したテキストをマウスホイールで連続して上へ戻すと、スクロールが重くなる問題を修正しました。\n- ジャンプ直後などでも、直前の折り返し位置を復元し、複数行分のホイール操作をまとめて処理します。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
