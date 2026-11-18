@@ -1,9 +1,14 @@
 {
-  "version": "0.10.50",
+  "version": "0.10.51",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "Windows 0.10.49からの変更:\n- 標準エンジンの完全削除で、独立したローカルファイルを最大4件同時に処理するようにしました。1件ずつ完了を待っていた処理の待ち時間を重ねます。\n- フォルダー、重複したパス、リンク、ネットワーク上の項目などを含む選択は、従来の順次処理を維持します。\n- 個別の失敗と進捗はジョブへ記録します。キャンセルすると新しい削除を始めませんが、すでに始まった最大4件の削除は完了する場合があります。",
+  "notes": "- Find Files dialog: separate new search from result filter; list cloud folders in launcher (I-0161, I-0162)\n- Merge branch 'fix/find-files-dialog' (I-0161, I-0162, I-0163)\n- Compact desktop density for pane header, launcher, favorites and Find Files\n- Merge branch 'fix/compact-density' (I-0164)",
   "notesHistory": [
+    {
+      "version": "0.10.51",
+      "notes": "- Find Files dialog: separate new search from result filter; list cloud folders in launcher (I-0161, I-0162)\n- Merge branch 'fix/find-files-dialog' (I-0161, I-0162, I-0163)\n- Compact desktop density for pane header, launcher, favorites and Find Files\n- Merge branch 'fix/compact-density' (I-0164)",
+      "publishedAtUtc": "2026-11-18T21:06:52Z"
+    },
     {
       "version": "0.10.50",
       "notes": "Windows 0.10.49からの変更:\n- 標準エンジンの完全削除で、独立したローカルファイルを最大4件同時に処理するようにしました。1件ずつ完了を待っていた処理の待ち時間を重ねます。\n- フォルダー、重複したパス、リンク、ネットワーク上の項目などを含む選択は、従来の順次処理を維持します。\n- 個別の失敗と進捗はジョブへ記録します。キャンセルすると新しい削除を始めませんが、すでに始まった最大4件の削除は完了する場合があります。",
@@ -48,27 +53,22 @@
       "version": "0.10.38",
       "notes": "- docs(notes): record 0.10.37 release verification\n- docs(notes): hand off disk usage speed/UX investigation to MACMINIWIN\n- fix(diskusage): read raw $MFT via record 0 instead of opening C:\\$MFT\n- feat(diskusage): drive the Disk Usage window from the tree snapshot\n- feat(diskusage): nested WizTree-style treemap below the folder tree\n- docs(notes): record nested treemap work and measurements\n- feat(diskusage): highlight the selected file type in the treemap\n- chore: bump version to 0.10.38",
       "publishedAtUtc": "2026-10-27T08:56:30Z"
-    },
-    {
-      "version": "0.10.37",
-      "notes": "- docs: record InsightFlow 0.10.36 macOS release\n- docs: record InsightFlow 0.10.36 macOS release\n- docs: correct 0.10.36 notarization record\n- build: update dependencies for 0.10.37",
-      "publishedAtUtc": "2026-10-25T21:41:51Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.50/InsightFlow-0.10.50-win-x64-portable.zip",
-      "sha256": "8d46a691928fe9302078d3360d2fa215e3d99f61cd4f5ae13287bcbb9330a155",
-      "size": 110806382
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-win-x64-portable.zip",
+      "sha256": "fdcc8dcfc89707904ade8d2df337120b6ca8266fc12e17573b3dea65f3c257da",
+      "size": 110812830
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.50/InsightFlow-0.10.50-win-arm64-portable.zip",
-      "sha256": "0e53ea68ea09f4fe43f390b0f75a85b035afd2a90fa41e5792f785391dacb896",
-      "size": 107153687
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-win-arm64-portable.zip",
+      "sha256": "d2f61a4f49a98cf474beb1fbc747ac954f1fffac9dfeee56cf2228d8be5c6ce9",
+      "size": 107160146
     }
   ]
 }
