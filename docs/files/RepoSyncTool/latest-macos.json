@@ -1,25 +1,25 @@
 {
-  "version": "0.29.4",
+  "version": "0.29.5",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.4",
-  "sourceCommit": "c7baa677860ada61e362b205b88a7ed6eb0907a8",
-  "publishedAtUtc": "2026-11-17T13:10:13.3935230+00:00",
-  "notes": "# RepoSyncTool 0.29.4 ベータ（macOS）\n\n左バーと履歴の列、リポジトリ一覧の休眠の扱いを使いやすくしました。Mac だけの版です（Windows 版 0.29.4 はありません）。\n\n## 0.29.4\n\n- Git画面の左バー: 上に並んでいた「表示:」の7つのボタン（ローカル・リモート・タグ・スタッシュ・Worktree・サブモジュール・サブツリー）を、検索欄の右の「表示 ▾」1つにまとめました。押すとチェックで切り替えられます（次回も覚えています）。隠している種類があると「● 表示 5/7 ▾」のように表示します。\n- 履歴: 列の見出しをドラッグして列の並びを変えられます（並びと幅は次回も覚えています）。見出しの右クリックに「表示する列」を追加し、樹形図・メモ・日付・作者・コミットの列を隠せます。「列を元に戻す（並び・幅・表示）」で最初の状態に戻ります。\n- リポジトリ一覧: 検索欄の右に「☾ 休眠を隠す」を追加しました（休眠のリポジトリがあるときだけ表示）。ON にすると休眠のリポジトリを「すべて」・グループに出さず、左の「休眠」だけに出します。⚙ の「休眠を一覧に出さない」と同じ設定です。\n\n0.29.3 の Mac 版からは、メニューの「更新を確認…」でこの版に更新できます。\n\nmacOS 14 以降向け Apple Silicon / Intel ZIP は Developer ID 署名・Apple 公証済みです。今回の変更の実画面での確認、Intel 実機、最低 OS は未確認です。\n",
+  "releaseTag": "reposynctool-v0.29.5",
+  "sourceCommit": "e8ec4f125c79d992be4e298e536007e1a635e76b",
+  "publishedAtUtc": "2026-11-18T19:21:58.4705900+00:00",
+  "notes": "# RepoSyncTool 0.29.5 ベータ（macOS）\n\n最新の main からビルドした Mac 版です。0.29.4 からアプリの機能変更はありません。\n\nmacOS 14 以降の Apple Silicon および Intel に対応します。0.29.3 以降の Mac 版では、メニューの「更新を確認…」から更新できます。\n",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.4/RepoSyncTool-0.29.4-osx-arm64.zip",
-      "sha256": "e33dcdc54db8d35d7fa557e31161d9e8db22c8c90a27d0318d7b8da1ab521068",
-      "size": 49352137,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-arm64.zip",
+      "sha256": "fcf3b6b56acc2903e5eff025c419a27e8be0d497463f9697a80d4ac438804eb5",
+      "size": 49351984,
       "signed": true
     },
     {
       "platform": "osx-x64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.4/RepoSyncTool-0.29.4-osx-x64.zip",
-      "sha256": "732db0aa2aa2f36f0f2c31d5e00afbd1c7a2014875bf4014a9cd3c42fe8ecd5a",
-      "size": 55069094,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-x64.zip",
+      "sha256": "b3d7b78e2f6e76fecb4997351f29055baea59d651251cbe8cbf7e9ea6b310677",
+      "size": 55069505,
       "signed": true
     }
   ]
