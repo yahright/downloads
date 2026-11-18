@@ -3,13 +3,13 @@
   "downloads": [
     {
       "platform": "win-arm64",
-      "version": "0.0.2",
-      "sha256": "4b65f07e47b65edc245991dc868bbf4846c3e5d70e45df047aca29b6c0e173dd"
+      "version": "0.0.4",
+      "sha256": "5627c116caab87da1a9b6ea900a0118c7b309e1e07f1fe8f05943907356ff436"
     },
     {
       "platform": "win-x64",
-      "version": "0.0.2",
-      "sha256": "c6f14dc0cc6df5977b9e3c3e5f72cd176d88765ec16f01d0246bdaaf6af967ff"
+      "version": "0.0.4",
+      "sha256": "d11e47a08d1df1a9b67887bcbb48d688ff45aadb0bf995aae1b5565296e99fae"
     }
   ]
 }
