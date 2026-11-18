@@ -1,25 +1,25 @@
 {
-  "version": "0.29.5",
+  "version": "0.29.6",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.5",
-  "sourceCommit": "e8ec4f125c79d992be4e298e536007e1a635e76b",
-  "publishedAtUtc": "2026-11-18T19:21:58.4705900+00:00",
-  "notes": "# RepoSyncTool 0.29.5 ベータ（macOS）\n\n最新の main からビルドした Mac 版です。0.29.4 からアプリの機能変更はありません。\n\nmacOS 14 以降の Apple Silicon および Intel に対応します。0.29.3 以降の Mac 版では、メニューの「更新を確認…」から更新できます。\n",
+  "releaseTag": "reposynctool-v0.29.6",
+  "sourceCommit": "f1cff2e6ba4073f0ef895b43b40fa058a2688415",
+  "publishedAtUtc": "2026-11-18T22:47:46.8761360+00:00",
+  "notes": "# RepoSyncTool 0.29.6 ベータ（macOS）\n\n- Git 画面の初回表示で、変更状態とインデックスの検査を 1 回にしました。\n- 履歴の「取り込み状況」はボタンを開いたときに調べます。履歴でコミットやファイルを選んだときの差分表示が、取り込み判定の完了を待たずに進みます。\n\nmacOS 14 以降の Apple Silicon と Intel に対応します。Mac 版 0.29.3 以降は「更新を確認…」から更新できます。\n",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-arm64.zip",
-      "sha256": "fcf3b6b56acc2903e5eff025c419a27e8be0d497463f9697a80d4ac438804eb5",
-      "size": 49351984,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.6/RepoSyncTool-0.29.6-osx-arm64.zip",
+      "sha256": "cb6247801f45e259db6cb0f15619273b7424e2a3d534d2d160fa9e05d5f1f5e1",
+      "size": 49355303,
       "signed": true
     },
     {
       "platform": "osx-x64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-x64.zip",
-      "sha256": "b3d7b78e2f6e76fecb4997351f29055baea59d651251cbe8cbf7e9ea6b310677",
-      "size": 55069505,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.6/RepoSyncTool-0.29.6-osx-x64.zip",
+      "sha256": "8824370323b2b6ce669f08c580230012f65618406d00cbd09d55b25bdc439d73",
+      "size": 55072686,
       "signed": true
     }
   ]
