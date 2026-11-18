@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T21:30:52.483Z",
+  "generated_at": "2026-11-18T22:47:35.758Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -66,6 +66,24 @@
           "name": "InsightFlow-0.10.51-win-x64-portable.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-win-x64-portable.zip.sha256",
           "size": 108
+        }
+      ]
+    },
+    {
+      "tag_name": "tacm-v0.5.41",
+      "name": "TaCM 0.5.41 — Windows インストールディスク (Beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "TaCM-0.5.41-Windows.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/tacm-v0.5.41/TaCM-0.5.41-Windows.zip",
+          "size": 187597334
+        },
+        {
+          "name": "TaCM-0.5.41-Windows.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/tacm-v0.5.41/TaCM-0.5.41-Windows.zip.sha256",
+          "size": 90
         }
       ]
     },
