@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "downloads": [
+    {
+      "platform": "win-arm64",
+      "version": "0.0.2",
+      "sha256": "4b65f07e47b65edc245991dc868bbf4846c3e5d70e45df047aca29b6c0e173dd"
+    },
+    {
+      "platform": "win-x64",
+      "version": "0.0.2",
+      "sha256": "c6f14dc0cc6df5977b9e3c3e5f72cd176d88765ec16f01d0246bdaaf6af967ff"
+    }
+  ]
+}
