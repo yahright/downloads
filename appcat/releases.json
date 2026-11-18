@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T09:13:47.211Z",
+  "generated_at": "2026-11-18T11:06:51.887Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -18,6 +18,24 @@
           "name": "quicknav-vscode-0.8.1.vsix.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix.sha256",
           "size": 93
+        }
+      ]
+    },
+    {
+      "tag_name": "oredit-v0.1.59",
+      "name": "oredit 0.1.59 macOS beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "oredit-0.1.59-macos-arm64.dmg",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.59/oredit-0.1.59-macos-arm64.dmg",
+          "size": 4809711
+        },
+        {
+          "name": "oredit-0.1.59-macos-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.59/oredit-0.1.59-macos-arm64.zip",
+          "size": 4512601
         }
       ]
     },
