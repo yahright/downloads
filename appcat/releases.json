@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T19:25:24.234Z",
+  "generated_at": "2026-11-18T19:55:42.460Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -46,6 +46,29 @@
           "name": "RepoSyncTool-0.29.5-osx-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-x64.zip.sha256",
           "size": 98
+        }
+      ]
+    },
+    {
+      "tag_name": "orenoime-v0.0.3",
+      "name": "orenoIME 0.0.3 - macOS beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "Mac-INSTALL.md",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.3/Mac-INSTALL.md",
+          "size": 5015
+        },
+        {
+          "name": "orenoIME-0.0.3-macos-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.3/orenoIME-0.0.3-macos-arm64.zip",
+          "size": 25488488
+        },
+        {
+          "name": "orenoIME-0.0.3-macos-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.3/orenoIME-0.0.3-macos-arm64.zip.sha256",
+          "size": 97
         }
       ]
     },
