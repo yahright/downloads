@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T13:33:05.998Z",
+  "generated_at": "2026-11-18T19:24:56.659Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -18,6 +18,34 @@
           "name": "quicknav-vscode-0.8.1.vsix.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/quicknav-vscode-v0.8.1/quicknav-vscode-0.8.1.vsix.sha256",
           "size": 93
+        }
+      ]
+    },
+    {
+      "tag_name": "reposynctool-v0.29.5",
+      "name": "RepoSyncTool 0.29.5 (macOS beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "RepoSyncTool-0.29.5-osx-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-arm64.zip",
+          "size": 49351984
+        },
+        {
+          "name": "RepoSyncTool-0.29.5-osx-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-arm64.zip.sha256",
+          "size": 100
+        },
+        {
+          "name": "RepoSyncTool-0.29.5-osx-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-x64.zip",
+          "size": 55069505
+        },
+        {
+          "name": "RepoSyncTool-0.29.5-osx-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.5/RepoSyncTool-0.29.5-osx-x64.zip.sha256",
+          "size": 98
         }
       ]
     },
