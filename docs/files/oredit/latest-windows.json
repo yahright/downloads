@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.58",
+  "version": "0.1.60",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "42a6c22d93dbe5cb182da2fc0e6d6f15513e05a0",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.58",
-  "published_at": "2026-11-18T09:13:01.456730+00:00",
+  "source_sha": "febba580295fb26ac1b89cae4d9cd3dad405464e",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.60",
+  "published_at": "2026-11-19T07:57:56.886488+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.58/oredit-0.1.58-windows-x64.zip",
-      "sha256": "c16cd21f8bad53484e4b83fd24b1398e556c8a29f0bd2b62060c750754357dca",
-      "bytes": 5583856
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/oredit-0.1.60-windows-x64.zip",
+      "sha256": "1c7fa026893bb396625c392e8bfb131338c3827f21ee9a58ace63e1b48a0021c",
+      "bytes": 5587298
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.58/oredit-0.1.58-windows-arm64.zip",
-      "sha256": "ac2a3a93ede99427019e4c677d1cff547b5b0a23fb86fcc2317be43bb08d9ae3",
-      "bytes": 4925202
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/oredit-0.1.60-windows-arm64.zip",
+      "sha256": "20ba071d61bbe37ec32d5ace1511ca78d9d911c9f31f5a1c41baff7929a3f443",
+      "bytes": 4926893
     }
   ],
-  "notes": "oredit 0.1.58 Windows beta\n\n- 折り返したテキストをマウスホイールで連続して上へ戻すと、スクロールが重くなる問題を修正しました。\n- ジャンプ直後などでも、直前の折り返し位置を復元し、複数行分のホイール操作をまとめて処理します。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.60 Windows beta\n\n- Grepのヒット行をタブ区切りのまま表示します。結果を囲む引用符と、整形で増えていた円マーク（バックスラッシュ）を取り除きました。\n- 通常のテキストはマウスホイールで表示行単位にスクロールします。長いログを連続して上へ戻る処理も改善しました。\n- 外部更新による自動再読込で、旧末尾のキャレットと画面上の位置を保ちます。タブの右クリックから、そのファイルの外部更新の監視方法を切り替えられます。\n- ログへの追記が続いていても、読み始めた時点までの内容を照合して開きます。再読込の確認は、連続更新中の2回目以降をまとめて表示します。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
