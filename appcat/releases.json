@@ -1,8 +1,36 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-19T07:59:05.354Z",
+  "generated_at": "2026-11-19T08:26:15.979Z",
   "releases": [
+    {
+      "tag_name": "reposynctool-v0.29.8",
+      "name": "RepoSyncTool 0.29.8 (Windows beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "RepoSyncTool-0.29.8-win-arm64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-arm64-portable.zip",
+          "size": 50739424
+        },
+        {
+          "name": "RepoSyncTool-0.29.8-win-arm64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-arm64-portable.zip.sha256",
+          "size": 109
+        },
+        {
+          "name": "RepoSyncTool-0.29.8-win-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-x64-portable.zip",
+          "size": 53135237
+        },
+        {
+          "name": "RepoSyncTool-0.29.8-win-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-x64-portable.zip.sha256",
+          "size": 107
+        }
+      ]
+    },
     {
       "tag_name": "oredit-v0.1.60",
       "name": "oredit 0.1.60 Windows beta",
