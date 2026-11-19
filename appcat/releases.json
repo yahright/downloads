@@ -1,8 +1,198 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-19T08:26:15.979Z",
+  "generated_at": "2026-11-19T08:57:47.468Z",
   "releases": [
+    {
+      "tag_name": "sgrepx-v0.10.0",
+      "name": "SgrepX 0.10.0 (Windows)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepX-0.10.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.10.0/SgrepX-0.10.0-x64.zip",
+          "size": 27336762
+        },
+        {
+          "name": "SgrepX-0.10.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.10.0/SgrepX-0.10.0-x64.zip.sha256",
+          "size": 89
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-vsix-v1.0.20261119.1",
+      "name": "Sgrep Visual Studio 1.0.20261119.1",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-ARM64.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-ARM64.vsix",
+          "size": 4020430
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-ARM64.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-ARM64.vsix.sha256",
+          "size": 103
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-ARM64.zip",
+          "size": 4012976
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-ARM64.zip.sha256",
+          "size": 102
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-x64.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-x64.vsix",
+          "size": 4020434
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-x64.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-x64.vsix.sha256",
+          "size": 101
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-x64.zip",
+          "size": 4013010
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261119.1-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261119.1/SgrepVSIX-1.0.20261119.1-x64.zip.sha256",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-v0.11.0",
+      "name": "Sgrep / sg 0.11.0",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "Sg-0.11.0-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/Sg-0.11.0-ARM64.zip",
+          "size": 1623050
+        },
+        {
+          "name": "Sg-0.11.0-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/Sg-0.11.0-ARM64.zip.sha256",
+          "size": 87
+        },
+        {
+          "name": "Sg-0.11.0-mac-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/Sg-0.11.0-mac-arm64.zip",
+          "size": 1813786
+        },
+        {
+          "name": "Sg-0.11.0-mac-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/Sg-0.11.0-mac-arm64.zip.sha256",
+          "size": 91
+        },
+        {
+          "name": "Sg-0.11.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/Sg-0.11.0-x64.zip",
+          "size": 1700026
+        },
+        {
+          "name": "Sg-0.11.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/Sg-0.11.0-x64.zip.sha256",
+          "size": 85
+        },
+        {
+          "name": "SgrepGUI-0.11.0-ARM64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/SgrepGUI-0.11.0-ARM64-portable.zip",
+          "size": 3732977
+        },
+        {
+          "name": "SgrepGUI-0.11.0-ARM64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/SgrepGUI-0.11.0-ARM64-portable.zip.sha256",
+          "size": 102
+        },
+        {
+          "name": "SgrepGUI-0.11.0-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/SgrepGUI-0.11.0-x64-portable.zip",
+          "size": 3370013
+        },
+        {
+          "name": "SgrepGUI-0.11.0-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.0/SgrepGUI-0.11.0-x64-portable.zip.sha256",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-cache-v0.10.0",
+      "name": "Sgrep Cache Service / Manager 0.10.0",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepCacheService-0.10.0-mac-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.0/SgrepCacheService-0.10.0-mac-arm64.zip",
+          "size": 1429517
+        },
+        {
+          "name": "SgrepCacheService-0.10.0-mac-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.0/SgrepCacheService-0.10.0-mac-arm64.zip.sha256",
+          "size": 106
+        },
+        {
+          "name": "SgrepCacheService-0.10.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.0/SgrepCacheService-0.10.0-x64.zip",
+          "size": 26298875
+        },
+        {
+          "name": "SgrepCacheService-0.10.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.0/SgrepCacheService-0.10.0-x64.zip.sha256",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sga-v0.6.3",
+      "name": "SGA 0.6.3",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SGA-0.6.3-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-ARM64.zip",
+          "size": 5342538
+        },
+        {
+          "name": "SGA-0.6.3-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-ARM64.zip.sha256",
+          "size": 87
+        },
+        {
+          "name": "SGA-0.6.3-mac-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-mac-arm64.zip",
+          "size": 886541
+        },
+        {
+          "name": "SGA-0.6.3-mac-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-mac-arm64.zip.sha256",
+          "size": 91
+        },
+        {
+          "name": "SGA-0.6.3-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-x64.zip",
+          "size": 5346805
+        },
+        {
+          "name": "SGA-0.6.3-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-x64.zip.sha256",
+          "size": 85
+        }
+      ]
+    },
     {
       "tag_name": "reposynctool-v0.29.8",
       "name": "RepoSyncTool 0.29.8 (Windows beta)",
