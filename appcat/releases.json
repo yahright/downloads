@@ -1,8 +1,46 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-19T03:16:48.691Z",
+  "generated_at": "2026-11-19T07:59:05.354Z",
   "releases": [
+    {
+      "tag_name": "oredit-v0.1.60",
+      "name": "oredit 0.1.60 Windows beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "manifest-arm64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/manifest-arm64.json",
+          "size": 1442
+        },
+        {
+          "name": "manifest-x64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/manifest-x64.json",
+          "size": 1398
+        },
+        {
+          "name": "oredit-0.1.60-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/oredit-0.1.60-windows-arm64.zip",
+          "size": 4926893
+        },
+        {
+          "name": "oredit-0.1.60-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/oredit-0.1.60-windows-arm64.zip.sha256",
+          "size": 99
+        },
+        {
+          "name": "oredit-0.1.60-windows-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/oredit-0.1.60-windows-x64.zip",
+          "size": 5587298
+        },
+        {
+          "name": "oredit-0.1.60-windows-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.60/oredit-0.1.60-windows-x64.zip.sha256",
+          "size": 97
+        }
+      ]
+    },
     {
       "tag_name": "quicknav-vscode-v0.8.1",
       "name": "QuickNav for VS Code 0.8.1",
