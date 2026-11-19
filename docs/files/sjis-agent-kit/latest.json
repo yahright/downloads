@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "6675e5d22e9014f1bdc5ca9d876c1504c1615610",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.9",
-  "published_at": "2026-11-11T20:57:49Z",
-  "notes": "- 拡張機能の発行者を `sjiskit` に変更しました。拡張機能の ID は `sjiskit.sjis-agent-kit` になります。\n- 0.2.8 以前から更新するときは、先に拡張機能ビューで旧版の SJIS Agent Kit をアンインストールしてから 0.2.9 をインストールしてください。両方を入れたままにすると、同じ名前のツールが二重に登録されます。\n- 更新後、対象フォルダで「SJIS: Set Up Copilot for Shift_JIS Sources」を再実行してください。VC6 エージェントのツール名が新しい ID に更新されます。\n- ツールの動作に変更はありません。",
+  "source_sha": "38d3b244fe76514cf3ba13e14a6b45990190734c",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.10",
+  "published_at": "2026-11-19T03:16:18Z",
+  "notes": "- Extension: sjis_read lineNumbers option; sjis_edit explains oldString copied with line numbers",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.9/sjis-agent-kit-0.2.9.vsix",
-      "sha256": "360e6e6fa01960a01264864cbba840b99fc01f9fd374803b274c74818b844f8a",
-      "bytes": 39875
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.vsix",
+      "sha256": "35d9c86b2b03743814ed05ff70ce876a224b9eaab29083d98d91d4a835f9755f",
+      "bytes": 40309
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.9/sjis-agent-kit-0.2.9.zip",
-      "sha256": "1038880c1f043d5dc57e527116d20f5c8223c1c56ea60e0afa473fc17fb53f29",
-      "bytes": 110845
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.zip",
+      "sha256": "871030cd677d5bcf96848930a949a44e3fa49f76f20c660d0acb6ee6b1b4855a",
+      "bytes": 110801
     }
   ]
 }
