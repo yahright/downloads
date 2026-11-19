@@ -1,25 +1,25 @@
 {
-  "version": "0.29.7",
+  "version": "0.29.8",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.7",
-  "sourceCommit": "39e10053529e7cb026d06776b21716b62509d60a",
-  "publishedAtUtc": "2026-11-18T23:20:12.7169797+00:00",
-  "notes": "# RepoSyncTool 0.29.7 ベータ（Windows）\n\n- Git 画面の初回表示で、変更状態とインデックスの検査を 1 回にしました。\n- 履歴の「取り込み状況」はボタンを開いたときに調べます。コミットやファイルを選ぶと、取り込み判定を待たずに差分を表示します。\n- Git 画面の左バーの種類別表示を、検索欄横の「表示 ▾」にまとめました。\n- 履歴の列をドラッグで並べ替えたり、見出しの右クリックで列を隠したりできます。\n- リポジトリ一覧の検索欄横から、休眠リポジトリの表示を切り替えられます。\n\nWindows x64・ARM64 向けの自己完結型・未署名ポータブル ZIP です。\n",
+  "releaseTag": "reposynctool-v0.29.8",
+  "sourceCommit": "8844429fd6c2509250a6566f7a9b2e604d3be3b3",
+  "publishedAtUtc": "2026-11-19T08:16:40.2139418+00:00",
+  "notes": "# RepoSyncTool 0.29.8 ベータ（Windows）\n\n- Git ワークスペースの「設定 → 入力と表示 → .gitignore を表示・編集…」から、ルートの `.gitignore` を閲覧・編集したり、ファイル用エディターで開いたりできます。\n- 左の Explorer のフォルダを右クリックすると、そのフォルダ用の `.gitignore` を開けます。ファイルがなければ作成でき、保存後は変更一覧と Explorer が更新されます。\n- 履歴の読み込み中でも「現在地」への移動を受け付け、読み込みが終わったら対象コミットを選択します。表示範囲の外にあるブランチ先頭にも移動できるようにしました。\n\nWindows x64・ARM64 向けの自己完結型・未署名ポータブル ZIP です。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.7/RepoSyncTool-0.29.7-win-x64-portable.zip",
-      "sha256": "81a69a48e0111cf0f59ddc8b36b59dd0324ede8085a566462c380a4f5e3de534",
-      "size": 53127415,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-x64-portable.zip",
+      "sha256": "ca536b721e8d92598dadaf7a48b213d4dd11158eb60248035c7c7ea2841d0bc0",
+      "size": 53135237,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.7/RepoSyncTool-0.29.7-win-arm64-portable.zip",
-      "sha256": "7104e80ca5c63355674385ee939b4515b3219f2a7859ec72eba4c76f2dd0e0ac",
-      "size": 50731611,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-arm64-portable.zip",
+      "sha256": "4af81b9df1dda0441790456b9d0ae86f79259efea9f22fa5f409592bcfc3c5ae",
+      "size": 50739424,
       "signed": false
     }
   ]
