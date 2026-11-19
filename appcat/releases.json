@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-18T23:21:33.596Z",
+  "generated_at": "2026-11-19T03:16:48.691Z",
   "releases": [
     {
       "tag_name": "quicknav-vscode-v0.8.1",
@@ -84,6 +84,34 @@
           "name": "TaCM-0.5.41-Windows.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/tacm-v0.5.41/TaCM-0.5.41-Windows.zip.sha256",
           "size": 90
+        }
+      ]
+    },
+    {
+      "tag_name": "sjis-agent-kit-v0.2.10",
+      "name": "sjis-agent-kit 0.2.10 (beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "sjis-agent-kit-0.2.10.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.vsix",
+          "size": 40309
+        },
+        {
+          "name": "sjis-agent-kit-0.2.10.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.vsix.sha256",
+          "size": 93
+        },
+        {
+          "name": "sjis-agent-kit-0.2.10.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.zip",
+          "size": 110801
+        },
+        {
+          "name": "sjis-agent-kit-0.2.10.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.zip.sha256",
+          "size": 92
         }
       ]
     },
