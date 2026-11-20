@@ -1,17 +1,17 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "channel": "Beta",
-  "tag": "logmonitor-v0.5.0",
-  "releaseDateUtc": "2026-11-20T01:26:09Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/logmonitor-v0.5.0",
+  "tag": "logmonitor-v0.5.1",
+  "releaseDateUtc": "2026-11-20T01:32:57Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/logmonitor-v0.5.1",
   "downloads": [
     {
       "product": "LogMonitor",
       "platform": "x64",
       "kind": "portable-zip",
-      "size": 478267,
-      "sha256": "e36fc4da2bd9583db7a9b8d8ee5896f683c01d8e310ce9cc192b109443dde619",
-      "url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.5.0/LogMonitor-0.5.0-x64.zip"
+      "size": 478497,
+      "sha256": "d8ededb3f756f049fd0019cace03b3d4613705cc0706146ef45570bf21f65cd4",
+      "url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.5.1/LogMonitor-0.5.1-x64.zip"
     }
   ]
 }
