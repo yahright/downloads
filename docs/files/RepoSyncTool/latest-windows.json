@@ -1,25 +1,25 @@
 {
-  "version": "0.29.8",
+  "version": "0.29.9",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.8",
-  "sourceCommit": "8844429fd6c2509250a6566f7a9b2e604d3be3b3",
-  "publishedAtUtc": "2026-11-19T08:16:40.2139418+00:00",
-  "notes": "# RepoSyncTool 0.29.8 ベータ（Windows）\n\n- Git ワークスペースの「設定 → 入力と表示 → .gitignore を表示・編集…」から、ルートの `.gitignore` を閲覧・編集したり、ファイル用エディターで開いたりできます。\n- 左の Explorer のフォルダを右クリックすると、そのフォルダ用の `.gitignore` を開けます。ファイルがなければ作成でき、保存後は変更一覧と Explorer が更新されます。\n- 履歴の読み込み中でも「現在地」への移動を受け付け、読み込みが終わったら対象コミットを選択します。表示範囲の外にあるブランチ先頭にも移動できるようにしました。\n\nWindows x64・ARM64 向けの自己完結型・未署名ポータブル ZIP です。\n",
+  "releaseTag": "reposynctool-v0.29.9",
+  "sourceCommit": "cafc9472bf5d1d4cc45d1d3e708364060f3f506a",
+  "publishedAtUtc": "2026-11-20T03:15:23.8916642+00:00",
+  "notes": "# RepoSyncTool 0.29.9 ベータ（Windows）\n\n- Git ワークスペースの「設定 → 確認とツール → Git フックを確認…」で、ローカルのフック、ファイルの場所、設定されたコマンドを確認できます。\n- コミット・Amend とプッシュの検証フックのスキップを、リポジトリごとに別々に設定できます。既定はオフです。コミット欄の「⋯」からその回だけスキップする操作も選べます。\n- 履歴ではコミットメッセージの本文が見やすくなりました。チェリーピックの取り込み元と Change-Id は「来歴 ▾」から確認できます。\n- 「すべて Fetch」は一覧の検索やフィルターに一致するリポジトリを対象にします。チェリーピック計画はコミット表示で開き、ボタンでファイル表示へ切り替えられます。\n\nWindows x64・ARM64 向けの自己完結型・未署名ポータブル ZIP です。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-x64-portable.zip",
-      "sha256": "ca536b721e8d92598dadaf7a48b213d4dd11158eb60248035c7c7ea2841d0bc0",
-      "size": 53135237,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.9/RepoSyncTool-0.29.9-win-x64-portable.zip",
+      "sha256": "4c92eb5c9878598ee3b54839039ee7f1b6165cf6f173a3828893bd1678574ecc",
+      "size": 53143751,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.8/RepoSyncTool-0.29.8-win-arm64-portable.zip",
-      "sha256": "4af81b9df1dda0441790456b9d0ae86f79259efea9f22fa5f409592bcfc3c5ae",
-      "size": 50739424,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.9/RepoSyncTool-0.29.9-win-arm64-portable.zip",
+      "sha256": "2a06ebbdc37a5fd193f3b191a8d641c63ba5724bbb3955d542794e800c836784",
+      "size": 50747974,
       "signed": false
     }
   ]
