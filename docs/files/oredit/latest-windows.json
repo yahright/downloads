@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.61",
+  "version": "0.1.64",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "2926baef1ea643b3abe2d6221c4d43639ab4a63f",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.61",
-  "published_at": "2026-11-20T01:24:58.497643+00:00",
+  "source_sha": "a5bcc4cf5ae29bb15ee77d5e742c5f4ebf14e42e",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.64",
+  "published_at": "2026-11-21T02:56:22.226055+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.61/oredit-0.1.61-windows-x64.zip",
-      "sha256": "fbb57fe7fe2a129aead3a643531402dd2d5945aa649d640263059bb710662d97",
-      "bytes": 5593650
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-x64.zip",
+      "sha256": "0a033203163370529c539fa397ff19156b2b7b02acdedc78663a257c4a62b6e9",
+      "bytes": 5586278
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.61/oredit-0.1.61-windows-arm64.zip",
-      "sha256": "1eacfe830e36a5fceefe0fa86788a04258fe0011d5ac598394393b258a7ffd14",
-      "bytes": 4928956
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-arm64.zip",
+      "sha256": "e238353647044593a6e75772b78e23f18485d12362649af6c8525ab42cfc740b",
+      "bytes": 4927589
     }
   ],
-  "notes": "oredit 0.1.61 Windows beta\n\n- Grep結果で検索語を強調し、タグジャンプと選択範囲の拡大に対応しました。\n- 未保存のGrep結果は編集後も保存確認なしで閉じます。保存済みの結果は確認します。\n- 構文強調のないプレーンテキストで不要な解析を行わず、大きなファイルを軽く開きます。\n- 配布ファイルの更新日時にパッケージを作成した日時を記録します。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.64 Windows beta\n\n- 検索結果を表示したままスクロールすると、本文の強調や行番号の印がちらつく問題を改善しました。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
