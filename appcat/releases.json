@@ -1,8 +1,46 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-21T01:04:54.110Z",
+  "generated_at": "2026-11-21T02:56:52.012Z",
   "releases": [
+    {
+      "tag_name": "oredit-v0.1.64",
+      "name": "oredit 0.1.64 Windows beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "manifest-arm64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/manifest-arm64.json",
+          "size": 1491
+        },
+        {
+          "name": "manifest-x64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/manifest-x64.json",
+          "size": 1447
+        },
+        {
+          "name": "oredit-0.1.64-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-arm64.zip",
+          "size": 4927589
+        },
+        {
+          "name": "oredit-0.1.64-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-arm64.zip.sha256",
+          "size": 99
+        },
+        {
+          "name": "oredit-0.1.64-windows-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-x64.zip",
+          "size": 5586278
+        },
+        {
+          "name": "oredit-0.1.64-windows-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-x64.zip.sha256",
+          "size": 97
+        }
+      ]
+    },
     {
       "tag_name": "reposynctool-v0.29.9",
       "name": "RepoSyncTool 0.29.9 (Windows beta)",
