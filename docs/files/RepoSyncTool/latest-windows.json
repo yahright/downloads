@@ -1,25 +1,25 @@
 {
-  "version": "0.29.9",
+  "version": "0.29.10",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.9",
-  "sourceCommit": "cafc9472bf5d1d4cc45d1d3e708364060f3f506a",
-  "publishedAtUtc": "2026-11-20T03:15:23.8916642+00:00",
-  "notes": "# RepoSyncTool 0.29.9 ベータ（Windows）\n\n- Git ワークスペースの「設定 → 確認とツール → Git フックを確認…」で、ローカルのフック、ファイルの場所、設定されたコマンドを確認できます。\n- コミット・Amend とプッシュの検証フックのスキップを、リポジトリごとに別々に設定できます。既定はオフです。コミット欄の「⋯」からその回だけスキップする操作も選べます。\n- 履歴ではコミットメッセージの本文が見やすくなりました。チェリーピックの取り込み元と Change-Id は「来歴 ▾」から確認できます。\n- 「すべて Fetch」は一覧の検索やフィルターに一致するリポジトリを対象にします。チェリーピック計画はコミット表示で開き、ボタンでファイル表示へ切り替えられます。\n\nWindows x64・ARM64 向けの自己完結型・未署名ポータブル ZIP です。\n",
+  "releaseTag": "reposynctool-v0.29.10",
+  "sourceCommit": "0a851d70ecdd75332c5bbc069b05c4244eb27c10",
+  "publishedAtUtc": "2026-11-21T06:44:18.3251990+00:00",
+  "notes": "# RepoSyncTool 0.29.10 ベータ（Windows）\n\n- リポジトリ一覧の設定に「お気に入りを常に上部に表示」を追加しました。検索・絞り込みと列ソートに対応し、設定は再起動後も保持します。\n- Git 画面の Explorer でファイルを選ぶと内容と変更箇所が表示されます。変更箇所からインライン差分を開き、ステージ・ステージ解除・変更の破棄ができます。\n- Explorer の右クリックに「エディタで開く」を追加しました。ダブルクリック・Enter でも設定済みのエディタで開きます。リポジトリ一覧の左バーから「要確認」を外しました。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.9/RepoSyncTool-0.29.9-win-x64-portable.zip",
-      "sha256": "4c92eb5c9878598ee3b54839039ee7f1b6165cf6f173a3828893bd1678574ecc",
-      "size": 53143751,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.10/RepoSyncTool-0.29.10-win-x64-portable.zip",
+      "sha256": "ae88e286025101ff5d2b89e2e1c2d5767b2f5237c2369b5080905270d1ddbcf1",
+      "size": 51469566,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.9/RepoSyncTool-0.29.9-win-arm64-portable.zip",
-      "sha256": "2a06ebbdc37a5fd193f3b191a8d641c63ba5724bbb3955d542794e800c836784",
-      "size": 50747974,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.10/RepoSyncTool-0.29.10-win-arm64-portable.zip",
+      "sha256": "5f396fd6b01d7922c1c5209c1bcf77cf3cde51774a1c2a06b11dd7d79f843fc8",
+      "size": 49224619,
       "signed": false
     }
   ]
