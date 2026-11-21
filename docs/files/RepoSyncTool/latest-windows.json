@@ -1,25 +1,25 @@
 {
-  "version": "0.29.10",
+  "version": "0.29.11",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.10",
-  "sourceCommit": "0a851d70ecdd75332c5bbc069b05c4244eb27c10",
-  "publishedAtUtc": "2026-11-21T06:44:18.3251990+00:00",
-  "notes": "# RepoSyncTool 0.29.10 ベータ（Windows）\n\n- リポジトリ一覧の設定に「お気に入りを常に上部に表示」を追加しました。検索・絞り込みと列ソートに対応し、設定は再起動後も保持します。\n- Git 画面の Explorer でファイルを選ぶと内容と変更箇所が表示されます。変更箇所からインライン差分を開き、ステージ・ステージ解除・変更の破棄ができます。\n- Explorer の右クリックに「エディタで開く」を追加しました。ダブルクリック・Enter でも設定済みのエディタで開きます。リポジトリ一覧の左バーから「要確認」を外しました。\n",
+  "releaseTag": "reposynctool-v0.29.11",
+  "sourceCommit": "b17e2137ed292bd733cd02d3ba71acdc9097843c",
+  "publishedAtUtc": "2026-11-21T08:08:31.1184710+00:00",
+  "notes": "# RepoSyncTool 0.29.11 ベータ（Windows）\n\n- Git 画面の Explorer と「変更」を左側のタブにまとめ、右側をファイルの本文・差分に広く使えるようにしました。「変更」でステージ、ステージ解除、コミットができます。\n- 差分の「本文」で、同じファイルの対応する行を開けます。「← 戻る」で直前のファイルと閲覧位置に戻れます。削除したファイルは「削除前の全文」で確認できます。\n- Explorer の本文とインライン差分の変更前の行にシンタックスハイライトを追加しました。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.10/RepoSyncTool-0.29.10-win-x64-portable.zip",
-      "sha256": "ae88e286025101ff5d2b89e2e1c2d5767b2f5237c2369b5080905270d1ddbcf1",
-      "size": 51469566,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-win-x64-portable.zip",
+      "sha256": "022a3aa18a59e0cc232ac0e2dc47a94618d3db62d310b909a9627a1869cb212d",
+      "size": 51479310,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.10/RepoSyncTool-0.29.10-win-arm64-portable.zip",
-      "sha256": "5f396fd6b01d7922c1c5209c1bcf77cf3cde51774a1c2a06b11dd7d79f843fc8",
-      "size": 49224619,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-win-arm64-portable.zip",
+      "sha256": "e2dadd356151e446890adec957bf23e400ddb5b958cf0e4b1fdab32c5edd5cb3",
+      "size": 49234389,
       "signed": false
     }
   ]

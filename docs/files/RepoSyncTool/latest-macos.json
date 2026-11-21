@@ -1,25 +1,25 @@
 {
-  "version": "0.29.10",
+  "version": "0.29.11",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.10",
-  "sourceCommit": "0a851d70ecdd75332c5bbc069b05c4244eb27c10",
-  "publishedAtUtc": "2026-11-21T06:46:41.9858450+00:00",
-  "notes": "# RepoSyncTool 0.29.10 ベータ（macOS）\n\n- リポジトリ一覧の設定に「お気に入りを常に上部に表示」を追加しました。検索・絞り込みと列ソートに対応し、設定は再起動後も保持します。\n- Git 画面の Explorer でファイルを選ぶと内容と変更箇所が表示されます。変更箇所からインライン差分を開き、ステージ・ステージ解除・変更の破棄ができます。\n- Explorer の右クリックに「エディタで開く」を追加しました。ダブルクリック・Enter でも設定済みのエディタで開きます。リポジトリ一覧の左バーから「要確認」を外しました。\n\nmacOS 0.29.6 以降の変更も収録しています。履歴の列と左バーの表示設定、.gitignore の閲覧・編集、履歴の現在地への移動、Git フックの確認とスキップ設定、コミット詳細の「来歴」、検索・絞り込みに対応した「すべて Fetch」を利用できます。\n",
+  "releaseTag": "reposynctool-v0.29.11",
+  "sourceCommit": "b17e2137ed292bd733cd02d3ba71acdc9097843c",
+  "publishedAtUtc": "2026-11-21T08:11:43.0818520+00:00",
+  "notes": "# RepoSyncTool 0.29.11 ベータ（macOS）\n\n- Git 画面の Explorer と「変更」を左側のタブにまとめ、右側をファイルの本文・差分に広く使えるようにしました。「変更」でステージ、ステージ解除、コミットができます。\n- 差分の「本文」で、同じファイルの対応する行を開けます。「← 戻る」で直前のファイルと閲覧位置に戻れます。削除したファイルは「削除前の全文」で確認できます。\n- Explorer の本文とインライン差分の変更前の行にシンタックスハイライトを追加しました。\n",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.10/RepoSyncTool-0.29.10-osx-arm64.zip",
-      "sha256": "b6abaf3b3e57e5fa63df3a6e3b1e2f682427a1afcf5c347a2746ff55f498d71f",
-      "size": 49401307,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-osx-arm64.zip",
+      "sha256": "6732b29190fa55aca77c7a1d4a6dcf5fbd6eb026695c362e407320a985503eb4",
+      "size": 49410777,
       "signed": true
     },
     {
       "platform": "osx-x64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.10/RepoSyncTool-0.29.10-osx-x64.zip",
-      "sha256": "0a412060a22af7276cd279bde92e3e474bca1f26b0ec3cc9e3d308c83a9ff375",
-      "size": 55118580,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-osx-x64.zip",
+      "sha256": "f81c03b74c52c9c691ad5769faa05cfba1728dc0a89c033509eecc0f76238520",
+      "size": 55127982,
       "signed": true
     }
   ]
