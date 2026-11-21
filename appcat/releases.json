@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-21T08:14:18.565Z",
+  "generated_at": "2026-11-21T11:51:44.947Z",
   "releases": [
     {
       "tag_name": "reposynctool-v0.29.11",
@@ -152,6 +152,34 @@
           "name": "LogMonitor-0.7.0-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.7.0/LogMonitor-0.7.0-x64.zip.sha256",
           "size": 92
+        }
+      ]
+    },
+    {
+      "tag_name": "insightflow-v0.10.53",
+      "name": "InsightFlow 0.10.53",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "InsightFlow-0.10.53-win-arm64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.53/InsightFlow-0.10.53-win-arm64-portable.zip",
+          "size": 107161025
+        },
+        {
+          "name": "InsightFlow-0.10.53-win-arm64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.53/InsightFlow-0.10.53-win-arm64-portable.zip.sha256",
+          "size": 110
+        },
+        {
+          "name": "InsightFlow-0.10.53-win-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.53/InsightFlow-0.10.53-win-x64-portable.zip",
+          "size": 110813711
+        },
+        {
+          "name": "InsightFlow-0.10.53-win-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.53/InsightFlow-0.10.53-win-x64-portable.zip.sha256",
+          "size": 108
         }
       ]
     },
