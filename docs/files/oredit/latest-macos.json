@@ -1,18 +1,18 @@
 {
   "product": "oredit",
   "platform": "macos",
-  "version": "0.1.59",
+  "version": "0.1.63",
   "channel": "beta",
-  "source_sha": "8e9c6c3ac51e84554c08381ec3603a46f34f267a",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.59",
-  "published_at": "2026-11-18T11:06:24Z",
+  "source_sha": "7179c8084140bf54f3a92902dfb1e8100b9504fc",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.63",
+  "published_at": "2026-11-21T01:04:28Z",
   "assets": [
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.59/oredit-0.1.59-macos-arm64.zip",
-      "bytes": 4512601,
-      "sha256": "f1316762b22a8c843d2c057e77740ae1c3e5783e8228bb9789f9919eca411d34"
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.63/oredit-0.1.63-macos-arm64.zip",
+      "bytes": 4593030,
+      "sha256": "0cf64d8bb32e81968136f2c6fa325e78ddadf478d02a0dfdbc0c7dd74c946a9a"
     }
   ],
-  "notes": "oredit 0.1.59 macOS beta\n\n- 「検索 → フォルダから検索…」に入口を統一しました。⌘⇧Fでも開けます。\n- 検索語と検索場所を上部にまとめ、詳細条件は必要に応じて開けるようにしました。\n- 検索語とフォルダの入力欄から、以前の検索で使った値を選べます。\n\nApple Silicon（arm64）、macOS 13以降。Developer ID署名・Apple公証済みです。Intel Mac向けには0.1.48 universal版を引き続き配布しています。\n"
+  "notes": "oredit 0.1.63 macOS beta\n\n- 検索の一致強調、行番号の印、ミニマップのマーカーをスクロール中も維持しやすくしました。折返し表示の本文は、上下とも画面上の表示行単位でスクロールします。\n- Grepにプロジェクトと開いているファイルの検索、ファイルパターンと除外条件の履歴を追加しました。結果の一致箇所を強調し、タグジャンプで元ファイルへ移動できます。保存先のない結果タブは保存確認なしで閉じます。\n- キーワードの小窓とサイドバーで複数グループを選べます。管理画面では改行区切りの一括追加ができます。\n- 外部更新時の再読込でキャレットと表示位置を保持します。追記中のログを開く処理と、文字コードの読み込み診断を改善しました。\n- Markdownのライブ編集で、編集中の箇所以外の整形表示を維持します。検索とGrepの入力欄では、貼り付けやすべて選択をその入力欄に適用します。\n\nApple Silicon（arm64）、macOS 13以降。Developer ID署名・Apple公証済みです。Intel Mac向けの公開版は0.1.48 universalです。\n"
 }
