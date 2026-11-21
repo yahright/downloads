@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-20T03:40:03.659Z",
+  "generated_at": "2026-11-21T01:04:54.110Z",
   "releases": [
     {
       "tag_name": "reposynctool-v0.29.9",
@@ -28,6 +28,24 @@
           "name": "RepoSyncTool-0.29.9-win-x64-portable.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.9/RepoSyncTool-0.29.9-win-x64-portable.zip.sha256",
           "size": 107
+        }
+      ]
+    },
+    {
+      "tag_name": "oredit-v0.1.63",
+      "name": "oredit 0.1.63 macOS beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "oredit-0.1.63-macos-arm64.dmg",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.63/oredit-0.1.63-macos-arm64.dmg",
+          "size": 4896856
+        },
+        {
+          "name": "oredit-0.1.63-macos-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.63/oredit-0.1.63-macos-arm64.zip",
+          "size": 4593030
         }
       ]
     },
