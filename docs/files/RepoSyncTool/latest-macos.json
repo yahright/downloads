@@ -1,25 +1,25 @@
 {
-  "version": "0.29.11",
+  "version": "0.29.12",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.11",
-  "sourceCommit": "b17e2137ed292bd733cd02d3ba71acdc9097843c",
-  "publishedAtUtc": "2026-11-21T08:11:43.0818520+00:00",
-  "notes": "# RepoSyncTool 0.29.11 ベータ（macOS）\n\n- Git 画面の Explorer と「変更」を左側のタブにまとめ、右側をファイルの本文・差分に広く使えるようにしました。「変更」でステージ、ステージ解除、コミットができます。\n- 差分の「本文」で、同じファイルの対応する行を開けます。「← 戻る」で直前のファイルと閲覧位置に戻れます。削除したファイルは「削除前の全文」で確認できます。\n- Explorer の本文とインライン差分の変更前の行にシンタックスハイライトを追加しました。\n",
+  "releaseTag": "reposynctool-v0.29.12",
+  "sourceCommit": "e88ef8b9e83ae66a1307a3b73f6ec86a67aa1203",
+  "publishedAtUtc": "2026-11-22T00:11:08.0830240+00:00",
+  "notes": "# RepoSyncTool 0.29.12 ベータ（macOS）\n\n- Blame ウィンドウを大きく改善しました。コミット・作者・日付の列が切れずに表示され、列の境目をドラッグして幅を変えられます。本文にシンタックスハイライトが付き、内容・作者・コミットを検索できます（Ctrl/Cmd+F、Enter / F3 で次へ）。\n- 行をクリックすると、同じコミットの行がすべて強調されます。下部の詳細欄に、そのコミットのメッセージ全文・変更ファイル・選んだファイルの差分が出ます。同じコミットの前／次のまとまりへ移動できます（Alt+↑↓）。\n- 「1つ前の版で Blame」を同じウィンドウで開き、元の行を保ったまま過去へたどれます。「戻る／進む」（Alt+←→）で見ていた版に戻れます。\n- 右側に集計を表示できます。作者ごとの行数・割合・コミット数、コミットごとの行数で、選ぶと該当の行を強調します。\n- 「表示」で、帯の色（経過／作者）と凡例、同じコミットが続く行の省略、相対日付、作成日時／コミット日時、列と各ペインの表示を切り替えられます。\n- 空白の変更の無視、移動・コピーを追う範囲、`.git-blame-ignore-revs` の使用を切り替えられ、特定のコミットだけ隠して調べられます。差分の「この行の Blame」は、その行を表示して開きます。\n",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-osx-arm64.zip",
-      "sha256": "6732b29190fa55aca77c7a1d4a6dcf5fbd6eb026695c362e407320a985503eb4",
-      "size": 49410777,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.12/RepoSyncTool-0.29.12-osx-arm64.zip",
+      "sha256": "8d421e938049cdd91f06935ce97b7e071317c3ae182ec5b1669f9cdad42dbded",
+      "size": 49440923,
       "signed": true
     },
     {
       "platform": "osx-x64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-osx-x64.zip",
-      "sha256": "f81c03b74c52c9c691ad5769faa05cfba1728dc0a89c033509eecc0f76238520",
-      "size": 55127982,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.12/RepoSyncTool-0.29.12-osx-x64.zip",
+      "sha256": "e8ad48fef7911522077b7625491dc8a98579d76c4ba7802a810ca97f1580e52d",
+      "size": 55157808,
       "signed": true
     }
   ]
