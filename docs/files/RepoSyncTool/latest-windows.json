@@ -1,26 +1,26 @@
 {
-  "version": "0.29.12",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.12",
-  "sourceCommit": "e88ef8b9e83ae66a1307a3b73f6ec86a67aa1203",
-  "publishedAtUtc": "2026-11-22T00:11:34.4307990+00:00",
-  "notes": "# RepoSyncTool 0.29.12 ベータ（Windows）\n\n- Blame ウィンドウを大きく改善しました。コミット・作者・日付の列が切れずに表示され、列の境目をドラッグして幅を変えられます。本文にシンタックスハイライトが付き、内容・作者・コミットを検索できます（Ctrl/Cmd+F、Enter / F3 で次へ）。\n- 行をクリックすると、同じコミットの行がすべて強調されます。下部の詳細欄に、そのコミットのメッセージ全文・変更ファイル・選んだファイルの差分が出ます。同じコミットの前／次のまとまりへ移動できます（Alt+↑↓）。\n- 「1つ前の版で Blame」を同じウィンドウで開き、元の行を保ったまま過去へたどれます。「戻る／進む」（Alt+←→）で見ていた版に戻れます。\n- 右側に集計を表示できます。作者ごとの行数・割合・コミット数、コミットごとの行数で、選ぶと該当の行を強調します。\n- 「表示」で、帯の色（経過／作者）と凡例、同じコミットが続く行の省略、相対日付、作成日時／コミット日時、列と各ペインの表示を切り替えられます。\n- 空白の変更の無視、移動・コピーを追う範囲、`.git-blame-ignore-revs` の使用を切り替えられ、特定のコミットだけ隠して調べられます。差分の「この行の Blame」は、その行を表示して開きます。\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.12/RepoSyncTool-0.29.12-win-x64-portable.zip",
-      "sha256": "69bc4a1c92811ce63e34a503fb270b68084617e77861bdc57654a7759bc6052a",
-      "size": 51509465,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.12/RepoSyncTool-0.29.12-win-arm64-portable.zip",
-      "sha256": "3fe21c8772d55c93529dfc9c9a2d7c3060b114af5a4874dfebbe58c084c7bcc4",
-      "size": 49264499,
-      "signed": false
-    }
-  ]
+    "version":  "0.29.13",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.29.13",
+    "sourceCommit":  "5701af00ee2b759cebae54d50c47436d6bca1035",
+    "publishedAtUtc":  "2026-11-22T01:46:51.1769439+00:00",
+    "notes":  "# RepoSyncTool 0.29.13 ベータ（Windows）\n\n- 最新のソースから Windows x64・ARM64 版を再ビルドしました。Mac 版 0.29.12 と同じ Blame の検索・版移動・集計、Explorer の本文・差分表示を収録しています。\n",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.13/RepoSyncTool-0.29.13-win-x64-portable.zip",
+                          "sha256":  "3ac8f3b378244c3ac2aca926ebb9b7fba3274dedaee185ca1fcb319e9b52745f",
+                          "size":  51635872,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.13/RepoSyncTool-0.29.13-win-arm64-portable.zip",
+                          "sha256":  "3c39a5e8711b34d845e59a2a81e46897f068dfb0b5139920223b06633221a5ab",
+                          "size":  49354792,
+                          "signed":  false
+                      }
+                  ]
 }
