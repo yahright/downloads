@@ -1,25 +1,25 @@
 {
-  "version": "0.29.11",
+  "version": "0.29.12",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.11",
-  "sourceCommit": "b17e2137ed292bd733cd02d3ba71acdc9097843c",
-  "publishedAtUtc": "2026-11-21T08:08:31.1184710+00:00",
-  "notes": "# RepoSyncTool 0.29.11 ベータ（Windows）\n\n- Git 画面の Explorer と「変更」を左側のタブにまとめ、右側をファイルの本文・差分に広く使えるようにしました。「変更」でステージ、ステージ解除、コミットができます。\n- 差分の「本文」で、同じファイルの対応する行を開けます。「← 戻る」で直前のファイルと閲覧位置に戻れます。削除したファイルは「削除前の全文」で確認できます。\n- Explorer の本文とインライン差分の変更前の行にシンタックスハイライトを追加しました。\n",
+  "releaseTag": "reposynctool-v0.29.12",
+  "sourceCommit": "e88ef8b9e83ae66a1307a3b73f6ec86a67aa1203",
+  "publishedAtUtc": "2026-11-22T00:11:34.4307990+00:00",
+  "notes": "# RepoSyncTool 0.29.12 ベータ（Windows）\n\n- Blame ウィンドウを大きく改善しました。コミット・作者・日付の列が切れずに表示され、列の境目をドラッグして幅を変えられます。本文にシンタックスハイライトが付き、内容・作者・コミットを検索できます（Ctrl/Cmd+F、Enter / F3 で次へ）。\n- 行をクリックすると、同じコミットの行がすべて強調されます。下部の詳細欄に、そのコミットのメッセージ全文・変更ファイル・選んだファイルの差分が出ます。同じコミットの前／次のまとまりへ移動できます（Alt+↑↓）。\n- 「1つ前の版で Blame」を同じウィンドウで開き、元の行を保ったまま過去へたどれます。「戻る／進む」（Alt+←→）で見ていた版に戻れます。\n- 右側に集計を表示できます。作者ごとの行数・割合・コミット数、コミットごとの行数で、選ぶと該当の行を強調します。\n- 「表示」で、帯の色（経過／作者）と凡例、同じコミットが続く行の省略、相対日付、作成日時／コミット日時、列と各ペインの表示を切り替えられます。\n- 空白の変更の無視、移動・コピーを追う範囲、`.git-blame-ignore-revs` の使用を切り替えられ、特定のコミットだけ隠して調べられます。差分の「この行の Blame」は、その行を表示して開きます。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-win-x64-portable.zip",
-      "sha256": "022a3aa18a59e0cc232ac0e2dc47a94618d3db62d310b909a9627a1869cb212d",
-      "size": 51479310,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.12/RepoSyncTool-0.29.12-win-x64-portable.zip",
+      "sha256": "69bc4a1c92811ce63e34a503fb270b68084617e77861bdc57654a7759bc6052a",
+      "size": 51509465,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.11/RepoSyncTool-0.29.11-win-arm64-portable.zip",
-      "sha256": "e2dadd356151e446890adec957bf23e400ddb5b958cf0e4b1fdab32c5edd5cb3",
-      "size": 49234389,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.12/RepoSyncTool-0.29.12-win-arm64-portable.zip",
+      "sha256": "3fe21c8772d55c93529dfc9c9a2d7c3060b114af5a4874dfebbe58c084c7bcc4",
+      "size": 49264499,
       "signed": false
     }
   ]
