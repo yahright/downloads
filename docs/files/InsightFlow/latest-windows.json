@@ -1,9 +1,14 @@
 {
-  "version": "0.10.53",
+  "version": "0.10.54",
   "channel": "Beta",
   "notesUrl": "",
-  "notes": "- Investigate same-volume move throughput (I-0055)\n- Compare Windows Shell batch moves on generated files (I-0055)\n- Batch cleanup preview selection summaries (I-0159)\n- Clarify file list and saved search workflows (I-0166)\n- Merge branch 'codex/file-list-saved-search-labels' (I-0166)\n- Merge Compare Windows Shell batch moves on generated files (I-0055)\n- Merge Batch cleanup preview selection summaries (I-0159)\n- Split J dialog into file list and saved search tabs with in-place editing (I-0167, I-0168, I-0169)\n- Merge Split J dialog tabs and add file list editing (I-0167, I-0168, I-0169)\n- Point the disabled-Undo hint at the real settings path (I-0174)\n- Start panes in the user profile when launched from the app folder (I-0171)\n- Keep shell-menu startup diagnostics out of the visible log (I-0172)\n- Open files on Enter without an argument prompt (I-0175)\n- Select the name without its extension when renaming (I-0176)\n- Default to name order and break sort ties by name (I-0177)\n- Hide the command log on a fresh install; failures still reveal it (I-0172)\n- Make the command log say what happened instead of \"OK\" (I-0173)\n- Replace in-house jargon with plain Japanese terms (I-0178)\n- Clear the status line once a foreground job has finished (I-0173)\n- Start in the home folder when macOS launches the app in / (I-0180)\n- Merge pre-sale UI fixes from the UI review (I-0171 to I-0178)\n- Give every button one shape and mark the dialog default as primary (I-0182)\n- Put the primary and cancel buttons in one platform order in every dialog (I-0183)\n- Write form labels one way: no colon, regular weight (I-0184)\n- Stop showing exception text and internal names to the user (I-0185)\n- Drop the colon from the Batch rename Scope label too (I-0184)\n- Show the shared empty state in lists that opened as blank boxes (I-0186)\n- Use one tab style and make unselected and selected tabs readable (I-0187)\n- Replace the wall of Change/Clear buttons in Key Bindings with one pair (I-0188)\n- Keep the Disk usage column headers readable and give capacity one line (I-0189)\n- Recognise the default and cancel buttons by their translated labels (I-0182)\n- Merge UI polish fixes from the visual review (I-0182 to I-0189)\n- Recapture the feature guide screenshots for the new button and tab styles",
+  "notes": "ロケーションランチャーに表示する標準フォルダーとクラウドストレージを、設定 → コマンド → ロケーションランチャー から OS ごとに選べます。クラウドフォルダーは、選択したサービスが検出されたときに表示されます。\n\nChoose which standard folders and detected cloud storage services appear in the Location Launcher from Settings → Commands → Location Launcher. macOS and Windows selections are saved separately.",
   "notesHistory": [
+    {
+      "version": "0.10.54",
+      "notes": "ロケーションランチャーに表示する標準フォルダーとクラウドストレージを、設定 → コマンド → ロケーションランチャー から OS ごとに選べます。クラウドフォルダーは、選択したサービスが検出されたときに表示されます。\n\nChoose which standard folders and detected cloud storage services appear in the Location Launcher from Settings → Commands → Location Launcher. macOS and Windows selections are saved separately.",
+      "publishedAtUtc": "2026-11-22T21:31:52Z"
+    },
     {
       "version": "0.10.53",
       "notes": "- Investigate same-volume move throughput (I-0055)\n- Compare Windows Shell batch moves on generated files (I-0055)\n- Batch cleanup preview selection summaries (I-0159)\n- Clarify file list and saved search workflows (I-0166)\n- Merge branch 'codex/file-list-saved-search-labels' (I-0166)\n- Merge Compare Windows Shell batch moves on generated files (I-0055)\n- Merge Batch cleanup preview selection summaries (I-0159)\n- Split J dialog into file list and saved search tabs with in-place editing (I-0167, I-0168, I-0169)\n- Merge Split J dialog tabs and add file list editing (I-0167, I-0168, I-0169)\n- Point the disabled-Undo hint at the real settings path (I-0174)\n- Start panes in the user profile when launched from the app folder (I-0171)\n- Keep shell-menu startup diagnostics out of the visible log (I-0172)\n- Open files on Enter without an argument prompt (I-0175)\n- Select the name without its extension when renaming (I-0176)\n- Default to name order and break sort ties by name (I-0177)\n- Hide the command log on a fresh install; failures still reveal it (I-0172)\n- Make the command log say what happened instead of \"OK\" (I-0173)\n- Replace in-house jargon with plain Japanese terms (I-0178)\n- Clear the status line once a foreground job has finished (I-0173)\n- Start in the home folder when macOS launches the app in / (I-0180)\n- Merge pre-sale UI fixes from the UI review (I-0171 to I-0178)\n- Give every button one shape and mark the dialog default as primary (I-0182)\n- Put the primary and cancel buttons in one platform order in every dialog (I-0183)\n- Write form labels one way: no colon, regular weight (I-0184)\n- Stop showing exception text and internal names to the user (I-0185)\n- Drop the colon from the Batch rename Scope label too (I-0184)\n- Show the shared empty state in lists that opened as blank boxes (I-0186)\n- Use one tab style and make unselected and selected tabs readable (I-0187)\n- Replace the wall of Change/Clear buttons in Key Bindings with one pair (I-0188)\n- Keep the Disk usage column headers readable and give capacity one line (I-0189)\n- Recognise the default and cancel buttons by their translated labels (I-0182)\n- Merge UI polish fixes from the visual review (I-0182 to I-0189)\n- Recapture the feature guide screenshots for the new button and tab styles",
@@ -48,27 +53,22 @@
       "version": "0.10.42",
       "notes": "Windows 0.10.39 からの主な変更:\n- NTFS MFT の管理者ヘルパーと再帰検索の高速化。\n- ディスク使用量で論理サイズとディスク上のサイズを表示し、空画面の表示を改善。\n- お気に入りの仮想リストの Enter 操作とペインタブの右クリック操作を改善。\n- 画像プレビューの EXIF 方向補正と回転操作、AI チャットの連携機能を追加。",
       "publishedAtUtc": "2026-11-01T21:06:36Z"
-    },
-    {
-      "version": "0.10.39",
-      "notes": "- feat(diskusage): WizTree-style columns in the folder tree\n- feat(diskusage): WizTree-style File view tab\n- feat(diskusage): attributes column in the File view\n- feat(diskusage): folder rows, duplicate expansion and truncation note in the File view\n- chore: bump version to 0.10.39",
-      "publishedAtUtc": "2026-10-29T03:18:16Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.53/InsightFlow-0.10.53-win-x64-portable.zip",
-      "sha256": "f2a2cdcb80109fc42f803a50dbc071a4e38c4c25ec2faffc211378eed393abb8",
-      "size": 110813711
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.54/InsightFlow-0.10.54-win-x64-portable.zip",
+      "sha256": "56f155970d510dc71a714bde3873508172562a9e22858e0865a8f8f4971b6ee2",
+      "size": 107265017
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.53/InsightFlow-0.10.53-win-arm64-portable.zip",
-      "sha256": "aec62d90545a177187aa38e153f98ea9fe895f1e84f908895a9716269b057a2d",
-      "size": 107161025
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.54/InsightFlow-0.10.54-win-arm64-portable.zip",
+      "sha256": "c2c310b0215d90d80eec36f86489b37a4e6ff6ad8546c1d20140d12f81f36869",
+      "size": 104041172
     }
   ]
 }

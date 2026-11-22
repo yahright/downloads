@@ -1,9 +1,14 @@
 {
-  "version": "0.10.51",
+  "version": "0.10.54",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.51",
-  "notes": "InsightFlow 0.10.51 for macOS Apple Silicon (Beta)\n\n- 「再帰検索」を「ファイルを検索」に改名しました。上の検索語欄の Enter は常に新しい検索になり、結果の上に「前回の結果／件数」「結果を絞り込む（Ctrl+L）」「結果をクリア」をまとめました。開き直しても前回の結果をクリアせずに次の検索ができます。\n- 検索中に一覧が作り直されて表示やホバーが動く問題を修正しました。行を詰め、パス列の位置がそろうようにしました。\n- ロケーションランチャー（L）に Dropbox・Google Drive・OneDrive・Box・iCloud Drive・pCloud Drive のフォルダーを自動で表示します。不要なものは「非表示」で消せます。\n- ペイン上部（アドレス行・フィルター行）、ロケーションランチャー、お気に入りのボタンや入力欄を詰めました。お気に入りの右側のボタンがすべて表示されるようにしました。\n- ディスク使用量: スキャン中の帯を表示し、応答しないフォルダーがあってもすぐにキャンセルできるようにしました。最大のファイルをディスク上のサイズ順にし、サイズ列の並べ替え・横スクロールに対応しました。ローカルのスキャンで pCloud などのクラウド/FUSE マウントを数えないようにしました。\n- 動画・音声を Quick Look でプレビュー内再生できるようにしました（Quick Look 表示で固まる問題も修正）。\n- 記憶しているネットワークボリュームが未マウントのときは再マウントを案内し、マウント後に元のフォルダーを開きます。\n- フォルダー移動と Git ウィンドウの応答性を改善しました。外部エディタの参照で .app を選べるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release renames Recursive Search to Find Files with a separate result filter and no-clear new searches, lists cloud storage folders in the Location Launcher, tightens control sizes in the pane header, launcher and favorites, adds a scanning banner, prompt cancel and on-disk ranking to Disk Usage, plays video/audio with Quick Look, offers to remount network volumes, and improves folder/Git responsiveness.\n\nWindowsの公開版は0.10.50を維持します。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.54",
+  "notes": "- 設定 → コマンド → ロケーションランチャー から、アプリケーション・ムービー・ピクチャなどの標準フォルダーと、表示するクラウドサービスを OS ごとに選べます。\n- お気に入りの J ダイアログで、ファイルリストと保存した検索を個別のタブから編集できます。\n- 初回はホームフォルダーを表示し、名前順で並べます。ファイルを Enter で開く動作と、リネーム時の名前部分の選択を改善しました。\n- 設定、ダイアログ、ディスク使用量画面のボタン・タブ・表示を整理しました。\n\nConfigure standard folders and detected cloud services in Settings → Commands → Location Launcher. This macOS update also adds separate tabs for file lists and saved searches, improves first-launch navigation and renaming, and refines dialogs and Disk Usage.",
   "notesHistory": [
+    {
+      "version": "0.10.54",
+      "notes": "- 設定 → コマンド → ロケーションランチャー から、アプリケーション・ムービー・ピクチャなどの標準フォルダーと、表示するクラウドサービスを OS ごとに選べます。\n- お気に入りの J ダイアログで、ファイルリストと保存した検索を個別のタブから編集できます。\n- 初回はホームフォルダーを表示し、名前順で並べます。ファイルを Enter で開く動作と、リネーム時の名前部分の選択を改善しました。\n- 設定、ダイアログ、ディスク使用量画面のボタン・タブ・表示を整理しました。\n\nConfigure standard folders and detected cloud services in Settings → Commands → Location Launcher. This macOS update also adds separate tabs for file lists and saved searches, improves first-launch navigation and renaming, and refines dialogs and Disk Usage.",
+      "publishedAtUtc": "2026-11-22T21:31:52Z"
+    },
     {
       "version": "0.10.51",
       "notes": "InsightFlow 0.10.51 for macOS Apple Silicon (Beta)\n\n- 「再帰検索」を「ファイルを検索」に改名しました。上の検索語欄の Enter は常に新しい検索になり、結果の上に「前回の結果／件数」「結果を絞り込む（Ctrl+L）」「結果をクリア」をまとめました。開き直しても前回の結果をクリアせずに次の検索ができます。\n- 検索中に一覧が作り直されて表示やホバーが動く問題を修正しました。行を詰め、パス列の位置がそろうようにしました。\n- ロケーションランチャー（L）に Dropbox・Google Drive・OneDrive・Box・iCloud Drive・pCloud Drive のフォルダーを自動で表示します。不要なものは「非表示」で消せます。\n- ペイン上部（アドレス行・フィルター行）、ロケーションランチャー、お気に入りのボタンや入力欄を詰めました。お気に入りの右側のボタンがすべて表示されるようにしました。\n- ディスク使用量: スキャン中の帯を表示し、応答しないフォルダーがあってもすぐにキャンセルできるようにしました。最大のファイルをディスク上のサイズ順にし、サイズ列の並べ替え・横スクロールに対応しました。ローカルのスキャンで pCloud などのクラウド/FUSE マウントを数えないようにしました。\n- 動画・音声を Quick Look でプレビュー内再生できるようにしました（Quick Look 表示で固まる問題も修正）。\n- 記憶しているネットワークボリュームが未マウントのときは再マウントを案内し、マウント後に元のフォルダーを開きます。\n- フォルダー移動と Git ウィンドウの応答性を改善しました。外部エディタの参照で .app を選べるようにしました。\n\nDeveloper ID署名・Apple公証済みのアプリZIPとDMGを配布します。アプリ内更新はアプリZIPを使用します。\n\nThis release renames Recursive Search to Find Files with a separate result filter and no-clear new searches, lists cloud storage folders in the Location Launcher, tightens control sizes in the pane header, launcher and favorites, adds a scanning banner, prompt cancel and on-disk ranking to Disk Usage, plays video/audio with Quick Look, offers to remount network volumes, and improves folder/Git responsiveness.\n\nWindowsの公開版は0.10.50を維持します。"
@@ -29,16 +34,16 @@
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64-app.zip",
-      "sha256": "356ffb69b5ece1095ca27fcf168596a4e25fbe6ff8edd2ccb07fdc7772c7aed0",
-      "size": 104153087
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.54/InsightFlow-0.10.54-osx-arm64-app.zip",
+      "sha256": "f6cb48a71a2cafaa848ca1ddc09c7ab254c4e04d6ad29702b639e8536e972b07",
+      "size": 104168588
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.51/InsightFlow-0.10.51-osx-arm64.dmg",
-      "sha256": "8d8ff14f52bddfde6e828a4b7b661815ec7a8e745356a9a966a8b6db64bb10e2",
-      "size": 113161987
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.54/InsightFlow-0.10.54-osx-arm64.dmg",
+      "sha256": "cad4fc1b4b94958e0bbb41c9759b3cd169622bfbbf9018452d998312fb741479",
+      "size": 113226885
     }
   ]
 }
