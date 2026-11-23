@@ -1,8 +1,36 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-23T01:29:59.998Z",
+  "generated_at": "2026-11-23T13:12:33.303Z",
   "releases": [
+    {
+      "tag_name": "reposynctool-v0.29.14",
+      "name": "RepoSyncTool 0.29.14 (macOS beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "RepoSyncTool-0.29.14-osx-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-arm64.zip",
+          "size": 49441903
+        },
+        {
+          "name": "RepoSyncTool-0.29.14-osx-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-arm64.zip.sha256",
+          "size": 101
+        },
+        {
+          "name": "RepoSyncTool-0.29.14-osx-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-x64.zip",
+          "size": 55159237
+        },
+        {
+          "name": "RepoSyncTool-0.29.14-osx-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-x64.zip.sha256",
+          "size": 99
+        }
+      ]
+    },
     {
       "tag_name": "reposynctool-v0.29.13",
       "name": "RepoSyncTool 0.29.13 (Windows beta)",
