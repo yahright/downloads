@@ -1,24 +1,24 @@
 {
   "product": "oredit",
-  "version": "0.1.64",
+  "version": "0.1.65",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "a5bcc4cf5ae29bb15ee77d5e742c5f4ebf14e42e",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.64",
-  "published_at": "2026-11-21T02:56:22.226055+00:00",
+  "source_sha": "318164f74dc098798878b4a2f9ac94ca73cbb294",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/oredit-v0.1.65",
+  "published_at": "2026-11-23T23:59:29.859810+00:00",
   "assets": [
     {
       "architecture": "x64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-x64.zip",
-      "sha256": "0a033203163370529c539fa397ff19156b2b7b02acdedc78663a257c4a62b6e9",
-      "bytes": 5586278
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/oredit-0.1.65-windows-x64.zip",
+      "sha256": "bbdb4168b5503dd2f4361e25a119db4c7292cae4d4c4281bf48cc0d35b960210",
+      "bytes": 5615118
     },
     {
       "architecture": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.64/oredit-0.1.64-windows-arm64.zip",
-      "sha256": "e238353647044593a6e75772b78e23f18485d12362649af6c8525ab42cfc740b",
-      "bytes": 4927589
+      "url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/oredit-0.1.65-windows-arm64.zip",
+      "sha256": "36690240d99bd8ecfd07de87043ad625de5a5a8c7b29e4be93e87eb001a683ef",
+      "bytes": 4951169
     }
   ],
-  "notes": "oredit 0.1.64 Windows beta\n\n- 検索結果を表示したままスクロールすると、本文の強調や行番号の印がちらつく問題を改善しました。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
+  "notes": "oredit 0.1.65 Windows beta\n\n- Markdownのライブ編集で、ソースの改行をそのまま表示します。閲覧モードでは段落内の行をつなげて表示します。\n- 段落ではキャレットが触れた要素、リストでは編集中の項目だけ記号を表示します。段落の折返しを保ち、記号は薄い色で表示します。\n- 記号を表示したときにキャレット行の縦位置を保ち、マウス選択中の表示の切替を抑えました。\n- 日本語を含む範囲のドラッグ選択と削除を繰り返したとき、選択位置が文字の途中を指すことがある問題を修正しました。\n\nWindows 10/11 x64 and arm64, static MSVC runtime, bundled license notices in six files, including Sgrep/RE2/Abseil/SIMDe/Sparser. Common Release tests and Windows native self-tests pass for each published architecture. Unsigned beta. Real Microsoft IME candidate interaction, power-loss recovery, physical disk-full and the 100ms GUI-present budget remain acceptance items. macOS is not included in this Windows release.\n"
 }
