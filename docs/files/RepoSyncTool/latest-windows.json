@@ -1,25 +1,25 @@
 {
-  "version": "0.29.16",
+  "version": "0.29.17",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.16",
-  "sourceCommit": "dd3b7491b124f23ae1ec467ebc344da79fb5d63c",
-  "publishedAtUtc": "2026-11-24T08:05:51.5003344+00:00",
-  "notes": "# RepoSyncTool 0.29.16 ベータ（Windows）\n\n- 履歴でコミットをクリックしてから別のコミットを Shift+クリックすると、両端を含む範囲を選択できます。続けて Shift+クリックすると、同じ起点から範囲を更新できます。\n",
+  "releaseTag": "reposynctool-v0.29.17",
+  "sourceCommit": "5c62786d2b2e405aed2dd44666c607b3daa4e0cf",
+  "publishedAtUtc": "2026-11-24T08:39:11.8352270+00:00",
+  "notes": "# RepoSyncTool 0.29.17 ベータ（Windows）\n\n- 履歴で複数選択したあとに通常クリックで1件に戻しても、クリックしたコミットが選択されたままになります。\n- 履歴で Shift+クリックすると、起点とクリックしたコミットの両端を含む範囲を選択できます。\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.16/RepoSyncTool-0.29.16-win-x64-portable.zip",
-      "sha256": "c787a7b2728eb507f35adf5c7fbe3a4e247de37ffd6ae256a81290edd0d9f665",
-      "size": 53220882,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-x64-portable.zip",
+      "sha256": "7b3aa67b19d2937c6cde850b653a4576f62da9b28528d3b0b71395efb314d0f2",
+      "size": 53220887,
       "signed": false
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.16/RepoSyncTool-0.29.16-win-arm64-portable.zip",
-      "sha256": "08eecf21845d8aa0930f598e68c692e74fb6fe5757073333429a60d336fc2ff7",
-      "size": 50825071,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-arm64-portable.zip",
+      "sha256": "c824e22879b2a75736998a89c50234a93e428fee7b42a73c35519d06133dbc95",
+      "size": 50825114,
       "signed": false
     }
   ]
