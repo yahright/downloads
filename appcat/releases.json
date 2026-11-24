@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-23T23:24:37.724Z",
+  "generated_at": "2026-11-24T00:00:22.294Z",
   "releases": [
     {
       "tag_name": "reposynctool-v0.29.14",
@@ -28,6 +28,44 @@
           "name": "RepoSyncTool-0.29.14-osx-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-x64.zip.sha256",
           "size": 99
+        }
+      ]
+    },
+    {
+      "tag_name": "oredit-v0.1.65",
+      "name": "oredit 0.1.65 Windows beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "manifest-arm64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/manifest-arm64.json",
+          "size": 1495
+        },
+        {
+          "name": "manifest-x64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/manifest-x64.json",
+          "size": 1451
+        },
+        {
+          "name": "oredit-0.1.65-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/oredit-0.1.65-windows-arm64.zip",
+          "size": 4951169
+        },
+        {
+          "name": "oredit-0.1.65-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/oredit-0.1.65-windows-arm64.zip.sha256",
+          "size": 99
+        },
+        {
+          "name": "oredit-0.1.65-windows-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/oredit-0.1.65-windows-x64.zip",
+          "size": 5615118
+        },
+        {
+          "name": "oredit-0.1.65-windows-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.65/oredit-0.1.65-windows-x64.zip.sha256",
+          "size": 97
         }
       ]
     },
