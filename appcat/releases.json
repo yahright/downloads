@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-24T09:05:54.184Z",
+  "generated_at": "2026-11-24T22:54:54.235Z",
   "releases": [
     {
       "tag_name": "reposynctool-v0.29.17",
@@ -122,6 +122,24 @@
           "name": "oredit-0.1.66-windows-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.66/oredit-0.1.66-windows-x64.zip.sha256",
           "size": 97
+        }
+      ]
+    },
+    {
+      "tag_name": "logmonitor-v0.12.0",
+      "name": "LogMonitor 0.12.0 (Windows Beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "LogMonitor-0.12.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.12.0/LogMonitor-0.12.0-x64.zip",
+          "size": 1183178
+        },
+        {
+          "name": "LogMonitor-0.12.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.12.0/LogMonitor-0.12.0-x64.zip.sha256",
+          "size": 93
         }
       ]
     },
