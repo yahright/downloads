@@ -1,26 +1,26 @@
 {
-    "version":  "0.29.15",
-    "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.29.15",
-    "sourceCommit":  "1f2e7ec2c4955441aa1f58018e4f77ff4339b8ca",
-    "publishedAtUtc":  "2026-11-24T01:26:05.2967545+00:00",
-    "notes":  "# RepoSyncTool 0.29.15 ベータ（Windows）\n\n- Explorer の読み取り専用の本文で、文字単位の範囲選択・コピー・ファイル内検索ができます。\n- ブランチタブの履歴で「自分のコミット」を押すと、Git の `user.email` に一致する作者のコミットに絞り込めます。\n- 履歴下部のファイル一覧で長いパスを折り返し、リネームでは「変更前」「変更後」のパスを表示します。\n- 「URL からクローン」で、保存先がすでに Git リポジトリなら「ローカルを追加」を選べます。\n",
-    "downloads":  [
-                      {
-                          "platform":  "win-x64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.15/RepoSyncTool-0.29.15-win-x64-portable.zip",
-                          "sha256":  "f3eeed36b4d91ad9985dbf85cd6109f06168850c6f7977dedf3cf22442c9d174",
-                          "size":  51643061,
-                          "signed":  false
-                      },
-                      {
-                          "platform":  "win-arm64",
-                          "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.15/RepoSyncTool-0.29.15-win-arm64-portable.zip",
-                          "sha256":  "74b4dd4b6f0cf52512530042e3f04d8e03ec60980441e6f51f920ad6aef38123",
-                          "size":  49361906,
-                          "signed":  false
-                      }
-                  ]
+  "version": "0.29.16",
+  "channel": "Beta",
+  "releaseTag": "reposynctool-v0.29.16",
+  "sourceCommit": "dd3b7491b124f23ae1ec467ebc344da79fb5d63c",
+  "publishedAtUtc": "2026-11-24T08:05:51.5003344+00:00",
+  "notes": "# RepoSyncTool 0.29.16 ベータ（Windows）\n\n- 履歴でコミットをクリックしてから別のコミットを Shift+クリックすると、両端を含む範囲を選択できます。続けて Shift+クリックすると、同じ起点から範囲を更新できます。\n",
+  "downloads": [
+    {
+      "platform": "win-x64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.16/RepoSyncTool-0.29.16-win-x64-portable.zip",
+      "sha256": "c787a7b2728eb507f35adf5c7fbe3a4e247de37ffd6ae256a81290edd0d9f665",
+      "size": 53220882,
+      "signed": false
+    },
+    {
+      "platform": "win-arm64",
+      "kind": "portable-zip",
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.16/RepoSyncTool-0.29.16-win-arm64-portable.zip",
+      "sha256": "08eecf21845d8aa0930f598e68c692e74fb6fe5757073333429a60d336fc2ff7",
+      "size": 50825071,
+      "signed": false
+    }
+  ]
 }
