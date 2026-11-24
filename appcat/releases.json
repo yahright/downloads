@@ -1,8 +1,36 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-24T08:17:41.738Z",
+  "generated_at": "2026-11-24T08:44:40.827Z",
   "releases": [
+    {
+      "tag_name": "reposynctool-v0.29.17",
+      "name": "RepoSyncTool 0.29.17 (Windows beta)",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "RepoSyncTool-0.29.17-win-arm64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-arm64-portable.zip",
+          "size": 50825114
+        },
+        {
+          "name": "RepoSyncTool-0.29.17-win-arm64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-arm64-portable.zip.sha256",
+          "size": 110
+        },
+        {
+          "name": "RepoSyncTool-0.29.17-win-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-x64-portable.zip",
+          "size": 53220887
+        },
+        {
+          "name": "RepoSyncTool-0.29.17-win-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-x64-portable.zip.sha256",
+          "size": 108
+        }
+      ]
+    },
     {
       "tag_name": "reposynctool-v0.29.16",
       "name": "RepoSyncTool 0.29.16 (Windows beta)",
