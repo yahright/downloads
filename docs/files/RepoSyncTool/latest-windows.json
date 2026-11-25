@@ -1,26 +1,26 @@
 {
-  "version": "0.29.17",
-  "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.17",
-  "sourceCommit": "5c62786d2b2e405aed2dd44666c607b3daa4e0cf",
-  "publishedAtUtc": "2026-11-24T08:39:11.8352270+00:00",
-  "notes": "# RepoSyncTool 0.29.17 ベータ（Windows）\n\n- 履歴で複数選択したあとに通常クリックで1件に戻しても、クリックしたコミットが選択されたままになります。\n- 履歴で Shift+クリックすると、起点とクリックしたコミットの両端を含む範囲を選択できます。\n",
-  "downloads": [
-    {
-      "platform": "win-x64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-x64-portable.zip",
-      "sha256": "7b3aa67b19d2937c6cde850b653a4576f62da9b28528d3b0b71395efb314d0f2",
-      "size": 53220887,
-      "signed": false
-    },
-    {
-      "platform": "win-arm64",
-      "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.17/RepoSyncTool-0.29.17-win-arm64-portable.zip",
-      "sha256": "c824e22879b2a75736998a89c50234a93e428fee7b42a73c35519d06133dbc95",
-      "size": 50825114,
-      "signed": false
-    }
-  ]
+    "version":  "0.29.18",
+    "channel":  "Beta",
+    "releaseTag":  "reposynctool-v0.29.18",
+    "sourceCommit":  "5a88d29ae79820f2d2f02641d2ad120171cf5395",
+    "publishedAtUtc":  "2026-11-25T20:46:06.7633154+00:00",
+    "notes":  "# RepoSyncTool 0.29.18 ベータ（Windows）\n\n- 設定の「診断ログを開く」で、通常時のログをテキストとして開けます。失敗時には共有できる診断タグを表示します。\n- 詳細記録を30分間採取し、ZIP またはテキストで保存できます。管理者が社内の共有先を設定すると、サポートは診断タグで記録を探せます。\n- GitHub・Forgejo の HTTPS リポジトリで、接続先ごとの既定アカウントや、リポジトリ・リモートへの割り当てを使って Fetch／Push と Issue・PR の操作ができます。\n- Push の確認画面にアカウントを表示します。確認後に割り当てが変わった場合は操作を止めます。\n",
+    "downloads":  [
+                      {
+                          "platform":  "win-x64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.18/RepoSyncTool-0.29.18-win-x64-portable.zip",
+                          "sha256":  "0eeefc02550f89aef638429bd2ce04101fad3f0efe984a30775d72edafbe3019",
+                          "size":  51721527,
+                          "signed":  false
+                      },
+                      {
+                          "platform":  "win-arm64",
+                          "kind":  "portable-zip",
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.18/RepoSyncTool-0.29.18-win-arm64-portable.zip",
+                          "sha256":  "f89bbf5c7ab730d8fb2495c4a6c76997615fa5ccb707575c6f7920ea989d3f71",
+                          "size":  49440442,
+                          "signed":  false
+                      }
+                  ]
 }
