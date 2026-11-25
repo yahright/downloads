@@ -1,9 +1,14 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "channel": "Preview",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/orecam-v0.1.0",
-  "notes": "Windows 11 向け画面録画 CLI の初回プレビュー。ディスプレイ・ウィンドウ・領域の録画、システム音声とマイク、録画の検査と回復に対応。",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/orecam-v0.2.0",
+  "notes": "WPF の操作画面を追加。Windows 11 で録画対象と保存先を選び、開始・一時停止・再開・停止ができます。.NET Desktop Runtime と録画 CLI を同梱。",
   "notesHistory": [
+    {
+      "version": "0.2.0",
+      "notes": "WPF の操作画面を追加。Windows 11 で録画対象と保存先を選び、開始・一時停止・再開・停止ができます。.NET Desktop Runtime と録画 CLI を同梱。",
+      "publishedAtUtc": "2026-11-25T02:11:13Z"
+    },
     {
       "version": "0.1.0",
       "notes": "Windows 11 向け画面録画 CLI の初回プレビュー。ディスプレイ・ウィンドウ・領域の録画、システム音声とマイク、録画の検査と回復に対応。",
@@ -14,16 +19,16 @@
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/orecam-v0.1.0/OreCam-0.1.0-win-x64-portable.zip",
-      "sha256": "52f632f1677344d7b3dfc7809e0e2155fa3cd722ab362a5c9acad1f5d28459c8",
-      "size": 281831
+      "url": "https://github.com/yahright/downloads/releases/download/orecam-v0.2.0/OreCam-0.2.0-win-x64-portable.zip",
+      "sha256": "9ff83ea948e2ec86d8023a49dce4be736975231ac4d007c1f37a9b9588b00383",
+      "size": 65450440
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/orecam-v0.1.0/OreCam-0.1.0-win-arm64-portable.zip",
-      "sha256": "f6211363f136f921030aec6c30b323797ad63258dd203cc8bf85345816aeafd4",
-      "size": 245941
+      "url": "https://github.com/yahright/downloads/releases/download/orecam-v0.2.0/OreCam-0.2.0-win-arm64-portable.zip",
+      "sha256": "263c447148f829c96d22ebcd63634359405c76a0eff19edab81ca868ef99bae1",
+      "size": 60387188
     }
   ]
 }
