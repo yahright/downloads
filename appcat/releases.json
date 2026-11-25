@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-25T22:43:52.260Z",
+  "generated_at": "2026-11-25T23:00:32.449Z",
   "releases": [
     {
       "tag_name": "reposynctool-v0.29.19",
@@ -56,6 +56,39 @@
           "name": "RepoSyncTool-0.29.18-win-x64-portable.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.18/RepoSyncTool-0.29.18-win-x64-portable.zip.sha256",
           "size": 108
+        }
+      ]
+    },
+    {
+      "tag_name": "orenoime-v0.0.5",
+      "name": "orenoIME 0.0.5 - Windows beta",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "orenoIME-0.0.5-win-arm64-setup.exe",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.5/orenoIME-0.0.5-win-arm64-setup.exe",
+          "size": 20804908
+        },
+        {
+          "name": "orenoIME-0.0.5-win-arm64-setup.exe.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.5/orenoIME-0.0.5-win-arm64-setup.exe.sha256",
+          "size": 102
+        },
+        {
+          "name": "orenoIME-0.0.5-win-x64-setup.exe",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.5/orenoIME-0.0.5-win-x64-setup.exe",
+          "size": 20862978
+        },
+        {
+          "name": "orenoIME-0.0.5-win-x64-setup.exe.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.5/orenoIME-0.0.5-win-x64-setup.exe.sha256",
+          "size": 100
+        },
+        {
+          "name": "Windows-INSTALL.md",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/orenoime-v0.0.5/Windows-INSTALL.md",
+          "size": 7597
         }
       ]
     },
