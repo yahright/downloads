@@ -63,7 +63,8 @@ cp "$expanded/appcat" "$target.new"
 chmod 755 "$target.new"
 mv -f "$target.new" "$target"
 
-if [ "${APPCAT_SKIP_APP:-0}" != "1" ]; then
+skip_app="${APPCAT_SKIP_APP:-0}"
+if [ "$skip_app" != "1" ]; then
   app_archive_path="$temporary_dir/$app_archive_name"
   app_checksum_path="$app_archive_path.sha256"
   curl -fL "$release_base/$app_archive_name" -o "$app_archive_path"
@@ -80,7 +81,7 @@ if [ "${APPCAT_SKIP_APP:-0}" != "1" ]; then
   mkdir -p "$app_expanded"
   ditto -x -k "$app_archive_path" "$app_expanded"
   if [ ! -x "$app_expanded/AppCat.app/Contents/MacOS/AppCat" ]; then
-    echo "error: AppCat.app launcher was not found in the archive" >&2
+    echo "error: AppCat.app was not found in the archive" >&2
     exit 1
   fi
 
@@ -122,9 +123,7 @@ fi
 
 "$target" --version
 echo "AppCat installed: $target"
-if [ "${APPCAT_SKIP_APP:-0}" != "1" ]; then
+if [ "$skip_app" != "1" ]; then
   echo "Finder app installed: $target_app"
-fi
-if [ "${APPCAT_SKIP_PATH:-0}" != "1" ]; then
-  echo "Open AppCat from Finder, or open a new terminal and run: appcat ui"
+  echo "Open AppCat from Finder (~/Applications/AppCat.app)."
 fi

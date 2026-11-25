@@ -123,17 +123,38 @@ try {
     }
     Remove-Item -LiteralPath $oldTarget -Force -ErrorAction SilentlyContinue
 
-    # クリックで画面が開くランチャー。macOS の AppCat.app と対になるもの。
-    # 本体と同じフォルダに置く（ランチャーは隣の appcat.exe を探す）。
-    $launcherSource = Join-Path $expanded "appcat-ui.exe"
-    $launcherTarget = Join-Path $installDir "appcat-ui.exe"
-    if (Test-Path -LiteralPath $launcherSource -PathType Leaf) {
-        $newLauncher = "$launcherTarget.new"
-        Copy-Item -LiteralPath $launcherSource -Destination $newLauncher -Force
-        Move-Item -LiteralPath $newLauncher -Destination $launcherTarget -Force
+    # 画面（AppCat フォルダ: appcat-ui.exe・中核 appcat.exe・DLL・resources）。macOS の AppCat.app と対になるもの。
+    # DLL を PATH の通った bin に置かないよう、bin の隣の AppCat フォルダへ丸ごと入れ替える。
+    $appDir = if ($env:APPCAT_APP_DIR) {
+        [System.IO.Path]::GetFullPath($env:APPCAT_APP_DIR)
     }
     else {
-        $launcherTarget = $null
+        Join-Path (Split-Path -Parent $installDir) "AppCat"
+    }
+    $appSource = Join-Path $expanded "AppCat"
+    $launcherTarget = $null
+    if (Test-Path -LiteralPath (Join-Path $appSource "appcat-ui.exe") -PathType Leaf) {
+        $newApp = "$appDir.new"
+        $oldApp = "$appDir.old"
+        Remove-Item -LiteralPath $newApp -Recurse -Force -ErrorAction SilentlyContinue
+        Copy-Item -LiteralPath $appSource -Destination $newApp -Recurse -Force
+        if (Test-Path -LiteralPath $appDir) {
+            Remove-Item -LiteralPath $oldApp -Recurse -Force -ErrorAction SilentlyContinue
+            Move-Item -LiteralPath $appDir -Destination $oldApp -Force
+        }
+        try {
+            Move-Item -LiteralPath $newApp -Destination $appDir -Force
+        }
+        catch {
+            if (Test-Path -LiteralPath $oldApp) {
+                Move-Item -LiteralPath $oldApp -Destination $appDir -Force
+            }
+            throw "AppCat の画面を入れ替えられません（AppCat を閉じてからやり直してください）: $_"
+        }
+        Remove-Item -LiteralPath $oldApp -Recurse -Force -ErrorAction SilentlyContinue
+        $launcherTarget = Join-Path $appDir "appcat-ui.exe"
+        # 0.1.7 までのブラウザ画面の起動役は使わなくなった。
+        Remove-Item -LiteralPath (Join-Path $installDir "appcat-ui.exe") -Force -ErrorAction SilentlyContinue
     }
 
     if ($launcherTarget -and $env:APPCAT_SKIP_SHORTCUT -ne "1") {
@@ -143,7 +164,7 @@ try {
         $shell = New-Object -ComObject WScript.Shell
         $shortcut = $shell.CreateShortcut($shortcutPath)
         $shortcut.TargetPath = $launcherTarget
-        $shortcut.WorkingDirectory = $installDir
+        $shortcut.WorkingDirectory = $appDir
         $shortcut.Description = "AppCat の画面を開く"
         $shortcut.Save()
         Set-AppCatShortcutAppId -Path $shortcutPath -AppId "com.yahright.appcat"
@@ -180,10 +201,7 @@ try {
     & $target --version
     Write-Host "AppCat をインストールしました: $target" -ForegroundColor Green
     if ($launcherTarget) {
-        Write-Host "スタートメニューの AppCat を開くと、画面が既定のブラウザで開きます。"
-    }
-    if ($env:APPCAT_SKIP_PATH -ne "1") {
-        Write-Host "ターミナルから使う場合は、新しいターミナルで appcat ui を実行してください。"
+        Write-Host "スタートメニューの AppCat を開くと、AppCat の窓が開きます。"
     }
 }
 finally {
