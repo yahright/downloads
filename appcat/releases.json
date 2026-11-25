@@ -1,8 +1,76 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-25T23:12:38.316Z",
+  "generated_at": "2026-11-25T23:15:37.093Z",
   "releases": [
+    {
+      "tag_name": "appcat-v0.2.0",
+      "name": "AppCat 0.2.0",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "appcat-0.2.0-darwin-amd64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-darwin-amd64.zip",
+          "size": 3658701
+        },
+        {
+          "name": "appcat-0.2.0-darwin-amd64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-darwin-amd64.zip.sha256",
+          "size": 96
+        },
+        {
+          "name": "appcat-0.2.0-darwin-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-darwin-arm64.zip",
+          "size": 3253368
+        },
+        {
+          "name": "appcat-0.2.0-darwin-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-darwin-arm64.zip.sha256",
+          "size": 96
+        },
+        {
+          "name": "AppCat-0.2.0-macos-amd64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/AppCat-0.2.0-macos-amd64.zip",
+          "size": 31313322
+        },
+        {
+          "name": "AppCat-0.2.0-macos-amd64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/AppCat-0.2.0-macos-amd64.zip.sha256",
+          "size": 95
+        },
+        {
+          "name": "AppCat-0.2.0-macos-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/AppCat-0.2.0-macos-arm64.zip",
+          "size": 30332819
+        },
+        {
+          "name": "AppCat-0.2.0-macos-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/AppCat-0.2.0-macos-arm64.zip.sha256",
+          "size": 95
+        },
+        {
+          "name": "appcat-0.2.0-windows-amd64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-windows-amd64.zip",
+          "size": 30715875
+        },
+        {
+          "name": "appcat-0.2.0-windows-amd64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-windows-amd64.zip.sha256",
+          "size": 97
+        },
+        {
+          "name": "appcat-0.2.0-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-windows-arm64.zip",
+          "size": 29877279
+        },
+        {
+          "name": "appcat-0.2.0-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.0/appcat-0.2.0-windows-arm64.zip.sha256",
+          "size": 97
+        }
+      ]
+    },
     {
       "tag_name": "reposynctool-v0.29.19",
       "name": "RepoSyncTool 0.29.19 (Windows beta)",
