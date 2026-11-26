@@ -239,6 +239,36 @@
       ]
     },
     {
+      "id": "open-in-visual-studio",
+      "name": "Open in Visual Studio",
+      "type": "gui",
+      "description": "VS Code で表示中のファイルを起動中の Visual Studio で開く Windows 用拡張（ダウンロード専用）",
+      "latest": "0.1.0",
+      "download_only": true,
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "kind": "vsix",
+          "url": "https://github.com/yahright/downloads/releases/download/open-in-visual-studio-v0.1.0/open-in-visual-studio-0.1.0.vsix",
+          "sha256": "63556f28602117392334273d5c4df514238e319fd61cca8678bc16f9fa04db99",
+          "size": 11119,
+          "strip_components": 0,
+          "entry": "open-in-visual-studio-0.1.0.vsix"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "kind": "vsix",
+          "url": "https://github.com/yahright/downloads/releases/download/open-in-visual-studio-v0.1.0/open-in-visual-studio-0.1.0.vsix",
+          "sha256": "63556f28602117392334273d5c4df514238e319fd61cca8678bc16f9fa04db99",
+          "size": 11119,
+          "strip_components": 0,
+          "entry": "open-in-visual-studio-0.1.0.vsix"
+        }
+      ]
+    },
+    {
       "id": "sgrep",
       "name": "Sgrep CLI",
       "type": "cli",

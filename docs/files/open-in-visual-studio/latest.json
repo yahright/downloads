@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "channel": "Stable",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/open-in-visual-studio-v0.1.0",
+  "downloads": [
+    {
+      "platform": "windows-universal",
+      "kind": "vsix",
+      "url": "https://github.com/yahright/downloads/releases/download/open-in-visual-studio-v0.1.0/open-in-visual-studio-0.1.0.vsix",
+      "sha256": "63556f28602117392334273d5c4df514238e319fd61cca8678bc16f9fa04db99",
+      "size": 11119
+    }
+  ]
+}
