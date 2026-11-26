@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-26T08:19:56.167Z",
+  "generated_at": "2026-11-26T10:33:05.729Z",
   "releases": [
     {
       "tag_name": "sgrep-vscode-v0.0.42",
@@ -29,6 +29,25 @@
           "name": "sgrep-vscode-0.0.42.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.42/sgrep-vscode-0.0.42.zip.sha256",
           "size": 90
+        }
+      ]
+    },
+    {
+      "tag_name": "open-in-visual-studio-v0.1.0",
+      "name": "Open in Visual Studio 0.1.0",
+      "published_at": "2026-11-26T10:32:36Z",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "open-in-visual-studio-0.1.0.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/open-in-visual-studio-v0.1.0/open-in-visual-studio-0.1.0.vsix",
+          "size": 11119
+        },
+        {
+          "name": "open-in-visual-studio-0.1.0.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/open-in-visual-studio-v0.1.0/open-in-visual-studio-0.1.0.vsix.sha256",
+          "size": 99
         }
       ]
     },
