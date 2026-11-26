@@ -273,18 +273,18 @@
       "name": "Sgrep CLI",
       "type": "cli",
       "description": "高速な正規表現検索CLI",
-      "latest": "0.11.1",
+      "latest": "0.11.2",
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "zip",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/Sg-0.11.1-x64.zip",
-          "sha256": "c7c68dc4fe4847753ab487aa6134ee34d4e512e7946f97cd85f73a7850eac9c0",
-          "size": 1700125,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.2/Sg-0.11.2-x64.zip",
+          "sha256": "827b9e1c4977abcc32a02020be49c2131420156492693a733c2a44acad822c82",
+          "size": 1700508,
           "strip_components": 1,
           "entry": "sg.exe",
-          "version": "0.11.1",
+          "version": "0.11.2",
           "version_kind": "cli",
           "version_field": "--version"
         },
@@ -292,12 +292,12 @@
           "os": "windows",
           "arch": "arm64",
           "kind": "zip",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/Sg-0.11.1-ARM64.zip",
-          "sha256": "de2b469379832fd41010fa8a041f7c3eedc87b8ca401a40ab69247b17f17dc6c",
-          "size": 1623245,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.2/Sg-0.11.2-ARM64.zip",
+          "sha256": "b622ae067ab0d87d90d16e800be07b275e8b7971613b955455cf6e71d6fa0e9a",
+          "size": 1623024,
           "strip_components": 1,
           "entry": "sg.exe",
-          "version": "0.11.1",
+          "version": "0.11.2",
           "version_kind": "cli",
           "version_field": "--version"
         },
@@ -321,29 +321,29 @@
       "name": "Sgrep GUI",
       "type": "gui",
       "description": "SgrepのWindowsデスクトップUI",
-      "latest": "0.11.1",
+      "latest": "0.11.2",
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "zip",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/SgrepGUI-0.11.1-x64-portable.zip",
-          "sha256": "3a54543fdd2858c361c1d026887c08b7904b8afa592a491cc5379d66c1925733",
-          "size": 3370385,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.2/SgrepGUI-0.11.2-x64-portable.zip",
+          "sha256": "e7e180f685c39daf4ed27af8e7fb944bc4a203fce59e19edb487f1f04c5430a9",
+          "size": 3370736,
           "strip_components": 1,
           "entry": "SgrepGUI.exe",
-          "version": "0.11.1"
+          "version": "0.11.2"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "kind": "zip",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/SgrepGUI-0.11.1-ARM64-portable.zip",
-          "sha256": "ebcc35b7430d27351244c9f5a4a36f5d7416a75ddf0f09b138ecfce093d1f0a5",
-          "size": 3733683,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.2/SgrepGUI-0.11.2-ARM64-portable.zip",
+          "sha256": "e8b9fb911ab98519c64cfabd218f6636441824349b2d470a710930b617fc010f",
+          "size": 3733859,
           "strip_components": 1,
           "entry": "SgrepGUI.exe",
-          "version": "0.11.1"
+          "version": "0.11.2"
         }
       ]
     },
@@ -352,30 +352,30 @@
       "name": "Sgrep for Visual Studio",
       "type": "gui",
       "description": "Visual Studio用Sgrep拡張（ダウンロード専用）",
-      "latest": "1.0.20261127.1",
+      "latest": "1.0.20261127.2",
       "download_only": true,
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "vsix",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-x64.vsix",
-          "sha256": "842283a1c39994fe56310eac48105e0b83810af5ef5646734fc4ef9e563389a4",
-          "size": 4021386,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.2/SgrepVSIX-1.0.20261127.2-x64.vsix",
+          "sha256": "027845ec5f7481f8f27a4bcd9175c8f9b8e2b8e79650ff8b7a84805c5673c4f3",
+          "size": 4021575,
           "strip_components": 0,
-          "entry": "SgrepVSIX-1.0.20261127.1-x64.vsix",
-          "version": "1.0.20261127.1"
+          "entry": "SgrepVSIX-1.0.20261127.2-x64.vsix",
+          "version": "1.0.20261127.2"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "kind": "vsix",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-ARM64.vsix",
-          "sha256": "13e67fc3093ac544662e91316b623e1fbec14c73a22d261593f6d28e3819cea1",
-          "size": 4021408,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.2/SgrepVSIX-1.0.20261127.2-ARM64.vsix",
+          "sha256": "53cb8dd8bf381f11e193e4549b7d83ba2327d6480d1d6a416dcb8ef5a375630e",
+          "size": 4021577,
           "strip_components": 0,
-          "entry": "SgrepVSIX-1.0.20261127.1-ARM64.vsix",
-          "version": "1.0.20261127.1"
+          "entry": "SgrepVSIX-1.0.20261127.2-ARM64.vsix",
+          "version": "1.0.20261127.2"
         }
       ]
     },
@@ -384,30 +384,30 @@
       "name": "Sgrep Visual Studio",
       "type": "gui",
       "description": "Visual Studio用Sgrep拡張（ダウンロード専用）",
-      "latest": "1.0.20261127.1",
+      "latest": "1.0.20261127.2",
       "download_only": true,
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "vsix",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-x64.vsix",
-          "sha256": "842283a1c39994fe56310eac48105e0b83810af5ef5646734fc4ef9e563389a4",
-          "size": 4021386,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.2/SgrepVSIX-1.0.20261127.2-x64.vsix",
+          "sha256": "027845ec5f7481f8f27a4bcd9175c8f9b8e2b8e79650ff8b7a84805c5673c4f3",
+          "size": 4021575,
           "strip_components": 0,
-          "entry": "SgrepVSIX-1.0.20261127.1-x64.vsix",
-          "version": "1.0.20261127.1"
+          "entry": "SgrepVSIX-1.0.20261127.2-x64.vsix",
+          "version": "1.0.20261127.2"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "kind": "vsix",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-ARM64.vsix",
-          "sha256": "13e67fc3093ac544662e91316b623e1fbec14c73a22d261593f6d28e3819cea1",
-          "size": 4021408,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.2/SgrepVSIX-1.0.20261127.2-ARM64.vsix",
+          "sha256": "53cb8dd8bf381f11e193e4549b7d83ba2327d6480d1d6a416dcb8ef5a375630e",
+          "size": 4021577,
           "strip_components": 0,
-          "entry": "SgrepVSIX-1.0.20261127.1-ARM64.vsix",
-          "version": "1.0.20261127.1"
+          "entry": "SgrepVSIX-1.0.20261127.2-ARM64.vsix",
+          "version": "1.0.20261127.2"
         }
       ]
     },
@@ -416,30 +416,30 @@
       "name": "Sgrep for VS Code",
       "type": "gui",
       "description": "Visual Studio Code用Sgrep拡張（ダウンロード専用）",
-      "latest": "0.0.43",
+      "latest": "0.0.44",
       "download_only": true,
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "vsix",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.43/sgrep-vscode-0.0.43.vsix",
-          "sha256": "1fbc8c7b320aca20701ed378ae5242a594ec2a4d89792267d5920fb4d7e5d92c",
-          "size": 14754038,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.44/sgrep-vscode-0.0.44-win32-x64.vsix",
+          "sha256": "21b3566a1f3291aeb4229f0fcef6379312adc3ccfd69ac06ab26a00597e4b821",
+          "size": 12879107,
           "strip_components": 0,
-          "entry": "sgrep-vscode-0.0.43.vsix",
-          "version": "0.0.43"
+          "entry": "sgrep-vscode-0.0.44-win32-x64.vsix",
+          "version": "0.0.44"
         },
         {
           "os": "windows",
           "arch": "arm64",
           "kind": "vsix",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.43/sgrep-vscode-0.0.43.vsix",
-          "sha256": "1fbc8c7b320aca20701ed378ae5242a594ec2a4d89792267d5920fb4d7e5d92c",
-          "size": 14754038,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.44/sgrep-vscode-0.0.44-win32-arm64.vsix",
+          "sha256": "eee434b65321ac80581b73406606f26cb300ed9c04c108c9dd8a84e4647d3845",
+          "size": 12879108,
           "strip_components": 0,
-          "entry": "sgrep-vscode-0.0.43.vsix",
-          "version": "0.0.43"
+          "entry": "sgrep-vscode-0.0.44-win32-arm64.vsix",
+          "version": "0.0.44"
         },
         {
           "os": "darwin",
@@ -470,18 +470,18 @@
       "name": "Sgrep Cache Service / Manager",
       "type": "gui",
       "description": "Sgrepのキャッシュサービスと管理画面",
-      "latest": "0.10.1",
+      "latest": "0.10.2",
       "artifacts": [
         {
           "os": "windows",
           "arch": "amd64",
           "kind": "zip",
-          "url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.1/SgrepCacheService-0.10.1-x64.zip",
-          "sha256": "c9ecb414d9544994c2c6e0cf15666272993cf99bd36624f2a6e1e848b2ed08fb",
-          "size": 26310287,
+          "url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.2/SgrepCacheService-0.10.2-x64.zip",
+          "sha256": "adc544fae1dbd22c4d8d9ecf61db6aa0e947b153f341de8778bef0908689ded3",
+          "size": 26310439,
           "strip_components": 1,
           "entry": "sgcache-manager.exe",
-          "version": "0.10.1"
+          "version": "0.10.2"
         },
         {
           "os": "darwin",
