@@ -38,6 +38,7 @@ jobs:
               releases: releases.filter(r => !r.draft).map(r => ({
                 tag_name: r.tag_name,
                 name: r.name,
+                published_at: r.published_at,
                 draft: false,
                 prerelease: r.prerelease,
                 assets: r.assets.filter(a => a.state === 'uploaded').map(a => ({
