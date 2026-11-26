@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-26T05:40:47.498Z",
+  "generated_at": "2026-11-26T08:19:56.167Z",
   "releases": [
     {
       "tag_name": "sgrep-vscode-v0.0.42",
@@ -87,6 +87,25 @@
           "name": "sjis-agent-kit-0.2.11.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.11/sjis-agent-kit-0.2.11.zip.sha256",
           "size": 92
+        }
+      ]
+    },
+    {
+      "tag_name": "logmonitor-v0.16.0",
+      "name": "LogMonitor 0.16.0 (Windows Beta)",
+      "published_at": "2026-11-26T08:19:30Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "LogMonitor-0.16.0-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.16.0/LogMonitor-0.16.0-x64.zip",
+          "size": 1217582
+        },
+        {
+          "name": "LogMonitor-0.16.0-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.16.0/LogMonitor-0.16.0-x64.zip.sha256",
+          "size": 93
         }
       ]
     },
