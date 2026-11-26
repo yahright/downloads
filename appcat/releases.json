@@ -1,8 +1,64 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-26T00:34:44.775Z",
+  "generated_at": "2026-11-26T02:49:17.847Z",
   "releases": [
+    {
+      "tag_name": "sgrep-vscode-v0.0.42",
+      "name": "Sgrep VS Code 0.0.42",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "sgrep-vscode-0.0.42.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.42/sgrep-vscode-0.0.42.vsix",
+          "size": 15948573
+        },
+        {
+          "name": "sgrep-vscode-0.0.42.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.42/sgrep-vscode-0.0.42.vsix.sha256",
+          "size": 91
+        },
+        {
+          "name": "sgrep-vscode-0.0.42.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.42/sgrep-vscode-0.0.42.zip",
+          "size": 15926467
+        },
+        {
+          "name": "sgrep-vscode-0.0.42.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.42/sgrep-vscode-0.0.42.zip.sha256",
+          "size": 90
+        }
+      ]
+    },
+    {
+      "tag_name": "appcat-v0.2.1",
+      "name": "AppCat 0.2.1 (Windows)",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "appcat-0.2.1-windows-amd64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.1/appcat-0.2.1-windows-amd64.zip",
+          "size": 30739389
+        },
+        {
+          "name": "appcat-0.2.1-windows-amd64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.1/appcat-0.2.1-windows-amd64.zip.sha256",
+          "size": 98
+        },
+        {
+          "name": "appcat-0.2.1-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.1/appcat-0.2.1-windows-arm64.zip",
+          "size": 29900955
+        },
+        {
+          "name": "appcat-0.2.1-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.1/appcat-0.2.1-windows-arm64.zip.sha256",
+          "size": 98
+        }
+      ]
+    },
     {
       "tag_name": "appcat-v0.2.0",
       "name": "AppCat 0.2.0",
