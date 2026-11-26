@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-26T10:33:05.729Z",
+  "generated_at": "2026-11-26T21:52:17.046Z",
   "releases": [
+    {
+      "tag_name": "sgrep-vscode-v0.0.43",
+      "name": "Sgrep VS Code 0.0.43",
+      "published_at": "2026-11-26T21:51:46Z",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "sgrep-vscode-0.0.43.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.43/sgrep-vscode-0.0.43.vsix",
+          "size": 14754038
+        },
+        {
+          "name": "sgrep-vscode-0.0.43.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.43/sgrep-vscode-0.0.43.vsix.sha256",
+          "size": 92
+        },
+        {
+          "name": "sgrep-vscode-0.0.43.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.43/sgrep-vscode-0.0.43.zip",
+          "size": 14740441
+        },
+        {
+          "name": "sgrep-vscode-0.0.43.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vscode-v0.0.43/sgrep-vscode-0.0.43.zip.sha256",
+          "size": 91
+        }
+      ]
+    },
     {
       "tag_name": "sgrep-vscode-v0.0.42",
       "name": "Sgrep VS Code 0.0.42",
@@ -110,6 +139,171 @@
       ]
     },
     {
+      "tag_name": "sgrepx-v0.10.1",
+      "name": "SgrepX 0.10.1 (Windows)",
+      "published_at": "2026-11-26T21:51:39Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepX-0.10.1-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.10.1/SgrepX-0.10.1-x64.zip",
+          "size": 27676989
+        },
+        {
+          "name": "SgrepX-0.10.1-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrepx-v0.10.1/SgrepX-0.10.1-x64.zip.sha256",
+          "size": 89
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-vsix-v1.0.20261127.1",
+      "name": "Sgrep Visual Studio 1.0.20261127.1",
+      "published_at": "2026-11-26T21:51:29Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-ARM64.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-ARM64.vsix",
+          "size": 4021408
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-ARM64.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-ARM64.vsix.sha256",
+          "size": 103
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-ARM64.zip",
+          "size": 4013999
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-ARM64.zip.sha256",
+          "size": 102
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-x64.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-x64.vsix",
+          "size": 4021386
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-x64.vsix.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-x64.vsix.sha256",
+          "size": 101
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-x64.zip",
+          "size": 4013982
+        },
+        {
+          "name": "SgrepVSIX-1.0.20261127.1-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-vsix-v1.0.20261127.1/SgrepVSIX-1.0.20261127.1-x64.zip.sha256",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-v0.11.1",
+      "name": "Sgrep / sg 0.11.1",
+      "published_at": "2026-11-26T21:51:25Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "Sg-0.11.1-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/Sg-0.11.1-ARM64.zip",
+          "size": 1623245
+        },
+        {
+          "name": "Sg-0.11.1-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/Sg-0.11.1-ARM64.zip.sha256",
+          "size": 87
+        },
+        {
+          "name": "Sg-0.11.1-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/Sg-0.11.1-x64.zip",
+          "size": 1700125
+        },
+        {
+          "name": "Sg-0.11.1-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/Sg-0.11.1-x64.zip.sha256",
+          "size": 85
+        },
+        {
+          "name": "SgrepGUI-0.11.1-ARM64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/SgrepGUI-0.11.1-ARM64-portable.zip",
+          "size": 3733683
+        },
+        {
+          "name": "SgrepGUI-0.11.1-ARM64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/SgrepGUI-0.11.1-ARM64-portable.zip.sha256",
+          "size": 102
+        },
+        {
+          "name": "SgrepGUI-0.11.1-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/SgrepGUI-0.11.1-x64-portable.zip",
+          "size": 3370385
+        },
+        {
+          "name": "SgrepGUI-0.11.1-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-v0.11.1/SgrepGUI-0.11.1-x64-portable.zip.sha256",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sgrep-cache-v0.10.1",
+      "name": "Sgrep Cache Service / Manager 0.10.1",
+      "published_at": "2026-11-26T21:51:36Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SgrepCacheService-0.10.1-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.1/SgrepCacheService-0.10.1-x64.zip",
+          "size": 26310287
+        },
+        {
+          "name": "SgrepCacheService-0.10.1-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sgrep-cache-v0.10.1/SgrepCacheService-0.10.1-x64.zip.sha256",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "tag_name": "sga-v0.6.4",
+      "name": "SGA 0.6.4",
+      "published_at": "2026-11-26T21:51:33Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "SGA-0.6.4-ARM64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.4/SGA-0.6.4-ARM64.zip",
+          "size": 5342537
+        },
+        {
+          "name": "SGA-0.6.4-ARM64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.4/SGA-0.6.4-ARM64.zip.sha256",
+          "size": 87
+        },
+        {
+          "name": "SGA-0.6.4-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.4/SGA-0.6.4-x64.zip",
+          "size": 5346784
+        },
+        {
+          "name": "SGA-0.6.4-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.4/SGA-0.6.4-x64.zip.sha256",
+          "size": 85
+        }
+      ]
+    },
+    {
       "tag_name": "logmonitor-v0.16.0",
       "name": "LogMonitor 0.16.0 (Windows Beta)",
       "published_at": "2026-11-26T08:19:30Z",
@@ -144,6 +338,35 @@
           "name": "LogMonitor-0.15.0-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.15.0/LogMonitor-0.15.0-x64.zip.sha256",
           "size": 93
+        }
+      ]
+    },
+    {
+      "tag_name": "logexplorer-v0.1.17",
+      "name": "LogExplorer 0.1.17",
+      "published_at": "2026-11-26T21:51:43Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "LogExplorer-0.1.17-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.17/LogExplorer-0.1.17-x64.zip",
+          "size": 1486010
+        },
+        {
+          "name": "LogExplorer-0.1.17-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.17/LogExplorer-0.1.17-x64.zip.sha256",
+          "size": 94
+        },
+        {
+          "name": "LogExplorer-GUI-0.1.17-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.17/LogExplorer-GUI-0.1.17-x64.zip",
+          "size": 25070580
+        },
+        {
+          "name": "LogExplorer-GUI-0.1.17-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logexplorer-v0.1.17/LogExplorer-GUI-0.1.17-x64.zip.sha256",
+          "size": 98
         }
       ]
     },
