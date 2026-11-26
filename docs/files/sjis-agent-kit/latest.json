@@ -1,24 +1,24 @@
 {
   "product": "sjis-agent-kit",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "platform": "windows",
   "channel": "beta",
-  "source_sha": "38d3b244fe76514cf3ba13e14a6b45990190734c",
-  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.10",
-  "published_at": "2026-11-19T03:16:18Z",
-  "notes": "- Extension: sjis_read lineNumbers option; sjis_edit explains oldString copied with line numbers",
+  "source_sha": "b5143f926d60635741b97860f4b80633287db7b8",
+  "release_url": "https://github.com/yahright/downloads/releases/tag/sjis-agent-kit-v0.2.11",
+  "published_at": "2026-11-26T03:03:52Z",
+  "notes": "- VSIX 1本から、VS Code 拡張ツール用の「VC6」と Windows CLI 用の「VC6 (sjis.exe)」を選べます。ZIP は単独で導入できます。\n- VS Code の「SJIS: Diagnose Tool Availability」と `sjis.exe diagnose [path]` を追加しました。\n- `sjis.exe show <file> [from] [to]` では必要な範囲を行番号付きで読めます。VS Code の `sjis_read` では `lineNumbers: true` を使います。\n- VSIX と ZIP の README にセットアップ手順を収録しています。",
   "assets": [
     {
       "kind": "vsix",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.vsix",
-      "sha256": "35d9c86b2b03743814ed05ff70ce876a224b9eaab29083d98d91d4a835f9755f",
-      "bytes": 40309
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.11/sjis-agent-kit-0.2.11.vsix",
+      "sha256": "b358c3775bb626a6a020b863809e24edcb7ca8b5615e133adede202ec2440563",
+      "bytes": 42791
     },
     {
       "kind": "exe-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.10/sjis-agent-kit-0.2.10.zip",
-      "sha256": "871030cd677d5bcf96848930a949a44e3fa49f76f20c660d0acb6ee6b1b4855a",
-      "bytes": 110801
+      "url": "https://github.com/yahright/downloads/releases/download/sjis-agent-kit-v0.2.11/sjis-agent-kit-0.2.11.zip",
+      "sha256": "5cf8995923c6e4bbe8ad43490541c4638bef7243d41024581fb2632024ad9176",
+      "bytes": 117103
     }
   ]
 }
