@@ -1,25 +1,25 @@
 {
-  "version": "0.6.3",
+  "version": "0.6.4",
   "channel": "Beta",
-  "tag": "sga-v0.6.3",
-  "releaseDateUtc": "2026-11-19T08:53:09Z",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sga-v0.6.3",
+  "tag": "sga-v0.6.4",
+  "releaseDateUtc": "2026-11-26T21:49:42Z",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/sga-v0.6.4",
   "downloads": [
     {
       "product": "SGA",
       "platform": "x64",
       "kind": "cli-zip",
-      "size": 5346805,
-      "sha256": "e113aac8ca046fb2c48143247ec697e8957fbc09d5a8883fb841c0756c311c6f",
-      "url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-x64.zip"
+      "size": 5346784,
+      "sha256": "a6c8e8030cf4f37f9684c1086395c10a9b49187016dc3ffe8ebd77c5226b05fb",
+      "url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.4/SGA-0.6.4-x64.zip"
     },
     {
       "product": "SGA",
       "platform": "ARM64",
       "kind": "cli-zip",
-      "size": 5342538,
-      "sha256": "c05f42e8de79c4728248d04b742d482aed31566a6bc599ae63a99d4e802fa2ac",
-      "url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.3/SGA-0.6.3-ARM64.zip"
+      "size": 5342537,
+      "sha256": "efecc38d1b6f7a291a637d53aeb9b85d135bd41d992cb8bf1726980183ce09f1",
+      "url": "https://github.com/yahright/downloads/releases/download/sga-v0.6.4/SGA-0.6.4-ARM64.zip"
     },
     {
       "product": "SGA",
