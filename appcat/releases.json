@@ -1,11 +1,12 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-26T03:04:22.785Z",
+  "generated_at": "2026-11-26T03:34:11.056Z",
   "releases": [
     {
       "tag_name": "sgrep-vscode-v0.0.42",
       "name": "Sgrep VS Code 0.0.42",
+      "published_at": "2026-11-26T02:48:58Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -34,6 +35,7 @@
     {
       "tag_name": "appcat-v0.2.1",
       "name": "AppCat 0.2.1 (Windows)",
+      "published_at": "2026-11-26T02:48:36Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -62,6 +64,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.11",
       "name": "sjis-agent-kit 0.2.11 (beta)",
+      "published_at": "2026-11-26T03:03:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -90,6 +93,7 @@
     {
       "tag_name": "appcat-v0.2.0",
       "name": "AppCat 0.2.0",
+      "published_at": "2026-11-25T23:15:07Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -158,6 +162,7 @@
     {
       "tag_name": "reposynctool-v0.29.20",
       "name": "RepoSyncTool 0.29.20 (Windows beta)",
+      "published_at": "2026-11-26T00:34:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -186,6 +191,7 @@
     {
       "tag_name": "reposynctool-v0.29.19",
       "name": "RepoSyncTool 0.29.19 (Windows beta)",
+      "published_at": "2026-11-25T22:43:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -214,6 +220,7 @@
     {
       "tag_name": "reposynctool-v0.29.18",
       "name": "RepoSyncTool 0.29.18 (Windows beta)",
+      "published_at": "2026-11-25T20:52:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -242,6 +249,7 @@
     {
       "tag_name": "orenoime-v0.0.5",
       "name": "orenoIME 0.0.5 - Windows beta",
+      "published_at": "2026-11-25T22:59:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -275,6 +283,7 @@
     {
       "tag_name": "logmonitor-v0.14.0",
       "name": "LogMonitor 0.14.0 (Windows Beta)",
+      "published_at": "2026-11-25T07:45:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -293,6 +302,7 @@
     {
       "tag_name": "logmonitor-v0.13.0",
       "name": "LogMonitor 0.13.0 (Windows Beta)",
+      "published_at": "2026-11-25T04:18:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -311,6 +321,7 @@
     {
       "tag_name": "insightflow-v0.10.55",
       "name": "InsightFlow 0.10.55",
+      "published_at": "2026-11-25T23:12:03Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -339,6 +350,7 @@
     {
       "tag_name": "reposynctool-v0.29.17",
       "name": "RepoSyncTool 0.29.17 (Windows beta)",
+      "published_at": "2026-11-24T08:44:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -367,6 +379,7 @@
     {
       "tag_name": "reposynctool-v0.29.16",
       "name": "RepoSyncTool 0.29.16 (Windows beta)",
+      "published_at": "2026-11-24T08:12:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -395,6 +408,7 @@
     {
       "tag_name": "reposynctool-v0.29.15",
       "name": "RepoSyncTool 0.29.15 (Windows beta)",
+      "published_at": "2026-11-24T01:33:51Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -423,6 +437,7 @@
     {
       "tag_name": "oredit-v0.1.66",
       "name": "oredit 0.1.66 Windows beta",
+      "published_at": "2026-11-24T09:05:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -461,6 +476,7 @@
     {
       "tag_name": "orecam-v0.2.0",
       "name": "OreCam 0.2.0 (Windows GUI Preview)",
+      "published_at": "2026-11-25T02:11:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -489,6 +505,7 @@
     {
       "tag_name": "logmonitor-v0.12.0",
       "name": "LogMonitor 0.12.0 (Windows Beta)",
+      "published_at": "2026-11-24T22:54:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -507,6 +524,7 @@
     {
       "tag_name": "logmonitor-v0.11.0",
       "name": "LogMonitor 0.11.0 (Windows Beta)",
+      "published_at": "2026-11-24T08:17:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -525,6 +543,7 @@
     {
       "tag_name": "logmonitor-v0.10.1",
       "name": "LogMonitor 0.10.1 (Windows Beta)",
+      "published_at": "2026-11-24T06:51:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -543,6 +562,7 @@
     {
       "tag_name": "logmonitor-v0.10.0",
       "name": "LogMonitor 0.10.0 (Windows Beta)",
+      "published_at": "2026-11-24T06:17:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -561,6 +581,7 @@
     {
       "tag_name": "reposynctool-v0.29.14",
       "name": "RepoSyncTool 0.29.14 (macOS beta)",
+      "published_at": "2026-11-23T13:12:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -589,6 +610,7 @@
     {
       "tag_name": "oredit-v0.1.65",
       "name": "oredit 0.1.65 Windows beta",
+      "published_at": "2026-11-23T23:59:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -627,6 +649,7 @@
     {
       "tag_name": "orecam-v0.1.0",
       "name": "OreCam 0.1.0 (Windows CLI Preview)",
+      "published_at": "2026-11-23T23:14:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -655,6 +678,7 @@
     {
       "tag_name": "logmonitor-v0.9.0",
       "name": "LogMonitor 0.9.0 (Windows Beta)",
+      "published_at": "2026-11-23T23:24:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -673,6 +697,7 @@
     {
       "tag_name": "reposynctool-v0.29.13",
       "name": "RepoSyncTool 0.29.13 (Windows beta)",
+      "published_at": "2026-11-22T01:52:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -701,6 +726,7 @@
     {
       "tag_name": "logmonitor-v0.8.0",
       "name": "LogMonitor 0.8.0 (Windows Beta)",
+      "published_at": "2026-11-23T01:29:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -719,6 +745,7 @@
     {
       "tag_name": "insightflow-v0.10.54",
       "name": "InsightFlow 0.10.54",
+      "published_at": "2026-11-22T21:33:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -767,6 +794,7 @@
     {
       "tag_name": "reposynctool-v0.29.12",
       "name": "RepoSyncTool 0.29.12 (Windows beta)",
+      "published_at": "2026-11-22T00:11:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -815,6 +843,7 @@
     {
       "tag_name": "reposynctool-v0.29.11",
       "name": "RepoSyncTool 0.29.11 (macOS / Windows beta)",
+      "published_at": "2026-11-21T08:13:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -863,6 +892,7 @@
     {
       "tag_name": "reposynctool-v0.29.10",
       "name": "RepoSyncTool 0.29.10 (macOS / Windows beta)",
+      "published_at": "2026-11-21T06:46:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -911,6 +941,7 @@
     {
       "tag_name": "oredit-v0.1.64",
       "name": "oredit 0.1.64 Windows beta",
+      "published_at": "2026-11-21T02:56:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -949,6 +980,7 @@
     {
       "tag_name": "logmonitor-v0.7.0",
       "name": "LogMonitor 0.7.0 (Windows Beta)",
+      "published_at": "2026-11-21T04:47:51Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -967,6 +999,7 @@
     {
       "tag_name": "insightflow-v0.10.53",
       "name": "InsightFlow 0.10.53",
+      "published_at": "2026-11-21T11:51:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -995,6 +1028,7 @@
     {
       "tag_name": "reposynctool-v0.29.9",
       "name": "RepoSyncTool 0.29.9 (Windows beta)",
+      "published_at": "2026-11-20T03:25:35Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1023,6 +1057,7 @@
     {
       "tag_name": "oredit-v0.1.63",
       "name": "oredit 0.1.63 macOS beta",
+      "published_at": "2026-11-21T01:04:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1041,6 +1076,7 @@
     {
       "tag_name": "oredit-v0.1.61",
       "name": "oredit 0.1.61 Windows beta",
+      "published_at": "2026-11-20T01:25:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1079,6 +1115,7 @@
     {
       "tag_name": "logmonitor-v0.6.1",
       "name": "LogMonitor 0.6.1 (Windows Beta)",
+      "published_at": "2026-11-20T03:39:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1097,6 +1134,7 @@
     {
       "tag_name": "logmonitor-v0.6.0",
       "name": "LogMonitor 0.6.0 (Windows Beta)",
+      "published_at": "2026-11-20T03:27:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1115,6 +1153,7 @@
     {
       "tag_name": "logmonitor-v0.5.1",
       "name": "LogMonitor 0.5.1 (Windows Beta)",
+      "published_at": "2026-11-20T01:32:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1133,6 +1172,7 @@
     {
       "tag_name": "logmonitor-v0.5.0",
       "name": "LogMonitor 0.5.0 (Windows Beta)",
+      "published_at": "2026-11-20T01:26:09Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1151,6 +1191,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.41",
       "name": "Sgrep VS Code 0.0.41",
+      "published_at": "2026-11-19T08:57:53Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -1179,6 +1220,7 @@
     {
       "tag_name": "sgrepx-v0.10.0",
       "name": "SgrepX 0.10.0 (Windows)",
+      "published_at": "2026-11-19T08:57:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1197,6 +1239,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261119.1",
       "name": "Sgrep Visual Studio 1.0.20261119.1",
+      "published_at": "2026-11-19T08:57:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1245,6 +1288,7 @@
     {
       "tag_name": "sgrep-v0.11.0",
       "name": "Sgrep / sg 0.11.0",
+      "published_at": "2026-11-19T08:57:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1303,6 +1347,7 @@
     {
       "tag_name": "sgrep-cache-v0.10.0",
       "name": "Sgrep Cache Service / Manager 0.10.0",
+      "published_at": "2026-11-19T08:57:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1331,6 +1376,7 @@
     {
       "tag_name": "sga-v0.6.3",
       "name": "SGA 0.6.3",
+      "published_at": "2026-11-19T08:57:30Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1369,6 +1415,7 @@
     {
       "tag_name": "reposynctool-v0.29.8",
       "name": "RepoSyncTool 0.29.8 (Windows beta)",
+      "published_at": "2026-11-19T08:25:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1397,6 +1444,7 @@
     {
       "tag_name": "oredit-v0.1.60",
       "name": "oredit 0.1.60 Windows beta",
+      "published_at": "2026-11-19T07:58:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1435,6 +1483,7 @@
     {
       "tag_name": "logmonitor-v0.4.0",
       "name": "LogMonitor 0.4.0 (Windows Beta)",
+      "published_at": "2026-11-20T00:34:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1453,6 +1502,7 @@
     {
       "tag_name": "logmonitor-v0.3.0",
       "name": "LogMonitor 0.3.0 (Windows Beta)",
+      "published_at": "2026-11-19T23:48:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1471,6 +1521,7 @@
     {
       "tag_name": "logmonitor-v0.2.0",
       "name": "LogMonitor 0.2.0 (Windows Beta)",
+      "published_at": "2026-11-19T23:16:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1489,6 +1540,7 @@
     {
       "tag_name": "logmonitor-v0.1.0",
       "name": "LogMonitor 0.1.0 (Windows Beta)",
+      "published_at": "2026-11-19T22:45:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1507,6 +1559,7 @@
     {
       "tag_name": "logexplorer-v0.1.16",
       "name": "LogExplorer 0.1.16",
+      "published_at": "2026-11-19T08:57:48Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1535,6 +1588,7 @@
     {
       "tag_name": "quicknav-vscode-v0.8.1",
       "name": "QuickNav for VS Code 0.8.1",
+      "published_at": "2026-11-18T04:31:11Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -1553,6 +1607,7 @@
     {
       "tag_name": "insightflow-v0.10.51",
       "name": "InsightFlow 0.10.51 Beta (macOS / Windows)",
+      "published_at": "2026-11-18T21:04:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -1601,6 +1656,7 @@
     {
       "tag_name": "tacm-v0.5.41",
       "name": "TaCM 0.5.41 — Windows インストールディスク (Beta)",
+      "published_at": "2026-11-18T22:47:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1619,6 +1675,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.10",
       "name": "sjis-agent-kit 0.2.10 (beta)",
+      "published_at": "2026-11-19T03:16:23Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1647,6 +1704,7 @@
     {
       "tag_name": "reposynctool-v0.29.7",
       "name": "RepoSyncTool 0.29.7 (Windows beta)",
+      "published_at": "2026-11-18T23:21:07Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1675,6 +1733,7 @@
     {
       "tag_name": "reposynctool-v0.29.6",
       "name": "RepoSyncTool 0.29.6 (macOS beta)",
+      "published_at": "2026-11-18T22:51:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1703,6 +1762,7 @@
     {
       "tag_name": "reposynctool-v0.29.5",
       "name": "RepoSyncTool 0.29.5 (macOS beta)",
+      "published_at": "2026-11-18T19:24:30Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1731,6 +1791,7 @@
     {
       "tag_name": "orenoime-v0.0.4",
       "name": "orenoIME 0.0.4 - Windows beta",
+      "published_at": "2026-11-18T23:17:02Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1764,6 +1825,7 @@
     {
       "tag_name": "orenoime-v0.0.3",
       "name": "orenoIME 0.0.3 - macOS beta",
+      "published_at": "2026-11-18T19:55:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1787,6 +1849,7 @@
     {
       "tag_name": "orenoime-v0.0.2",
       "name": "orenoIME 0.0.2 - Windows beta",
+      "published_at": "2026-11-18T13:32:39Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1820,6 +1883,7 @@
     {
       "tag_name": "oredit-v0.1.59",
       "name": "oredit 0.1.59 macOS beta",
+      "published_at": "2026-11-18T11:06:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1838,6 +1902,7 @@
     {
       "tag_name": "oredit-v0.1.58",
       "name": "oredit 0.1.58 Windows beta",
+      "published_at": "2026-11-18T09:13:07Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1876,6 +1941,7 @@
     {
       "tag_name": "acros-v0.1.2",
       "name": "acros 0.1.2 — Windows Beta",
+      "published_at": "2026-11-18T21:30:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -1899,6 +1965,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.40",
       "name": "Sgrep VS Code 0.0.40",
+      "published_at": "2026-11-17T23:03:36Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -1927,6 +1994,7 @@
     {
       "tag_name": "appcat-v0.1.7",
       "name": "AppCat 0.1.7 (Windows)",
+      "published_at": "2026-11-17T03:33:12Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -1955,6 +2023,7 @@
     {
       "tag_name": "appcat-v0.1.6",
       "name": "AppCat 0.1.6 (Windows)",
+      "published_at": "2026-11-17T00:44:49Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -1983,6 +2052,7 @@
     {
       "tag_name": "appcat-v0.1.5",
       "name": "AppCat 0.1.5 (Windows)",
+      "published_at": "2026-11-17T00:14:42Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -2011,6 +2081,7 @@
     {
       "tag_name": "sgrepx-v0.9.0",
       "name": "SgrepX 0.9.0 (Windows)",
+      "published_at": "2026-11-17T23:03:07Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2029,6 +2100,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261118.1",
       "name": "Sgrep Visual Studio 1.0.20261118.1",
+      "published_at": "2026-11-17T23:02:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2077,6 +2149,7 @@
     {
       "tag_name": "sgrep-v0.10.0",
       "name": "Sgrep / sg 0.10.0",
+      "published_at": "2026-11-17T23:00:39Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2125,6 +2198,7 @@
     {
       "tag_name": "sgrep-cache-v0.9.0",
       "name": "Sgrep Cache Service / Manager 0.9.0",
+      "published_at": "2026-11-17T23:02:47Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2143,6 +2217,7 @@
     {
       "tag_name": "sga-v0.6.2",
       "name": "SGA 0.6.2",
+      "published_at": "2026-11-17T23:02:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2171,6 +2246,7 @@
     {
       "tag_name": "reposynctool-v0.29.4",
       "name": "RepoSyncTool 0.29.4 (macOS beta)",
+      "published_at": "2026-11-17T13:10:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2199,6 +2275,7 @@
     {
       "tag_name": "oredit-v0.1.57",
       "name": "oredit 0.1.57 Windows beta",
+      "published_at": "2026-11-17T23:48:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2237,6 +2314,7 @@
     {
       "tag_name": "oredit-v0.1.56",
       "name": "oredit 0.1.56 macOS beta",
+      "published_at": "2026-11-17T11:53:12Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2270,6 +2348,7 @@
     {
       "tag_name": "oredit-v0.1.55",
       "name": "oredit 0.1.55 Windows beta",
+      "published_at": "2026-11-17T03:03:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2308,6 +2387,7 @@
     {
       "tag_name": "logexplorer-v0.1.15",
       "name": "LogExplorer 0.1.15",
+      "published_at": "2026-11-17T23:03:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2336,6 +2416,7 @@
     {
       "tag_name": "insightflow-v0.10.50",
       "name": "InsightFlow 0.10.50",
+      "published_at": "2026-11-17T09:01:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2364,6 +2445,7 @@
     {
       "tag_name": "insightflow-v0.10.49",
       "name": "InsightFlow 0.10.49",
+      "published_at": "2026-11-17T04:23:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2392,6 +2474,7 @@
     {
       "tag_name": "appcat-v0.1.4",
       "name": "AppCat 0.1.4 (Windows)",
+      "published_at": "2026-11-16T22:35:18Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -2420,6 +2503,7 @@
     {
       "tag_name": "ui-review-v0.1.0",
       "name": "UI Review Kit 0.1.0 Beta",
+      "published_at": "2026-11-16T22:16:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2443,6 +2527,7 @@
     {
       "tag_name": "screenport-v0.2.1",
       "name": "ScreenPort 0.2.1 Windows Beta",
+      "published_at": "2026-11-16T23:13:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2471,6 +2556,7 @@
     {
       "tag_name": "screenport-v0.2.0",
       "name": "ScreenPort 0.2.0 Windows Beta",
+      "published_at": "2026-11-16T22:24:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2499,6 +2585,7 @@
     {
       "tag_name": "screenport-v0.1.0",
       "name": "ScreenPort 0.1.0 Windows Beta",
+      "published_at": "2026-11-16T00:41:17Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2527,6 +2614,7 @@
     {
       "tag_name": "reposynctool-v0.29.3",
       "name": "RepoSyncTool 0.29.3 (Windows beta)",
+      "published_at": "2026-11-16T08:55:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2575,6 +2663,7 @@
     {
       "tag_name": "reposynctool-v0.29.2",
       "name": "RepoSyncTool 0.29.2 (Windows beta)",
+      "published_at": "2026-11-16T05:10:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2603,6 +2692,7 @@
     {
       "tag_name": "oredit-v0.1.54",
       "name": "oredit 0.1.54 Windows beta",
+      "published_at": "2026-11-17T00:03:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2641,6 +2731,7 @@
     {
       "tag_name": "oredit-v0.1.52",
       "name": "oredit 0.1.52 Windows beta",
+      "published_at": "2026-11-16T09:42:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2679,6 +2770,7 @@
     {
       "tag_name": "commitcheck-v0.3.0",
       "name": "commitcheck 0.3.0 (beta)",
+      "published_at": "2026-11-16T22:08:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2747,6 +2839,7 @@
     {
       "tag_name": "commitcheck-v0.2.0",
       "name": "commitcheck 0.2.0 (beta)",
+      "published_at": "2026-11-16T08:44:45Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2815,6 +2908,7 @@
     {
       "tag_name": "reposynctool-v0.29.1",
       "name": "RepoSyncTool 0.29.1 (Windows beta)",
+      "published_at": "2026-11-16T00:15:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2843,6 +2937,7 @@
     {
       "tag_name": "reposynctool-v0.29.0",
       "name": "RepoSyncTool 0.29.0 (Windows beta)",
+      "published_at": "2026-11-15T23:51:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2871,6 +2966,7 @@
     {
       "tag_name": "office-ai-mcp-v0.1.0",
       "name": "office-ai-mcp 0.1.0 Beta (Windows CLI)",
+      "published_at": "2026-11-15T23:37:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2904,6 +3000,7 @@
     {
       "tag_name": "reposynctool-v0.28.4",
       "name": "RepoSyncTool 0.28.4 (Windows beta)",
+      "published_at": "2026-11-13T06:59:48Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2932,6 +3029,7 @@
     {
       "tag_name": "reposynctool-v0.28.3",
       "name": "RepoSyncTool 0.28.3 (Windows beta)",
+      "published_at": "2026-11-13T03:03:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2960,6 +3058,7 @@
     {
       "tag_name": "oredit-v0.1.51",
       "name": "oredit 0.1.51 Windows beta",
+      "published_at": "2026-11-15T22:26:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -2998,6 +3097,7 @@
     {
       "tag_name": "oredit-v0.1.50",
       "name": "oredit 0.1.50 Windows beta",
+      "published_at": "2026-11-13T07:37:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3036,6 +3136,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.39",
       "name": "Sgrep VS Code 0.0.39",
+      "published_at": "2026-11-13T00:57:39Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -3064,6 +3165,7 @@
     {
       "tag_name": "sgrepx-v0.8.1",
       "name": "SgrepX 0.8.1 (Windows)",
+      "published_at": "2026-11-13T00:57:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3082,6 +3184,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261113.1",
       "name": "Sgrep Visual Studio 1.0.20261113.1",
+      "published_at": "2026-11-13T00:57:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3130,6 +3233,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261112.1",
       "name": "Sgrep Visual Studio 1.0.20261112.1",
+      "published_at": "2026-11-12T07:06:14Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3178,6 +3282,7 @@
     {
       "tag_name": "sgrep-v0.9.1",
       "name": "Sgrep / sg 0.9.1",
+      "published_at": "2026-11-13T00:57:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3226,6 +3331,7 @@
     {
       "tag_name": "sgrep-cache-v0.8.1",
       "name": "Sgrep Cache Service / Manager 0.8.1",
+      "published_at": "2026-11-13T00:57:31Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3244,6 +3350,7 @@
     {
       "tag_name": "sga-v0.6.1",
       "name": "SGA 0.6.1",
+      "published_at": "2026-11-13T00:57:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3272,6 +3379,7 @@
     {
       "tag_name": "reposynctool-v0.28.2",
       "name": "RepoSyncTool 0.28.2 (macOS beta)",
+      "published_at": "2026-11-12T10:18:02Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3300,6 +3408,7 @@
     {
       "tag_name": "reposynctool-v0.28.1",
       "name": "RepoSyncTool 0.28.1 (Windows beta)",
+      "published_at": "2026-11-12T07:55:48Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3328,6 +3437,7 @@
     {
       "tag_name": "reposynctool-v0.28.0",
       "name": "RepoSyncTool 0.28.0 (Windows beta)",
+      "published_at": "2026-11-12T04:49:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3356,6 +3466,7 @@
     {
       "tag_name": "reposynctool-v0.27.1",
       "name": "RepoSyncTool 0.27.1 (Windows beta)",
+      "published_at": "2026-11-12T01:44:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3384,6 +3495,7 @@
     {
       "tag_name": "oredit-v0.1.49",
       "name": "oredit 0.1.49 Windows beta",
+      "published_at": "2026-11-12T22:43:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3422,6 +3534,7 @@
     {
       "tag_name": "oredit-v0.1.48",
       "name": "oredit 0.1.48 macOS beta",
+      "published_at": "2026-11-12T19:56:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3455,6 +3568,7 @@
     {
       "tag_name": "oredit-v0.1.47",
       "name": "oredit 0.1.47 Windows beta",
+      "published_at": "2026-11-12T13:07:14Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3493,6 +3607,7 @@
     {
       "tag_name": "oredit-v0.1.46",
       "name": "oredit 0.1.46 Windows beta",
+      "published_at": "2026-11-12T07:01:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3531,6 +3646,7 @@
     {
       "tag_name": "logexplorer-v0.1.14",
       "name": "LogExplorer 0.1.14",
+      "published_at": "2026-11-13T00:57:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3559,6 +3675,7 @@
     {
       "tag_name": "autoapprover-v0.1.12",
       "name": "AutoApprover 0.1.12",
+      "published_at": "2026-11-12T03:15:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3577,6 +3694,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.9",
       "name": "sjis-agent-kit 0.2.9 (beta)",
+      "published_at": "2026-11-11T20:57:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3605,6 +3723,7 @@
     {
       "tag_name": "reposynctool-v0.27.0",
       "name": "RepoSyncTool 0.27.0 (Windows beta)",
+      "published_at": "2026-11-11T23:31:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3633,6 +3752,7 @@
     {
       "tag_name": "reposynctool-v0.26.1",
       "name": "RepoSyncTool 0.26.1 (Windows beta)",
+      "published_at": "2026-11-11T07:37:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3661,6 +3781,7 @@
     {
       "tag_name": "reposynctool-v0.26.0",
       "name": "RepoSyncTool 0.26.0 (Windows beta)",
+      "published_at": "2026-11-11T07:31:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3689,6 +3810,7 @@
     {
       "tag_name": "reposynctool-v0.25.0",
       "name": "RepoSyncTool 0.25.0 (Windows beta)",
+      "published_at": "2026-11-11T04:25:44Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3717,6 +3839,7 @@
     {
       "tag_name": "reposynctool-v0.24.0",
       "name": "RepoSyncTool 0.24.0 (Windows beta)",
+      "published_at": "2026-11-11T03:16:23Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3745,6 +3868,7 @@
     {
       "tag_name": "oredit-v0.1.45",
       "name": "oredit 0.1.45 Windows beta",
+      "published_at": "2026-11-12T01:39:16Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3783,6 +3907,7 @@
     {
       "tag_name": "oredit-v0.1.44",
       "name": "oredit 0.1.44 macOS beta",
+      "published_at": "2026-11-11T20:41:01Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3816,6 +3941,7 @@
     {
       "tag_name": "oredit-v0.1.43",
       "name": "oredit 0.1.43 Windows beta",
+      "published_at": "2026-11-11T06:14:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3854,6 +3980,7 @@
     {
       "tag_name": "autoapprover-v0.1.11",
       "name": "AutoApprover 0.1.11",
+      "published_at": "2026-11-11T21:00:09Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3872,6 +3999,7 @@
     {
       "tag_name": "acros-v0.1.1",
       "name": "acros 0.1.1 macOS Beta — text selection fix",
+      "published_at": "2026-11-11T03:19:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3905,6 +4033,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.38",
       "name": "Sgrep VS Code 0.0.38",
+      "published_at": "2026-11-10T07:04:22Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -3933,6 +4062,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.37",
       "name": "Sgrep VS Code 0.0.37",
+      "published_at": "2026-11-10T01:20:45Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -3961,6 +4091,7 @@
     {
       "tag_name": "sgrepx-v0.8.0",
       "name": "SgrepX 0.8.0 (Windows)",
+      "published_at": "2026-11-10T07:04:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -3979,6 +4110,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261110.1",
       "name": "Sgrep Visual Studio 1.0.20261110.1",
+      "published_at": "2026-11-10T07:04:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4027,6 +4159,7 @@
     {
       "tag_name": "sgrep-v0.9.0",
       "name": "Sgrep / sg 0.9.0",
+      "published_at": "2026-11-10T07:04:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4085,6 +4218,7 @@
     {
       "tag_name": "sgrep-v0.8.1",
       "name": "Sgrep / sg 0.8.1",
+      "published_at": "2026-11-10T01:20:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4123,6 +4257,7 @@
     {
       "tag_name": "sgrep-cache-v0.8.0",
       "name": "Sgrep Cache Service / Manager 0.8.0",
+      "published_at": "2026-11-10T07:04:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4141,6 +4276,7 @@
     {
       "tag_name": "sgrep-cache-v0.7.1",
       "name": "Sgrep Cache Service / Manager 0.7.1",
+      "published_at": "2026-11-10T01:20:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4159,6 +4295,7 @@
     {
       "tag_name": "reposynctool-v0.23.0",
       "name": "RepoSyncTool 0.23.0 (Windows beta)",
+      "published_at": "2026-11-10T22:07:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4187,6 +4324,7 @@
     {
       "tag_name": "oredit-v0.1.42",
       "name": "oredit 0.1.42 Windows beta",
+      "published_at": "2026-11-11T02:36:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4225,6 +4363,7 @@
     {
       "tag_name": "oredit-v0.1.41",
       "name": "oredit 0.1.41 Windows beta",
+      "published_at": "2026-11-10T23:35:45Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4263,6 +4402,7 @@
     {
       "tag_name": "oredit-v0.1.40",
       "name": "oredit 0.1.40 Windows beta",
+      "published_at": "2026-11-10T09:27:09Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4301,6 +4441,7 @@
     {
       "tag_name": "oredit-v0.1.39",
       "name": "oredit 0.1.39 Windows beta",
+      "published_at": "2026-11-10T05:55:09Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4339,6 +4480,7 @@
     {
       "tag_name": "acros-v0.1.0",
       "name": "acros 0.1.0 macOS Beta",
+      "published_at": "2026-11-10T20:38:52Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4372,6 +4514,7 @@
     {
       "tag_name": "codemap-v0.1.26",
       "name": "CodeMap v0.1.26",
+      "published_at": "2026-11-10T00:25:05Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -4385,6 +4528,7 @@
     {
       "tag_name": "reposynctool-v0.22.0",
       "name": "RepoSyncTool 0.22.0 (Windows beta)",
+      "published_at": "2026-11-09T11:33:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4433,6 +4577,7 @@
     {
       "tag_name": "oredit-v0.1.38",
       "name": "oredit 0.1.38 Windows beta",
+      "published_at": "2026-11-10T00:45:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4471,6 +4616,7 @@
     {
       "tag_name": "oredit-v0.1.37",
       "name": "oredit 0.1.37 Windows beta",
+      "published_at": "2026-11-09T05:55:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4509,6 +4655,7 @@
     {
       "tag_name": "autoapprover-v0.1.10",
       "name": "AutoApprover 0.1.10",
+      "published_at": "2026-11-09T11:02:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4527,6 +4674,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.36",
       "name": "Sgrep VS Code 0.0.36",
+      "published_at": "2026-11-08T07:00:03Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -4555,6 +4703,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.8",
       "name": "sjis-agent-kit 0.2.8 (beta)",
+      "published_at": "2026-11-09T01:05:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4583,6 +4732,7 @@
     {
       "tag_name": "sgrepx-v0.7.0",
       "name": "SgrepX 0.7.0",
+      "published_at": "2026-11-08T06:59:50Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4601,6 +4751,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261108.1",
       "name": "Sgrep Visual Studio 1.0.20261108.1",
+      "published_at": "2026-11-08T06:59:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4649,6 +4800,7 @@
     {
       "tag_name": "sgrep-v0.8.0",
       "name": "Sgrep / sg 0.8.0",
+      "published_at": "2026-11-08T06:59:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4707,6 +4859,7 @@
     {
       "tag_name": "sgrep-cache-v0.7.0",
       "name": "Sgrep Cache Service / Manager 0.7.0",
+      "published_at": "2026-11-08T06:59:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4725,6 +4878,7 @@
     {
       "tag_name": "sga-v0.6.0",
       "name": "SGA 0.6.0",
+      "published_at": "2026-11-08T06:59:42Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4763,6 +4917,7 @@
     {
       "tag_name": "reposynctool-v0.21.0",
       "name": "RepoSyncTool 0.21.0 (Windows beta)",
+      "published_at": "2026-11-08T23:24:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4791,6 +4946,7 @@
     {
       "tag_name": "reposynctool-v0.20.0",
       "name": "RepoSyncTool 0.20.0 (macOS / Windows beta)",
+      "published_at": "2026-11-08T11:35:23Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4839,6 +4995,7 @@
     {
       "tag_name": "logexplorer-v0.1.13",
       "name": "LogExplorer 0.1.13",
+      "published_at": "2026-11-08T06:59:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4867,6 +5024,7 @@
     {
       "tag_name": "insightflow-v0.10.47",
       "name": "InsightFlow 0.10.47",
+      "published_at": "2026-11-08T00:46:45Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4895,6 +5053,7 @@
     {
       "tag_name": "insightflow-v0.10.44",
       "name": "InsightFlow 0.10.44 Beta (macOS)",
+      "published_at": "2026-11-06T06:10:17Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -4923,6 +5082,7 @@
     {
       "tag_name": "reposynctool-v0.19.3",
       "name": "RepoSyncTool 0.19.3 (Windows beta)",
+      "published_at": "2026-11-07T20:34:45Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4951,6 +5111,7 @@
     {
       "tag_name": "reposynctool-v0.19.2",
       "name": "RepoSyncTool 0.19.2 (macOS beta)",
+      "published_at": "2026-11-06T22:56:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -4979,6 +5140,7 @@
     {
       "tag_name": "reposynctool-v0.19.1",
       "name": "RepoSyncTool 0.19.1 (macOS beta)",
+      "published_at": "2026-11-06T04:51:42Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5007,6 +5169,7 @@
     {
       "tag_name": "insightflow-v0.10.46",
       "name": "InsightFlow 0.10.46",
+      "published_at": "2026-11-06T12:08:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5035,6 +5198,7 @@
     {
       "tag_name": "insightflow-v0.10.45",
       "name": "InsightFlow 0.10.45",
+      "published_at": "2026-11-06T08:37:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5063,6 +5227,7 @@
     {
       "tag_name": "sgrepx-v0.6.2",
       "name": "SgrepX 0.6.2 (macOS beta)",
+      "published_at": "2026-11-06T04:36:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5081,6 +5246,7 @@
     {
       "tag_name": "reposynctool-v0.19.0",
       "name": "RepoSyncTool 0.19.0 (Windows beta)",
+      "published_at": "2026-11-05T07:46:14Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5109,6 +5275,7 @@
     {
       "tag_name": "reposynctool-v0.18.2",
       "name": "RepoSyncTool 0.18.2 (Windows beta)",
+      "published_at": "2026-11-05T05:24:01Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5137,6 +5304,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.7",
       "name": "sjis-agent-kit 0.2.7 (beta)",
+      "published_at": "2026-11-04T01:16:51Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5165,6 +5333,7 @@
     {
       "tag_name": "reposynctool-v0.18.1",
       "name": "RepoSyncTool 0.18.1 (Windows beta)",
+      "published_at": "2026-11-05T03:58:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5193,6 +5362,7 @@
     {
       "tag_name": "reposynctool-v0.18.0",
       "name": "RepoSyncTool 0.18.0 (Windows beta)",
+      "published_at": "2026-11-04T23:29:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5221,6 +5391,7 @@
     {
       "tag_name": "reposynctool-v0.17.2",
       "name": "RepoSyncTool 0.17.2 (Windows beta)",
+      "published_at": "2026-11-04T06:12:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5249,6 +5420,7 @@
     {
       "tag_name": "reposynctool-v0.17.1",
       "name": "RepoSyncTool 0.17.1 (Windows beta)",
+      "published_at": "2026-11-04T03:41:31Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5277,6 +5449,7 @@
     {
       "tag_name": "oredit-v0.1.35",
       "name": "oredit 0.1.35 Windows beta",
+      "published_at": "2026-11-04T02:42:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5315,6 +5488,7 @@
     {
       "tag_name": "insightflow-v0.10.43",
       "name": "InsightFlow 0.10.43",
+      "published_at": "2026-11-04T22:44:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5343,6 +5517,7 @@
     {
       "tag_name": "reposynctool-v0.17.0",
       "name": "RepoSyncTool 0.17.0 (Windows beta)",
+      "published_at": "2026-11-04T00:14:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5371,6 +5546,7 @@
     {
       "tag_name": "reposynctool-v0.16.7",
       "name": "RepoSyncTool 0.16.7 (Windows beta)",
+      "published_at": "2026-11-03T21:10:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5399,6 +5575,7 @@
     {
       "tag_name": "reposynctool-v0.16.6",
       "name": "RepoSyncTool 0.16.6 (macOS beta)",
+      "published_at": "2026-11-03T06:29:39Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5427,6 +5604,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.6",
       "name": "sjis-agent-kit 0.2.6 (beta)",
+      "published_at": "2026-11-02T06:06:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5455,6 +5633,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.5",
       "name": "sjis-agent-kit 0.2.5 (beta)",
+      "published_at": "2026-11-02T04:58:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5483,6 +5662,7 @@
     {
       "tag_name": "reposynctool-v0.16.5",
       "name": "RepoSyncTool 0.16.5 (Windows beta)",
+      "published_at": "2026-11-03T05:34:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5511,6 +5691,7 @@
     {
       "tag_name": "reposynctool-v0.16.4",
       "name": "RepoSyncTool 0.16.4 (Windows beta)",
+      "published_at": "2026-11-02T05:38:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5539,6 +5720,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.4",
       "name": "sjis-agent-kit 0.2.4 (beta)",
+      "published_at": "2026-11-01T02:18:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5567,6 +5749,7 @@
     {
       "tag_name": "reposynctool-v0.16.3",
       "name": "RepoSyncTool 0.16.3 (Windows beta)",
+      "published_at": "2026-11-02T03:25:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5595,6 +5778,7 @@
     {
       "tag_name": "reposynctool-v0.16.2",
       "name": "RepoSyncTool 0.16.2 (Windows beta)",
+      "published_at": "2026-11-01T23:13:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5623,6 +5807,7 @@
     {
       "tag_name": "reposynctool-v0.16.1",
       "name": "RepoSyncTool 0.16.1 (macOS beta)",
+      "published_at": "2026-11-01T02:06:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5651,6 +5836,7 @@
     {
       "tag_name": "reposynctool-v0.16.0",
       "name": "RepoSyncTool 0.16.0 (macOS beta)",
+      "published_at": "2026-11-01T00:40:07Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5679,6 +5865,7 @@
     {
       "tag_name": "insightflow-v0.10.42",
       "name": "InsightFlow 0.10.42",
+      "published_at": "2026-11-01T21:07:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5707,6 +5894,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.3",
       "name": "sjis-agent-kit 0.2.3 (beta)",
+      "published_at": "2026-11-01T00:34:52Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5735,6 +5923,7 @@
     {
       "tag_name": "stask-v2.0.2",
       "name": "Stask 2.0.2 (desktop Beta)",
+      "published_at": "2026-10-31T19:24:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5768,6 +5957,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.2",
       "name": "sjis-agent-kit 0.2.2 (beta)",
+      "published_at": "2026-10-30T06:05:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5796,6 +5986,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.1",
       "name": "sjis-agent-kit 0.2.1 (beta)",
+      "published_at": "2026-10-30T04:59:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5824,6 +6015,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.2.0",
       "name": "sjis-agent-kit 0.2.0 (beta)",
+      "published_at": "2026-10-30T02:43:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5852,6 +6044,7 @@
     {
       "tag_name": "sjis-agent-kit-v0.1.0",
       "name": "sjis-agent-kit 0.1.0 (beta)",
+      "published_at": "2026-10-30T01:49:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5870,6 +6063,7 @@
     {
       "tag_name": "reposynctool-v0.15.0",
       "name": "RepoSyncTool 0.15.0 (Windows beta)",
+      "published_at": "2026-10-30T03:31:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5898,6 +6092,7 @@
     {
       "tag_name": "insightflow-v0.10.41",
       "name": "InsightFlow 0.10.41 Beta (macOS)",
+      "published_at": "2026-10-31T20:52:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5926,6 +6121,7 @@
     {
       "tag_name": "insightflow-v0.10.40",
       "name": "InsightFlow 0.10.40 (macOS Beta)",
+      "published_at": "2026-10-30T22:26:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5954,6 +6150,7 @@
     {
       "tag_name": "reposynctool-v0.14.0",
       "name": "RepoSyncTool 0.14.0 (Windows beta)",
+      "published_at": "2026-10-29T23:38:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -5982,6 +6179,7 @@
     {
       "tag_name": "reposynctool-v0.13.0",
       "name": "RepoSyncTool 0.13.0 (Windows beta)",
+      "published_at": "2026-10-29T03:14:52Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6010,6 +6208,7 @@
     {
       "tag_name": "reposynctool-v0.12.0",
       "name": "RepoSyncTool 0.12.0 (Windows beta)",
+      "published_at": "2026-10-29T02:05:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6038,6 +6237,7 @@
     {
       "tag_name": "oredit-v0.1.33",
       "name": "oredit 0.1.33 Windows beta",
+      "published_at": "2026-10-30T00:39:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6076,6 +6276,7 @@
     {
       "tag_name": "oredit-v0.1.31",
       "name": "oredit 0.1.31 Windows beta",
+      "published_at": "2026-10-29T10:25:03Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6114,6 +6315,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.35",
       "name": "Sgrep for VS Code 0.0.35",
+      "published_at": "2026-10-28T20:45:17Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -6142,6 +6344,7 @@
     {
       "tag_name": "sgrep-vsix-v1.0.20261029.1",
       "name": "SgrepVSIX 1.0.20261029.1 Beta",
+      "published_at": "2026-10-28T20:45:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6190,6 +6393,7 @@
     {
       "tag_name": "reposynctool-v0.9.3",
       "name": "RepoSyncTool 0.9.3 (Windows beta)",
+      "published_at": "2026-10-28T05:35:31Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6218,6 +6422,7 @@
     {
       "tag_name": "reposynctool-v0.9.2",
       "name": "RepoSyncTool 0.9.2 (Windows beta)",
+      "published_at": "2026-10-28T05:07:31Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6246,6 +6451,7 @@
     {
       "tag_name": "reposynctool-v0.9.1",
       "name": "RepoSyncTool 0.9.1 (Windows beta)",
+      "published_at": "2026-10-28T04:57:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6274,6 +6480,7 @@
     {
       "tag_name": "reposynctool-v0.9.0",
       "name": "RepoSyncTool 0.9.0 (Windows beta)",
+      "published_at": "2026-10-28T04:25:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6302,6 +6509,7 @@
     {
       "tag_name": "reposynctool-v0.8.0",
       "name": "RepoSyncTool 0.8.0 (Windows beta)",
+      "published_at": "2026-10-28T02:05:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6330,6 +6538,7 @@
     {
       "tag_name": "reposynctool-v0.11.0",
       "name": "RepoSyncTool 0.11.0 (Windows beta)",
+      "published_at": "2026-10-28T23:32:51Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6358,6 +6567,7 @@
     {
       "tag_name": "reposynctool-v0.10.1",
       "name": "RepoSyncTool 0.10.1 (macOS beta)",
+      "published_at": "2026-10-28T20:40:35Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6386,6 +6596,7 @@
     {
       "tag_name": "reposynctool-v0.10.0",
       "name": "RepoSyncTool 0.10.0 (macOS beta)",
+      "published_at": "2026-10-28T20:14:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6414,6 +6625,7 @@
     {
       "tag_name": "oredit-v0.1.29",
       "name": "oredit 0.1.29 Windows beta",
+      "published_at": "2026-10-29T00:48:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6452,6 +6664,7 @@
     {
       "tag_name": "oredit-v0.1.27",
       "name": "oredit 0.1.27 Windows beta",
+      "published_at": "2026-10-28T07:31:48Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6490,6 +6703,7 @@
     {
       "tag_name": "oredit-v0.1.26",
       "name": "oredit 0.1.26 Windows beta",
+      "published_at": "2026-10-28T02:32:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6528,6 +6742,7 @@
     {
       "tag_name": "oredit-v0.1.25",
       "name": "oredit 0.1.25 Windows beta",
+      "published_at": "2026-10-28T00:39:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6566,6 +6781,7 @@
     {
       "tag_name": "insightflow-v0.10.39",
       "name": "InsightFlow 0.10.39",
+      "published_at": "2026-10-28T02:54:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6594,6 +6810,7 @@
     {
       "tag_name": "reposynctool-v0.7.0",
       "name": "RepoSyncTool 0.7.0 (Windows beta)",
+      "published_at": "2026-10-28T00:10:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6622,6 +6839,7 @@
     {
       "tag_name": "reposynctool-v0.6.0",
       "name": "RepoSyncTool 0.6.0 (Windows beta)",
+      "published_at": "2026-10-27T07:45:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6650,6 +6868,7 @@
     {
       "tag_name": "reposynctool-v0.5.0",
       "name": "RepoSyncTool 0.5.0 (Windows beta)",
+      "published_at": "2026-10-27T04:37:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6678,6 +6897,7 @@
     {
       "tag_name": "reposynctool-v0.4.0",
       "name": "RepoSyncTool 0.4.0 (Windows beta)",
+      "published_at": "2026-10-27T02:47:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6706,6 +6926,7 @@
     {
       "tag_name": "insightflow-v0.10.38",
       "name": "InsightFlow 0.10.38",
+      "published_at": "2026-10-27T09:00:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6754,6 +6975,7 @@
     {
       "tag_name": "autoapprover-v0.1.9",
       "name": "AutoApprover 0.1.9",
+      "published_at": "2026-10-27T05:28:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6772,6 +6994,7 @@
     {
       "tag_name": "sdebug-v0.2.0",
       "name": "Sdebug 0.2.0 (Windows beta)",
+      "published_at": "2026-10-26T23:25:14Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6800,6 +7023,7 @@
     {
       "tag_name": "reposynctool-v0.3.0",
       "name": "RepoSyncTool 0.3.0 (Windows beta)",
+      "published_at": "2026-10-27T01:14:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6828,6 +7052,7 @@
     {
       "tag_name": "reposynctool-v0.2.0",
       "name": "RepoSyncTool 0.2.0 (Windows beta)",
+      "published_at": "2026-10-26T23:30:50Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6856,6 +7081,7 @@
     {
       "tag_name": "reposynctool-v0.1.0",
       "name": "RepoSyncTool 0.1.0 (Windows beta)",
+      "published_at": "2026-10-26T06:47:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6884,6 +7110,7 @@
     {
       "tag_name": "oredit-v0.1.24",
       "name": "oredit 0.1.24 Windows beta",
+      "published_at": "2026-10-26T05:52:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6922,6 +7149,7 @@
     {
       "tag_name": "filecatalog-v0.1.1",
       "name": "FileCatalog 0.1.1 (Windows beta)",
+      "published_at": "2026-10-26T07:24:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6945,6 +7173,7 @@
     {
       "tag_name": "oredit-v0.1.23",
       "name": "oredit 0.1.23 Windows beta",
+      "published_at": "2026-10-26T01:12:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -6983,6 +7212,7 @@
     {
       "tag_name": "insightflow-v0.10.37",
       "name": "InsightFlow 0.10.37",
+      "published_at": "2026-10-25T21:42:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7011,6 +7241,7 @@
     {
       "tag_name": "insightflow-v0.10.36",
       "name": "InsightFlow 0.10.36",
+      "published_at": "2026-10-25T12:31:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7059,6 +7290,7 @@
     {
       "tag_name": "filecatalog-v0.1.0",
       "name": "FileCatalog 0.1.0 (Windows beta)",
+      "published_at": "2026-10-25T23:43:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7082,6 +7314,7 @@
     {
       "tag_name": "onenote-mcp-v0.1.0",
       "name": "OneNote MCP 0.1.0",
+      "published_at": "2026-10-24T08:05:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7100,6 +7333,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.6",
       "name": "Office Copilot 0.2.6",
+      "published_at": "2026-10-25T00:58:42Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7118,6 +7352,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.5",
       "name": "Office Copilot 0.2.5",
+      "published_at": "2026-10-24T09:09:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7136,6 +7371,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.4",
       "name": "Office Copilot 0.2.4",
+      "published_at": "2026-10-24T08:34:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7154,6 +7390,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.3",
       "name": "Office Copilot 0.2.3",
+      "published_at": "2026-10-24T05:02:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7172,6 +7409,7 @@
     {
       "tag_name": "insightflow-v0.10.35",
       "name": "InsightFlow 0.10.35",
+      "published_at": "2026-10-24T23:58:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7200,6 +7438,7 @@
     {
       "tag_name": "insightflow-v0.10.34",
       "name": "InsightFlow 0.10.34",
+      "published_at": "2026-10-24T04:44:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7228,6 +7467,7 @@
     {
       "tag_name": "insightflow-v0.10.33",
       "name": "InsightFlow 0.10.33",
+      "published_at": "2026-10-24T03:37:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7256,6 +7496,7 @@
     {
       "tag_name": "insightflow-v0.10.32",
       "name": "InsightFlow 0.10.32",
+      "published_at": "2026-10-24T01:09:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7284,6 +7525,7 @@
     {
       "tag_name": "oredit-v0.1.22",
       "name": "oredit 0.1.22 macOS beta",
+      "published_at": "2026-10-23T20:07:12Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7317,6 +7559,7 @@
     {
       "tag_name": "oredit-v0.1.21",
       "name": "oredit 0.1.21 macOS beta",
+      "published_at": "2026-10-23T19:38:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7350,6 +7593,7 @@
     {
       "tag_name": "oredit-v0.1.20",
       "name": "oredit 0.1.20 Windows beta",
+      "published_at": "2026-10-23T10:53:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7388,6 +7632,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.2",
       "name": "Office Copilot 0.2.2",
+      "published_at": "2026-10-24T00:28:42Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7406,6 +7651,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.1",
       "name": "Office Copilot 0.2.1",
+      "published_at": "2026-10-23T03:13:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7424,6 +7670,7 @@
     {
       "tag_name": "insightflow-v0.10.31",
       "name": "InsightFlow 0.10.31",
+      "published_at": "2026-10-23T20:18:30Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7452,6 +7699,7 @@
     {
       "tag_name": "insightflow-v0.10.30",
       "name": "InsightFlow 0.10.30",
+      "published_at": "2026-10-23T06:36:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7500,6 +7748,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.34",
       "name": "Sgrep for VS Code 0.0.34",
+      "published_at": "2026-10-23T01:42:34Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -7528,6 +7777,7 @@
     {
       "tag_name": "sgrep-cache-v0.6.0",
       "name": "Sgrep Cache Service 0.6.0 Beta — Spray manager",
+      "published_at": "2026-10-22T04:38:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7546,6 +7796,7 @@
     {
       "tag_name": "sdebug-v0.1.0",
       "name": "Sdebug 0.1.0 Beta",
+      "published_at": "2026-10-22T23:34:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7574,6 +7825,7 @@
     {
       "tag_name": "oredit-v0.1.19",
       "name": "oredit 0.1.19 macOS beta",
+      "published_at": "2026-10-22T13:22:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7607,6 +7859,7 @@
     {
       "tag_name": "oredit-v0.1.18",
       "name": "oredit 0.1.18 macOS beta",
+      "published_at": "2026-10-22T10:01:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7640,6 +7893,7 @@
     {
       "tag_name": "office-copilot-addin-v0.2.0",
       "name": "Office Copilot 0.2.0",
+      "published_at": "2026-10-22T21:17:33Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7658,6 +7912,7 @@
     {
       "tag_name": "oredit-v0.1.17",
       "name": "oredit 0.1.17 Windows beta",
+      "published_at": "2026-10-22T00:46:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7696,6 +7951,7 @@
     {
       "tag_name": "oredit-v0.1.16",
       "name": "oredit 0.1.16 Windows beta",
+      "published_at": "2026-10-21T06:02:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7734,6 +7990,7 @@
     {
       "tag_name": "oredit-v0.1.15",
       "name": "oredit 0.1.15 Windows beta",
+      "published_at": "2026-10-21T05:15:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7772,6 +8029,7 @@
     {
       "tag_name": "leakmap-v0.3.3",
       "name": "LeakMap 0.3.3 Windows beta",
+      "published_at": "2026-10-21T03:02:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7805,6 +8063,7 @@
     {
       "tag_name": "oredit-v0.1.14",
       "name": "oredit 0.1.14 Windows beta",
+      "published_at": "2026-10-21T02:55:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7843,6 +8102,7 @@
     {
       "tag_name": "oredit-v0.1.13",
       "name": "oredit 0.1.13 Windows beta",
+      "published_at": "2026-10-20T23:50:12Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7881,6 +8141,7 @@
     {
       "tag_name": "insightflow-v0.10.29",
       "name": "InsightFlow 0.10.29",
+      "published_at": "2026-10-20T06:02:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7929,6 +8190,7 @@
     {
       "tag_name": "insightflow-v0.10.28",
       "name": "InsightFlow 0.10.28",
+      "published_at": "2026-10-20T04:11:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -7977,6 +8239,7 @@
     {
       "tag_name": "usbemu-v0.3.0-beta.2",
       "name": "USBEMU 0.3.0-beta.2 - VM Secure Boot detection fix",
+      "published_at": "2026-10-19T07:35:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8020,6 +8283,7 @@
     {
       "tag_name": "usbemu-v0.3.0-beta.1",
       "name": "USBEMU 0.3.0-beta.1",
+      "published_at": "2026-10-19T03:08:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8053,6 +8317,7 @@
     {
       "tag_name": "sgrepx-v0.6.1",
       "name": "SgrepX 0.6.1 Windows beta",
+      "published_at": "2026-10-19T04:09:42Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8071,6 +8336,7 @@
     {
       "tag_name": "sgrep-v0.7.1",
       "name": "Sg 0.7.1 Windows static runtime beta",
+      "published_at": "2026-10-19T04:09:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8099,6 +8365,7 @@
     {
       "tag_name": "sfis-v0.3.1",
       "name": "SFIS 0.3.1",
+      "published_at": "2026-10-19T03:11:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8117,6 +8384,7 @@
     {
       "tag_name": "insightflow-v0.10.27",
       "name": "InsightFlow 0.10.27",
+      "published_at": "2026-10-20T00:10:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8145,6 +8413,7 @@
     {
       "tag_name": "usbemu-v0.2.0-beta.4",
       "name": "USBEMU 0.2.0-beta.4",
+      "published_at": "2026-10-18T23:30:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8173,6 +8442,7 @@
     {
       "tag_name": "usbemu-v0.2.0-beta.3",
       "name": "USBEMU 0.2.0-beta.3",
+      "published_at": "2026-10-18T22:40:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8201,6 +8471,7 @@
     {
       "tag_name": "oredit-v0.1.12",
       "name": "oredit 0.1.12 Windows beta",
+      "published_at": "2026-10-19T00:43:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8239,6 +8510,7 @@
     {
       "tag_name": "leakmap-v0.3.2",
       "name": "LeakMap 0.3.2 Windows beta",
+      "published_at": "2026-10-18T23:33:23Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8272,6 +8544,7 @@
     {
       "tag_name": "sfis-v0.3.0",
       "name": "SFIS 0.3.0",
+      "published_at": "2026-10-18T04:49:20Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8290,6 +8563,7 @@
     {
       "tag_name": "sfis-v0.2.0",
       "name": "SFIS 0.2.0",
+      "published_at": "2026-10-17T23:40:33Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8308,6 +8582,7 @@
     {
       "tag_name": "insightflow-v0.10.26",
       "name": "InsightFlow 0.10.26",
+      "published_at": "2026-10-17T03:59:14Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8356,6 +8631,7 @@
     {
       "tag_name": "usbemu-v0.2.0-beta.2",
       "name": "USBEMU 0.2.0-beta.2 Windows beta",
+      "published_at": "2026-10-16T23:08:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8384,6 +8660,7 @@
     {
       "tag_name": "usbemu-v0.2.0-beta.1",
       "name": "USBEMU 0.2.0-beta.1 Windows beta",
+      "published_at": "2026-10-16T08:00:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8412,6 +8689,7 @@
     {
       "tag_name": "leakmap-v0.3.1",
       "name": "LeakMap 0.3.1 Windows beta",
+      "published_at": "2026-10-16T05:53:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8445,6 +8723,7 @@
     {
       "tag_name": "insightflow-v0.10.25",
       "name": "InsightFlow 0.10.25",
+      "published_at": "2026-10-17T02:40:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8473,6 +8752,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.33",
       "name": "Sgrep for VS Code 0.0.33",
+      "published_at": "2026-10-15T07:39:57Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -8501,6 +8781,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.31",
       "name": "Sgrep for VS Code 0.0.31",
+      "published_at": "2026-10-15T03:26:04Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -8529,6 +8810,7 @@
     {
       "tag_name": "sgrepx-v0.6.0",
       "name": "SgrepX 0.6.0 Beta",
+      "published_at": "2026-10-15T07:39:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8547,6 +8829,7 @@
     {
       "tag_name": "sgrepx-v0.5.0",
       "name": "SgrepX 0.5.0 (Windows x64 Beta)",
+      "published_at": "2026-10-15T03:26:01Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8565,6 +8848,7 @@
     {
       "tag_name": "sgrep-v0.7.0",
       "name": "Sgrep 0.7.0 Beta",
+      "published_at": "2026-10-16T01:39:30Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8633,6 +8917,7 @@
     {
       "tag_name": "sgrep-v0.6.0",
       "name": "Sgrep 0.6.0 Beta",
+      "published_at": "2026-10-15T07:39:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8701,6 +8986,7 @@
     {
       "tag_name": "sgrep-v0.5.0",
       "name": "Sgrep 0.5.0 (Windows x64 / ARM64 Beta)",
+      "published_at": "2026-10-15T03:25:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8769,6 +9055,7 @@
     {
       "tag_name": "sgrep-cache-v0.4.0",
       "name": "Sgrep Cache Service 0.4.0 Beta",
+      "published_at": "2026-10-16T01:39:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8797,6 +9084,7 @@
     {
       "tag_name": "sgrep-cache-v0.3.0",
       "name": "Sgrep Cache Service 0.3.0 Beta",
+      "published_at": "2026-10-15T07:39:50Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8825,6 +9113,7 @@
     {
       "tag_name": "sgrep-cache-v0.2.0-rc.1",
       "name": "Sgrep Cache Service 0.2.0 RC1 (Windows service / separate clients)",
+      "published_at": "2026-10-15T04:53:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8943,6 +9232,7 @@
     {
       "tag_name": "sgrep-cache-v0.1.0",
       "name": "Sgrep Cache Service 0.1.0 (Windows x64 / ARM64 Beta)",
+      "published_at": "2026-10-15T03:25:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -8971,6 +9261,7 @@
     {
       "tag_name": "oredit-v0.1.11",
       "name": "oredit 0.1.11 Windows beta",
+      "published_at": "2026-10-15T23:39:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9009,6 +9300,7 @@
     {
       "tag_name": "oredit-v0.1.10",
       "name": "oredit 0.1.10 Windows beta",
+      "published_at": "2026-10-15T03:51:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9047,6 +9339,7 @@
     {
       "tag_name": "leakmap-v0.3.0",
       "name": "LeakMap 0.3.0 Windows beta",
+      "published_at": "2026-10-15T22:54:48Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9080,6 +9373,7 @@
     {
       "tag_name": "leakmap-v0.2.0",
       "name": "LeakMap 0.2.0 Windows beta",
+      "published_at": "2026-10-15T07:04:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9113,6 +9407,7 @@
     {
       "tag_name": "sgrepx-v0.4.1",
       "name": "SgrepX 0.4.1 (Windows x64 Beta)",
+      "published_at": "2026-10-14T23:49:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9131,6 +9426,7 @@
     {
       "tag_name": "oredit-v0.1.9",
       "name": "oredit 0.1.9 Windows beta",
+      "published_at": "2026-10-14T21:50:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9169,6 +9465,7 @@
     {
       "tag_name": "oredit-v0.1.8",
       "name": "oredit 0.1.8 Windows beta",
+      "published_at": "2026-10-14T10:48:52Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9207,6 +9504,7 @@
     {
       "tag_name": "oredit-v0.1.7",
       "name": "oredit 0.1.7 Windows beta",
+      "published_at": "2026-10-14T01:48:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9245,6 +9543,7 @@
     {
       "tag_name": "sgrepx-v0.4.0",
       "name": "SgrepX 0.4.0 (Windows x64 Beta)",
+      "published_at": "2026-10-13T23:58:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9263,6 +9562,7 @@
     {
       "tag_name": "sgrepx-v0.3.1",
       "name": "SgrepX 0.3.1",
+      "published_at": "2026-10-13T13:34:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9281,6 +9581,7 @@
     {
       "tag_name": "sgrepx-v0.3.0",
       "name": "SgrepX 0.3.0",
+      "published_at": "2026-10-13T13:22:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9299,6 +9600,7 @@
     {
       "tag_name": "sgrepx-v0.2.4",
       "name": "SgrepX 0.2.4 (Windows x64 Beta)",
+      "published_at": "2026-10-13T08:13:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9317,6 +9619,7 @@
     {
       "tag_name": "sgrepx-v0.2.3",
       "name": "SgrepX 0.2.3 Windows beta",
+      "published_at": "2026-10-13T03:54:33Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9335,6 +9638,7 @@
     {
       "tag_name": "sgrepx-v0.2.2",
       "name": "SgrepX 0.2.2 Windows beta",
+      "published_at": "2026-10-13T02:38:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9353,6 +9657,7 @@
     {
       "tag_name": "sgrepx-v0.2.1",
       "name": "SgrepX 0.2.1 Windows beta",
+      "published_at": "2026-10-13T02:24:12Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9371,6 +9676,7 @@
     {
       "tag_name": "oredit-v0.1.6",
       "name": "oredit 0.1.6 Windows beta",
+      "published_at": "2026-10-14T00:11:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9409,6 +9715,7 @@
     {
       "tag_name": "oredit-v0.1.5",
       "name": "oredit 0.1.5 Windows beta",
+      "published_at": "2026-10-13T07:11:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9447,6 +9754,7 @@
     {
       "tag_name": "oredit-v0.1.4",
       "name": "oredit 0.1.4 Windows beta",
+      "published_at": "2026-10-13T02:14:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9485,6 +9793,7 @@
     {
       "tag_name": "logexplorer-v0.1.12",
       "name": "LogExplorer 0.1.12 Windows beta",
+      "published_at": "2026-10-13T00:43:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9513,6 +9822,7 @@
     {
       "tag_name": "copilot-cli-chat-v0.2.0",
       "name": "Copilot CLI Chat 0.2.0",
+      "published_at": "2026-10-13T23:18:35Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9561,6 +9871,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.30",
       "name": "Sgrep for VS Code 0.0.30",
+      "published_at": "2026-10-13T00:29:20Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -9589,6 +9900,7 @@
     {
       "tag_name": "sgrepx-v0.2.0",
       "name": "SgrepX 0.2.0 Windows beta",
+      "published_at": "2026-10-13T00:29:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9607,6 +9919,7 @@
     {
       "tag_name": "sgrep-v0.4.0",
       "name": "Sgrep 0.4.0 / Visual Studio extension 1.0.20261013.1",
+      "published_at": "2026-10-13T00:29:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9675,6 +9988,7 @@
     {
       "tag_name": "insightflow-v0.10.24",
       "name": "InsightFlow 0.10.24 (macOS Beta)",
+      "published_at": "2026-10-09T23:00:56Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -9703,6 +10017,7 @@
     {
       "tag_name": "insightflow-v0.10.23",
       "name": "InsightFlow 0.10.23 (macOS Beta)",
+      "published_at": "2026-10-09T11:48:13Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -9731,6 +10046,7 @@
     {
       "tag_name": "oredit-v0.1.3",
       "name": "oredit 0.1.3 Windows beta",
+      "published_at": "2026-10-12T21:23:02Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9769,6 +10085,7 @@
     {
       "tag_name": "bodyreminder-v0.6.1",
       "name": "BodyReminder 0.6.1",
+      "published_at": "2026-10-09T22:37:29Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9812,6 +10129,7 @@
     {
       "tag_name": "stask-v2.0.1",
       "name": "Stask 2.0.1（デスクトップ Spray版・プレリリース）",
+      "published_at": "2026-10-09T03:20:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9830,6 +10148,7 @@
     {
       "tag_name": "oredit-v0.1.2",
       "name": "oredit 0.1.2 Windows beta",
+      "published_at": "2026-10-09T03:20:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9868,6 +10187,7 @@
     {
       "tag_name": "oredit-v0.1.1",
       "name": "oredit 0.1.1 Windows beta (superseded by 0.1.2)",
+      "published_at": "2026-10-08T23:07:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9906,6 +10226,7 @@
     {
       "tag_name": "gemini-helper-v0.13.3",
       "name": "GeminiHelper Chrome 0.13.3 / VS 0.13.2 / VS Code 0.15.0",
+      "published_at": "2026-10-08T01:50:30Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9919,6 +10240,7 @@
     {
       "tag_name": "gemini-helper-v0.13.2",
       "name": "GeminiHelper Chrome 0.13.2 / VS 0.13.2 / VS Code 0.15.0",
+      "published_at": "2026-10-08T01:14:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9932,6 +10254,7 @@
     {
       "tag_name": "gemini-helper-v0.13.1",
       "name": "GeminiHelper Chrome 0.13.1 / VS 0.13.2 / VS Code 0.15.0",
+      "published_at": "2026-10-08T00:26:35Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9950,6 +10273,7 @@
     {
       "tag_name": "gemini-helper-v0.13.0",
       "name": "GeminiHelper Chrome 0.13.0 / VS 0.13.1 / VS Code 0.15.0",
+      "published_at": "2026-10-07T23:46:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -9973,6 +10297,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.29",
       "name": "Sgrep for VS Code 0.0.29",
+      "published_at": "2026-10-06T23:48:34Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10001,6 +10326,7 @@
     {
       "tag_name": "insightflow-v0.10.22",
       "name": "InsightFlow 0.10.22",
+      "published_at": "2026-10-06T02:12:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10029,6 +10355,7 @@
     {
       "tag_name": "insightflow-v0.10.21",
       "name": "InsightFlow 0.10.21",
+      "published_at": "2026-10-06T00:21:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10057,6 +10384,7 @@
     {
       "tag_name": "codemap-v0.1.25",
       "name": "CodeMap v0.1.25",
+      "published_at": "2026-10-05T03:06:31Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10070,6 +10398,7 @@
     {
       "tag_name": "codemap-vs-v0.1.16",
       "name": "CodeMap for Visual Studio v0.1.16",
+      "published_at": "2026-09-29T23:17:56Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10083,6 +10412,7 @@
     {
       "tag_name": "codemap-v0.1.24",
       "name": "CodeMap v0.1.24",
+      "published_at": "2026-09-29T23:17:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10096,6 +10426,7 @@
     {
       "tag_name": "insightflow-v0.10.20",
       "name": "InsightFlow 0.10.20",
+      "published_at": "2026-10-04T05:58:12Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10124,6 +10455,7 @@
     {
       "tag_name": "insightflow-v0.10.19",
       "name": "InsightFlow 0.10.19",
+      "published_at": "2026-09-29T22:39:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10152,6 +10484,7 @@
     {
       "tag_name": "bodyreminder-v0.6.0",
       "name": "BodyReminder 0.6.0",
+      "published_at": "2026-10-01T03:05:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10175,6 +10508,7 @@
     {
       "tag_name": "autoapprover-v0.1.8",
       "name": "AutoApprover 0.1.8",
+      "published_at": "2026-10-02T04:34:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10193,6 +10527,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.28",
       "name": "Sgrep for VS Code 0.0.28",
+      "published_at": "2026-09-29T05:04:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10221,6 +10556,7 @@
     {
       "tag_name": "sgrep-v0.3.0",
       "name": "Sgrep 0.3.0 / Visual Studio extension 1.0.20260929.1",
+      "published_at": "2026-09-29T05:04:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10289,6 +10625,7 @@
     {
       "tag_name": "bodyreminder-v0.5.0",
       "name": "BodyReminder 0.5.0",
+      "published_at": "2026-09-27T22:29:12Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10312,6 +10649,7 @@
     {
       "tag_name": "insightflow-v0.10.18",
       "name": "InsightFlow 0.10.18 (macOS Beta)",
+      "published_at": "2026-09-27T20:24:35Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10360,6 +10698,7 @@
     {
       "tag_name": "insightflow-v0.10.17",
       "name": "InsightFlow 0.10.17 Beta (macOS)",
+      "published_at": "2026-09-26T03:20:28Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10388,6 +10727,7 @@
     {
       "tag_name": "insightflow-v0.10.16",
       "name": "InsightFlow 0.10.16",
+      "published_at": "2026-09-25T06:56:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10416,6 +10756,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.27",
       "name": "Sgrep for VS Code 0.0.27",
+      "published_at": "2026-09-24T10:18:36Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10444,6 +10785,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.26",
       "name": "Sgrep for VS Code 0.0.26",
+      "published_at": "2026-09-24T03:01:28Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10472,6 +10814,7 @@
     {
       "tag_name": "sga-v0.5.1",
       "name": "SGA 0.5.1",
+      "published_at": "2026-09-24T03:00:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10500,6 +10843,7 @@
     {
       "tag_name": "insightflow-v0.10.15",
       "name": "InsightFlow 0.10.15",
+      "published_at": "2026-09-25T01:18:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10528,6 +10872,7 @@
     {
       "tag_name": "insightflow-v0.10.14",
       "name": "InsightFlow 0.10.14",
+      "published_at": "2026-09-24T22:32:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10556,6 +10901,7 @@
     {
       "tag_name": "sgrep-v0.2.1",
       "name": "Sgrep 0.2.1",
+      "published_at": "2026-09-24T03:00:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10624,6 +10970,7 @@
     {
       "tag_name": "insightflow-v0.10.13",
       "name": "InsightFlow 0.10.13 Beta (macOS)",
+      "published_at": "2026-09-23T02:01:08Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10652,6 +10999,7 @@
     {
       "tag_name": "insightflow-v0.10.12",
       "name": "InsightFlow 0.10.12",
+      "published_at": "2026-09-20T00:19:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10680,6 +11028,7 @@
     {
       "tag_name": "oremp-v0.4.0",
       "name": "oremp 0.4.0",
+      "published_at": "2026-09-16T05:28:26Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10693,6 +11042,7 @@
     {
       "tag_name": "oremp-v0.3.1",
       "name": "oremp 0.3.1",
+      "published_at": "2026-09-15T23:29:30Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10706,6 +11056,7 @@
     {
       "tag_name": "insightflow-v0.10.11",
       "name": "InsightFlow 0.10.11",
+      "published_at": "2026-09-17T22:20:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10754,6 +11105,7 @@
     {
       "tag_name": "oremp-v0.3.0",
       "name": "oremp 0.3.0",
+      "published_at": "2026-09-15T03:27:38Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10767,6 +11119,7 @@
     {
       "tag_name": "insightflow-v0.10.10",
       "name": "InsightFlow 0.10.10",
+      "published_at": "2026-09-15T22:52:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10795,6 +11148,7 @@
     {
       "tag_name": "oremp-v0.2.0",
       "name": "oremp 0.2.0",
+      "published_at": "2026-09-14T07:02:56Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -10808,6 +11162,7 @@
     {
       "tag_name": "orenoime-v0.0.1",
       "name": "orenoIME 0.0.1 - Windows beta",
+      "published_at": "2026-09-13T23:56:50Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10841,6 +11196,7 @@
     {
       "tag_name": "insightflow-v0.10.9",
       "name": "InsightFlow 0.10.9",
+      "published_at": "2026-09-14T23:36:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10869,6 +11225,7 @@
     {
       "tag_name": "sga-v0.5.0",
       "name": "SGA 0.5.0",
+      "published_at": "2026-09-11T02:58:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10897,6 +11254,7 @@
     {
       "tag_name": "gemini-helper-v0.12.0",
       "name": "GeminiHelper: VS Code 0.15.0 / Visual Studio 0.12.0 / Chrome 0.12.0",
+      "published_at": "2026-09-13T21:06:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10940,6 +11298,7 @@
     {
       "tag_name": "sga-v0.4.0",
       "name": "SGA 0.4.0",
+      "published_at": "2026-09-11T01:34:44Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10968,6 +11327,7 @@
     {
       "tag_name": "sga-v0.3.1",
       "name": "SGA 0.3.1",
+      "published_at": "2026-09-10T23:32:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -10996,6 +11356,7 @@
     {
       "tag_name": "scopy-v0.1.13",
       "name": "SCOPY 0.1.13",
+      "published_at": "2026-09-10T22:37:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11044,6 +11405,7 @@
     {
       "tag_name": "insightflow-v0.10.8",
       "name": "InsightFlow 0.10.8",
+      "published_at": "2026-09-10T22:39:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11072,6 +11434,7 @@
     {
       "tag_name": "autoapprover-v0.1.7",
       "name": "AutoApprover 0.1.7",
+      "published_at": "2026-09-10T03:03:51Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11090,6 +11453,7 @@
     {
       "tag_name": "stask-v1.37.0",
       "name": "Stask 1.37.0",
+      "published_at": "2026-09-10T02:44:48Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11113,6 +11477,7 @@
     {
       "tag_name": "insightflow-v0.10.7",
       "name": "InsightFlow 0.10.7",
+      "published_at": "2026-09-06T21:14:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11141,6 +11506,7 @@
     {
       "tag_name": "insightflow-v0.10.6",
       "name": "InsightFlow 0.10.6",
+      "published_at": "2026-09-06T09:12:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11169,6 +11535,7 @@
     {
       "tag_name": "bodyreminder-v0.4.2",
       "name": "BodyReminder 0.4.2",
+      "published_at": "2026-09-09T21:11:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11192,6 +11559,7 @@
     {
       "tag_name": "autoapprover-v0.1.6",
       "name": "AutoApprover 0.1.6",
+      "published_at": "2026-09-09T21:15:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11210,6 +11578,7 @@
     {
       "tag_name": "stask-v1.36.0",
       "name": "Stask 1.36.0",
+      "published_at": "2026-09-06T09:06:51Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11273,6 +11642,7 @@
     {
       "tag_name": "stask-v1.35.0",
       "name": "Stask 1.35.0",
+      "published_at": "2026-09-04T23:51:16Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11316,6 +11686,7 @@
     {
       "tag_name": "stask-v1.34.0",
       "name": "Stask 1.34.0",
+      "published_at": "2026-09-04T10:17:15Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11359,6 +11730,7 @@
     {
       "tag_name": "bodyreminder-v0.4.1",
       "name": "BodyReminder 0.4.1",
+      "published_at": "2026-09-06T09:04:23Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11402,6 +11774,7 @@
     {
       "tag_name": "stask-v1.33.0",
       "name": "Stask 1.33.0",
+      "published_at": "2026-09-02T03:44:19Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11445,6 +11818,7 @@
     {
       "tag_name": "insightflow-v0.10.5",
       "name": "InsightFlow 0.10.5",
+      "published_at": "2026-09-04T03:09:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11483,6 +11857,7 @@
     {
       "tag_name": "bodyreminder-v0.4.0",
       "name": "BodyReminder 0.4.0",
+      "published_at": "2026-09-03T23:31:47Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11526,6 +11901,7 @@
     {
       "tag_name": "autoapprover-v0.1.1",
       "name": "AutoApprover 0.1.1",
+      "published_at": "2026-09-03T03:29:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11544,6 +11920,7 @@
     {
       "tag_name": "autoapprover-v0.1.0",
       "name": "AutoApprover 0.1.0",
+      "published_at": "2026-09-03T03:07:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11562,6 +11939,7 @@
     {
       "tag_name": "stask-v1.32.0",
       "name": "Stask 1.32.0",
+      "published_at": "2026-09-01T10:34:20Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11585,6 +11963,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.25",
       "name": "Sgrep for VS Code 0.0.25",
+      "published_at": "2026-08-31T05:59:12Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11613,6 +11992,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.24",
       "name": "Sgrep for VS Code 0.0.24",
+      "published_at": "2026-08-31T05:11:25Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11641,6 +12021,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.23",
       "name": "Sgrep for VS Code 0.0.23",
+      "published_at": "2026-08-31T04:50:21Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11669,6 +12050,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.22",
       "name": "Sgrep for VS Code 0.0.22",
+      "published_at": "2026-08-31T04:42:27Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11697,6 +12079,7 @@
     {
       "tag_name": "bodyreminder-v0.3.2",
       "name": "BodyReminder 0.3.2",
+      "published_at": "2026-08-31T23:23:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11715,6 +12098,7 @@
     {
       "tag_name": "stask-v1.31.0",
       "name": "Stask 1.31.0",
+      "published_at": "2026-08-30T23:59:09Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11758,6 +12142,7 @@
     {
       "tag_name": "bodyreminder-v0.3.1",
       "name": "BodyReminder 0.3.1",
+      "published_at": "2026-08-30T23:21:35Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11776,6 +12161,7 @@
     {
       "tag_name": "stask-v1.30.0",
       "name": "Stask 1.30.0",
+      "published_at": "2026-08-29T00:21:48Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11809,6 +12195,7 @@
     {
       "tag_name": "bodyreminder-v0.3.0",
       "name": "BodyReminder 0.3.0",
+      "published_at": "2026-08-27T04:04:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -11827,6 +12214,7 @@
     {
       "tag_name": "stask-v1.29.0",
       "name": "Stask 1.29.0",
+      "published_at": "2026-08-25T20:56:31Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11890,6 +12278,7 @@
     {
       "tag_name": "stask-v1.28.0",
       "name": "Stask 1.28.0",
+      "published_at": "2026-08-25T11:16:57Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11913,6 +12302,7 @@
     {
       "tag_name": "insightflow-v0.10.3",
       "name": "InsightFlow 0.10.3",
+      "published_at": "2026-08-25T21:23:13Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -11961,6 +12351,7 @@
     {
       "tag_name": "insightflow-v0.10.2",
       "name": "InsightFlow 0.10.2",
+      "published_at": "2026-08-25T06:03:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12009,6 +12400,7 @@
     {
       "tag_name": "stask-v1.27.0",
       "name": "Stask 1.27.0",
+      "published_at": "2026-08-24T23:57:37Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12032,6 +12424,7 @@
     {
       "tag_name": "insightflow-v0.10.1",
       "name": "InsightFlow 0.10.1",
+      "published_at": "2026-08-25T01:09:39Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12060,6 +12453,7 @@
     {
       "tag_name": "bodyreminder-v0.2.0",
       "name": "BodyReminder 0.2.0",
+      "published_at": "2026-08-25T00:13:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12078,6 +12472,7 @@
     {
       "tag_name": "fukatoi-v1.2.0",
       "name": "Fukatoi 1.2.0",
+      "published_at": "2026-08-19T22:59:16Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12116,6 +12511,7 @@
     {
       "tag_name": "insightflow-v0.10.0",
       "name": "InsightFlow 0.10.0",
+      "published_at": "2026-08-24T15:11:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12164,6 +12560,7 @@
     {
       "tag_name": "stask-v1.26.0",
       "name": "Stask 1.26.0",
+      "published_at": "2026-08-17T03:48:34Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12187,6 +12584,7 @@
     {
       "tag_name": "logexplorer-v0.1.9",
       "name": "LogExplorer 0.1.9",
+      "published_at": "2026-08-17T23:30:02Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12215,6 +12613,7 @@
     {
       "tag_name": "logexplorer-v0.1.8",
       "name": "LogExplorer 0.1.8",
+      "published_at": "2026-08-17T21:00:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12243,6 +12642,7 @@
     {
       "tag_name": "logexplorer-v0.1.7",
       "name": "LogExplorer 0.1.7",
+      "published_at": "2026-08-17T12:21:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12261,6 +12661,7 @@
     {
       "tag_name": "logexplorer-v0.1.10",
       "name": "LogExplorer 0.1.10",
+      "published_at": "2026-08-18T03:45:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12289,6 +12690,7 @@
     {
       "tag_name": "fukatoi-v1.1.1",
       "name": "Fukatoi 1.1.1",
+      "published_at": "2026-08-16T20:55:45Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12307,6 +12709,7 @@
     {
       "tag_name": "fukatoi-v1.1.0",
       "name": "Fukatoi 1.1.0",
+      "published_at": "2026-08-16T20:21:42Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12335,6 +12738,7 @@
     {
       "tag_name": "insightflow-v0.9.3.49",
       "name": "InsightFlow 0.9.3.49",
+      "published_at": "2026-08-17T03:14:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12363,6 +12767,7 @@
     {
       "tag_name": "svolti-v0.1.0",
       "name": "Svolti 0.1.0",
+      "published_at": "2026-08-15T07:58:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12391,6 +12796,7 @@
     {
       "tag_name": "insightflow-v0.9.3.48",
       "name": "InsightFlow 0.9.3.48",
+      "published_at": "2026-08-14T01:13:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12419,6 +12825,7 @@
     {
       "tag_name": "insightflow-v0.9.3.47",
       "name": "InsightFlow 0.9.3.47",
+      "published_at": "2026-08-13T04:42:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12447,6 +12854,7 @@
     {
       "tag_name": "bodyreminder-v0.1.9",
       "name": "BodyReminder 0.1.9",
+      "published_at": "2026-08-13T03:17:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12465,6 +12873,7 @@
     {
       "tag_name": "bodyreminder-v0.1.8",
       "name": "BodyReminder 0.1.8",
+      "published_at": "2026-08-13T02:59:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12503,6 +12912,7 @@
     {
       "tag_name": "bodyreminder-v0.1.10",
       "name": "BodyReminder 0.1.10",
+      "published_at": "2026-08-13T03:39:42Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12521,6 +12931,7 @@
     {
       "tag_name": "stask-v1.25.0",
       "name": "Stask 1.25.0",
+      "published_at": "2026-08-13T00:46:04Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12559,6 +12970,7 @@
     {
       "tag_name": "stask-v1.24.0",
       "name": "Stask 1.24.0",
+      "published_at": "2026-08-12T20:08:37Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12577,6 +12989,7 @@
     {
       "tag_name": "fukatoi-v1.0.0",
       "name": "Fukatoi 1.0.0",
+      "published_at": "2026-08-09T22:17:21Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12595,6 +13008,7 @@
     {
       "tag_name": "svnhistsearch-v1.0.0",
       "name": "SvnHistSearch 1.0.0",
+      "published_at": "2026-08-07T03:17:27Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12608,6 +13022,7 @@
     {
       "tag_name": "stask-v1.23.0",
       "name": "Stask 1.23.0",
+      "published_at": "2026-08-06T22:43:23Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12661,6 +13076,7 @@
     {
       "tag_name": "stask-v1.22.1",
       "name": "Stask 1.22.1",
+      "published_at": "2026-08-06T03:53:02Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12684,6 +13100,7 @@
     {
       "tag_name": "oremp-v0.1.1",
       "name": "oremp 0.1.1",
+      "published_at": "2026-08-06T03:01:36Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12697,6 +13114,7 @@
     {
       "tag_name": "insightflow-v0.9.3.46",
       "name": "InsightFlow 0.9.3.46",
+      "published_at": "2026-08-07T03:07:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12725,6 +13143,7 @@
     {
       "tag_name": "oremp-v0.1.0",
       "name": "oremp 0.1.0",
+      "published_at": "2026-08-06T01:47:50Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12738,6 +13157,7 @@
     {
       "tag_name": "codemap-v0.1.23",
       "name": "CodeMap v0.1.23",
+      "published_at": "2026-08-05T23:52:56Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12751,6 +13171,7 @@
     {
       "tag_name": "svnbridge-v1.1.0",
       "name": "SvnBridge 1.1.0",
+      "published_at": "2026-08-05T20:36:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12789,6 +13210,7 @@
     {
       "tag_name": "specmap-v0.1.0",
       "name": "SpecMap.Code 0.1.0",
+      "published_at": "2026-08-05T23:09:02Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12802,6 +13224,7 @@
     {
       "tag_name": "sga-v0.3.0",
       "name": "SGA 0.3.0",
+      "published_at": "2026-08-06T02:50:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12830,6 +13253,7 @@
     {
       "tag_name": "insightflow-v0.9.3.45",
       "name": "InsightFlow 0.9.3.45",
+      "published_at": "2026-08-04T19:25:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12848,6 +13272,7 @@
     {
       "tag_name": "stask-v1.22.0",
       "name": "Stask 1.22.0",
+      "published_at": "2026-08-03T22:06:28Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12886,6 +13311,7 @@
     {
       "tag_name": "svnbridge-v1.0.0",
       "name": "SvnBridge 1.0.0",
+      "published_at": "2026-08-04T07:25:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12914,6 +13340,7 @@
     {
       "tag_name": "stask-v1.21.0",
       "name": "Stask 1.21.0",
+      "published_at": "2026-08-03T21:32:43Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12942,6 +13369,7 @@
     {
       "tag_name": "stask-v1.20.0",
       "name": "Stask 1.20.0",
+      "published_at": "2026-08-02T22:59:21Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -12980,6 +13408,7 @@
     {
       "tag_name": "insightflow-v0.9.3.44",
       "name": "InsightFlow 0.9.3.44",
+      "published_at": "2026-08-02T23:58:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -12998,6 +13427,7 @@
     {
       "tag_name": "stask-v1.19.0",
       "name": "Stask 1.19.0",
+      "published_at": "2026-08-02T04:21:33Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13036,6 +13466,7 @@
     {
       "tag_name": "bodyreminder-v0.1.7",
       "name": "BodyReminder 0.1.7",
+      "published_at": "2026-07-30T11:27:33Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13064,6 +13495,7 @@
     {
       "tag_name": "stask-v1.18.0",
       "name": "Stask 1.18.0",
+      "published_at": "2026-07-30T02:20:48Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13112,6 +13544,7 @@
     {
       "tag_name": "stask-v1.17.0",
       "name": "Stask 1.17.0",
+      "published_at": "2026-07-29T23:23:37Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13140,6 +13573,7 @@
     {
       "tag_name": "stask-v1.16.1",
       "name": "Stask 1.16.1",
+      "published_at": "2026-07-29T08:42:04Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13168,6 +13602,7 @@
     {
       "tag_name": "appcat-v0.1.3",
       "name": "AppCat 0.1.3",
+      "published_at": "2026-07-29T13:06:06Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13236,6 +13671,7 @@
     {
       "tag_name": "appcat-v0.1.2",
       "name": "AppCat 0.1.2",
+      "published_at": "2026-07-29T12:40:27Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13304,6 +13740,7 @@
     {
       "tag_name": "stask-v1.16.0",
       "name": "Stask 1.16.0",
+      "published_at": "2026-07-29T03:53:00Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13332,6 +13769,7 @@
     {
       "tag_name": "stask-v1.15.0",
       "name": "Stask 1.15.0",
+      "published_at": "2026-07-28T23:28:29Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13380,6 +13818,7 @@
     {
       "tag_name": "stask-v1.14.1",
       "name": "Stask 1.14.1",
+      "published_at": "2026-07-28T12:49:50Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13428,6 +13867,7 @@
     {
       "tag_name": "stask-v1.14.0",
       "name": "Stask 1.14.0",
+      "published_at": "2026-07-28T12:27:04Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13476,6 +13916,7 @@
     {
       "tag_name": "appcat-v0.1.1",
       "name": "AppCat 0.1.1",
+      "published_at": "2026-07-28T22:48:09Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13524,6 +13965,7 @@
     {
       "tag_name": "appcat-v0.1.0",
       "name": "AppCat 0.1.0",
+      "published_at": "2026-07-28T21:06:34Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13572,6 +14014,7 @@
     {
       "tag_name": "remflow-v0.1.0",
       "name": "RemFlow Desktop 0.1.0",
+      "published_at": "2026-07-28T22:38:03Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13590,6 +14033,7 @@
     {
       "tag_name": "stask-v1.13.0",
       "name": "Stask 1.13.0",
+      "published_at": "2026-07-28T06:12:25Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13613,6 +14057,7 @@
     {
       "tag_name": "stask-v1.12.0",
       "name": "Stask 1.12.0",
+      "published_at": "2026-07-27T22:35:00Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13636,6 +14081,7 @@
     {
       "tag_name": "insightflow-v0.9.3.43",
       "name": "InsightFlow 0.9.3.43",
+      "published_at": "2026-07-27T22:19:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13664,6 +14110,7 @@
     {
       "tag_name": "stask-v1.11.0",
       "name": "Stask 1.11.0",
+      "published_at": "2026-07-27T02:14:13Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13687,6 +14134,7 @@
     {
       "tag_name": "bodyreminder-v0.1.6",
       "name": "BodyReminder 0.1.6",
+      "published_at": "2026-07-26T23:28:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13725,6 +14173,7 @@
     {
       "tag_name": "stask-v1.10.0",
       "name": "Stask 1.10.0",
+      "published_at": "2026-07-24T03:31:01Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13753,6 +14202,7 @@
     {
       "tag_name": "cardstudio-v1.0.0",
       "name": "CardStudio 1.0.0",
+      "published_at": "2026-07-25T22:21:05Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -13791,6 +14241,7 @@
     {
       "tag_name": "vc6-build-vscode-v0.1.0",
       "name": "VC6 Build for VS Code 0.1.0",
+      "published_at": "2026-07-24T06:35:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13809,6 +14260,7 @@
     {
       "tag_name": "insightflow-v0.9.3.42",
       "name": "InsightFlow 0.9.3.42",
+      "published_at": "2026-07-26T22:25:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13857,6 +14309,7 @@
     {
       "tag_name": "insightflow-v0.9.3.41",
       "name": "InsightFlow 0.9.3.41",
+      "published_at": "2026-07-24T02:51:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13885,6 +14338,7 @@
     {
       "tag_name": "bodyreminder-v0.1.5",
       "name": "BodyReminder 0.1.5",
+      "published_at": "2026-07-26T00:02:03Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13933,6 +14387,7 @@
     {
       "tag_name": "bodyreminder-v0.1.4",
       "name": "BodyReminder 0.1.4",
+      "published_at": "2026-07-25T23:36:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13951,6 +14406,7 @@
     {
       "tag_name": "bodyreminder-v0.1.3",
       "name": "BodyReminder 0.1.3",
+      "published_at": "2026-07-25T23:02:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13969,6 +14425,7 @@
     {
       "tag_name": "bodyreminder-v0.1.2",
       "name": "BodyReminder 0.1.2",
+      "published_at": "2026-07-24T06:47:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -13987,6 +14444,7 @@
     {
       "tag_name": "bodyreminder-v0.1.1",
       "name": "BodyReminder 0.1.1",
+      "published_at": "2026-07-24T03:16:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14005,6 +14463,7 @@
     {
       "tag_name": "stask-v1.9.0",
       "name": "Stask 1.9.0",
+      "published_at": "2026-07-24T01:59:24Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14028,6 +14487,7 @@
     {
       "tag_name": "insightflow-v0.9.3.40",
       "name": "InsightFlow 0.9.3.40",
+      "published_at": "2026-07-23T23:54:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14056,6 +14516,7 @@
     {
       "tag_name": "bodyreminder-v0.1.0",
       "name": "BodyReminder 0.1.0",
+      "published_at": "2026-07-23T23:32:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14074,6 +14535,7 @@
     {
       "tag_name": "stask-v1.8.0",
       "name": "Stask 1.8.0",
+      "published_at": "2026-07-23T03:23:07Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14097,6 +14559,7 @@
     {
       "tag_name": "stask-v1.7.0",
       "name": "Stask 1.7.0",
+      "published_at": "2026-07-22T23:56:41Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14120,6 +14583,7 @@
     {
       "tag_name": "stask-v1.6.0",
       "name": "Stask 1.6.0",
+      "published_at": "2026-07-22T05:04:50Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14143,6 +14607,7 @@
     {
       "tag_name": "stask-v1.5.1",
       "name": "Stask 1.5.1",
+      "published_at": "2026-07-22T04:04:18Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14166,6 +14631,7 @@
     {
       "tag_name": "stask-v1.5.0",
       "name": "Stask 1.5.0",
+      "published_at": "2026-07-22T03:26:55Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14189,6 +14655,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.17",
       "name": "Sgrep for VS Code 0.0.17",
+      "published_at": "2026-07-22T06:14:54Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14202,6 +14669,7 @@
     {
       "tag_name": "insightflow-v0.9.3.39",
       "name": "InsightFlow 0.9.3.39",
+      "published_at": "2026-07-22T23:49:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14230,6 +14698,7 @@
     {
       "tag_name": "stask-v1.4.0",
       "name": "Stask 1.4.0",
+      "published_at": "2026-07-21T23:55:49Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14253,6 +14722,7 @@
     {
       "tag_name": "stask-v1.3.1",
       "name": "Stask 1.3.1",
+      "published_at": "2026-07-21T06:50:27Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14276,6 +14746,7 @@
     {
       "tag_name": "stask-v1.3.0",
       "name": "Stask 1.3.0",
+      "published_at": "2026-07-21T03:49:28Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14299,6 +14770,7 @@
     {
       "tag_name": "insightflow-v0.9.3.38",
       "name": "InsightFlow 0.9.3.38",
+      "published_at": "2026-07-22T00:09:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14347,6 +14819,7 @@
     {
       "tag_name": "stask-v1.2.0",
       "name": "Stask 1.2.0",
+      "published_at": "2026-07-21T02:06:19Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14370,6 +14843,7 @@
     {
       "tag_name": "stask-v1.1.0",
       "name": "Stask 1.1.0",
+      "published_at": "2026-07-20T22:29:35Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14393,6 +14867,7 @@
     {
       "tag_name": "stask-v1.0.0",
       "name": "Stask 1.0.0",
+      "published_at": "2026-07-20T14:01:11Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14456,6 +14931,7 @@
     {
       "tag_name": "sgrep-vscode-v0.0.16",
       "name": "Sgrep for VS Code 0.0.16",
+      "published_at": "2026-07-17T08:35:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14469,6 +14945,7 @@
     {
       "tag_name": "modulecheck-v0.1.5",
       "name": "moduleCheck 0.1.5",
+      "published_at": "2026-07-17T04:10:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14487,6 +14964,7 @@
     {
       "tag_name": "insightflow-v0.9.3.37",
       "name": "InsightFlow 0.9.3.37",
+      "published_at": "2026-07-20T23:27:30Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14515,6 +14993,7 @@
     {
       "tag_name": "sgrep-v0.2.0",
       "name": "Sgrep 0.2.0",
+      "published_at": "2026-07-16T04:16:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14553,6 +15032,7 @@
     {
       "tag_name": "modulecheck-v0.1.4",
       "name": "moduleCheck 0.1.4",
+      "published_at": "2026-07-17T03:56:09Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14571,6 +15051,7 @@
     {
       "tag_name": "insightflow-v0.9.3.36",
       "name": "InsightFlow 0.9.3.36",
+      "published_at": "2026-07-16T23:48:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14599,6 +15080,7 @@
     {
       "tag_name": "insightflow-v0.9.3.35",
       "name": "InsightFlow 0.9.3.35",
+      "published_at": "2026-07-16T12:57:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14647,6 +15129,7 @@
     {
       "tag_name": "scopy-v0.1.12",
       "name": "SCOPY 0.1.12",
+      "published_at": "2026-07-16T03:08:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14675,6 +15158,7 @@
     {
       "tag_name": "scopy-v0.1.11",
       "name": "SCOPY 0.1.11",
+      "published_at": "2026-07-15T22:24:07Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14703,6 +15187,7 @@
     {
       "tag_name": "scopy-v0.1.10",
       "name": "SCOPY 0.1.10",
+      "published_at": "2026-07-15T11:48:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14731,6 +15216,7 @@
     {
       "tag_name": "modulecheck-v0.1.3",
       "name": "moduleCheck 0.1.3",
+      "published_at": "2026-07-15T02:58:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14749,6 +15235,7 @@
     {
       "tag_name": "modulecheck-v0.1.2",
       "name": "moduleCheck 0.1.2",
+      "published_at": "2026-07-14T07:14:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14767,6 +15254,7 @@
     {
       "tag_name": "modulecheck-v0.1.1",
       "name": "moduleCheck 0.1.1",
+      "published_at": "2026-07-14T06:09:38Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14785,6 +15273,7 @@
     {
       "tag_name": "modulecheck-v0.1.0",
       "name": "moduleCheck 0.1.0",
+      "published_at": "2026-07-14T03:19:53Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14803,6 +15292,7 @@
     {
       "tag_name": "insightflow-v0.9.3.32",
       "name": "InsightFlow 0.9.3.32",
+      "published_at": "2026-07-11T23:07:28Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -14831,6 +15321,7 @@
     {
       "tag_name": "insightflow-v0.9.3.34",
       "name": "InsightFlow 0.9.3.34",
+      "published_at": "2026-07-12T06:03:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14869,6 +15360,7 @@
     {
       "tag_name": "insightflow-v0.9.3.31",
       "name": "InsightFlow 0.9.3.31",
+      "published_at": "2026-07-10T11:45:04Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14917,6 +15409,7 @@
     {
       "tag_name": "insightflow-v0.9.3.30",
       "name": "InsightFlow 0.9.3.30",
+      "published_at": "2026-07-10T04:30:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14945,6 +15438,7 @@
     {
       "tag_name": "insightflow-v0.9.3.29",
       "name": "InsightFlow 0.9.3.29",
+      "published_at": "2026-07-10T02:08:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -14973,6 +15467,7 @@
     {
       "tag_name": "insightflow-v0.9.3.28",
       "name": "InsightFlow 0.9.3.28",
+      "published_at": "2026-07-10T00:38:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15001,6 +15496,7 @@
     {
       "tag_name": "insightflow-v0.9.3.27",
       "name": "InsightFlow 0.9.3.27",
+      "published_at": "2026-07-09T06:44:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15049,6 +15545,7 @@
     {
       "tag_name": "insightflow-v0.9.3.26",
       "name": "InsightFlow 0.9.3.26",
+      "published_at": "2026-07-09T01:57:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15077,6 +15574,7 @@
     {
       "tag_name": "scopy-v0.1.9",
       "name": "SCOPY 0.1.9",
+      "published_at": "2026-07-07T09:18:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15105,6 +15603,7 @@
     {
       "tag_name": "scopy-v0.1.8",
       "name": "SCOPY 0.1.8",
+      "published_at": "2026-07-07T06:26:35Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15133,6 +15632,7 @@
     {
       "tag_name": "insightflow-v0.9.3.25",
       "name": "InsightFlow 0.9.3.25",
+      "published_at": "2026-07-08T02:53:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15161,6 +15661,7 @@
     {
       "tag_name": "insightflow-v0.9.3.24",
       "name": "InsightFlow 0.9.3.24",
+      "published_at": "2026-07-07T09:36:52Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15189,6 +15690,7 @@
     {
       "tag_name": "codemap-v0.1.22",
       "name": "CodeMap v0.1.22",
+      "published_at": "2026-07-06T03:05:24Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15202,6 +15704,7 @@
     {
       "tag_name": "scopy-v0.1.7",
       "name": "SCOPY 0.1.7",
+      "published_at": "2026-07-07T02:54:50Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15230,6 +15733,7 @@
     {
       "tag_name": "scopy-v0.1.6",
       "name": "SCOPY 0.1.6",
+      "published_at": "2026-07-06T12:32:16Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15258,6 +15762,7 @@
     {
       "tag_name": "scopy-v0.1.5",
       "name": "SCOPY 0.1.5",
+      "published_at": "2026-07-06T10:32:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15286,6 +15791,7 @@
     {
       "tag_name": "scopy-v0.1.4",
       "name": "SCOPY 0.1.4",
+      "published_at": "2026-07-06T08:13:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15314,6 +15820,7 @@
     {
       "tag_name": "scopy-v0.1.3",
       "name": "SCOPY 0.1.3",
+      "published_at": "2026-07-06T02:06:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15342,6 +15849,7 @@
     {
       "tag_name": "scopy-v0.1.2",
       "name": "SCOPY 0.1.2",
+      "published_at": "2026-07-06T00:27:05Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15370,6 +15878,7 @@
     {
       "tag_name": "codemap-vs-v0.1.15",
       "name": "CodeMap for Visual Studio v0.1.15",
+      "published_at": "2026-07-05T23:42:25Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15383,6 +15892,7 @@
     {
       "tag_name": "codemap-vs-v0.1.14",
       "name": "CodeMap for Visual Studio v0.1.14",
+      "published_at": "2026-07-05T02:07:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15396,6 +15906,7 @@
     {
       "tag_name": "codemap-vs-v0.1.13",
       "name": "CodeMap for Visual Studio v0.1.13",
+      "published_at": "2026-07-05T00:14:28Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15409,6 +15920,7 @@
     {
       "tag_name": "codemap-v0.1.21",
       "name": "CodeMap v0.1.21",
+      "published_at": "2026-07-05T23:42:21Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15422,6 +15934,7 @@
     {
       "tag_name": "codemap-v0.1.20",
       "name": "CodeMap v0.1.20",
+      "published_at": "2026-07-05T22:48:14Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15435,6 +15948,7 @@
     {
       "tag_name": "codemap-v0.1.19",
       "name": "CodeMap v0.1.19",
+      "published_at": "2026-07-05T03:11:06Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15448,6 +15962,7 @@
     {
       "tag_name": "codemap-v0.1.18",
       "name": "CodeMap v0.1.18",
+      "published_at": "2026-07-05T02:07:46Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15461,6 +15976,7 @@
     {
       "tag_name": "codemap-v0.1.17",
       "name": "CodeMap v0.1.17",
+      "published_at": "2026-07-04T23:28:14Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15474,6 +15990,7 @@
     {
       "tag_name": "local-vault-v0.2.1",
       "name": "Local Vault 0.2.1",
+      "published_at": "2026-07-03T04:35:47Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15492,6 +16009,7 @@
     {
       "tag_name": "insightflow-v0.9.3.23",
       "name": "InsightFlow 0.9.3.23",
+      "published_at": "2026-07-05T23:45:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15520,6 +16038,7 @@
     {
       "tag_name": "insightflow-v0.9.3.22",
       "name": "InsightFlow 0.9.3.22",
+      "published_at": "2026-07-03T12:28:40Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15548,6 +16067,7 @@
     {
       "tag_name": "insightflow-v0.9.3.21",
       "name": "InsightFlow 0.9.3.21",
+      "published_at": "2026-07-03T04:10:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15596,6 +16116,7 @@
     {
       "tag_name": "insightflow-v0.9.3.20",
       "name": "InsightFlow 0.9.3.20",
+      "published_at": "2026-07-03T00:22:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15624,6 +16145,7 @@
     {
       "tag_name": "codemap-vs-v0.1.12",
       "name": "CodeMap for Visual Studio v0.1.12",
+      "published_at": "2026-07-02T23:32:47Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15637,6 +16159,7 @@
     {
       "tag_name": "codemap-vs-v0.1.11",
       "name": "CodeMap for Visual Studio v0.1.11",
+      "published_at": "2026-07-02T23:23:54Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15650,6 +16173,7 @@
     {
       "tag_name": "codemap-v0.1.16",
       "name": "CodeMap v0.1.16",
+      "published_at": "2026-07-02T23:32:37Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15663,6 +16187,7 @@
     {
       "tag_name": "codemap-v0.1.15",
       "name": "CodeMap v0.1.15",
+      "published_at": "2026-07-02T23:23:43Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15676,6 +16201,7 @@
     {
       "tag_name": "local-vault-v0.2.0",
       "name": "Local Vault 0.2.0",
+      "published_at": "2026-07-03T00:03:31Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15694,6 +16220,7 @@
     {
       "tag_name": "local-vault-v0.1.0",
       "name": "Local Vault 0.1.0",
+      "published_at": "2026-07-02T11:38:56Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15712,6 +16239,7 @@
     {
       "tag_name": "insightflow-v0.9.3.19",
       "name": "InsightFlow 0.9.3.19",
+      "published_at": "2026-07-02T22:58:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15740,6 +16268,7 @@
     {
       "tag_name": "codemap-vs-v0.1.9",
       "name": "CodeMap for Visual Studio v0.1.9",
+      "published_at": "2026-07-02T01:17:31Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15753,6 +16282,7 @@
     {
       "tag_name": "codemap-vs-v0.1.8",
       "name": "CodeMap for Visual Studio v0.1.8",
+      "published_at": "2026-07-02T00:34:08Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15766,6 +16296,7 @@
     {
       "tag_name": "codemap-vs-v0.1.7",
       "name": "CodeMap for Visual Studio v0.1.7",
+      "published_at": "2026-07-01T23:33:29Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15779,6 +16310,7 @@
     {
       "tag_name": "codemap-vs-v0.1.6",
       "name": "CodeMap for Visual Studio v0.1.6",
+      "published_at": "2026-07-01T23:12:14Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15792,6 +16324,7 @@
     {
       "tag_name": "codemap-vs-v0.1.10",
       "name": "CodeMap for Visual Studio v0.1.10",
+      "published_at": "2026-07-02T03:56:02Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15805,6 +16338,7 @@
     {
       "tag_name": "codemap-v0.1.14",
       "name": "CodeMap v0.1.14",
+      "published_at": "2026-07-02T03:55:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15818,6 +16352,7 @@
     {
       "tag_name": "codemap-v0.1.13",
       "name": "CodeMap v0.1.13",
+      "published_at": "2026-07-02T01:17:25Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15831,6 +16366,7 @@
     {
       "tag_name": "codemap-v0.1.12",
       "name": "CodeMap v0.1.12",
+      "published_at": "2026-07-02T00:42:34Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15844,6 +16380,7 @@
     {
       "tag_name": "codemap-v0.1.11",
       "name": "CodeMap v0.1.11",
+      "published_at": "2026-07-01T23:33:19Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15857,6 +16394,7 @@
     {
       "tag_name": "codemap-v0.1.10",
       "name": "CodeMap v0.1.10",
+      "published_at": "2026-07-01T23:12:03Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15870,6 +16408,7 @@
     {
       "tag_name": "insightflow-v0.9.3.18",
       "name": "InsightFlow 0.9.3.18",
+      "published_at": "2026-07-01T21:01:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15898,6 +16437,7 @@
     {
       "tag_name": "codemap-vs-v0.1.5",
       "name": "CodeMap for Visual Studio v0.1.5",
+      "published_at": "2026-06-30T03:18:43Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15911,6 +16451,7 @@
     {
       "tag_name": "codemap-vs-v0.1.4",
       "name": "CodeMap for Visual Studio v0.1.4",
+      "published_at": "2026-06-30T03:06:02Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15924,6 +16465,7 @@
     {
       "tag_name": "codemap-vs-v0.1.3",
       "name": "CodeMap for Visual Studio v0.1.3",
+      "published_at": "2026-06-30T02:55:10Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15937,6 +16479,7 @@
     {
       "tag_name": "codemap-v0.1.9",
       "name": "CodeMap v0.1.9",
+      "published_at": "2026-06-30T03:05:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15950,6 +16493,7 @@
     {
       "tag_name": "codemap-v0.1.8",
       "name": "CodeMap v0.1.8",
+      "published_at": "2026-06-30T02:18:40Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15963,6 +16507,7 @@
     {
       "tag_name": "codemap-v0.1.7",
       "name": "CodeMap v0.1.7",
+      "published_at": "2026-06-30T01:55:23Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -15976,6 +16521,7 @@
     {
       "tag_name": "sgrepx-v0.1.12",
       "name": "SgrepX 0.1.12",
+      "published_at": "2026-06-30T23:32:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -15994,6 +16540,7 @@
     {
       "tag_name": "insightflow-v0.9.3.17",
       "name": "InsightFlow 0.9.3.17",
+      "published_at": "2026-07-01T03:08:48Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16022,6 +16569,7 @@
     {
       "tag_name": "insightflow-v0.9.3.16",
       "name": "InsightFlow 0.9.3.16",
+      "published_at": "2026-06-30T23:17:00Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16050,6 +16598,7 @@
     {
       "tag_name": "insightflow-v0.9.3.15",
       "name": "InsightFlow 0.9.3.15",
+      "published_at": "2026-06-30T08:09:16Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16098,6 +16647,7 @@
     {
       "tag_name": "insightflow-v0.9.3.14",
       "name": "InsightFlow 0.9.3.14",
+      "published_at": "2026-06-30T06:24:43Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16126,6 +16676,7 @@
     {
       "tag_name": "codemap-vs-v0.1.2",
       "name": "CodeMap for Visual Studio v0.1.2",
+      "published_at": "2026-06-30T00:07:11Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16139,6 +16690,7 @@
     {
       "tag_name": "codemap-v0.1.6",
       "name": "CodeMap v0.1.6",
+      "published_at": "2026-06-30T01:09:38Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16152,6 +16704,7 @@
     {
       "tag_name": "codemap-v0.1.5",
       "name": "CodeMap v0.1.5",
+      "published_at": "2026-06-30T00:43:04Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16165,6 +16718,7 @@
     {
       "tag_name": "codemap-v0.1.4",
       "name": "CodeMap v0.1.4",
+      "published_at": "2026-06-29T23:26:10Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16178,6 +16732,7 @@
     {
       "tag_name": "codemap-v0.1.3",
       "name": "CodeMap v0.1.3",
+      "published_at": "2026-06-29T19:13:16Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16191,6 +16746,7 @@
     {
       "tag_name": "codemap-v0.1.2",
       "name": "CodeMap v0.1.2",
+      "published_at": "2026-06-29T05:27:46Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16204,6 +16760,7 @@
     {
       "tag_name": "sgrepx-v0.1.11",
       "name": "SgrepX 0.1.11",
+      "published_at": "2026-06-30T01:23:02Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16222,6 +16779,7 @@
     {
       "tag_name": "insightflow-v0.9.3.13",
       "name": "InsightFlow 0.9.3.13",
+      "published_at": "2026-06-29T23:20:28Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16250,6 +16808,7 @@
     {
       "tag_name": "insightflow-v0.9.3.12",
       "name": "InsightFlow 0.9.3.12",
+      "published_at": "2026-06-26T06:22:01Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16298,6 +16857,7 @@
     {
       "tag_name": "codemap-vs-v0.1.1",
       "name": "CodeMap for Visual Studio v0.1.1",
+      "published_at": "2026-06-29T03:22:11Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16311,6 +16871,7 @@
     {
       "tag_name": "codemap-vs-v0.1.0",
       "name": "CodeMap for Visual Studio v0.1.0",
+      "published_at": "2026-06-29T01:26:29Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16324,6 +16885,7 @@
     {
       "tag_name": "codemap-v0.1.1",
       "name": "CodeMap v0.1.1",
+      "published_at": "2026-06-29T03:21:59Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16337,6 +16899,7 @@
     {
       "tag_name": "codemap-v0.1.0",
       "name": "CodeMap v0.1.0",
+      "published_at": "2026-06-28T20:36:20Z",
       "draft": false,
       "prerelease": false,
       "assets": [
@@ -16350,6 +16913,7 @@
     {
       "tag_name": "sgrepx-v0.1.9",
       "name": "SgrepX 0.1.9",
+      "published_at": "2026-06-24T01:11:58Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16368,6 +16932,7 @@
     {
       "tag_name": "sgrepx-v0.1.10",
       "name": "SgrepX 0.1.10",
+      "published_at": "2026-06-24T02:32:24Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16386,6 +16951,7 @@
     {
       "tag_name": "sgrep-v0.1.9",
       "name": "Sgrep 0.1.9",
+      "published_at": "2026-06-24T02:30:26Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16414,6 +16980,7 @@
     {
       "tag_name": "sgrep-v0.1.8",
       "name": "Sgrep 0.1.8",
+      "published_at": "2026-06-24T00:49:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16442,6 +17009,7 @@
     {
       "tag_name": "logexplorer-v0.1.6",
       "name": "LogExplorer 0.1.6",
+      "published_at": "2026-06-24T02:44:16Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16470,6 +17038,7 @@
     {
       "tag_name": "insightflow-v0.9.3.11",
       "name": "InsightFlow 0.9.3.11",
+      "published_at": "2026-06-24T05:46:07Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16518,6 +17087,7 @@
     {
       "tag_name": "sgrepx-v0.1.8",
       "name": "SgrepX 0.1.8",
+      "published_at": "2026-06-24T00:43:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16536,6 +17106,7 @@
     {
       "tag_name": "sgrepx-v0.1.7",
       "name": "SgrepX 0.1.7",
+      "published_at": "2026-06-23T21:42:11Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16554,6 +17125,7 @@
     {
       "tag_name": "sgrepx-v0.1.6",
       "name": "SgrepX 0.1.6",
+      "published_at": "2026-06-23T08:17:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16572,6 +17144,7 @@
     {
       "tag_name": "sgrepx-v0.1.5",
       "name": "SgrepX 0.1.5",
+      "published_at": "2026-06-23T08:06:44Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16590,6 +17163,7 @@
     {
       "tag_name": "sgrepx-v0.1.4",
       "name": "SgrepX 0.1.4",
+      "published_at": "2026-06-23T07:49:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16608,6 +17182,7 @@
     {
       "tag_name": "sgrepx-v0.1.3",
       "name": "SgrepX 0.1.3",
+      "published_at": "2026-06-23T07:44:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16626,6 +17201,7 @@
     {
       "tag_name": "sgrepx-v0.1.2",
       "name": "SgrepX 0.1.2",
+      "published_at": "2026-06-23T07:28:18Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16644,6 +17220,7 @@
     {
       "tag_name": "sgrep-v0.1.7",
       "name": "Sgrep 0.1.7",
+      "published_at": "2026-06-23T21:39:46Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16712,6 +17289,7 @@
     {
       "tag_name": "sgrep-v0.1.6",
       "name": "Sgrep 0.1.6",
+      "published_at": "2026-06-23T11:56:34Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16780,6 +17358,7 @@
     {
       "tag_name": "sgrep-v0.1.5",
       "name": "Sgrep 0.1.5",
+      "published_at": "2026-06-23T08:17:41Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16848,6 +17427,7 @@
     {
       "tag_name": "sgrep-v0.1.4",
       "name": "Sgrep 0.1.4",
+      "published_at": "2026-06-23T08:06:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16916,6 +17496,7 @@
     {
       "tag_name": "sgrep-v0.1.3",
       "name": "Sgrep 0.1.3",
+      "published_at": "2026-06-23T07:43:55Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -16984,6 +17565,7 @@
     {
       "tag_name": "logexplorer-v0.1.5",
       "name": "LogExplorer 0.1.5",
+      "published_at": "2026-06-23T08:18:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17012,6 +17594,7 @@
     {
       "tag_name": "logexplorer-v0.1.4",
       "name": "LogExplorer 0.1.4",
+      "published_at": "2026-06-23T08:06:44Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17040,6 +17623,7 @@
     {
       "tag_name": "logexplorer-v0.1.3",
       "name": "LogExplorer 0.1.3",
+      "published_at": "2026-06-23T07:49:57Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17068,6 +17652,7 @@
     {
       "tag_name": "logexplorer-v0.1.2",
       "name": "LogExplorer 0.1.2",
+      "published_at": "2026-06-23T07:44:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17096,6 +17681,7 @@
     {
       "tag_name": "insightflow-v0.9.3.9",
       "name": "InsightFlow 0.9.3.9",
+      "published_at": "2026-06-23T03:21:15Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17124,6 +17710,7 @@
     {
       "tag_name": "insightflow-v0.9.3.10",
       "name": "InsightFlow 0.9.3.10",
+      "published_at": "2026-06-23T23:27:49Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17152,6 +17739,7 @@
     {
       "tag_name": "insightflow-v0.9.3.8",
       "name": "InsightFlow 0.9.3.8",
+      "published_at": "2026-06-22T23:42:50Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17180,6 +17768,7 @@
     {
       "tag_name": "sgrepx-v0.1.1",
       "name": "SgrepX 0.1.1",
+      "published_at": "2026-06-21T22:51:32Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17198,6 +17787,7 @@
     {
       "tag_name": "sgrep-v0.1.2",
       "name": "Sgrep 0.1.2",
+      "published_at": "2026-06-21T22:51:03Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17266,6 +17856,7 @@
     {
       "tag_name": "scopy-v0.1.1",
       "name": "SCOPY 0.1.1",
+      "published_at": "2026-06-21T22:20:59Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17314,6 +17905,7 @@
     {
       "tag_name": "logexplorer-v0.1.1",
       "name": "LogExplorer 0.1.1",
+      "published_at": "2026-06-21T22:51:19Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17342,6 +17934,7 @@
     {
       "tag_name": "insightflow-v0.9.3.7",
       "name": "InsightFlow 0.9.3.7",
+      "published_at": "2026-06-22T03:15:10Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17370,6 +17963,7 @@
     {
       "tag_name": "insightflow-v0.9.3.6",
       "name": "InsightFlow 0.9.3.6",
+      "published_at": "2026-06-21T23:20:51Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17398,6 +17992,7 @@
     {
       "tag_name": "insightflow-v0.9.3.5",
       "name": "InsightFlow 0.9.3.5",
+      "published_at": "2026-06-20T23:54:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17446,6 +18041,7 @@
     {
       "tag_name": "insightflow-v0.9.3.4",
       "name": "InsightFlow 0.9.3.4",
+      "published_at": "2026-06-20T21:33:36Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17494,6 +18090,7 @@
     {
       "tag_name": "vc6syncext-v0.1.20260619.1006",
       "name": "VC6 Sync Extension 0.1.20260619.1006",
+      "published_at": "2026-06-19T01:07:44Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17512,6 +18109,7 @@
     {
       "tag_name": "sgrepx-v0.1.0",
       "name": "SgrepX 0.1.0",
+      "published_at": "2026-06-19T03:19:22Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17530,6 +18128,7 @@
     {
       "tag_name": "logexplorer-v0.1.0-dev",
       "name": "LogExplorer 0.1.0-dev",
+      "published_at": "2026-06-19T00:02:13Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17558,6 +18157,7 @@
     {
       "tag_name": "insightflow-v0.9.3.3",
       "name": "InsightFlow 0.9.3.3",
+      "published_at": "2026-06-20T06:55:37Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17586,6 +18186,7 @@
     {
       "tag_name": "insightflow-v0.9.3.2",
       "name": "InsightFlow 0.9.3.2",
+      "published_at": "2026-06-19T02:17:06Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17634,6 +18235,7 @@
     {
       "tag_name": "sgrep-v0.1.1",
       "name": "Sgrep 0.1.1",
+      "published_at": "2026-06-18T23:58:45Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17702,6 +18304,7 @@
     {
       "tag_name": "scopy-v0.1.0",
       "name": "SCOPY 0.1.0",
+      "published_at": "2026-06-18T11:14:21Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17770,6 +18373,7 @@
     {
       "tag_name": "insightflow-v0.9.3.1",
       "name": "InsightFlow 0.9.3.1",
+      "published_at": "2026-06-18T23:41:25Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17798,6 +18402,7 @@
     {
       "tag_name": "insightflow-v0.9.3",
       "name": "InsightFlow 0.9.3",
+      "published_at": "2026-06-18T23:23:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17826,6 +18431,7 @@
     {
       "tag_name": "insightflow-v0.9.2",
       "name": "InsightFlow 0.9.2",
+      "published_at": "2026-06-17T23:23:27Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17874,6 +18480,7 @@
     {
       "tag_name": "insightflow-v0.9.1",
       "name": "InsightFlow 0.9.1",
+      "published_at": "2026-06-17T21:17:45Z",
       "draft": false,
       "prerelease": true,
       "assets": [
@@ -17902,6 +18509,7 @@
     {
       "tag_name": "insightflow-v0.9.0",
       "name": "InsightFlow 0.9.0",
+      "published_at": "2026-06-17T20:06:08Z",
       "draft": false,
       "prerelease": true,
       "assets": [
