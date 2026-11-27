@@ -1,17 +1,17 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "channel": "Beta",
-  "releaseTag": "filecatalog-v0.1.1",
-  "sourceCommit": "3177fc73165151aa2b34f6359242d18c2c8f0e97",
-  "publishedAtUtc": "2026-10-26T07:24:46Z",
-  "notes": "# FileCatalog 0.1.1 — Windows ベータ\n\n0.1.0 からの更新: Windows でメニューバーが検索欄に重なる問題を修正しました。起動時とウィンドウの標準サイズ・最小サイズで、検索欄と検索ボタンがメニューの下に表示されます。\n\nWindows x64 向けの初回ポータブル版です。ARM64 Windows 11 上の x64 実行環境で検証しています。\n\n- ローカル・外付けディスク・NAS の名前とパスを台帳へ保存し、切断中も検索。\n- AND / OR 検索、種類・サイズ・更新日フィルター、拡張子プリセット、編集可能な検索履歴。\n- 選択した場所のテキスト・Office 本文を保存し、オフライン検索・書き出し。\n- 省負荷走査、取消・再開、進捗と残り時間の目安、トレイ常駐。\n- CLI、常駐サービス、任意のログイン時起動、既定オフの MCP、端末間の台帳取り込み。\n\n新しい空のフォルダーへ展開し、`FileCatalog/FileCatalog.exe` を起動してください。台帳は `%LOCALAPPDATA%\\FileCatalog` に保存されます。未署名ベータです。PDF 抽出には対応する x64 PDF IFilter が必要です。\n\n実物の NAS・外付け、Dropbox 実アカウント、日本語 IME/DPI、PDF IFilter、Mac と Windows 間の相互取り込みは追加確認が残ります。\n\n[使い方](https://yahright.github.io/downloads/manual/FileCatalog/)\n",
+  "releaseTag": "filecatalog-v0.1.2",
+  "sourceCommit": "51869046c11cd1de74bae91b271766b9d674cb91",
+  "publishedAtUtc": "2026-11-27T03:36:54Z",
+  "notes": "# FileCatalog 0.1.2 — Windows ベータ\n\n- GUI の「ファイル」→「台帳の保存先…」で使用中のパスを確認・コピーできます。GUI と CLI の共通設定には `FILECATALOG_DB`、起動ごとの指定には `--db` を使えます。\n- 走査除外に「標準」「開発用」「一時ファイル」のプリセットを追加しました。新規登録の既定は「標準」です。「開発用」は `build` や `dist` などの配下も対象外にします。登録済みの場所は「場所の設定」で編集し、再走査できます。\n- 検索欄で更新日・サイズの範囲、`in:` でフォルダー、`!` で除外を指定できます。結果一覧は見出しをクリックして並べ替えられます。\n- バッテリー駆動中は自動更新を待機し、電源接続後に再開します。手動走査はバッテリー駆動中も実行できます。\n\nWindows x64 向けの未署名ポータブル版です。更新する場合は旧版をトレイの「サービスも止めて終了」で閉じ、新しいフォルダーへ ZIP を展開して `FileCatalog/FileCatalog.exe` を起動してください。台帳の既定保存先は `%LOCALAPPDATA%\\FileCatalog\\catalog.db` です。\n\n[使い方](https://yahright.github.io/downloads/manual/FileCatalog/)\n",
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/filecatalog-v0.1.1/FileCatalog-0.1.1-win-x64-portable.zip",
-      "sha256": "4382b142081ff33384343a74c9b6b9f4c1a78afb5094d745adda6b3120ac50b3",
-      "size": 29178595,
+      "url": "https://github.com/yahright/downloads/releases/download/filecatalog-v0.1.2/FileCatalog-0.1.2-win-x64-portable.zip",
+      "sha256": "f15ce39d4e4ecb6f2c15cfc0b0abb988cfefde8954b69d3d57bd02b83cd83d74",
+      "size": 29261345,
       "signed": false
     }
   ]
