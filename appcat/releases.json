@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-27T03:37:36.144Z",
+  "generated_at": "2026-11-27T04:27:25.698Z",
   "releases": [
     {
       "tag_name": "appcat-v0.2.2",
@@ -58,6 +58,45 @@
           "name": "ScreenPort-0.2.2-win-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.2/ScreenPort-0.2.2-win-x64.zip.sha256",
           "size": 95
+        }
+      ]
+    },
+    {
+      "tag_name": "oredit-v0.1.67",
+      "name": "oredit 0.1.67 Windows beta",
+      "published_at": "2026-11-27T04:27:00Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "manifest-arm64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/manifest-arm64.json",
+          "size": 1495
+        },
+        {
+          "name": "manifest-x64.json",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/manifest-x64.json",
+          "size": 1451
+        },
+        {
+          "name": "oredit-0.1.67-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/oredit-0.1.67-windows-arm64.zip",
+          "size": 4953709
+        },
+        {
+          "name": "oredit-0.1.67-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/oredit-0.1.67-windows-arm64.zip.sha256",
+          "size": 99
+        },
+        {
+          "name": "oredit-0.1.67-windows-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/oredit-0.1.67-windows-x64.zip",
+          "size": 5622280
+        },
+        {
+          "name": "oredit-0.1.67-windows-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/oredit-0.1.67-windows-x64.zip.sha256",
+          "size": 97
         }
       ]
     },
