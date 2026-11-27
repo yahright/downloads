@@ -1,6 +1,6 @@
 # ScreenPort インストールと操作の説明書
 
-対象は Windows 0.2.2 Beta です。macOS は ScreenPort を導入済みの場合の CLI とリモート接続も扱います。
+対象は Windows 0.2.3 Beta です。macOS は ScreenPort を導入済みの場合の CLI とリモート接続も扱います。
 
 ScreenPortは、AIやスクリプトからデスクトップの画面を調べ、許可したアプリを操作するツールです。使い方は2通りあります。
 
@@ -14,7 +14,7 @@ ScreenPortは、AIやスクリプトからデスクトップの画面を調べ�
 ### ダウンロードして展開する
 
 1. [ScreenPort配布ページ](https://yahright.github.io/downloads/files/ScreenPort/)からZIPを入手する。
-2. Intel／AMDのWindowsには `ScreenPort-0.2.2-win-x64.zip`、Windows on ARMには `ScreenPort-0.2.2-win-arm64.zip` を使う。
+2. Intel／AMDのWindowsには `ScreenPort-0.2.3-win-x64.zip`、Windows on ARMには `ScreenPort-0.2.3-win-arm64.zip` を使う。
 3. ZIPを `C:\tools\ScreenPort` など、今後も使う書込み可能な場所へ展開する。EXEだけを抜き出さず、同梱ファイルをまとめて置く。
 
 Windows 10 2004以降／Windows 11の、ログイン中の利用者セッションで使います。現在のWindows配布物は未署名のBeta版です。
@@ -37,7 +37,7 @@ C:\tools\ScreenPort\screenport.exe doctor
 
 初回接続で常駐アプリが自動起動します。`doctor` の `host_name` が操作するWindowsの名前で、`permissions.screen` と `permissions.accessibility` が `true` なら基本準備は完了です。
 
-更新時はトレイメニューからScreenPortを終了し、テストアプリも閉じてから同じフォルダーのファイルを入れ替えます。`version`と`doctor`の両方で0.2.2になったことを確認します。既存の設定・リモート鍵・監査ログはそのまま使えます。
+更新時はトレイメニューからScreenPortを終了し、テストアプリも閉じてから同じフォルダーのファイルを入れ替えます。`version`と`doctor`の両方で0.2.3になったことを確認します。既存の設定・リモート鍵・監査ログはそのまま使えます。
 
 同じPC内で使う場合、Tailscale・TaCM・リモート待受・FWの受信規則追加は不要です。画面はログイン済みでロックが解除されている必要があります。UAC・ログイン画面・管理者として起動したアプリは対象外です。
 
@@ -265,7 +265,9 @@ Tailscale上のTCP 47800番へ到達できる必要があります。接続が�
 
 ### 操作先が無人の場合
 
-操作先の ScreenPort で「リモート操作の許可」を開きます。Windows 0.2.2 Beta ではトレイの「設定」→「全般」にあります。この設定を搭載する macOS ビルドでは、メニューバーの ScreenPort から変更できます。「すべて許可」を選ぶと、ペアリング済みの接続でアプリ操作・撮影ごとの確認を省略できます。既定の「アプリごとに許可」では、対象を絞って事前許可できます。
+操作先の ScreenPort で「リモート操作の許可」を開きます。Windows 0.2.3 Beta ではトレイの「設定」→「全般」にあります。この設定を搭載する macOS ビルドでは、メニューバーの ScreenPort から変更できます。「すべて許可」を選ぶと、ペアリング済みの接続でアプリ操作・撮影ごとの確認を省略できます。既定の「アプリごとに許可」では、対象を絞って事前許可できます。
+
+VirtualBox上のWindowsゲストで画面全体が真っ黒になる場合は、操作先の「全般」で「VirtualBox の画面取得を使う」を選べます。Windowsホストに同梱の `screenport-vbox.exe` が必要です。対象は単一モニターのVMです。設定方法は同梱の `MANUAL.md` を参照してください。
 
 ### CopilotとCLIの接続先を指定する
 

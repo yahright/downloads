@@ -1,4 +1,4 @@
-# ScreenPort for Windows 説明書（0.2.2 Beta）
+# ScreenPort for Windows 説明書（0.2.3 Beta）
 
 ScreenPort は、AI（Claude Code / GitHub Copilot / Codex / Cursor など）に Windows の画面を「見る・操作する」道具を渡すソフトです。
 AI からは MCP サーバーとして使います。
@@ -65,6 +65,28 @@ ZIP の中身:
 - **すべて許可**。ペアリング済みの接続は、アプリ操作とウィンドウ・画面全体・範囲の撮影を承認画面なしで実行できます。ブラウザやシステム設定の操作上限、パスワード欄への入力制限は従来どおり適用されます。
 
 変更は接続中でも次の操作から有効です。「アプリごとに許可」に戻すと、「すべて許可」で自動付与された許可は取り消されます。
+
+---
+
+### VirtualBox ホストの画面取得を使う（任意）
+
+ScreenPort 0.2.3 Beta を Windows のホストとゲストで使います。ゲスト内の ScreenPort で画面全体が真っ黒になる場合は、同じ VM を VirtualBox ホストの PowerShell から撮影し、画像が表示されるか確認します。ホストで `VBoxManage.exe` が PATH にない場合は、インストール先の絶対パスを使います。
+
+```powershell
+VBoxManage.exe list runningvms
+VBoxManage.exe controlvm "<VM UUID>" screenshotpng .\vbox-test.png
+```
+
+1. ホスト側で ScreenPort ビルドの `screenport-vbox.exe` を使います。VirtualBox を実行しているユーザーで、ホストオンリーアダプターの IPv4 を使って次を実行します。ポートの既定は `47801` です。
+   ```powershell
+   .\screenport-vbox.exe setup "<VM UUID>" "<ホストの IPv4>" 47801
+   .\screenport-vbox.exe serve
+   ```
+   VBoxManage が標準のインストール先にない場合は、ポートの後に `VBoxManage.exe` の絶対パスを渡します。ホストのファイアウォールで必要な場合は、このヘルパーの TCP ポートをゲストが使うホストオンリーネットワークから許可します。
+2. ホストの `setup` が表示する `screenport-vbox-pair:…` を、**ゲスト**の「設定」→「全般」→「ホストのペアリング文字列」に入れます。文字列の再表示はホストで `.\screenport-vbox.exe pairing` を実行します。通常のリモート用の鍵とは別に管理します。
+3. 「VirtualBox の画面取得を使う」にチェックを付けて保存します。操作元は既存の ScreenPort の接続先とコマンドを使います。
+
+ホスト補助は指定した VM を1台だけ撮ります。単一モニターの VM で、全画面撮影の結果に `capture_backend: virtualbox` が返ります。ホストに表示される画像には ScreenPort のオーバーレイが映る場合があります。ウィンドウ・範囲撮影と入力はゲスト内で処理します。複数モニターではゲスト内の撮影を使います。通常の撮影許可、停止、ゲストのセキュアデスクトップの判定が適用されます。ホストにつながらない場合はホストで `serve` の状態を確認します。ゲスト内の撮影へ戻すにはチェックを外して保存します。
 
 ---
 

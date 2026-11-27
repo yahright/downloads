@@ -1,36 +1,38 @@
 {
   "product": "ScreenPort",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "channel": "beta",
-  "sourceCommit": "dc25b2ac7f3d4aadf0f2affcee21d3e02ed08e19",
+  "sourceCommit": "cabaaab0417557520e236c378bfd2c67bff2e7bd",
   "minimumWindows": "Windows 10 2004",
   "packages": [
     {
       "rid": "win-x64",
-      "file": "ScreenPort-0.2.2-win-x64.zip",
-      "sha256": "4135105d4cdfe13fdccde5cf7af158b24ea0d7c2153171b06402122f674ac101",
-      "size": 6673295,
+      "file": "ScreenPort-0.2.3-win-x64.zip",
+      "sha256": "9ff62bc6417180544f1532247e28126512528e800cd8d42f00802f2f3a2344cb",
+      "size": 9386238,
       "binaries": {
-        "ScreenPortApp.exe": "2fe3c5fd76bceefe467f36c44b6e5d81f24833afc4083b69a60927426d98edd7",
-        "screenport.exe": "98e671a332172cbd50dabf54d90b0ad7f99d473e9737cfd46e16d9905c643714",
-        "ScreenPortFixture.exe": "d83b7321cd17687ea8d322ebbb3a832ee547118a96954b9f74d492842e375f31"
+        "ScreenPortApp.exe": "bba703fd0da4a9ff45796862a3e99defef0da2105eb48c0f4323bce5cf720bce",
+        "screenport.exe": "7134bea14d968ad4d4addbc11329cf87ba5962f4a83cad28ff467893868881e6",
+        "ScreenPortFixture.exe": "f3fed4df2c3732ef5fd63df78a87fa84fb18803d0d64de6d3ef32da8cef0cbf5",
+        "screenport-vbox.exe": "eaf0d3cf240bcdb93c4ae08a96b8738148575597a0758fa8e86f98b08a15c5e9"
       },
-      "url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.2/ScreenPort-0.2.2-win-x64.zip"
+      "url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.3/ScreenPort-0.2.3-win-x64.zip"
     },
     {
       "rid": "win-arm64",
-      "file": "ScreenPort-0.2.2-win-arm64.zip",
-      "sha256": "d02847304b5734c0165d3314bf27c09101fbf954aaa0822bb474d63dad824c36",
-      "size": 7436534,
+      "file": "ScreenPort-0.2.3-win-arm64.zip",
+      "sha256": "4afb33ad68f4a8bd25d432aee027be5a50b15245adbc3fe4304923a63d7b164d",
+      "size": 10360088,
       "binaries": {
-        "ScreenPortApp.exe": "3a8b98ece0704c1ea22edf364e9fdc79cde619c255d35e2caa3c7ab7f578ebb2",
-        "screenport.exe": "0d8be774ae13d5238b30276da2f1a610498b12e4216fc55a3cbe9af9f3760d00",
-        "ScreenPortFixture.exe": "01530443c32eb5c594de2f03c359fa075c7be0763e344606abc44fc5486e5438"
+        "ScreenPortApp.exe": "1454410cd21ca41343597ecc5c7f0191bcea0e8090d85f8d89423ce5541787f1",
+        "screenport.exe": "3028f235a2960c1ece4ea32c359a24382ffdbfcc44b77af9cba9fb4eea25d235",
+        "ScreenPortFixture.exe": "4a6f84cbf55c5a1c508d8d2e04d317f5cc148c8a6721f9c5180e0c6ccaa05921",
+        "screenport-vbox.exe": "ced8d9499dae7d3861b5c2c236a2e8ec6b17be3bc5223af91b850c431bc86ba7"
       },
-      "url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.2/ScreenPort-0.2.2-win-arm64.zip"
+      "url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.3/ScreenPort-0.2.3-win-arm64.zip"
     }
   ],
-  "releaseTag": "screenport-v0.2.2",
-  "releaseUrl": "https://github.com/yahright/downloads/releases/tag/screenport-v0.2.2",
-  "publishedAtUtc": "2026-11-27T02:47:59.0832349Z"
+  "releaseTag": "screenport-v0.2.3",
+  "releaseUrl": "https://github.com/yahright/downloads/releases/tag/screenport-v0.2.3",
+  "publishedAtUtc": "2026-11-27T05:13:33.1943304Z"
 }
