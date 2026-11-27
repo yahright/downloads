@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "version": "0.2.1",
-  "released_at": "2026-11-26T02:48:06Z",
-  "release_tag": "appcat-v0.2.1",
-  "source_commit": "0139c7b48248660076e11f8060161da5a9601526",
+  "version": "0.2.2",
+  "released_at": "2026-11-27T03:06:57Z",
+  "release_tag": "appcat-v0.2.2",
+  "source_commit": "a78d9dbc05f8597f2bab86f2c9426f753931e699",
   "artifacts": [
     {
       "os": "windows",
       "arch": "amd64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.1/appcat-0.2.1-windows-amd64.zip",
-      "sha256": "e027572fd88477d764e2800f716768c8c1f1c9f96222bc097e4a963824391c52",
-      "size": 30739389
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.2/appcat-0.2.2-windows-amd64.zip",
+      "sha256": "07f9803e12188ba5da2ddec29a4a0b0e88cddf0f7b8e46276f22869f9872fcc8",
+      "size": 30758155
     },
     {
       "os": "windows",
       "arch": "arm64",
-      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.1/appcat-0.2.1-windows-arm64.zip",
-      "sha256": "ae25b686c292176d1f859944919e69f02eda9b37b52743f25e8d9191dd97094f",
-      "size": 29900955
+      "url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.2/appcat-0.2.2-windows-arm64.zip",
+      "sha256": "fba9bff00605d2672ad4ab2606d3f09e0fd814cb88fede23e8bf09b471cb61bd",
+      "size": 29918435
     }
   ],
   "apps": []

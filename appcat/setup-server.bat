@@ -192,25 +192,33 @@ try {
     if ($action -eq 'sync') {
         Write-Host '配布物を更新しました。起動中のサーバーにも反映されます。' -ForegroundColor Green
     } elseif ($env:APPCAT_SERVER_NO_SERVE -ne '1') {
-        Enable-LanAccess $port
+        $listenHost = '0.0.0.0'
+        if ($env:APPCAT_SERVER_TEST_LOOPBACK -eq '1') {
+            # The batch integration test exercises HTTP from this machine only.
+            $listenHost = '127.0.0.1'
+        } else {
+            Enable-LanAccess $port
+        }
         Write-Host '[3/3] 配信を開始します。このウィンドウを開いたままにしてください。' -ForegroundColor Green
-        # Avoid WMI/CIM; NetworkInterface also works when those services are unavailable.
         $urls = @("http://localhost:$port")
-        foreach ($adapter in [Net.NetworkInformation.NetworkInterface]::GetAllNetworkInterfaces()) {
-            if ($adapter.OperationalStatus -ne 'Up' -or $adapter.NetworkInterfaceType -eq 'Loopback') { continue }
-            foreach ($address in $adapter.GetIPProperties().UnicastAddresses) {
-                if ($address.Address.AddressFamily -eq 'InterNetwork' -and -not $address.Address.ToString().StartsWith('169.254.')) {
-                    $urls += "http://$($address.Address):$port"
+        if ($listenHost -eq '0.0.0.0') {
+            # Avoid WMI/CIM; NetworkInterface also works when those services are unavailable.
+            foreach ($adapter in [Net.NetworkInformation.NetworkInterface]::GetAllNetworkInterfaces()) {
+                if ($adapter.OperationalStatus -ne 'Up' -or $adapter.NetworkInterfaceType -eq 'Loopback') { continue }
+                foreach ($address in $adapter.GetIPProperties().UnicastAddresses) {
+                    if ($address.Address.AddressFamily -eq 'InterNetwork' -and -not $address.Address.ToString().StartsWith('169.254.')) {
+                        $urls += "http://$($address.Address):$port"
+                    }
                 }
             }
+            Write-Host '受け取るPCのAppCatで「置き場」に設定するURL:'
         }
-        Write-Host '受け取るPCのAppCatで「置き場」に設定するURL:'
         foreach ($url in $urls | Select-Object -Unique) { Write-Host "  $url" }
         Write-Host '接続テストは上のURLの末尾に /catalog.json を付けて開いてください。'
         Write-Host "次回の起動: $serverHome\start-server.bat"
         Write-Host "配布物の更新: $serverHome\sync-server.bat"
         Write-Host '停止: Ctrl+C またはこのウィンドウを閉じる'
-        Invoke-AppCat -CommandArgs @('store', 'serve', '--store', $storeDir, '--listen', "0.0.0.0:$port")
+        Invoke-AppCat -CommandArgs @('store', 'serve', '--store', $storeDir, '--listen', "${listenHost}:$port")
     }
 } catch {
     $exitCode = 1
