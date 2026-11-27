@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-27T05:14:11.922Z",
+  "generated_at": "2026-11-27T06:01:40.855Z",
   "releases": [
     {
       "tag_name": "appcat-v0.3.0",
@@ -184,6 +184,25 @@
           "name": "oredit-0.1.67-windows-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/oredit-v0.1.67/oredit-0.1.67-windows-x64.zip.sha256",
           "size": 97
+        }
+      ]
+    },
+    {
+      "tag_name": "logmonitor-v0.17.1",
+      "name": "LogMonitor 0.17.1 (Windows Beta)",
+      "published_at": "2026-11-27T06:01:13Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "LogMonitor-0.17.1-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.17.1/LogMonitor-0.17.1-x64.zip",
+          "size": 1222552
+        },
+        {
+          "name": "LogMonitor-0.17.1-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.17.1/LogMonitor-0.17.1-x64.zip.sha256",
+          "size": 93
         }
       ]
     },
