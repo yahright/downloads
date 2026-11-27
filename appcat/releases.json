@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-27T05:11:59.001Z",
+  "generated_at": "2026-11-27T05:14:11.922Z",
   "releases": [
     {
       "tag_name": "appcat-v0.3.0",
@@ -58,6 +58,35 @@
           "name": "appcat-0.2.2-windows-arm64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.2.2/appcat-0.2.2-windows-arm64.zip.sha256",
           "size": 98
+        }
+      ]
+    },
+    {
+      "tag_name": "screenport-v0.2.3",
+      "name": "ScreenPort 0.2.3 Windows Beta",
+      "published_at": "2026-11-27T05:13:45Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "ScreenPort-0.2.3-win-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.3/ScreenPort-0.2.3-win-arm64.zip",
+          "size": 10360088
+        },
+        {
+          "name": "ScreenPort-0.2.3-win-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.3/ScreenPort-0.2.3-win-arm64.zip.sha256",
+          "size": 97
+        },
+        {
+          "name": "ScreenPort-0.2.3-win-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.3/ScreenPort-0.2.3-win-x64.zip",
+          "size": 9386238
+        },
+        {
+          "name": "ScreenPort-0.2.3-win-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/screenport-v0.2.3/ScreenPort-0.2.3-win-x64.zip.sha256",
+          "size": 95
         }
       ]
     },
