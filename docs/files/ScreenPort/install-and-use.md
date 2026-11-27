@@ -1,20 +1,20 @@
 # ScreenPort インストールと操作の説明書
 
-対象: Windows 0.1.1修正版。macOSは既にScreenPortを導入している場合のCLIとリモート接続も扱います。
+対象は Windows 0.2.2 Beta です。macOS は ScreenPort を導入済みの場合の CLI とリモート接続も扱います。
 
 ScreenPortは、AIやスクリプトからデスクトップの画面を調べ、許可したアプリを操作するツールです。使い方は2通りあります。
 
 - **MCP接続**: GitHub Copilotなどに登録し、会話から操作する。
 - **CLI**: `screenport call` をターミナルやスクリプトから実行する。AI側のMCP対応は不要で、外部コマンドを実行できれば利用できる。
 
-Windows 0.1.1では、対象アプリを事前許可すれば、CLIだけで観測・クリック・日本語入力・キー送信・画像取得を行えます。`call`ごとにセッションが変わるため、事前許可と座標の扱いは「CLIのセッションと許可」を参照してください。旧公開版0.1.0には単発入力の不具合があるため、このCLI手順には0.1.1を使います。
+対象アプリを事前許可すれば、CLIだけで観測・クリック・日本語入力・キー送信・画像取得を行えます。`call`ごとにセッションが変わるため、事前許可と座標の扱いは「CLIのセッションと許可」を参照してください。
 
 ## Windowsに導入する
 
 ### ダウンロードして展開する
 
-1. 修正版0.1.1のZIPを入手する。このチャットで渡された修正版ZIP、またはソースから `build-windows-release.ps1` で作った `dist/windows` のZIPを使う。[既存の公開配布ページ](https://github.com/yahright/downloads/releases/tag/screenport-v0.1.0)の0.1.0には今回のCLI修正が含まれていない。
-2. Intel／AMDのWindowsには `ScreenPort-0.1.1-win-x64.zip`、Windows on ARMには `ScreenPort-0.1.1-win-arm64.zip` を使う。MACMINIWINはarm64版。
+1. [ScreenPort配布ページ](https://yahright.github.io/downloads/files/ScreenPort/)からZIPを入手する。
+2. Intel／AMDのWindowsには `ScreenPort-0.2.2-win-x64.zip`、Windows on ARMには `ScreenPort-0.2.2-win-arm64.zip` を使う。
 3. ZIPを `C:\tools\ScreenPort` など、今後も使う書込み可能な場所へ展開する。EXEだけを抜き出さず、同梱ファイルをまとめて置く。
 
 Windows 10 2004以降／Windows 11の、ログイン中の利用者セッションで使います。現在のWindows配布物は未署名のBeta版です。
@@ -37,7 +37,7 @@ C:\tools\ScreenPort\screenport.exe doctor
 
 初回接続で常駐アプリが自動起動します。`doctor` の `host_name` が操作するWindowsの名前で、`permissions.screen` と `permissions.accessibility` が `true` なら基本準備は完了です。
 
-更新時はトレイメニューからScreenPortを終了し、テストアプリも閉じてから同じフォルダーのファイルを入れ替えます。`version`と`doctor`の両方で0.1.1になったことを確認します。既存の設定・リモート鍵・監査ログはそのまま使えます。
+更新時はトレイメニューからScreenPortを終了し、テストアプリも閉じてから同じフォルダーのファイルを入れ替えます。`version`と`doctor`の両方で0.2.2になったことを確認します。既存の設定・リモート鍵・監査ログはそのまま使えます。
 
 同じPC内で使う場合、Tailscale・TaCM・リモート待受・FWの受信規則追加は不要です。画面はログイン済みでロックが解除されている必要があります。UAC・ログイン画面・管理者として起動したアプリは対象外です。
 
@@ -135,7 +135,7 @@ Windows標準のPowerShell 5.1では、通常のJSON文字列をそのままEXE�
 & $sp --% call find "{\"window\":\"com.yahright.screenport.fixture\",\"query\":\"保存\"}"
 ```
 
-0.1.1では、対象アプリをfullで事前許可し、名前欄に入力フォーカスがある状態で、次の入力も単発CLIから行えます。
+対象アプリをfullで事前許可し、名前欄に入力フォーカスがある状態で、次の入力も単発CLIから行えます。
 
 ```powershell
 & $sp --% call type "{\"text\":\"CLIからの日本語テスト\"}"
@@ -151,7 +151,7 @@ Windows標準のPowerShell 5.1では、通常のJSON文字列をそのままEXE�
 - `ax_tree` や `find` が返す `ref_1` などは、そのセッション内だけの参照です。別の `call click` に渡すと `stale_ref` になります。
 - 単発CLIでは `find` の `matches[].bounds` から現在の位置を取り、`xy` でクリックします。位置が変わる前に操作し、必要なら取り直してください。
 - 承認画面で与えた許可も次の `call` に引き継がれません。連続操作をする場合は、対象アプリに限って設定ファイルの `grants` に事前許可します。
-- Windows 0.1.1の単発 `type`／`key` は、前面アプリに設定された明示的な `full` の事前許可を使います。`read`／`click`、別アプリの許可、`unattended: true`だけでは入力できません。入力先は `focus` と座標クリックで先に指定します。
+- Windowsの単発 `type`／`key` は、前面アプリに設定された明示的な `full` の事前許可を使います。`read`／`click`、別アプリの許可、`unattended: true`だけでは入力できません。入力先は `focus` と座標クリックで先に指定します。
 - 前面・実際の入力先・秘密欄・アプリ種別・停止状態の確認は、MCP接続と同様に行われます。事前許可があっても、ブラウザやシステム設定、呼出し元の宿主アプリなどの制限は解除されません。
 
 Windowsの設定先は `%APPDATA%\screenport\config.json` です。以下はテストアプリだけを許可する例です。既存設定がある場合は全文を上書きせず、その内容を残して追加します。
@@ -263,6 +263,10 @@ screenport doctor --remote macminiwin
 
 Tailscale上のTCP 47800番へ到達できる必要があります。接続が失敗したら、待受アドレス・Tailscale・FWの順に確認します。FWの変更が必要な場合は、ScreenPortのプログラムと接続元を限定した受信許可を使います。MACMINIWINへの今回の接続では、FW変更は不要でした。
 
+### 操作先が無人の場合
+
+操作先の ScreenPort で「リモート操作の許可」を開きます。Windows 0.2.2 Beta ではトレイの「設定」→「全般」にあります。この設定を搭載する macOS ビルドでは、メニューバーの ScreenPort から変更できます。「すべて許可」を選ぶと、ペアリング済みの接続でアプリ操作・撮影ごとの確認を省略できます。既定の「アプリごとに許可」では、対象を絞って事前許可できます。
+
 ### CopilotとCLIの接続先を指定する
 
 Copilotには、ローカル用と区別した名前で登録します。`/path/to/screenport` は操作元にある実際のCLIの絶対パスに置き換えます。
@@ -278,7 +282,7 @@ screenport call status --remote macminiwin
 screenport call list_windows --remote macminiwin
 ```
 
-遠隔のWindowsを操作する場合も、文字入力・キー送信などの動作はWindows側の実装に従います。Windows側を0.1.1へ更新し、対象アプリをfullで事前許可すれば、リモートの単発CLIからも入力できます。Mac側のCLIを更新するだけでは、旧Windows 0.1.0の不具合は直りません。
+遠隔のWindowsに単発CLIで文字・キーを送る場合は、操作先で「すべて許可」を選ぶか、対象アプリを `full` で事前許可します。
 
 ### このMac miniからMACMINIWINを操作する場合
 
@@ -296,7 +300,7 @@ copilot mcp add screenport-macminiwin -- "$SP" mcp --remote macminiwin
 ## 困ったときと停止方法
 
 - **`not_approved`**: 操作先に表示された許可画面で承認する。単発CLIの連続操作では、対象を限定して設定の `grants` を使う。
-- **Windowsの単発 `type`／`key` が `not_target`**: 操作される側の常駐アプリが0.1.1か、前面アプリに明示的なfull事前許可があるかを確認する。別の `call focus` の許可だけでは足りない。
+- **Windowsの単発 `type`／`key` が `not_target`**: 前面アプリの `full` 事前許可を確認する。リモートでは操作先の「すべて許可」でも入力できる。
 - **`stale_ref`**: 別セッションのrefを使っていないか確認する。単発CLIでは最新のboundsから座標を求める。
 - **`paused_by_human`**: マウスやキーボードを止めて、2秒以上待ってから再試行する。
 - **JSONのparse error**: PowerShell 5.1では `--%` を使うか、Pythonの引数配列で起動する。
