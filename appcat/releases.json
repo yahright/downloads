@@ -1,8 +1,37 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-27T04:56:10.478Z",
+  "generated_at": "2026-11-27T05:11:59.001Z",
   "releases": [
+    {
+      "tag_name": "appcat-v0.3.0",
+      "name": "AppCat 0.3.0 (Windows)",
+      "published_at": "2026-11-27T05:11:34Z",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "appcat-0.3.0-windows-amd64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.3.0/appcat-0.3.0-windows-amd64.zip",
+          "size": 30817333
+        },
+        {
+          "name": "appcat-0.3.0-windows-amd64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.3.0/appcat-0.3.0-windows-amd64.zip.sha256",
+          "size": 98
+        },
+        {
+          "name": "appcat-0.3.0-windows-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.3.0/appcat-0.3.0-windows-arm64.zip",
+          "size": 29974069
+        },
+        {
+          "name": "appcat-0.3.0-windows-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/appcat-v0.3.0/appcat-0.3.0-windows-arm64.zip.sha256",
+          "size": 98
+        }
+      ]
+    },
     {
       "tag_name": "appcat-v0.2.2",
       "name": "AppCat 0.2.2 (Windows)",
