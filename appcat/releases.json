@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-28T07:19:57.209Z",
+  "generated_at": "2026-11-28T07:44:33.407Z",
   "releases": [
     {
       "tag_name": "codemap-v0.1.28",
@@ -28,6 +28,35 @@
           "name": "codemap-0.1.27.vsix",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/codemap-v0.1.27/codemap-0.1.27.vsix",
           "size": 725685
+        }
+      ]
+    },
+    {
+      "tag_name": "reposynctool-v0.29.22",
+      "name": "RepoSyncTool 0.29.22 (macOS beta)",
+      "published_at": "2026-11-28T07:43:53Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "RepoSyncTool-0.29.22-osx-arm64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.22/RepoSyncTool-0.29.22-osx-arm64.zip",
+          "size": 49602132
+        },
+        {
+          "name": "RepoSyncTool-0.29.22-osx-arm64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.22/RepoSyncTool-0.29.22-osx-arm64.zip.sha256",
+          "size": 101
+        },
+        {
+          "name": "RepoSyncTool-0.29.22-osx-x64.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.22/RepoSyncTool-0.29.22-osx-x64.zip",
+          "size": 55319460
+        },
+        {
+          "name": "RepoSyncTool-0.29.22-osx-x64.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.22/RepoSyncTool-0.29.22-osx-x64.zip.sha256",
+          "size": 99
         }
       ]
     },
