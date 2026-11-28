@@ -1,8 +1,22 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-28T06:27:16.196Z",
+  "generated_at": "2026-11-28T07:19:57.209Z",
   "releases": [
+    {
+      "tag_name": "codemap-v0.1.28",
+      "name": "CodeMap v0.1.28",
+      "published_at": "2026-11-28T07:19:29Z",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "codemap-0.1.28.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/codemap-v0.1.28/codemap-0.1.28.vsix",
+          "size": 734546
+        }
+      ]
+    },
     {
       "tag_name": "codemap-v0.1.27",
       "name": "CodeMap v0.1.27",
