@@ -1,8 +1,22 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-28T05:23:49.983Z",
+  "generated_at": "2026-11-28T06:27:16.196Z",
   "releases": [
+    {
+      "tag_name": "codemap-v0.1.27",
+      "name": "CodeMap v0.1.27",
+      "published_at": "2026-11-28T06:26:51Z",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "codemap-0.1.27.vsix",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/codemap-v0.1.27/codemap-0.1.27.vsix",
+          "size": 725685
+        }
+      ]
+    },
     {
       "tag_name": "appcat-v0.3.0",
       "name": "AppCat 0.3.0 (Windows)",
