@@ -1,9 +1,14 @@
 {
-  "version": "0.10.55",
+  "version": "0.10.56",
   "channel": "Beta",
-  "notesUrl": "",
-  "notes": "- Record published macOS and Windows InsightFlow 0.10.54 (I-0195)\n- Fall back to a regular search when the MFT admin helper is declined (I-0192)\n- Translate the Folder sync \"Choose actions\" label so it is not clipped (I-0192)\n- Give dialogs keyboard focus when they open with nothing focused (I-0192)\n- Merge fixes found in the real-app check (I-0192)\n- Add the rule-based Cleanup Tool (I-0198)\n- Cleanup Tool: list rules at once, look on Start, show progress (I-0198)\n- Remove hover-only visual effects across the app (I-0199)\n- Merge Cleanup Tool: list rules at once, look on Start, show progress (I-0198)",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.56",
+  "notes": "- 設定 → 表示 → フィルターから、F の絞り込みと J のお気に入りで、Esc を押したときに先に入力を消去する動作を選べます。オンにすると、空欄で Esc を押したときに閉じます。\n- Windows で InsightFlow を別フォルダーから起動していると、ポータブル版の更新が誤って止まる問題を修正しました。\n\nIn Settings → View → Filters, enable Esc to clear a query before closing the F and J dialogs. On Windows, starting InsightFlow from a different folder no longer incorrectly blocks an update to a portable copy.",
   "notesHistory": [
+    {
+      "version": "0.10.56",
+      "notes": "- 設定 → 表示 → フィルターから、F の絞り込みと J のお気に入りで、Esc を押したときに先に入力を消去する動作を選べます。オンにすると、空欄で Esc を押したときに閉じます。\n- Windows で InsightFlow を別フォルダーから起動していると、ポータブル版の更新が誤って止まる問題を修正しました。\n\nIn Settings → View → Filters, enable Esc to clear a query before closing the F and J dialogs. On Windows, starting InsightFlow from a different folder no longer incorrectly blocks an update to a portable copy.",
+      "publishedAtUtc": "2026-11-28T05:20:38Z"
+    },
     {
       "version": "0.10.55",
       "notes": "- Record published macOS and Windows InsightFlow 0.10.54 (I-0195)\n- Fall back to a regular search when the MFT admin helper is declined (I-0192)\n- Translate the Folder sync \"Choose actions\" label so it is not clipped (I-0192)\n- Give dialogs keyboard focus when they open with nothing focused (I-0192)\n- Merge fixes found in the real-app check (I-0192)\n- Add the rule-based Cleanup Tool (I-0198)\n- Cleanup Tool: list rules at once, look on Start, show progress (I-0198)\n- Remove hover-only visual effects across the app (I-0199)\n- Merge Cleanup Tool: list rules at once, look on Start, show progress (I-0198)",
@@ -48,27 +53,22 @@
       "version": "0.10.45",
       "notes": "- Index disk_usage.query and serve automation off the UI thread (I-0128)",
       "publishedAtUtc": "2026-11-06T08:36:18Z"
-    },
-    {
-      "version": "0.10.43",
-      "notes": "- Clear read-only attribute on permanent delete retry (I-0113)",
-      "publishedAtUtc": "2026-11-04T22:44:19Z"
     }
   ],
   "downloads": [
     {
       "platform": "win-x64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.55/InsightFlow-0.10.55-win-x64-portable.zip",
-      "sha256": "c98d747a217407b7c14214a29e241df134cf861509ccdd2ef106f8f9705478e4",
-      "size": 110854078
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-win-x64-portable.zip",
+      "sha256": "ba7eadb8af32e3bbb72931ac8b458c795aa2438a7feb8d7d2c41fd4736acaa0f",
+      "size": 107611933
     },
     {
       "platform": "win-arm64",
       "kind": "portable-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.55/InsightFlow-0.10.55-win-arm64-portable.zip",
-      "sha256": "4649ab690361f1e2ebf7deecdb6bfeea78af920a12bf999877cfa160415e3faa",
-      "size": 107201399
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-win-arm64-portable.zip",
+      "sha256": "1caa6ad6e5b6599be3f39cf855c465fee3dcc906c07e0701e451f61b57db30b3",
+      "size": 104076032
     }
   ]
 }

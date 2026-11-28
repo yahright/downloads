@@ -1,9 +1,14 @@
 {
-  "version": "0.10.54",
+  "version": "0.10.56",
   "channel": "Beta",
-  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.54",
-  "notes": "- 設定 → コマンド → ロケーションランチャー から、アプリケーション・ムービー・ピクチャなどの標準フォルダーと、表示するクラウドサービスを OS ごとに選べます。\n- お気に入りの J ダイアログで、ファイルリストと保存した検索を個別のタブから編集できます。\n- 初回はホームフォルダーを表示し、名前順で並べます。ファイルを Enter で開く動作と、リネーム時の名前部分の選択を改善しました。\n- 設定、ダイアログ、ディスク使用量画面のボタン・タブ・表示を整理しました。\n\nConfigure standard folders and detected cloud services in Settings → Commands → Location Launcher. This macOS update also adds separate tabs for file lists and saved searches, improves first-launch navigation and renaming, and refines dialogs and Disk Usage.",
+  "notesUrl": "https://github.com/yahright/downloads/releases/tag/insightflow-v0.10.56",
+  "notes": "- 設定 → 表示 → フィルターから、F の絞り込みと J のお気に入りで、Esc を押したときに先に入力を消去する動作を選べます。オンにすると、空欄で Esc を押したときに閉じます。\n- ツールメニューとディスク使用量の画面から、キャッシュなどの候補をルールに沿って調査するクリーンアップツールを開けます。\n- ボタンや一覧で、マウスを重ねたときだけ出る装飾を減らしました。\n\nIn Settings → View → Filters, enable Esc to clear a query before closing the F and J dialogs. This macOS update also adds the rule-based Cleanup Tool and simplifies hover styling.",
   "notesHistory": [
+    {
+      "version": "0.10.56",
+      "notes": "- 設定 → 表示 → フィルターから、F の絞り込みと J のお気に入りで、Esc を押したときに先に入力を消去する動作を選べます。オンにすると、空欄で Esc を押したときに閉じます。\n- ツールメニューとディスク使用量の画面から、キャッシュなどの候補をルールに沿って調査するクリーンアップツールを開けます。\n- ボタンや一覧で、マウスを重ねたときだけ出る装飾を減らしました。\n\nIn Settings → View → Filters, enable Esc to clear a query before closing the F and J dialogs. This macOS update also adds the rule-based Cleanup Tool and simplifies hover styling.",
+      "publishedAtUtc": "2026-11-28T05:22:14Z"
+    },
     {
       "version": "0.10.54",
       "notes": "- 設定 → コマンド → ロケーションランチャー から、アプリケーション・ムービー・ピクチャなどの標準フォルダーと、表示するクラウドサービスを OS ごとに選べます。\n- お気に入りの J ダイアログで、ファイルリストと保存した検索を個別のタブから編集できます。\n- 初回はホームフォルダーを表示し、名前順で並べます。ファイルを Enter で開く動作と、リネーム時の名前部分の選択を改善しました。\n- 設定、ダイアログ、ディスク使用量画面のボタン・タブ・表示を整理しました。\n\nConfigure standard folders and detected cloud services in Settings → Commands → Location Launcher. This macOS update also adds separate tabs for file lists and saved searches, improves first-launch navigation and renaming, and refines dialogs and Disk Usage.",
@@ -34,16 +39,16 @@
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.54/InsightFlow-0.10.54-osx-arm64-app.zip",
-      "sha256": "f6cb48a71a2cafaa848ca1ddc09c7ab254c4e04d6ad29702b639e8536e972b07",
-      "size": 104168588
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-osx-arm64-app.zip",
+      "sha256": "40125081de831bb6404bb68175e749a1beb8ed00896874a68ae1267fa5cb311b",
+      "size": 104211826
     },
     {
       "platform": "osx-arm64",
       "kind": "dmg",
-      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.54/InsightFlow-0.10.54-osx-arm64.dmg",
-      "sha256": "cad4fc1b4b94958e0bbb41c9759b3cd169622bfbbf9018452d998312fb741479",
-      "size": 113226885
+      "url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-osx-arm64.dmg",
+      "sha256": "2a84829e5e66e447f4010aabd332d564ccc9525f31da3ecdffe64eff520de143",
+      "size": 113226781
     }
   ]
 }
