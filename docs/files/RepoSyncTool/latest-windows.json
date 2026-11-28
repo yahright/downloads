@@ -1,25 +1,25 @@
 {
-    "version":  "0.29.21",
+    "version":  "0.29.23",
     "channel":  "Beta",
-    "releaseTag":  "reposynctool-v0.29.21",
-    "sourceCommit":  "5eabbd37cbeee5122c53fde607c6e9d48ca907cf",
-    "publishedAtUtc":  "2026-11-27T04:50:28.4004930+00:00",
-    "notes":  "# RepoSyncTool 0.29.21 ベータ（Windows）\n\n- 開いたリポジトリが Git ワークスペース上部のタブに並びます。リポジトリ一覧や Ctrl+O から開けます。同じリポジトリをもう一度開くと、そのタブに戻ります。タブを閉じてもリポジトリ一覧の登録は残ります。\n- ブランチ管理では、チェックアウト中のブランチを初期表示の先頭に置き、名前を太字にして「チェックアウト中」の状態を青く表示します。\n",
+    "releaseTag":  "reposynctool-v0.29.23",
+    "sourceCommit":  "22c639bb7667021f5a6419ac8e61d372b4771d02",
+    "publishedAtUtc":  "2026-11-28T07:55:23.9545944+00:00",
+    "notes":  "# RepoSyncTool 0.29.23 ベータ（Windows）\n\n- リポジトリ一覧を固定タブにまとめ、開いたタブの保存・復元、並べ替え、右クリック操作に対応しました。\n- 変更行のステージ・取り消し、ブランチ管理の履歴とコミット詳細、Issue・PR への入口を改善しました。\n- 初回プッシュ、サブモジュール操作、Git エラーの説明、ショートカットと外部ツールの設定を改善しました。\n- ブランチ切り替え時の処理を高速化しました。\r\n",
     "downloads":  [
                       {
                           "platform":  "win-x64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.21/RepoSyncTool-0.29.21-win-x64-portable.zip",
-                          "sha256":  "a7e8ba47655fdfea84f5ecde866f35879e5dbeb6cea4c91bd7c5eae52867f4f7",
-                          "size":  51721493,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.23/RepoSyncTool-0.29.23-win-x64-portable.zip",
+                          "sha256":  "0b1b0eceef62624d5ea451ba70e6defa53f4187679cb9b2d6c289b4d7e7e95ce",
+                          "size":  51796680,
                           "signed":  false
                       },
                       {
                           "platform":  "win-arm64",
                           "kind":  "portable-zip",
-                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.21/RepoSyncTool-0.29.21-win-arm64-portable.zip",
-                          "sha256":  "8cf20e1f306ba8e02663abd51aedc8facdce4f8703774fad98b5c0f102e454c8",
-                          "size":  49440374,
+                          "url":  "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.23/RepoSyncTool-0.29.23-win-arm64-portable.zip",
+                          "sha256":  "16eaa1c7d498c0e34329eb2495d3447a1bdfe73693ddf166122203297ba8e442",
+                          "size":  49515531,
                           "signed":  false
                       }
                   ]
