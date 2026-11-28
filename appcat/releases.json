@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "yahright/downloads",
-  "generated_at": "2026-11-27T06:01:40.855Z",
+  "generated_at": "2026-11-28T05:23:49.983Z",
   "releases": [
     {
       "tag_name": "appcat-v0.3.0",
@@ -203,6 +203,55 @@
           "name": "LogMonitor-0.17.1-x64.zip.sha256",
           "browser_download_url": "https://github.com/yahright/downloads/releases/download/logmonitor-v0.17.1/LogMonitor-0.17.1-x64.zip.sha256",
           "size": 93
+        }
+      ]
+    },
+    {
+      "tag_name": "insightflow-v0.10.56",
+      "name": "InsightFlow 0.10.56 Beta",
+      "published_at": "2026-11-28T05:23:24Z",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "InsightFlow-0.10.56-osx-arm64-app.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-osx-arm64-app.zip",
+          "size": 104211826
+        },
+        {
+          "name": "InsightFlow-0.10.56-osx-arm64-app.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-osx-arm64-app.zip.sha256",
+          "size": 104
+        },
+        {
+          "name": "InsightFlow-0.10.56-osx-arm64.dmg",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-osx-arm64.dmg",
+          "size": 113226781
+        },
+        {
+          "name": "InsightFlow-0.10.56-osx-arm64.dmg.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-osx-arm64.dmg.sha256",
+          "size": 100
+        },
+        {
+          "name": "InsightFlow-0.10.56-win-arm64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-win-arm64-portable.zip",
+          "size": 104076032
+        },
+        {
+          "name": "InsightFlow-0.10.56-win-arm64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-win-arm64-portable.zip.sha256",
+          "size": 110
+        },
+        {
+          "name": "InsightFlow-0.10.56-win-x64-portable.zip",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-win-x64-portable.zip",
+          "size": 107611933
+        },
+        {
+          "name": "InsightFlow-0.10.56-win-x64-portable.zip.sha256",
+          "browser_download_url": "https://github.com/yahright/downloads/releases/download/insightflow-v0.10.56/InsightFlow-0.10.56-win-x64-portable.zip.sha256",
+          "size": 108
         }
       ]
     },
