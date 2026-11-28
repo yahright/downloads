@@ -1,25 +1,25 @@
 {
-  "version": "0.29.14",
+  "version": "0.29.22",
   "channel": "Beta",
-  "releaseTag": "reposynctool-v0.29.14",
-  "sourceCommit": "42cc351c8f1fe3fecf3fc6ab24dd450b1b77119d",
-  "publishedAtUtc": "2026-11-23T13:09:04.5051960+00:00",
-  "notes": "# RepoSyncTool 0.29.14 ベータ（macOS）\n\n- 「URL からクローン」で、保存先に Git リポジトリがある場合は「ローカルを追加」でそのフォルダを一覧に登録できます。\n",
+  "releaseTag": "reposynctool-v0.29.22",
+  "sourceCommit": "06ea773afd6d851d83445ed17a4786214faab4e9",
+  "publishedAtUtc": "2026-11-28T07:43:29.7689760+00:00",
+  "notes": "# RepoSyncTool 0.29.22 ベータ（macOS）\n\n- 開いたリポジトリが Git ワークスペース上部のタブに並びます。リポジトリ一覧や ⌘O から開けます。同じリポジトリをもう一度開くと、そのタブに戻ります。タブを閉じてもリポジトリ一覧の登録は残ります。\n- リポジトリ一覧は Git ワークスペースのタブの「⌂ 一覧」として開きます。タブの ＋ やタイトル行からリポジトリを開けます。\n- ブランチ管理では、チェックアウト中のブランチを初期表示の先頭に置き、名前を太字にして「チェックアウト中」の状態を青く表示します。選んだコミットのメッセージ・変更ファイル・差分をその場で確認でき、ブランチはツリー表示と、ローカル／リモートの切り替えに対応しました。リモートで削除されたブランチを追跡しているローカルブランチは、まとめて削除できます。\n- 変更一覧の行に、ステージ／アンステージのボタンを追加しました。フォルダーとセクションにも使えます。\n- 変更の取り消し（↶）と ＋／− のボタンを、Visual Studio に近い専用の列に表示します。\n- Git のエラーには原因と対処のヒントを表示し、エラー文の複写や Web 検索ができます。\n- 使い慣れたショートカットは ⚙ → ショートカット… で変更できます。ツールバーのボタンにもキーを割り当てられます。\n- テキストエディタでファイルを開く操作と、フォルダーをツールで開く操作を分けました。どのツールを使うかは決めつけません。\n- 開発ビルドは表示名に +Debug を付けて、配布版と見分けられるようにしました。\n- Push の画面から、リモートのないリポジトリを公開できます。\n- サブモジュールの操作を改善し、ブランチ切り替えの待ち時間を短くしました（実リポジトリでの計測で 33〜38% 短縮）。\n- Issue・PR はリポジトリのツールバーから開けます。一覧のボタンは、すべてのリポジトリが対象であることを表示します。\n- 「ログ」画面で、直近 2,000 件のデバッグログを確認できます（メイン画面と Git ワークスペースの設定から開きます）。\n- GitHub・Forgejo の HTTPS リポジトリでは、接続先の既定アカウントやリポジトリ・リモートに割り当てたアカウントで Fetch／Push と Issue・PR の操作ができます。\n- Git ワークスペースの「リモート」で、名前・取得 URL・送信 URL を一覧表示し、追加・名前変更・URL の変更・削除ができます。\n- 履歴では Shift+クリックでコミットを範囲選択できます。Explorer ではファイル本文を選択・コピーし、本文と差分を検索できます。\n",
   "downloads": [
     {
       "platform": "osx-arm64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-arm64.zip",
-      "sha256": "33cb15e3cde072268f1bbd3bd5b9d3ee9b3179103c2d74fd73e309f5fef06dc4",
-      "size": 49441903,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.22/RepoSyncTool-0.29.22-osx-arm64.zip",
+      "sha256": "8b0f2ef9bad6252ac03401f2fb34a862d75a867602927a6714545e5af0502fb8",
+      "size": 49602132,
       "signed": true
     },
     {
       "platform": "osx-x64",
       "kind": "app-zip",
-      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.14/RepoSyncTool-0.29.14-osx-x64.zip",
-      "sha256": "1edf7605d469a405f15c8a77110ba7a13c508f0a5244bf0706d566b698421d1e",
-      "size": 55159237,
+      "url": "https://github.com/yahright/downloads/releases/download/reposynctool-v0.29.22/RepoSyncTool-0.29.22-osx-x64.zip",
+      "sha256": "e0c81f31048a1705500f05f79759ab296f36cfb5ea109f7f9ae625a014c3a37a",
+      "size": 55319460,
       "signed": true
     }
   ]
